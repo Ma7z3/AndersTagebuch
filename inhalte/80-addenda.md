@@ -570,7 +570,7 @@ deine Rüstungsklasse, wenn du keine Rüstung und keinen Schild trägst.
 #### Zauberstab der Illusionen
 *Zauberstab*
 
-![Zauberstab der Illusionen](bilder/gegenstand-zauberstab-illusionen.png)
+![Zauberstab der Illusionen](bilder/gegenstand-zauberstab-illusionen-v2.png)
 ___
 - **Kategorie:** Arkaner Gegenstand
 - **Seltenheit:** selten
@@ -651,7 +651,7 @@ Tag, bis zu einem Maximum von 10 Dosen.
 #### Riesentöter
 *Waffe (Langschwert)*
 
-![Riesentöter](bilder/gegenstand-riesentoeter.png)
+![Riesentöter](bilder/gegenstand-riesentoeter-v2.png)
 ___
 - **Kategorie:** Waffe
 - **Schaden:** 1W8
@@ -967,7 +967,7 @@ Wunsch oder Göttliche Intervention kann die verlorene Seele zurückholen.
 | Giff | Militantus Hippopotamus Giffari | Humanoide Nilpferdkrieger, diszipliniert und schwer bewaffnet. | [48](#p48) |
 | Hobgoblin | Bellator Disciplina Hobgoblinis | Disziplinierter Krieger aus goblinoiden Reihen, gefährlich in Gruppen. | [5](#p5) |
 | Höhlenriese | Gigantus Subterraneus | Steinbedeckter Riese mit brutaler Keule und gewaltiger Stärke. | [105](#p105) |
-| Höllensspinne | Arachnida Infernalis | Dämonische Riesenspinne mit glühenden Gelenken und feuriger Bisskraft. | [116](#p116) |
+| Höllenspinne | Arachnida Infernalis | Dämonische Riesenspinne mit glühenden Gelenken und feuriger Bisskraft. | [116](#p116) |
 | Ifrit | Djinnus Ifritis | Feuriger Dschinn mit Stolz und explosivem Temperament. | [36](#p36) |
 | Jadespinne | Arachnida Jadea | Große, jadegrün schimmernde Spinne mit glasartigen Gliedmaßen. Verschießt harpunenartige Glasprojektile, um Beute heranzuziehen. | [111](#p111) |
 | Kobold | Draconis Minimus Koboldis | Kleine, listige Drachenanbeter mit Hang zu Fallen und Gemeinheiten. | [99](#p99) |

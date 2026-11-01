@@ -8,20 +8,20 @@ Brücken, welche teilweise aus Holz und teilweise sogar aus großen
 bearbeiteten Knochen bestanden.
 
 Ulfmaer schien immer ängstlicher zu werden, was jedoch nach Rücksprache mit
-Andaria normal sein sollte. Ich versprach Ulfmaer ihn nach erfolgreicher
+Andaria normal sein sollte. Ich versprach Ulfmaer, ihn nach erfolgreicher
 Mission zu einem Heiler zu bringen.
 
 Als wir über eine Brücke mussten, stellten wir fest, dass diese sehr wackelig
-war, sodass wir einzeln drüber gehen mussten.
+war, sodass wir einzeln drübergehen mussten.
 
-Andaria ging zu erst, dann Basari und dann kam ich. Drüben angekommen zeige
+Andaria ging zuerst, dann Basari und dann kam ich. Drüben angekommen, zeigte
 Andaria auf eine Hütte und erzählte mir, dass dort eine Frau wohnen würde,
 welche unter dem Namen "Oma Feen-Bann" bekannt war und die Herrscherin
 über die Müllkippe ist.
 
 Als Flint zur Hälfte über die Brücke war, sah ich im Augenwinkel etwas
-seltsames: Ulfmaer schien eine Verwandlung durchzumachen, denn aus seinem
-Körper brachen mehrere Beine hervor. Er schien zu einem *hybriden aus Spinne
+Seltsames: Ulfmaer schien eine Verwandlung durchzumachen, denn aus seinem
+Körper brachen mehrere Beine hervor. Er schien zu einem *Hybriden aus Spinne
 und Tiefengnom* zu werden.
 
 > ##### Drinne
@@ -33,12 +33,12 @@ und Tiefengnom* zu werden.
 > den Körper einer Spinne hatten. Die Verwandlung war in der Regel eine Strafe
 > für das Nichtbestehen einer Prüfung von Lolth.
 
-Ich drehte mich zu Flint um, um ihn zu warnen und schubste währenddessen
+Ich drehte mich zu Flint um, um ihn zu warnen, und schubste währenddessen
 Andaria von mir weg.
 
 Nach der Warnung sah ich, dass Andaria sich auch schon anfing zu verwandeln.
 Sie wurde bläulich und ihre Zähne wurden ziemlich groß. Im selben Moment, wo
-ich das sah Schlug sie schon mit einer blau behaarten Kralle nach mir.
+ich das sah, schlug sie schon mit einer blau behaarten Kralle nach mir.
 
 Es entbrannte ein Kampf, bei dem Flint, Basari und ich uns sehr unbeholfen
 anstellten.
@@ -50,17 +50,17 @@ Lykanthropen relativ schnell bezwingen und uns zu Flint und dem Minotaur
 gesellen, um die Spinne ihrem gerechten Urteil zuzuführen.
 
 Nachdem die Spinne ordentlich eingesteckt hatte, versuchte sie zu fliehen,
-bekam jedoch noch einen Schlag von dem Minotaur in den Rücke, woraufhin sie
+bekam jedoch noch einen Schlag von dem Minotaur in den Rücken, woraufhin sie
 starb, in den Abgrund fiel und von dem Müllberg unter uns verschluckt wurde.
 
 Wir bedankten uns bei dem Minotaur, welcher sich als **Trakfajar** vorstellte.
 
 Trakfajar hatte unser Gespräch in der Schwelenden Leiche mitbekommen und
-verdacht geschöpft, da er die Staubmenschen nun schon eine Weile kannte und
+Verdacht geschöpft, da er die Staubmenschen nun schon eine Weile kannte und
 ein ungutes Gefühl bei der Sache hatte.
 
-Trakfajar kam Ursprünglich ebenfalls von Ferûn, genauer gesagt von der
-Schwertküste. Er war Seefahrer bevor er, so wie wir, zufällig nach Sigil kam.
+Trakfajar kam ursprünglich ebenfalls von Faerûn, genauer gesagt von der
+Schwertküste. Er war Seefahrer, bevor er, so wie wir, zufällig nach Sigil kam.
 
 Hier in Sigil lebte und arbeitete Trakfajar nun schon eine Weile, er sagte jedoch,
 dass er mal wieder etwas erleben und neue Orte sehen wollen würde.
@@ -68,11 +68,11 @@ dass er mal wieder etwas erleben und neue Orte sehen wollen würde.
 Scheinbar hat er eine Obsession mit Labyrinthen, denn er sagte mehrfach, dass
 er gerne eins finden würde. Aber jeder hat ja irgendeinen Spleen.
 
-Wir erzählten Trakfajar von unserer Mission und dieser sagte, dass wenn
+Wir erzählten Trakfajar von unserer Mission und dieser sagte, dass, wenn
 jemand wüsste, wo sich hier auf dem Schrottplatz ein Portal befinden würde,
 dann Oma Feen-Bann.
 
-Wir baten Trakfajar uns zu dieser Oma Feen-Bann zu bringen, was er auch
+Wir baten Trakfajar, uns zu dieser Oma Feen-Bann zu bringen, was er auch
 gerne tat.
 
 Nach circa zehn Minuten kamen wir an die östliche Wand, wo so etwas wie ein
@@ -82,18 +82,18 @@ Vor dem Eingang lag eine seltsame Kreatur ohne Augen und mit
 dornenbesetzter Zunge schlafend herum.
 
 Dies schien so zu gehören, denn Trakfajar langte einfach über die Kreatur
-herüber und Klopfte an der Tür an.
+herüber und klopfte an der Tür an.
 
-Das Wesen wachte sofort auf und tastete den Minotaur mit seiner
-dornenbesetzen Zunge ab. Dann bellte es etwas eigenartig und von drinnen
+Das Wesen wachte sofort auf und tastete den Minotauren mit seiner
+dornenbesetzten Zunge ab. Dann bellte es etwas eigenartig und von drinnen
 hörte man:" Schnuffel. Was bellst du denn schon wieder? Haben wir Gäste?" in
 einer etwas krächzigen Stimme.
 
-Wir hörten in metallisches Klappern, woraufhin Schnuffel ganz wild wurde. Die
+Wir hörten ein metallisches Klappern, woraufhin Schnuffel ganz wild wurde. Die
 Tür schwang auf und das Wesen bretterte durch die Tür hindurch.
 
 Drinnen wirkte alles ziemlich düster. Innen war es etwas dreckig, jedoch gut
-eingerichtet. Ich sah eine Person, welche als sie sich umdrehte als eine
+eingerichtet. Ich sah eine Person, welche sich, als sie sich umdrehte, als eine
 Kreuzung aus Geier und Schildkröte herausstellte.
 
 Dies schien **Oma Feen-Bann** zu sein.
@@ -101,20 +101,20 @@ Dies schien **Oma Feen-Bann** zu sein.
 <a id="p58"></a>
 
 Oma Feen-Bann sprach Trakfajar als ihren "Lieblingsminotaurus" an. Sie sagte
-ihm, dass er uns rein bringen solle, denn dann würden "wir bald keine Fremden
+ihm, dass er uns reinbringen solle, denn dann würden "wir bald keine Fremden
 mehr sein."
 
 Wir redeten mit ihr und erzählten ihr schlussendlich auch unsere komplette
-Geschichte und von unserem Plan den Großsultan von Messingstadt zu
+Geschichte und von unserem Plan, den Großsultan von Messingstadt zu
 stürzen. Nachdem wir unsere wahren Intentionen preisgegeben hatten, erklärte
-sie sich auch bereit dazu uns das Portal in die Zitadelle des Feuers zu zeigen.
+sie sich auch bereit dazu, uns das Portal in die Zitadelle des Feuers zu zeigen.
 Ihre einzigen Bedingungen waren, dass wir ihr die Zitadelle des Feuers
 überlassen sollten und außerdem jeder einen persönlichen Gegenstand bei ihr
-lassen sollten.
+lassen sollte.
 
 Ich ließ meinen selbst gebastelten Bärenzahndolch bei ihr, welcher eine
 Erinnerung an meine Tage in der Wildnis war. Flint ließ seinen Zahn des Nihilit
-bei Oma Feen-Bann und Basari riss sich ein Büschel Haare aus und gab diesen
+bei Oma Feen-Bann und Basari riss sich ein Büschel Haare aus und gab dieses
 Oma Feen-Bann mit dem Kommentar: "Persönlicher wirds nicht."
 
 > ##### Nagpa
@@ -133,9 +133,9 @@ Oma Feen-Bann mit dem Kommentar: "Persönlicher wirds nicht."
 > wenn der letzte ihrer Art gefallen ist. Sie halten aus Eigennutz und Gier am
 > Leben fest, ihren stärksten Motivationen.
 
-Wir sollten nun zu ihr kommen, sobald wir bereit wären aufzubrechen.
+Wir sollten nun zu ihr kommen, sobald wir bereit wären, aufzubrechen.
 
-Bevor wir gingen fragte ich Oma Feen-Bann noch, welcher Rasse sie angehören
+Bevor wir gingen, fragte ich Oma Feen-Bann noch, welcher Rasse sie angehören
 würde, denn ich hatte so ein Wesen wie sie noch nie gesehen.
 
 Sie erzählte uns, dass sie verflucht sei, aber wenn man ihrer Rasse einen
@@ -145,7 +145,7 @@ Um uns von dem vorherigen Kampf gegen die Lykanthropin und das
 Spinnenwesen auszuruhen, lud uns Trakfajar in seine Hütte hier auf dem
 Schrottplatz ein.
 
-Dieses Angebot nahmen wir dankend, auch wenn Trakfajar sagte, dass wir nicht
+Dieses Angebot nahmen wir dankend an, auch wenn Trakfajar sagte, dass wir nicht
 allzu viel Komfort erwarten dürften.
 
 ##### Die Minotaurenkrankheit
@@ -153,7 +153,7 @@ Als wir aufwachten, erzählte uns Trakfajar, welcher wirklich schlecht aussah,
 dass er doch nicht mitkommen könne, denn er sei über Nacht aufgrund von
 Krämpfen noch einmal bei Oma Feen-Bann gewesen, welche ihm bescheinigte,
 was er selbst schon vermutete: Er hatte Minotaurus fluxus. Eine
-minotaurenspezifische Krankheit, welche einige Wochen bräuchte um
+minotaurenspezifische Krankheit, welche einige Wochen bräuchte, um
 auskuriert zu werden.
 
 ##### (Spielabend vom 15.05.2023)
@@ -163,10 +163,10 @@ gab, in diese Hütte legen müssten.
 
 Wir machten uns dann direkt auf den Weg zu der beschriebenen Hütte.
 
-In der Hütte war ungewöhnlich viel Roststaub zu sehen und wir entschieden uns
-etwas vorsichtiger Vorzugehen.
+In der Hütte war ungewöhnlich viel Roststaub zu sehen und wir entschieden uns,
+etwas vorsichtiger vorzugehen.
 
-Flint und Basari gingen in eine Ecke des Raumes und ich ließ das Metall stück
+Flint und Basari gingen in eine Ecke des Raumes und ich ließ das Metallstück
 mit weit ausgestrecktem Arm in die Mitte der Hütte fallen, wo die Dichte an
 Roststaub am größten zu sein schien.
 

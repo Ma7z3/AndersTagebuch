@@ -33,7 +33,7 @@ rüber.
 > ![Hobgoblins](bilder/pdf-s005-26.png)
 >
 > Hobgoblins sind eine größere, stärkere, intelligentere und bedrohlichere Form
-> der Goblinoide als die der Goblins, jedoch nicht so mächtig wie Grottenschrate.
+> der Goblinoiden als die der Goblins, jedoch nicht so mächtig wie Grottenschrate.
 
 Dort drüben standen **Captain Bleotik** und seine Bande, welche vom bösen
 Zhentarim-Magier **Iltond** 2000 Goldmünzen in Aussicht gestellt bekommen

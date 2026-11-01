@@ -2,13 +2,13 @@
 
 ### Kapitel 36: Der Rote Drache
 
-Als wir nach Norden blickten sahen wir etwas riesiges auf den Felsen springen
+Als wir nach Norden blickten, sahen wir etwas Riesiges auf den Felsen springen
 und uns mit rot glühenden Augen anstarren.
 
 ##### (Spielabend vom 23.09.2024)
 
 Ich drehte mich sofort herum, teilte meine Dunkelsicht, meine Augen der Nacht
-auf magische Weise mit den anderen beiden und sagte "Auseinander"!
+auf magische Weise mit den anderen beiden und sagte: "Auseinander!"
 
 Dann machte ich mich unsichtbar und rannte zur Seite.
 Gerade noch rechtzeitig, dachte ich, denn der Drache sprang just in dem
@@ -19,25 +19,25 @@ fixierte mich und repositionierte sich dann um. Kurz darauf öffnete er den Mund
 und ich sah nur noch einen Feuersturm auf mich zurauschen.
 
 Zum Glück hatte ich irgendwie damit gerechnet und konnte zur Seite springen,
-weshalb mich das Feuer nur teilweise aber dennoch Hart traf. Die anderen
+weshalb mich das Feuer nur teilweise, aber dennoch hart traf. Die anderen
 beiden konnte ich sehen, waren ebenso geschickt wie ich.
 
-Ser Ayne fackelte nicht lange, rannte auf den Drache zu und schlug mit einer
-absurden Geschwindigkeit auf ihn ein. Leider trafen nur die Hälfte der Schläge,
+Ser Ayne fackelte nicht lange, rannte auf den Drachen zu und schlug mit einer
+absurden Geschwindigkeit auf ihn ein. Leider traf nur die Hälfte der Schläge,
 aber diese trafen auch ordentlich.
 
-Aus einem der beiden Türme um uns herum kamen duzende Bolzen
+Aus einem der beiden Türme um uns herum kamen Dutzende Bolzen
 herausgeflogen und flogen Flint und Ser Ayne um die Ohren.
 
 Um dies zu unterbinden, schoss ich direkt einen Feuerball auf einen der Türme,
 woraufhin alles darin zu Asche verwandelt wurde. Danach sah ich dort keine
 Bewegung mehr drinnen.
 
-Der Drache griff dann Ser Ayne an und hebte dann vom Boden ab, was einen
+Der Drache griff dann Ser Ayne an und hob dann vom Boden ab, was einen
 kräftigen Wind verursachte.
 
 Es sammelten sich immer mehr Kobolde auf der Galerie, es mussten mehrere
-Duzende von Kobolden sein.
+Dutzend von Kobolden sein.
 
 Ser Ayne rief, dass er nicht angreifen könne und dass Flint auf den Drachen
 schießen sollte, was dieser auch tat.
@@ -54,14 +54,14 @@ gegen Feuer, sonst hätte mich dieser Odem verkohlt.
 Kurz darauf wurde ich jedoch von einem Bolzen in der Seite getroffen und
 verlor das Bewusstsein.
 
-Als ich wieder Wach wurde, sah ich, wie ein Rabe mich wachgeschüttelt hatte.
+Als ich wieder wach wurde, sah ich, wie ein Rabe mich wachgeschüttelt hatte.
 Ser Ayne und Flint standen plötzlich an einer anderen Position, aber scheinbar
-war ich nur kurz weggetreten, denn der Drache war noch an der selben
-Position, wie zu dem Zeitpunkt als ich bewusstlos geworden war.
+war ich nur kurz weggetreten, denn der Drache war noch an derselben
+Position wie zu dem Zeitpunkt, als ich bewusstlos geworden war.
 
 Die Raben waren wirklich stark, denn diese märzten die Kobolde regelrecht aus.
 
-Ich stand auf, und wirkte erst einmal ein Schild des Glaubens auf mich, um
+Ich stand auf und wirkte erst einmal ein Schild des Glaubens auf mich, um
 vielleicht nicht noch einmal von einem offensichtlich vergifteten Bolzen der
 Kobolde getroffen zu werden.
 
@@ -92,29 +92,29 @@ nun traf, hätte mich vermutlich in Stücke gerissen.
 
 Der Kampf blieb spannend!
 
-Flint traf nochmal sehr gut und ich fing an meine Kraft für etwas Besonderes zu
+Flint traf nochmal sehr gut und ich fing an, meine Kraft für etwas Besonderes zu
 sammeln:
 
 ##### (Spielabend vom 11.11.2024)
-Ich schoss einen Feuerball auf den Drachen, welcher jedoch die Farbe auf Blau
+Ich schoss einen Feuerball auf den Drachen, welcher jedoch die Farbe zu Blau
 änderte: Ich schoss einen transmutierten Feuerball, einen Kältefeuerball. Als
 dieser den Drachen erreichte und in einer gewaltigen "Kälteexplosion" aufging,
-stand dort nur noch eine verweiste Drachenstatue.
+stand dort nur noch eine vereiste Drachenstatue.
 
 Hiervon überrascht flohen die Kobolde völlig panisch.
 
 Flint ließ durch die Raben eine spanische Reihe bilden, sodass diese uns
-bescheid geben konnten, falls die Kobolde zurückkamen.
+Bescheid geben konnten, falls die Kobolde zurückkamen.
 
 Ich nutzte die gewonnene Zeit und heilte mich erstmal mit meiner eigenen Kraft
 und auch durch das Spielen auf meiner Canaith Mandoline.
 
-Wir gingen im Anschluss zum Drachen und fingen ein wenig an ihn zu
+Wir gingen im Anschluss zum Drachen und fingen ein wenig an, ihn zu
 zerrupfen, bis wir einen metallischen Klang hörten, der uns aufschreckte.
 
 Wir gingen in Richtung des Geräusches, Richtung Norden und gingen dort eine
 Treppe nach oben zu einem Ausgang, wohin auch die Kobolde geflohen waren.
-wir sahen ein großes Portal über dem Zergenrunen aus dem Stein gehauen
+Wir sahen ein großes Portal, über dem Zwergenrunen aus dem Stein gehauen
 wurden.
 Die Runen besagten: "Zwergen, Menschen, Elfen, Gnome, Halblinge seid
-willkommen und habt Teil an dem Reichtum von Tethyamar.
+willkommen und habt Teil an dem Reichtum von Tethyamar."

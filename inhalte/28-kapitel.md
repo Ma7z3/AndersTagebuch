@@ -5,16 +5,16 @@
 
 Als wir am nächsten Tag aufwachten und ausgiebig frühstückten, schmiedeten
 wir den Plan, dass wir zunächst zu Oma Feen-Bann auf den Schrottplatz gehen
-wollten um dabei den Azer den Verbrennungsplatz zu zeigen. Danach wollten
+wollten, um dabei den Azern den Verbrennungsplatz zu zeigen. Danach wollten
 wir zum Haus des Herolds gehen, denn der Wirt sagte uns, dass dort
 möglicherweise dem apathischen Mann geholfen werden könne. Danach
-wollten wir zur Bundschwester Galena vom Zeichen des Einen, um zu Bericht
+wollten wir zur Bundschwester Galena vom Zeichen des Einen, um Bericht
 abzulegen über alles, was wir in der Zitadelle getan und erfahren haben.
 
 Wir brachten die Azer also zunächst zum Verbrennungsplatz. Ich gab Barrak
 noch 5 Gold als Startkapital und als wir uns gerade verabschieden wollten,
 stellte sich noch heraus, dass die Azer eigentlich gerne auf der Zitadelle
-gearbeitet haben und nicht abgeneigt wären Oma Feen-Bann bei dem Aufbau
+gearbeitet haben und nicht abgeneigt wären, Oma Feen-Bann bei dem Aufbau
 zu unterstützen.
 
 Wir nahmen die Azer also mit zu Oma Feen-Bann.
@@ -44,12 +44,12 @@ später kam er zusammen mit Oma Feen-Bann, welche sich bei Flint untergehakt
 hatte, hinaus. Oma zählte zunächst die Azer und fixierte dann Ser Ayne,
 welcher sich gleich darauf vorstellte.
 
-Sie fragte auch nach den Azer und sprach dann kurz mit diesen in der Sprache
+Sie fragte auch nach den Azern und sprach dann kurz mit diesen in der Sprache
 der Azer.
 
 Dann sagte Oma Feen-Bann, dass die Azer hier warten würden und wir in die
 Zitadelle gehen würden. Wir würden durch das Portal, durch das wir das letzte
-Mal gegangen sind reisen.
+Mal gegangen sind, reisen.
 
 Wir gingen also nun zusammen mit Oma Feen-Bann zu der Hütte mit dem
 vielen Roststaub und öffneten das Portal erneut.
@@ -59,16 +59,16 @@ gewartet hatten, in der wir keine Schmerzensschreie hörten, ging auch der Rest
 von uns zusammen mit Oma Feen-Bann hindurch.
 
 Wir führten Oma Feen-Bann nun durch die Zitadelle und erzählten ihr von
-Imogen und dem Grünen Marvent. Wir erklärten ihr außerdem, wie das mit dem
-Turm und den Feuerelementaren unserer Meinung funktionieren würde. Dann
+Imogen und dem grünen Marvent. Wir erklärten ihr außerdem, wie das mit dem
+Turm und den Feuerelementaren unserer Meinung nach funktionieren würde. Dann
 gaben wir Oma Feen-Bann noch das Pergament, in dem Imogen von Marvent
-das Kommando über die Zitadelle übertragen wurde (Quasi als Besitzurkunde)
+das Kommando über die Zitadelle übertragen wurde (quasi als Besitzurkunde).
 Oma Feen-Bann machte sich etwas Sorgen wegen Marvent, schien aber alles in
 allem zufrieden zu sein.
 
 Um die Sorgen etwas zu schmälern, durchsuchten wir die komplette Zitadelle
-erneut ab. Wir schauten unter jedem Teppich, hinter allen Bildern und auch
-überall sonst noch einmal nach, ob wir weitere Teleporationszirkel finden
+erneut. Wir schauten unter jedem Teppich, hinter allen Bildern und auch
+überall sonst noch einmal nach, ob wir weitere Teleportationszirkel finden
 würden.
 
 Nach ein paar Stunden der Suche waren wir uns sicher, dass es keinen weiteren
@@ -76,7 +76,7 @@ Teleportationszirkel auf der Zitadelle gab, was Oma Feen-Bann ein wenig
 beruhigte.
 
 Nun zeigten wir Oma Feen-Bann noch das Portal in die Leichenhalle und gaben
-ihr den Ohrring aus Baatorianischem Grünstahl, welchen ich damals von dem
+ihr den Ohrring aus baatorianischem Grünstahl, welchen ich damals von dem
 Schatten bekommen hatte.
 
 Oma Feen-Bann wollte nun einen Zauber vollziehen, bei dem sie die
@@ -84,7 +84,7 @@ Schlüsselfunktion von dem Ohrring auf ein anderes Schmuckstück übertragen
 wollte. Dafür benötigte sie jedoch irgendein anderes Schmuckstück, also fragte
 sie danach.
 
-Ich wusste von dem einen Ohrring, den Ser Ayne gefunden hatte und sprach ihn
+Ich wusste von dem einen Ohrring, den Ser Ayne gefunden hatte, und sprach ihn
 darauf an.
 
 Ser Ayne holte diesen heraus und fragte noch einmal, ob das wirklich der
@@ -92,7 +92,7 @@ einzige Ohrring dieser Sorte sei. Ser Ayne holte sichtlich betrübt noch einen
 zweiten der roten Ohrringe heraus und übergab beide Oma Feen-Bann.
 
 Diese vollzog nun ihren Zauber, bei dem magische Energien von dem Ohrring
-aus Baatorianischem Grünstahl in die roten Ohrringe flossen.
+aus baatorianischem Grünstahl in die roten Ohrringe flossen.
 
 Oma Feen-Bann gab nun einen der Ohrringe zurück an Ser Ayne und erzählte
 uns, dass dies nun der neue Portalschlüssel für das Portal in der Leichenhalle
@@ -114,16 +114,16 @@ Portal nach Messingstadt werden.
 
 Sie sagte uns, dass das Portal in den Aschendistrikt führen würde, was das
 nördlichste Viertel von Messingstadt sei. Nicht weit entfernt von dem Portal sei
-der Aschepalast von wo aus Marrake al-Sidan al-Hariq ben Lazan, Großsultan
+der Aschepalast, von wo aus Marrake al-Sidan al-Hariq ben Lazan, Großsultan
 aller Ifriti, herrscht.
 
 Oma Feen-Bann fragte uns dann noch, ob sie sonst noch etwas für uns tun
-kann und bat Flint, noch bevor wir antworten konnten, ihr eine Kanne zu geben,
+kann, und bat Flint, noch bevor wir antworten konnten, ihr eine Kanne zu geben,
 welche unweit von Flint stand.
 
 Sie sagte, dass er sich nicht genug kümmern würde, wirkte einen Zauber und
-sagte, dass er die Kanne mitnehmen kann. Er solle sein Stock mit dieser Kanne
-noch ein paar mal gießen.
+sagte, dass er die Kanne mitnehmen kann. Er solle seinen Stock mit dieser Kanne
+noch ein paar Mal gießen.
 
 Außerdem gab sie Flint, Ayne und mir noch je einen Gegenstand, nachdem sie
 ein wenig in ihrem Haus herumgekramt hatte.
@@ -136,18 +136,18 @@ Kompass, auf dem keine Himmelsrichtungen verzeichnet waren.
 Außerdem erklärte sie uns dann noch mehr (Flint und mir) oder weniger (Ser
 Ayne) gut, wie die Gegenstände funktionieren würden.
 
-Als nächstes bekam ich meinen Bärenzahndolch und Flint seinen Zahn eines
+Als Nächstes bekam ich meinen Bärenzahndolch und Flint seinen Zahn eines
 Nihiliten zurück. Basari verzichtete auf die Rückgabe seiner Haare.
 
-Plötzlich richtete Ser Ayne seinen Ring auf mich, sagte Orange und eine heller
+Plötzlich richtete Ser Ayne seinen Ring auf mich, sagte Orange und ein heller
 Strahl erhellte Oma Feen-Banns Hütte.
 
-Während ich noch völlig perplex da stand, ließ Oma Feen-Bann ihren Stock
+Während ich noch völlig perplex dastand, ließ Oma Feen-Bann ihren Stock
 fallen, fuhr ihre Krallen aus, ging in Angriffsposition in Richtung Ser Ayne und
-sagte: "JUNGE! Da bin ich aber echt zu alt für! ... Warn mich bitte nächstes mal
-Vor! Geh nun in die Küche und mach Wasser heiß."
+sagte: "JUNGE! Da bin ich aber echt zu alt für! ... Warn mich bitte nächstes Mal
+vor! Geh nun in die Küche und mach Wasser heiß."
 
-Danach entspannte sich die Lage wieder und wir bekamen noch den Auftrag zu
+Danach entspannte sich die Lage wieder und wir bekamen noch den Auftrag, zu
 A'kin zu gehen und einen Edelstein zu besorgen, welcher umgerechnet 1.000
 Goldstücke wert wäre. Diesen Edelstein könnte sie so verzaubern, dass wir
 über jegliche Distanzen miteinander kommunizieren können. Sie würde den
@@ -161,13 +161,13 @@ Wir konnten ihr diesen nicht nennen und erzählten, was wir über ihn wussten
 und wie wir ihn gefunden hatten. Sie sagte, dass sie Teile seiner Erinnerung
 löschen könnte, was die Situation vielleicht verbessern könnte.
 
-Als wir dem zustimmten, bat sie uns auf dem Schrottplatz nach Teilen zu
+Als wir dem zustimmten, bat sie uns, auf dem Schrottplatz nach Teilen zu
 suchen, aus denen wir ein Bett bauen konnten.
 
 Dies taten wir und zum Glück konnte Ser Ayne ein wenig mit Werkzeugen
-umgehen, wodurch es uns auch gelang das Bett zusammenzuschustern.
+umgehen, wodurch es uns auch gelang, das Bett zusammenzuschustern.
 
-Sie sagte nun Luis, was der Name von dem zweiten Canoloth war, bescheid,
+Sie sagte nun Luis, was der Name von dem zweiten Canoloth war, Bescheid,
 dass er auf den apathischen Mann aufpassen solle.
 
 Die Azer erzählten noch, dass diese gegen Bezahlung in der Zitadelle helfen
@@ -178,9 +178,9 @@ Wir gingen dann also los zu A'kin.
 
 Als wir bei dem Laden mit dem Namen "Zum freundlichen Scheusal" ankamen
 und hineingingen, erwartete uns bereits A'kin. Wir erzählten ihm von dem
-Anliegen von Oma Feen-Bann und A'kin ließ einen 5cm großen Saphir in seiner
+Anliegen von Oma Feen-Bann und A'kin ließ einen 5 cm großen Saphir in seiner
 Hand auftauchen. Wir ließen die 1.000 Goldstücke auf Oma Feen-Banns
-"Deckel" schreiben, namen den Saphir an uns und A'kin sagte uns, dass wir
+"Deckel" schreiben, nahmen den Saphir an uns und A'kin sagte uns, dass wir
 Oma Feen-Bann ausrichten sollen, dass sie mal wieder auf eine Tasse Tee
 vorbeikommen soll, wenn sie einmal Zeit hat.
 
@@ -199,79 +199,79 @@ Ich fragte dann ebenfalls nach einer Rüstung, da A'kin auch etwas von Mithral
 erwähnt hatte, und ich noch eine angemessene Rüstung als Kleriker benötigen
 würde, am besten mit dem Zeichen von Selûne darauf.
 
-Soetwas hatte er leider nicht vorrätig, jedoch ließ er ein Stück Mithral in seiner
+So etwas hatte er leider nicht vorrätig, jedoch ließ er ein Stück Mithral in seiner
 Hand erscheinen und es formte sich sogleich in das Symbol der Selûne.
 
-Ich kaufte dieses Heilige Symbol und war zufrieden.
+Ich kaufte dieses heilige Symbol und war zufrieden.
 
-Flint fragte nun noch nach Pfeilen, welche gegen Ifriti helfen würden und
+Flint fragte nun noch nach Pfeilen, welche gegen Ifriti helfen würden, und
 tatsächlich hatte A'kin Todespfeile, welche für Ifriti gelten würden, diese
 würden jedoch pro Pfeil 1.200 Goldmünzen kosten, was wir zunächst
 ausschlugen.
 
 Wir verabschiedeten uns von A'kin, verließen seinen Laden und gingen auf den
 "normalen" Markt, wo Flint Pfeile kaufte und ich die sieben Diamanten von
-Imogen und die zwei Smaragde vom Schatten.
+Imogen und die zwei Smaragde vom Schatten verkaufte.
 
 Ser Ayne überlegte auch kurz, ob er sich eine normale Ritterrüstung zulegen
 würde, jedoch konnte er sich dies nicht leisten und weder Flint noch ich waren
-bereit ihm solch eine Summe zu leihen, da wir uns erst so kurz kannten.
+bereit, ihm solch eine Summe zu leihen, da wir uns erst so kurz kannten.
 
 Wir gingen dann noch zur Halle der Sprecher, um mit Galena zu sprechen.
 
 Wir fragten also in der Halle der Sprecher und kurze Zeit später kam sie uns mit
-einem lächeln entgegen.
+einem Lächeln entgegen.
 
 <a id="p69"></a>
 
 Ich wollte schon anfangen zu sprechen, jedoch unterbrach Galena mich und
 sagte, dass wir zuerst in ihr Büro gehen sollten.
 
-Dort angekommen fragte sie, ob wir etwas trinken wollten. Sie hatte besondere
-Getränke, welche einen etwas Spüren lassen sollten. Ich fragte nach etwas, was
+Dort angekommen, fragte sie, ob wir etwas trinken wollten. Sie hatte besondere
+Getränke, welche einen etwas spüren lassen sollten. Ich fragte nach etwas, was
 mich glücklich macht und Ser Ayne nach etwas, was ihn Reichtum spüren lässt.
 
-Sie gab mir eine Rote Flüssigkeit, und Ser Ayne eine leicht pinkte Flüssigkeit,
+Sie gab mir eine rote Flüssigkeit und Ser Ayne eine leicht pinke Flüssigkeit,
 welche laut Galena Gelassenheit versprach.
 
 Ich trank von dem Getränk und verspürte tatsächlich eine Form von Glück. Ich
-fasste die Geschichte für Galena kurz zusammen. Als ich fertig war schien
+fasste die Geschichte für Galena kurz zusammen. Als ich fertig war, schien
 Galena nicht begeistert davon zu sein, dass wir die Zitadelle Oma Feen-Bann
 überlassen haben, schien aber alles in allem zufrieden zu sein.
 
-Sie bat uns noch eine letzte Sache zu erledigen: Sie bat uns erneut in die
+Sie bat uns, noch eine letzte Sache zu erledigen: Sie bat uns, erneut in die
 Zitadelle zu gehen und Aufzeichnungen darüber zu suchen, welche Bünde
 bereits durch wen unterwandert wurden.
 
-Wir versprachen ihr dies zu tun und verließen die Halle der Sprecher.
+Wir versprachen ihr, dies zu tun und verließen die Halle der Sprecher.
 
 ##### (Spielabend vom 11.12.2023)
 
 Wir machten uns auf den Weg zum Schrottplatz. Während wir dort liefen, fragte
 ich Flint, ob er etwas mit meiner Perle der Macht anfangen könne, denn ich
-konnte sie nichtmehr nutzen, da ich meine Konzentration darauf verloren habe,
+konnte sie nicht mehr nutzen, da ich meine Konzentration darauf verloren habe,
 als ich mich auf die Armschienen der Verteidigung einstimmte. Er bejahte dies
-und ich übergab sie ihm. Als wir an der schwelenden Leiche vorbei kamen,
-entschieden wir uns dort noch einmal einzukehren.
+und ich übergab sie ihm. Als wir an der schwelenden Leiche vorbeikamen,
+entschieden wir uns, dort noch einmal einzukehren.
 
 Als Kylie uns sah, sagte sie uns, dass wir uns setzen sollten und dass sie uns
 gleich etwas bringen würde, was uns gefallen würde.
 
 Sie mischte irgendetwas an der Bar zurecht und kam dann mit einem Tablett mit
-10cm hohen dampfenden Krügen auf uns zu. Sie passte sehr gut auf, dass sie
+10 cm hohen dampfenden Krügen auf uns zu. Sie passte sehr gut auf, dass sie
 nicht hinfiel.
 
 Sie gab uns die Krüge und erzählte uns, dass es ätherisches Bier sei.
 
-Die grauen Nebelschwaden, welche aus dem Bier emporstiegen hielten jedoch
+Die grauen Nebelschwaden, welche aus dem Bier emporstiegen, hielten jedoch
 jeweils nicht lange und verschwanden immer relativ schnell.
 
 Wir stießen an und tranken. Das Bier schmeckte leicht bitter mit einem
 kräftigen erdigen Geschmack. Als die Flüssigkeit unsere Zungen berührte, löste
 sie sich in Nebel auf, der den Geschmack im ganzen Mund verteilte.
-Es schmeckte köstlich!.
+Es schmeckte köstlich!
 
-Scheinbar schien es Flint nicht so seht zu schmecken, aber leider war Ser Ayne
+Scheinbar schien es Flint nicht so sehr zu schmecken, aber leider war Ser Ayne
 schneller als ich und schnappte sich den Becher von Flint. Basari, der sah, dass
 ich auch zu Flints Becher gegriffen hatte, reichte mir seinen Becher.
 
@@ -286,9 +286,9 @@ Flint fragte Kylie daraufhin, wer denn so Graz'zt Reichtum bestellen würde.
 Kylie antwortete mit einer Gegenfrage: "Wisst ihr eigentlich, wer Graz'zt ist?"
 
 Da ich nichts über Graz'zt wusste, außer, dass er ein Erzdämon war, ließ ich
-Kylie weiter erzählen, ohne sie zu unterbrechen.
+Kylie weitererzählen, ohne sie zu unterbrechen.
 
-Kylie erzählte uns alles, über Graz'zt, was wir wissen mussten.
+Kylie erzählte uns alles über Graz'zt, was wir wissen mussten.
 
 > ##### Graz'zt
 >
@@ -304,12 +304,12 @@ Kylie erzählte uns alles, über Graz'zt, was wir wissen mussten.
 > nicht beansprucht.
 
 Es schien so, als ob diese Dämonenprinzen auf einer Stufe mit den Göttern
-standen. Graz'zt hielt sogar während der Zeit der Sorgen Waukeen, die Göttin
+standen. Graz'zt hielt sogar während der Zeit der Sorgen Waukeen, die Göttin,
 die nur Freundin der Händler genannt wird, fest. Dies endete in einer
-Rettungsaktion, einer heldenhaften Gruppe, von der jedoch nur ein Abenteurer
-aus dem Abgrund zurück kam.
+Rettungsaktion einer heldenhaften Gruppe, von der jedoch nur ein Abenteurer
+aus dem Abgrund zurückkam.
 
-Auf jedenfalls befand sich in jeder Flasche Graz'zt Reichtum ein Teil von Graz'zt.
+Auf jeden Fall befand sich in jeder Flasche Graz'zt Reichtum ein Teil von Graz'zt.
 Was genau, wusste Kylie nicht.
 
 Nachdem wir all das gehört hatten, bestellte sich Ser Ayne trotzdem einen
@@ -318,10 +318,10 @@ Graz'zt Reichtum und ich bestellte mir noch eine Flasche ätherisches Bier.
 <a id="p70"></a>
 
 Als Kylie mit einem Glas Graz'zt Reichtum, einer Flasche ätherisches Bier und
-zwei Krüge normalem Bier zurück kam, stießen wir alle an und guckten nur auf
+zwei Krügen normalem Bier zurückkam, stießen wir alle an und guckten nur auf
 Ser Ayne, der den ganzen Krug Graz'zt Reichtum in einem Zug leerte.
 
-Er gekam einen leicht glasigen Blick und reagierte im ersten Moment auf nichts,
+Er bekam einen leicht glasigen Blick und reagierte im ersten Moment auf nichts,
 was wir sagten.
 
 Während Ser Ayne sich noch akklimatisierte, fragte ich Kylie, ob sie eine Karte
@@ -330,23 +330,23 @@ kennen, der eine haben könnte, würde aber Ausschau halten.
 
 Nachdem Ser Ayne sich gesammelt hatte, sagte er, dass er keinen Alkohol mehr
 trinken wollte, also trank ich den Rest der Flasche mit ätherischem Bier alleine.
-Es schmeckte sehr gut, jedoch war ich, als wir dann los wollte auch ordentlich
+Es schmeckte sehr gut, jedoch war ich, als wir dann loswollten, auch ordentlich
 betrunken.
 
 Ich lief dem zügig vorlaufenden Ser Ayne hinterher, wenn auch ich erst in die
 falsche Richtung lief. Trotz der Tatsache, dass ich mehrfach falsch abgebogen
 bin, schafften wir es relativ schnell zum Schrottplatz.
 
-Dort angekommen hörten wir geschreie und ein schmatzendes Bellen.
+Dort angekommen, hörten wir Geschrei und ein schmatzendes Bellen.
 
-Wir sahen was los war, als wir über eine Hängebrücke gingen, die genau über
+Wir sahen, was los war, als wir über eine Hängebrücke gingen, die genau über
 dem Ort des Geschehens war: Einige der Azer spielten entweder mit Schnuffel
 oder Luis "hol den Schrott". Dabei fiel mir explizit die 6-8 Meter lange
 dornenbewährte Zunge des Canolothen auf. Es sah faszinierend aus.
 
 Wir gingen weiter und als wir bei Oma Feen-Bann ankamen, saß der apathische
 Mann vor der Tür. Er sah glücklich aus, reagierte aber auf keinen unserer
-Versuche ein Gespräch mit ihm aufzubauen.
+Versuche, ein Gespräch mit ihm aufzubauen.
 
 Von drinnen hörten wir Oma Feen-Bann mit rauer Stimme über verschiedene
 Ingredienzien, die ins Töpfchen gehörten, singen.
@@ -365,13 +365,13 @@ was Ser Ayne stolz bejahte.
 Oma Feen-Bann sagte daraufhin nur: "Super! Der Löffel ist eine Einhandwaffe.
 Du musst immer rühren und nicht aufhören."
 
-Ser Ayne war etwas perplex tat aber, was von ihm verlangt wurde.
+Ser Ayne war etwas perplex, tat aber, was von ihm verlangt wurde.
 
 Danach kramte Oma Feen-Bann wieder in ihren Sachen und rief kurze Zeit
 später "HEUREKA!"
 
 Sie hielt mir daraufhin eine Schriftrolle vor die Augen und sagte mir, dass ich
-diese Auswendig lernen sollte.
+diese auswendig lernen sollte.
 
 Auf der Schriftrolle war der Zauber "Verzerrung Entdecken" beschrieben.
 
@@ -379,10 +379,10 @@ Ich überlegte kurz, da ich ja Zauberer und kein Magier war, wie ich dies tun
 sollte. Da mir nichts einfiel, fragte ich Hutbert um Rat.
 
 Hutbert sagte mir, dass es bei mir äußerst lange dauern würde und dass ich
-einen Zauber, den ich bereits kannte dafür vergessen müsste.
+einen Zauber, den ich bereits kannte, dafür vergessen müsste.
 
 Ich überlegte wieder kurz und fragte Hutbert, welcher ja dem mächtigsten
-Magier Ferûns gehörte, ob er nicht den Zauber lernen könnte.
+Magier Faerûns gehörte, ob er nicht den Zauber lernen könnte.
 
 Hutbert sagte mir, dass das eventuell gehen könnte, wenn er sich meiner Macht
 bedienen würde. Er sagte mir jedoch auch, dass er nicht unendlich viele Zauber
@@ -391,13 +391,13 @@ aufbewahren könne.
 Ich hielt die Schriftrolle vor Hutbert und nach kurzer Zeit zerfiel diese zu Staub.
 Hutbert sagte mir, dass er den Zauber nun mit meiner Hilfe sprechen könne.
 
-Um wieder zur Zitadelle zu gelangen benötigten wir kaltgeschmimedetes Eisen,
+Um wieder zur Zitadelle zu gelangen, benötigten wir kaltgeschmiedetes Eisen,
 wovon wir hier auf dem Schrottplatz ein halbes Kilo für 10 Goldmünzen
 erwarben.
 
 Zurück in der Zitadelle gingen wir zunächst in Imogens Bibliothek.
 
-Während Flint und ich die Bücher durchsuchte, entsorgten Ser Ayne und Basari
+Während Flint und ich die Bücher durchsuchten, entsorgten Ser Ayne und Basari
 erstmal alle Leichen inklusive der von Imogen, da diese mittlerweile anfingen zu
 stinken.
 
@@ -411,17 +411,17 @@ Trent verschanzt hatte, fündig.
 
 Wir fanden die Aufzeichnungen eines gewissen Brandal, Captain der Wache: Es
 war eine stichpunktartige Aufzählung darüber, wie viel Geld er und seine
-Männer dafür bekommen würden in der Zitadelle aufzupassen und ab und zu
+Männer dafür bekommen würden, in der Zitadelle aufzupassen und ab und zu
 jemanden mit dem Schatten nach Sigil zu schicken und Leute scheinbar
-"umzubringen" und hier hin zu schaffen. Es stand außerdem noch drin, dass
+"umzubringen" und hierhin zu schaffen. Es stand außerdem noch drin, dass
 Imogen mal sagte: "Die Bünde werden bald Geschichte sein." und dass
 insgesamt sechs (6) Leute entführt wurden. Es wurden jedoch keinerlei Details
-genannt. Aber das was da stand, bestätigte unsere Vermutung, dass die Bünde
+genannt. Aber das, was da stand, bestätigte unsere Vermutung, dass die Bünde
 unterwandert werden sollten. Und die sechs Personen könnten:
 * Tylarik Sturmschwinge,
-* Eliat,
+* Eliath,
 * Clarena,
-* tote Ulfwald,
+* der tote Ulfwald,
 * der tote Halbling ohne Gesicht, welcher die Mutter anbetete
 * und der apathische Mann
 
@@ -434,12 +434,12 @@ Labor, um einen Ausweg zu finden, der nicht durch die Leichenhalle führte.
 
 Ich musste mich nun mit Hutbert verbinden und als ich dies tat, spürte ich die
 Existenz von etwas Größerem. Es strömten magische Energien aus mir heraus
-und Hutbert nuschelte die magische Formel um eine Verzerrung zu entdecken.
+und Hutbert nuschelte die magische Formel, um eine Verzerrung zu entdecken.
 
-Ich sah an der Wand, an der wir bereits gesucht hatten einen Riss und als ich
-mich auf Hutberts rat darauf konzentrierte, sah ich eine geisterhafte Gestalt
+Ich sah an der Wand, an der wir bereits gesucht hatten, einen Riss, und als ich
+mich auf Hutberts Rat darauf konzentrierte, sah ich eine geisterhafte Gestalt
 aus blaugrauem Nebel, die etwas zusammenmischte. Ich merkte mir, was diese
-Gestalt zusammen mischte und konnte dies ebenfalls machen. Tatsächlich
+Gestalt zusammenmischte und konnte dies ebenfalls machen. Tatsächlich
 lobte Hutbert mich für diese Leistung.
 
 Als ich zurück in den Raum ging, wo ich Flint, Basari und Ser Ayne zuletzt
@@ -450,39 +450,39 @@ Schaum vor dem Mund hatte, also versuchte ich irgendwie zu helfen.
 
 Irgendwann sah ich, dass sein Ring glühte.
 
-Ich riss den Ring vom Ringer, wobei ich leider auch etwas Haut mit abriss.
+Ich riss den Ring vom Finger, wobei ich leider auch etwas Haut mit abriss.
 
-Kaum, dass der Ring vom Finger war, kam Ser Ayne auch wieder zu sich und
-sagte, dass das Letzte, an das er sicher erinnern konnte viele Ser Aynes waren,
-die ihm sagte, dass er der Beste sei.
+Kaum dass der Ring vom Finger war, kam Ser Ayne auch wieder zu sich und
+sagte, dass das Letzte, an das er sich erinnern konnte, viele Ser Aynes waren,
+die ihm sagten, dass er der Beste sei.
 
-Ich heilte kurz noch seinen Finger, woraufhin Ser Ayne seinen Ring wiederholte.
+Ich heilte kurz noch seinen Finger, woraufhin Ser Ayne seinen Ring wieder an sich nahm.
 Er steckte ihn vorerst nur ein und nicht an seinen Finger.
 
 Nachdem das geklärt war, zeigte Flint mir ein Buch, welches er in dem Raum
 gefunden hatte, der die Unterkünfte der Hobgoblins war.
 
-Es war auf goblinisch geschrieben, was ich aber zum Glück lesen konnte.
+Es war auf Goblinisch geschrieben, was ich aber zum Glück lesen konnte.
 
-In dem Buch standen ähnliche Sachen, wie in Brandals Tagebuch. Es war nur
+In dem Buch standen ähnliche Sachen wie in Brandals Tagebuch. Es war nur
 mit mehr Flüchen ausgeschmückt. Außerdem standen Kommandostrukturen
-drin und dass die Opfer in einen magischen Schlaf versetzt worden, wodurch es
+drin und dass die Opfer in einen magischen Schlaf versetzt worden waren, wodurch es
 nur danach aussah, dass diese tot waren.
 
 Mit all diesen Informationen im Gepäck machten wir uns auf den Weg zu dem
-neu gefundene Portal in Marvents Labor auf, um von dort nach Sigil
+neu gefundenen Portal in Marvents Labor auf, um von dort nach Sigil
 zurückzureisen, um von dort Galena zu berichten.
 
 ##### (Spielabend vom 18.01.2024)
 
 Als wir unten ankamen, nutzte ich mein neu erworbenes Wissen und mischte
-mit leichtigkeit zwei Phiolen der Flüssigkeit zusammen, welche ich bei der
+mit Leichtigkeit zwei Phiolen der Flüssigkeit zusammen, welche ich bei der
 Gestalt aus blaugrauem Nebel sah. Ich nannte diese Flüssigkeit "Portalwasser".
 
 Ich zeichnete dann mit dem Inhalt einer Phiole Portalwasser das Muster an die
 Wand, welches ich in meiner Vision gesehen hatte.
 
-Als ich es fertig gestellt hatte, dachte ich zunächst, dass nichts passieren
+Als ich es fertiggestellt hatte, dachte ich zunächst, dass nichts passieren
 würde, aber dann verformte es sich und ergab ein wunderschönes Muster,
 welches in der Wand verschwand, während sich zugleich Steine aus der Wand
 lösten und sich ein Tunnel formte.
@@ -491,20 +491,20 @@ Wir hatten ja von Oma Feen-Bann gelernt und schickten zunächst einen von
 uns vor und lauschten.
 
 Ser Ayne meldete sich freiwillig und nachdem er durch war, hörten wir nach
-einer kurzen Zeit ein entferntes scheppern.
+einer kurzen Zeit ein entferntes Scheppern.
 
 Basari und Flint dachten sich nichts dabei, weil Oma Feen-Bann nur sagte, dass
-wir auf schreie achten sollen und gingen einfach hindurch, ich jedoch bereitete
-mich darauf vor Federfall zu Zaubern.
+wir auf Schreie achten sollen, und gingen einfach hindurch, ich jedoch bereitete
+mich darauf vor, Federfall zu zaubern.
 
-Mein Gefühl täuschte mich nicht und wie so langsam zu Boden sank, sah ich
+Mein Gefühl täuschte mich nicht und wie ich so langsam zu Boden sank, sah ich
 Basari und Flint auf dem gerade wieder aufstehenden Ser Ayne landen.
 
 Es war glücklicherweise kein allzu großer Sturz und als sich alle wieder
 gesammelt hatten, kam eine *gnomenähnliche Kreatur mit grün/blauer Haut und
 roten Augen* auf uns zu und sprach in einer Sprache, die wir nicht verstanden.
-Wir sagten nur, dass wir nun zu Oma Feen-Bann gehen , worauf die Kreatur nur
-irgendwelche Teile wieder aufsammelte und mit sehr starken Akzent "Domme
+Wir sagten nur, dass wir nun zu Oma Feen-Bann gehen, worauf die Kreatur nur
+irgendwelche Teile wieder aufsammelte und mit sehr starkem Akzent "Domme
 Menschen" sagte.
 
 > ##### Barghest

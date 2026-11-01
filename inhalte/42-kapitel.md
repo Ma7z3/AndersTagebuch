@@ -48,7 +48,7 @@ Unten erkannte ich etwas Glänzendes unter den schweren Ketten – den Griff
 von Erwiderung.
 
 Ich flog mit Hutbert wieder nach oben und schlug vor, Ser Ayne solle helfen,
-dafür könnte ich ihn zum fliegen bringen. Flint verstärkte ihn magisch, und ich
+dafür könnte ich ihn zum Fliegen bringen. Flint verstärkte ihn magisch, und ich
 begann auf meiner Canaith-Mandoline zu spielen. „I believe I can fly“, sagte ich
 lachend, und Ser Ayne grinste nur und hob tatsächlich ab.
 
@@ -67,23 +67,23 @@ verschlang.
 
 Er berichtete, dass er versteckt worden war und lange dort lag. Vor 200 bis 300
 Jahren dann: Ein Schlag, dann ein Rutschen – er war durch den Schacht
-gefallen und unter der Kette begraben. Und dort lag er bis wir ihn gefunden
+gefallen und unter der Kette begraben. Und dort lag er, bis wir ihn gefunden
 hatten.
 
 Als ich Erwiderung hielt, spürte ich, wie mächtig es war, aber es sagte dann
-noch folgendes:
-„Wenn ihr euch würdig erweist,“ sagte Erwiderung, „werdet ihr meine wahre
+noch Folgendes:
+„Wenn ihr euch würdig erweist“, sagte Erwiderung, „werdet ihr meine wahre
 Macht erfahren.“
 
-„Danke für die Geschichte dieser Stadt,“ fügte er noch hinzu, „aber es drängt
+„Danke für die Geschichte dieser Stadt“, fügte er noch hinzu, „aber es drängt
 mich nun vorwärts. Ich lag lange genug still.“
 
 Wir kehrten zurück zum Raum der Jadespinne, um von dort aus weiter nach
 Norden vorzudringen – zu den Fanatikern. Flint hielt kurz inne und lauschte.
-„Alles in Ordnung,“ sagte er knapp.
+„Alles in Ordnung“, sagte er knapp.
 
 Bald erreichten wir eine Wachenstation und ein Waffenlager – offenbar die
-Kaserne Kobolde von Suss Utlu und gleichzeitig die Grenze zum Gebiet der
+Kaserne der Kobolde von Suss Utlu und gleichzeitig die Grenze zum Gebiet der
 Fanatiker.
 
 Hinter ihr lag ein Raum, durch den eine Palisade gezogen war, halb verschüttet
@@ -96,7 +96,7 @@ schwebend, unheilvoll**. Das Surren kam von ihm, vibrierend, wie ein
 Resonanzgesang.
 
 Flint spannte instinktiv den Bogen. Ser Ayne griff nach seinen Schwertern. Und
-ich... ich nahm Erwiderung in die Hand uns spürte ein machtvolles Kribbeln.
+ich... ich nahm Erwiderung in die Hand und spürte ein machtvolles Kribbeln.
 
 <a id="p115"></a>
 

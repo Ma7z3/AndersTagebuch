@@ -249,7 +249,7 @@ weg.
 Talion folgte ihm und die beiden "gingen" zu zweit in eine Gasse. Eigentlich
 zerrte Talion ihn in eine Gasse, aber aufgrund der schlechten Schauspielkunst
 des Staubmenschen war klar, dass das mit der Zustimmung des
-Sandmenschen passierte.
+Staubmenschen passierte.
 
 Talion und der Staubmensch redeten eine ganze Weile, bis der Staubmensch
 wegflitzte.

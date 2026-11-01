@@ -160,9 +160,9 @@ würden und dass wir uns Freunde machen müssten.
 
 Staubmenschen macht man sich laut Kylie mit Geld am besten zu Freunden.
 
-Wir müssten aufpassen, dass die Wachen keinen Alarm schlagen, weil
-Staubmenschen dürften nicht herumlaufen, wo sie möchten, denn dann würden
-uns die Zombies und Skelette nichts tun.
+Wir müssten aufpassen, dass die Wachen keinen Alarm schlagen. Staubmenschen
+dürften herumlaufen, wo sie möchten. In ihrer Verkleidung würden uns die
+Zombies und Skelette nichts tun.
 
 Der Weg zu dem Portal in die Feuerebenen führt in den obersten Raum der
 Leichenhalle. Wir müssten nach links durch zwei Türen und dann die Treppe

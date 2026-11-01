@@ -13,9 +13,9 @@ Ich rief mit thaumaturgisch verstärkter Stimme:
 Ich zeigte Erwiderung. Nannte Orgul Rotaxt. Sagte, wir seien Freunde der
 Zwerge.
 
-„Geht zum Grabmahl“, sagte die Stimme.
+„Geht zum Grabmal“, sagte die Stimme.
 
-Das Grabmahl war wunderschön. Ein Friedhof in Stein. Grabplatten in den
+Das Grabmal war wunderschön. Ein Friedhof in Stein. Grabplatten in den
 Wänden, Gänge links und rechts. Als wir nähertraten, erschienen geisterhafte
 Gestalten.
 
@@ -33,7 +33,7 @@ Wir folgten ihm zu einem prunkvollen Grab. Der Geist blickte auf die Inschrift:
 Isballa.
 
 Als ich Erwiderung hob, erschien eine geisterhafte Version des Rapiers in den
-Händen von einer Geisterhaften Isballa.
+Händen von einer geisterhaften Isballa.
 „Ahhh“, sagte Erwiderung. „Viel besser.“
 
 Isballa sah mich an.
@@ -41,7 +41,7 @@ Isballa sah mich an.
 
 Sie erklärten uns alles:
 • Zarguras Eisenbart, Hauptmann der Wache
-• Toguna Barrenbieger, verantwortlich für Schmelzen und Härten
+• Thoguna Barrenbieger, verantwortlich für Schmelzen und Härten
 • Orgul Rotaxt, Diplomat und Vermittler
 
 Wenn wir ihre Geister befreien könnten, ließe sich der Kern öffnen. Wir
@@ -50,7 +50,7 @@ dann zu Isballa zum Grabmal bringen.
 
 Der Kern war für die Magier von Netheril gebaut worden. Ihre Magie war
 geblieben. Doch jemand war bereits mit dem Kern verschmolzen, vermutlich
-Hedistrin – ohne diese Drei konnte er die Technik nicht beherrschen.
+Hedistrin – ohne diese drei konnte er die Technik nicht beherrschen.
 
 Wir kehrten zu Urak zurück.
 
@@ -60,7 +60,7 @@ Hochöfen? Dort, wo die „Idioten“ ihre Heizung betrieben.
 Auf dem Rückweg sahen wir in einem Koboldquartier eine aufziehbare
 Trommelmaschine – zwergische Technik. Ich dachte: "Vielleicht ein
 persönlicher Gegenstand?" Die Kobolde hielten sie für eine große Waffe. Sie
-war kaputt. Ich nahm es mit.
+war kaputt. Ich nahm sie mit.
 
 Tethyamar war noch nicht fertig mit uns.
 
@@ -113,18 +113,18 @@ langer, struppiger Bart fiel ihm über die Brust, ein großer Hammer ruhte auf
 seiner Schulter.
 
 „Dank sei euch, Bekel, alter Freund“, sprach er.
-„Wie lange war ich in meinem Körper gefangen.“
+„Wie lange war ich in meinem Körper gefangen?“
 
 Bekel erklärte ihm, wer wir waren und was wir vorhatten. Der Geist nickte
 dankbar.
 
 <a id="p119"></a>
 
-Ein weiteres Relikt wurde hervorgeholt: das altes Spielzeug, welches wir
+Ein weiteres Relikt wurde hervorgeholt: das alte Spielzeug, welches wir
 gefunden hatten. Ein weiterer Zwerg erschien.
 
 „Oh… ich erinnere mich“, sagte er leise. „Schön, dass es die Jahrtausende
-überlebt hat“, sagte Draken Lederarm
+überlebt hat“, sagte Draken Lederarm.
 
 Draken fragte, ob jemand von uns sich mit Mechanik auskenne. Wir mussten
 verneinen. Er erklärte, dass der Mechanismus nicht nur beschädigt sei – es
@@ -169,10 +169,10 @@ zuvor umgekehrt waren, entdeckten wir schließlich Scharniere.
 
 Ich schlug vor, Suss Utlu zu fragen, ob er Kobolde zur Hilfe stellen könne.
 Während ich unterwegs war, begannen Ser Ayne und Flint bereits mit den
-Arbeiten – wie das ausging erzähle ich gleich…
+Arbeiten – wie das ausging, erzähle ich gleich…
 
 Suss Utlu entschied, dass die Kobolde selbst entscheiden durften. Somit blieb
-es an mir Überzeugungsarbeit zu leisten.
+es an mir, Überzeugungsarbeit zu leisten.
 
 Ich sprach draußen Klaus, Günther und Dieter an. Sie schlossen sich sofort an.
 In Schlafsälen und der Taverne bot ich einen Kupfer pro brauchbarem Brocken –

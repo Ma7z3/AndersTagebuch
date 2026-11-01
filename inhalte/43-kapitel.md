@@ -6,7 +6,7 @@ Die Höhle dahinter öffnete sich in einem kolossalen Dom, 40 oder 50 Schritt
 hoch. In der Mitte: ein aufgerissener Spalt, eine wackelige Brücke darüber, als
 hätte sie nur aus Trotz dem Zerfall widerstanden. Auf der anderen Seite:
 Kobolde. Drei an der Zahl, um ein Lagerfeuer. Und dahinter… Ruinen, Gebäude,
-Schatten, die mehr versprachen als sie zeigen wollten.
+Schatten, die mehr versprachen, als sie zeigen wollten.
 
 Wir planten schnell. Koordiniert. Flint spannte seinen Bogen. Ich bereitete einen
 Feuerpfeil vor. Ser Ayne warf ein Beil. Drei Schüsse, drei Treffer. Und dennoch:
@@ -106,7 +106,7 @@ bei Ser Ayne, während ich losrannte, um ein Gegengift zu holen. Auf dem Weg
 traf ich Klaus, Dieter und Günther – sie führten mich direkt zu Suss Utlu, der
 mir drei Phiolen übergab.
 
-Ich rannte zurück, floß Ser Ayne das Gegengift ein – und tatsächlich: seine
+Ich rannte zurück, flößte Ser Ayne das Gegengift ein – und tatsächlich: seine
 Finger zuckten, dann ein tiefer Atemzug. Er war zurück.
 
 Kaum hatte er durchgeschnauft, standen wir wieder auf. Zurück zu den
@@ -136,7 +136,7 @@ Wir hielten. Noch einmal.
 ##### (Spielabend vom 08.12.2025)
 Der Warg, der direkt vor mir stand, hatte keine Zeit zu reagieren.
 Noch bevor Ser Ayne überhaupt Luft holen konnte, zog ich Erwiderung hoch
-und ließ die Magie fließen. Die Flamme in grünes Feuer gehüllt traf den Wolf
+und ließ die Magie fließen. Die Klinge, in grünes Feuer gehüllt, traf den Wolf
 frontal – ein grollendes Heulen, dann brach das gewaltige Tier zusammen.
 Rauch stieg aus den rot glühenden Augen auf.
 
@@ -153,10 +153,10 @@ Ich trat zu den beiden.
 „Alles in Ordnung?“
 Ser Ayne nickte knapp. Flint ebenso.
 
-Ich durchsuchte den toten Zauberer. Bei ihm fand ich einen großen Heiltrank
+Ich durchsuchte den toten Zauberer. Bei ihm fand ich einen großen Heiltrank,
 den ich einsteckte. Außerdem eine silberne Halskette mit Edelsteinanhänger,
 die Flint an sich nahm, sowie zwei Karnevalsmasken, fein mit Silberfäden
-bestickt und dazu ein kleiner goldener Medaillonanhänger, in den man ein Bild
+bestickt, und dazu einen kleinen goldener Medaillonanhänger, in den man ein Bild
 oder einen Zettel legen konnte. Ser Ayne steckte sich Masken und Anhänger
 ein.
 
@@ -181,7 +181,7 @@ Der Fanatiker lebte noch.
 
 Er hieß **Draxil**.
 
-„Wie viele seid ihr noch?“ fragte ich.
+„Wie viele seid ihr noch?“, fragte ich.
 „Vierzig… vielleicht fünfzig“, antwortete er. „Zauberer… fünfzehn. Minus die, die
 ihr getötet habt.“
 
@@ -191,7 +191,7 @@ Flint stellte die entscheidende Frage:
 Draxil zögerte. Dann zuckte er mit den Schultern. Er wolle uns zum Großen
 Boss bringen – vielleicht ließe sich etwas aushandeln.
 
-Um uns kurz auszuruhen vereinbarten wir über Draxil eine
+Um uns kurz auszuruhen, vereinbarten wir über Draxil eine
 Waffenstillstandsbotschaft:
 Er rief seinen Kameraden dafür nur zu: "Verhandlung möglich. Endziel
 erreichbar. Ankunft in einer Stunde."
@@ -205,7 +205,7 @@ Nach der kurzen Pause rief Draxil laut:
 
 Als wir durch waren, sahen wir ihn.
 
-Ein riesiger Wolf mit rauchenden, roten Augen - Der Beschützer von **Urak**.
+Ein riesiger Wolf mit rauchenden, roten Augen – der Beschützer von **Urak**.
 Urak thronte auf einem improvisierten Sitz aus Karren, Mehlsäcken und
 Getreide.
 

@@ -55,7 +55,7 @@ Magier in Wirklichkeit eine purpurne Robe haben wollte. Er ging wieder und
 einige Zeit später kam er mit einer fliederfarbenen Robe wieder.
 
 Ghom stellte fest, dass es ein seiner Aussage nach leicht hellerer Grünton war,
-als er bisher trug, akzeptierte aber. Ich selbst war wie bereits erwähnt fasziniert
+als er bisher trug, akzeptierte aber. Ich selbst war, wie bereits erwähnt, fasziniert
 von dem Magier und dachte, dass ich sicher eine Menge von ihm lernen konnte.
 
 Nach einem kurzen Einkauf des Paladins und des Magiers, nach dem der

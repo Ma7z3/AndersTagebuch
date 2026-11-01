@@ -10,7 +10,7 @@
 > Jadespinnen sind seltene und gefürchtete Monstrositäten, deren Körper aus
 > einer jadeartigen, glasmetallischen Substanz bestehen. Sie kombinieren die
 > Agilität einer riesigen Spinne mit den tödlichen Fähigkeiten einer
-> Belagerungswaffe. Ihre primäre Angriffsmethoden bestehen darin, glasartige
+> Belagerungswaffe. Ihre primären Angriffsmethoden bestehen darin, glasartige
 > Harpunen auf ihre Beute abzufeuern, die nicht nur durchschlagen, sondern sie
 > auch mit mechanischer Präzision heranziehen. Diese Projektile wirken wie eine
 > Mischung aus geschmiedeten Pfeilen und organischen Spinnfäden.
@@ -61,26 +61,26 @@ Zerstören der Spinnenweben – und war damit deutlich schneller als ich.
 Schließlich erreichten wir eine Falltür. Bevor wir die Falltür näher untersuchten,
 guckten wir uns noch einmal im Raum um, fanden jedoch nichts. Wir stellten
 jedoch fest, dass wir durch die Lücken des riesigen Zahnrads durchgehen
-könnte. Darunter konnte man in die Tiefe spähen, doch wir entschieden uns für
+könnten. Darunter konnte man in die Tiefe spähen, doch wir entschieden uns für
 die Leiter bei der Falltür.
 
-Ich stieg zuerst hinab. Unten angekommen, rief ich den anderen, dass sie
+Ich stieg zuerst hinab. Unten angekommen, rief ich den anderen zu, dass sie
 folgen konnten.
 
 Der Gang führte Richtung Osten.
 
 Da es sehr dunkel war, tippte ich Ser Aynes eines Schwert an und erschaffte
-dadurch ein Licht, als Lichfarbe entschied ich mich für ein Insektenfreundliches
+dadurch ein Licht, als Lichtfarbe entschied ich mich für ein insektenfreundliches
 Licht, wir wollten ja nicht noch mehr Spinnen anlocken.
 
-Am Ende des Ganges stiegen wir wieder eine Leiter hinauf und sahen direkt
-etwas auf uns zu bewegen.
+Am Ende des Ganges stiegen wir wieder eine Leiter hinauf und sahen direkt, wie sich
+etwas auf uns zubewegte.
 
 <a id="p113"></a>
 
-Ich stellte mit erschrecken fest, dass Spinnen gar keine Insekten fest, denn im
+Ich stellte mit Erschrecken fest, dass Spinnen gar keine Insekten sind, denn im
 nächsten Moment merkten wir, dass die Bewegung zwischen den
-Spinnenweben – zwei weitere Spinnen waren. Keine Jadespinnen diesmal,
+Spinnenweben von zwei weiteren Spinnen ausging. Keine Jadespinnen diesmal,
 sondern *hellbraune, haarlose Kreaturen mit einem blau leuchtenden Symbol
 auf dem Rücken*.
 
@@ -97,7 +97,7 @@ auf dem Rücken*.
 > vielen Dinge vertraut ist, leicht zu erkennen, da das Muster auf der Rückseite
 > der Karten auf dem Panzer der Spinne dupliziert wird.
 
-„Ruinenspinnen…“ murmelte ich. „Vorsicht, die haben Säure im Biss.“
+„Ruinenspinnen…“, murmelte ich. „Vorsicht, die haben Säure im Biss.“
 
 Die Erste stürzte sich auf mich, die Zweite auf Flint. Ser Ayne brüllte auf, als er
 die Spinne angriff, die Flint erwischt hatte, und trieb sein Schwert tief hinein. Da
@@ -110,12 +110,12 @@ schwanken. Ser Ayne sprang schützend vor mich. Ich nutzte einen Feuerwirbel,
 um mich aus der Reichweite zu bringen. Flint schickte einen Pfeil nach dem
 anderen, und endlich ließen die Biester von mir ab.
 
-„Eine weniger!“ rief Ser Ayne, als er die erste Ruinenspinne zu Boden streckte.
+„Eine weniger!“, rief Ser Ayne, als er die erste Ruinenspinne zu Boden streckte.
 Die zweite fiel kurz darauf unter unserem vereinten Beschuss.
 
 Der Raum war still. Wir fanden nichts weiter, also konzentrierten wir uns auf die
 nächste Tür. Zuerst wollte ich Ser Ayne sie öffnen lassen, doch wir entschieden
-uns, Flint mit seiner leisen Hand vorausschicken. Die Tür war unverschlossen.
+uns, Flint mit seiner leisen Hand vorauszuschicken. Die Tür war unverschlossen.
 Wir präparierten sie mit Wurfpfeilen, leeren Phiolen und anderem Kleinkram, um
 bei einer Öffnung Krach zu machen.
 

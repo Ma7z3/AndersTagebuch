@@ -3,17 +3,17 @@
 ### Kapitel 31: Die letzten Tage in der Stadt der Portale
 
 Plötzlich purzelten wir alle aus dem Wandschrank in Sams Werkstatt, woraufhin
-dieser beinahe einen Herzinfarkt erleidet.
+dieser beinahe einen Herzinfarkt erlitt.
 
 In der Werkstatt waren es sicher 40 Grad Celsius, jedoch fröstelte es uns
 dennoch ein wenig.
 
-Sam fragte uns, wie es gelaufen ist und wir erzählten ihm die Geschichte.
+Sam fragte uns, wie es gelaufen ist, und wir erzählten ihm die Geschichte.
 
 Er war höchst erfreut, dass wir seinen Geschäften in Messingstadt nicht
 geschadet haben.
 
-Wir plauderten etwas und schwärmten zusammen über die schönheit der
+Wir plauderten etwas und schwärmten zusammen über die Schönheit der
 azurblauen Fontaine.
 
 Am Ende des Gesprächs, als ich mich gerade verabschieden wollte, fragte Flint
@@ -21,33 +21,33 @@ Sam noch nach einem feuerfesten Gefäß für seine Salamanda Orchidee.
 
 Sam fand die Salamanda Orchidee sehr hübsch und ich glaube, er schmiedete
 schon Pläne für ein neues Geschäft, so genau, wie er nach Preisen und
-Fundorten fragte. Flint schlug vor die immerglühenden Kohlen zu benutzen, um
-für die Orchidee ein Habitat zu erzeugen, in der sie überleben konnte.
+Fundorten fragte. Flint schlug vor, die immerglühenden Kohlen zu benutzen, um
+für die Orchidee ein Habitat zu erzeugen, in dem sie überleben konnte.
 
 Er schickte uns jedenfalls auf die andere Seite der Gießerei, wo es einen Laden
-geben sollte, wo wir solche Behältnisse finden konnte. Es war sollte eine Art
+geben sollte, wo wir solche Behältnisse finden konnten. Es sollte eine Art
 Werksverkauf sein und von daher auch recht günstig. Wir sollten nett von Sam
-grüßen. Sam würde während wir das Gefäß holen würden die Kohlen hohlen
+grüßen. Sam würde, während wir das Gefäß holen würden, die Kohlen holen
 gehen.
 
 Als wir auf der anderen Seite der Gießerei ankamen, sahen wir eine Art
 Stahlhütte, welche der Laden sein sollte.
 
-Als wir rein gehen stand drinnen ein Zwerg und ich dachte mir: "Das ist kein
-Werksverkauf, das ist ein Zwerksverkauf." Als ich mir das dachte schmunzelte
+Als wir reingingen, stand drinnen ein Zwerg und ich dachte mir: "Das ist kein
+Werksverkauf, das ist ein Zwerksverkauf." Als ich mir das dachte, schmunzelte
 ich ein wenig in mich hinein, was die anderen aber nicht mitbekamen.
 
-Der Zwerg, der wie sich später herausstellte **Cuinn** hieß, schaute uns erst
+Der Zwerg, der, wie sich später herausstellte, **Cuinn** hieß, schaute uns erst
 komisch an und sagte dann etwas patzig: "Was wollt ihr kaufen?"
 
-Flint erzählte, was er benötigte und Cuinn hielt ihm einen Beutel hin, der silber
+Flint erzählte, was er benötigte, und Cuinn hielt ihm einen Beutel hin, der silber
 glänzend war. Er wollte 250 Goldmünzen dafür haben, aber als wir Sam
 beziehungsweise Kemp erwähnten, ging er auf 200 Goldmünzen zurück.
 
 Flint wollte gerade bezahlen, als ich noch einmal sagte: "Für 150 Goldmünzen
 haben wir einen Deal." Er schlug ein und Flint bezahlte die 150 Gold.
 
-Als wir gerade auf dem Weg nach draußen waren fragte Cuinn noch, wie viel
+Als wir gerade auf dem Weg nach draußen waren, fragte Cuinn noch, wie viel
 Ser Ayne für seine Rüstung haben wollte. Dieser sagte jedoch nur, dass die neu
 sei, klappte sein Visier herunter und ging.
 
@@ -60,31 +60,31 @@ auf eine Salamanda Orchidee.
 Ich merkte an, dass wir nun schleunigst zu A'kin müssten und so
 verabschiedeten wir uns von Sam und gingen los.
 
-Aktuell sah die Axt noch wie ein kleiner Holzstamm, aber ich wusste nicht, wie
-lange der verschleierungszauber anhalten würde, also legte ich einen schnellen
+Aktuell sah die Axt noch wie ein kleiner Holzstamm aus, aber ich wusste nicht, wie
+lange der Verschleierungszauber anhalten würde, also legte ich einen schnellen
 Schritt vor.
 
-Als wir vor A'kins Zelt standen, goß Flint noch einmal seinen Ast und dieses mal
-mischte er sogar ein wenig Asche von der purpurnen Spähre mit zu dem
+Als wir vor A'kins Zelt standen, goss Flint noch einmal seinen Ast und dieses Mal
+mischte er sogar ein wenig Asche von der purpurnen Sphäre mit zu dem
 Wasser, was dem Ast sichtlich gut tat.
 
 Wir gingen nun hinein und es roch wie immer nach verschiedensten
-orientalischen Gewürzen. Nur dass dieses mal auch noch ein unangenehmer
+orientalischen Gewürzen. Nur dass dieses Mal auch noch ein unangenehmer
 Geruch mit dabei war. Dieser schien jedoch von uns selbst zu kommen.
 
 Zunächst stand A'kin in seinem großen Verkaufsraum und erwartete uns, im
-nächsten Moment jedoch, stand er ohne sich zu bewegen direkt neben mir und
+nächsten Moment jedoch stand er, ohne sich zu bewegen, direkt neben mir und
 bewunderte meinen Baumstamm.
 
 Er fragte direkt, wie viel ich dafür haben wollte und ich sagte ihm jedoch, dass
 dies ein Geschenk für ihn sei, als Ausgleich zu unserer Schuld, da wir nicht mit
-dem Sultan in der Flasche wieder gekommen sind. Mit den besten Grüßen des
+dem Sultan in der Flasche wiedergekommen sind. Mit den besten Grüßen des
 Großsultans selbst.
 
-A'kin sah höchsterfreut aus nahm den Stamm mit einer Hand hoch, welcher
+A'kin sah höchsterfreut aus und nahm den Stamm mit einer Hand hoch, welcher
 sich direkt wieder in diese furchterregende Axt zurückverwandelte. Er
 betrachtete sie kurz und warf sie dann in Richtung der Sitzecke, wo sie in der
-Luft verschwindet.
+Luft verschwand.
 
 A'kin sagte uns noch, dass er normalerweise Händler ist und handelt, also keine
 Geschenke annimmt.
@@ -95,13 +95,13 @@ was wir benötigen würden, aber Flint und mir fiel nichts ein.
 Ser Ayne jedoch fragte nach einem Dolch, mit dem er sein Eisenholz schnitzen
 könnte.
 
-Daraufhin sagte A'kin, dass er genau das richtige hätte: Das berühmte
-"Schnitzmesser von Schnitzi dem Zwerg", der das schnitzen Quasi neu
+Daraufhin sagte A'kin, dass er genau das Richtige hätte: Das berühmte
+"Schnitzmesser von Schnitzi dem Zwerg", der das Schnitzen quasi neu
 erfunden hat und mit diesem Schnitzmesser ganze Wälder in Kunstwerke
 verwandelt hatte. Dieses Messer mit Immersilberklinge hatte eine lange
 Geschichte, welche A'kin uns erzählte.
 
-Ser Ayne sagte darauf hin nur: "Danke, das ist ja quasi ein Stück Geschichte!"
+Ser Ayne sagte daraufhin nur: "Danke, das ist ja quasi ein Stück Geschichte!"
 und steckte das Messer dann weg.
 
 A'kin erzählte uns dann, dass diese Axt schon lange ein Objekt der Begierde für
@@ -129,7 +129,7 @@ die Übungen gewissenhaft ausführen würden.
 
 Er warnte uns jedoch auch: Sollten wir mit den Büchern anfangen und die
 Übungen nicht innerhalb von 6 Tagen zu Ende führen, würden die Bücher ihre
-Magie verlieren und wären Wertlos.
+Magie verlieren und wären wertlos.
 
 Ser Ayne entschied sich relativ schnell für den Leitfaden des Verständnisses,
 ich entschied mich für den Leitfaden der Führungskraft und der Einflussnahme
@@ -139,11 +139,11 @@ A'kin sagte noch, dass er denke, dass wir die restlichen Bücher auch noch
 haben könnten, da er schon so lange nach dieser Axt gesucht hatte.
 
 Ich nahm die Bücher erst einmal an mich und A'kin erzählte uns noch von der
-Axt von Garrish. Diese würde er als Druckmittel gegen Asmodeus selbst
+Axt von Gargauth. Diese würde er als Druckmittel gegen Asmodeus selbst
 verwenden können, wenn der Tag gekommen war.
 
 Wir sollten nicht darüber reden, dass wir diese Axt je in den Händen gehalten
-haben, dann sonst würden wir sehr schnell in den neun Höllen landen.
+haben, denn sonst würden wir sehr schnell in den Neun Höllen landen.
 
 Während wir uns dies anhörten und über unsere Reise nach Messingstadt
 berichteten, rauchten wir gemütlich Pfeife und tranken unsere Getränke,
@@ -156,7 +156,7 @@ kontaktieren kann, sobald er denkt, dass es Zeit ist, die Axt Asmodeus zu
 präsentieren.
 
 Wir schlenderten nun vermutlich ein letztes Mal durch Sigil. Diese Stadt, die mir
-von wenigen Wochen noch so merkwürdig vorkam, würde ich vermissen
+vor wenigen Wochen noch so merkwürdig vorkam, würde ich vermissen
 werden, dachte ich mir dabei.
 
 Wir gingen nun zu Oma Feen-Bann und vor der Tür lag entweder Luis oder
@@ -164,30 +164,30 @@ Schnuffel. Als ich dann durch die offene Tür nach Oma Feen-Bann rief, kam
 Alvion nach draußen.
 
 Dieser fragte zunächst noch einmal nach unseren Namen, die er vergessen
-hatte, aber wir hatten uns ja, nachdem sein Gedächtnis gelöscht wurde auch
+hatte, aber wir hatten uns ja, nachdem sein Gedächtnis gelöscht wurde, auch
 nur einmal kurz gesehen.
 
-Wir sagten ihm, dass wir bald nach Ferûn zurückkehren würden und ihn gerne
+Wir sagten ihm, dass wir bald nach Faerûn zurückkehren würden und ihn gerne
 mitnehmen würden.
 
 Dieser schien erfreut zu sein und sagte uns, dass Oma Feen-Bann drinnen sei.
 
-Als wir nun drinnen waren war Oma Feen-Bann wie immer in der Küche.
+Als wir nun drinnen waren, war Oma Feen-Bann wie immer in der Küche.
 
-Zunächst fragte sie ohne sich umzudrehen: "Was ist denn los Alvion?"
+Zunächst fragte sie, ohne sich umzudrehen: "Was ist denn los, Alvion?"
 
 Als sie sich dann langsam umgedreht hatte, merkte man, dass sie äußerst
-erstaunt war uns zu sehen.
+erstaunt war, uns zu sehen.
 
-Sie bat uns uns auf ihren kleinen Stühlen platz zu nehmen und schenkte jedem
-von uns ein Getränk eins.
+Sie bat uns, auf ihren kleinen Stühlen Platz zu nehmen und schenkte jedem
+von uns ein Getränk ein.
 
-Flint fragte, was dies sei und sie sagte, dass es das älteste Getränk sei, was wir
+Flint fragte, was dies sei, und sie sagte, dass es das älteste Getränk sei, was wir
 je trinken werden.
 
 Dann stießen wir auf unsere Taten an.
 
-Ich fand es ganz lecker und für Ser Ayne war es Anschein nach auch nicht
+Ich fand es ganz lecker und für Ser Ayne war es dem Anschein nach auch nicht
 unbedingt das schlechteste Getränk. Flint jedoch, der sich extra beim Trinken
 die Nase zugehalten hatte, schüttelte sich ganz fürchterlich und bekam ein
 knallrotes Gesicht.
@@ -199,27 +199,27 @@ Sie jedoch sagte, dass niemand von uns dieses Getränk trinken sollte und es
 manchmal auch besser wäre, etwas nur zu haben, aber nicht zu benutzen.
 
 Sie hörte einst, dass jedes Wesen, welches nicht von der Feuerebene stammen
-würde von diesem Getränk sterben würde.
+würde, von diesem Getränk sterben würde.
 
 Ich packte die Flasche wieder weg und wir erzählten Oma Feen-Bann die
 komplette Geschichte.
 
-Dann war die Zeit gekommen Abschied zu nehmen, was Oma Feen-Bann nach
+Dann war die Zeit gekommen, Abschied zu nehmen, was Oma Feen-Bann nach
 eigener Aussage nie leicht fiel.
 
 Beim Abschiednehmen fragte ich Oma Feen-Bann noch, ob sie das Tél-ê phønè
-fertig gestellt hatte, was sie jedoch verneinte, weil sie nicht damit gerechnet
+fertiggestellt hatte, was sie jedoch verneinte, weil sie nicht damit gerechnet
 hatte, dass wir zurückkehren würden.
 
 Sie bot uns an, dass Schnuffel oder Luis uns den Stein bringen könnte, sobald
 sie nach ihrem Umzug zur Feuerzitadelle Zeit gefunden hätte, um diesen
-herzustellen, sie bräuchte nur etwas persönliches von uns, um uns zu
-Kontaktieren.
+herzustellen, sie bräuchte nur etwas Persönliches von uns, um uns zu
+kontaktieren.
 
 Ich gab ihr eine Haarsträhne von mir und wir verabschiedeten uns.
 
 Wir wurden noch einmal von ihr gedrückt, was sich irgendwie komisch anfühlte,
-wie diese schon irgendwie böse aussehende Wesen uns mit ihren Flügelkrallen
+wie dieses schon irgendwie böse aussehende Wesen uns mit ihren Flügelkrallen
 umarmte.
 
 Wir gingen nun mit Alvion im Gepäck zum Gasthaus zur schwelenden Leiche,
@@ -238,14 +238,14 @@ Diese Antwort machte sie neugierig und sie holte zusammen mit unseren
 Getränken ein gläsernes Methorn mit einem dunklen Rotwein für sich und
 setzte sich zu uns.
 
-Wir erzählten ihr, wie zuvor schon A'kin und Oma-Feenbann die komplette
+Wir erzählten ihr, wie zuvor schon A'kin und Oma Feen-Bann, die komplette
 Geschichte, welche sie durchaus bewundernd zur Kenntnis nahm.
 
 Wir fragten Kylie nun, ob sie ein Portal nach Silbrigmond kennen würde und sie
-bat uns eine Karte zu besorgen, damit wir wüssten, was dort in der Umgebung
+bat uns, eine Karte zu besorgen, damit wir wüssten, was dort in der Umgebung
 sei, denn Silbrigmond kenne sie nicht.
 
-Sie empfahl uns zu dem Laden "Auroras Welten" zu gehen, denn dort würde es
+Sie empfahl uns, zu dem Laden "Auroras Welten" zu gehen, denn dort würde es
 so etwas geben.
 
 Ich gab Kylie noch die Karte von Messingstadt, denn sie sagte einst, dass sie
@@ -254,25 +254,25 @@ und verlauten ließ, dass die Getränke auf sie gehen würden.
 
 <a id="p88"></a>
 
-Wir sollten in drei Stunden wieder da sein
+Wir sollten in drei Stunden wieder da sein.
 
 Ich bekam noch eine feste Umarmung für die Karte von Messingstadt und wir
 gingen los zu Auroras Welten.
 
-Beim Reingehen in den Laden erklang eine kleine Glücke, die über der Tür hing
-und als erstes sahen wir uns zunächst einmal um. Auroras Welten war
+Beim Reingehen in den Laden erklang eine kleine Glocke, die über der Tür hing
+und als Erstes sahen wir uns zunächst einmal um. Auroras Welten war
 unglaublich klein. Es lagen nur ein paar Kataloge aus Pergament auf einer
 Theke und ansonsten war der Laden leer.
 
-Wenige Sekunden später, kamen eine brünette Frau und ein schwarzhaariger
+Wenige Sekunden später kamen eine brünette Frau und ein schwarzhaariger
 Mann mit Ziegenbart durch eine Tür hinter der Theke in den Verkaufsraum und
 die Frau begrüßte uns mit einem "Willkommen in Auroras Welten. Mein Name ist
-**Aurora**, wie kann ich euch behilflich sein."
+**Aurora**, wie kann ich euch behilflich sein?"
 
 Wir schilderten ihr, dass wir eine Karte der Wilden Grenze benötigen würden
 und nach ein paar Nachfragen, wie genau die Karte denn sein müsste, bot sie
 uns eine entsprechende Karte für 120 Goldmünzen an, was ich auch
-anstandslos ohne zu verhandeln bezahlte.
+anstandslos, ohne zu verhandeln, bezahlte.
 
 Auf Flints fragenden Blick erwiderte ich nur leise, dass ich ganz schlecht mit
 hübschen Frauen verhandeln könne.
@@ -292,7 +292,7 @@ an dieser Karte mitgearbeitet hätte.
 
 Ich erzählte, dass ich damals im Kloster einmal ein Buch von ihm gelesen hätte
 "Volos Almanach der Monster", woraufhin sie sagte, dass Volo auch ein Buch
-geschrieben hätte, welcher von dem Gebiet handeln würde, von welchem wir
+geschrieben hätte, welches von dem Gebiet handeln würde, von welchem wir
 uns eine Karte haben zeichnen lassen.
 
 Sie bot mir das Buch "Volos Reiseführer für den Norden" für 25 Goldstücke an,
@@ -302,7 +302,7 @@ Als ich dann kurz durch das Buch blätterte, bereute ich den Kauf nicht, denn es
 schien hilfreich zu sein und die Einleitung war sogar von unserem alten Freund
 Elminster von Schattental geschrieben.
 
-Die Frage, ob wir noch etwas bräuchten verneinten wir und somit
+Die Frage, ob wir noch etwas bräuchten, verneinten wir und somit
 verabschiedeten wir uns und gingen zurück zu Kylie.
 
 Auf dem Weg zurück durch Sigil machten wir noch ein paar "geistige
@@ -310,7 +310,7 @@ Erinnerungsfotos" und so kamen wir dann wieder an der schwelenden Leiche
 an.
 
 Da wir uns Zeit gelassen hatten, mussten wir nicht mehr lange warten, bis
-Kylies Schicht vorbei war und als es soweit war, gingen wir mit ihr zu ihrem
+Kylies Schicht vorbei war und als es so weit war, gingen wir mit ihr zu ihrem
 Zuhause.
 
 Von außen sah ihr Zuhause nicht schön aus. Es war ein sehr schäbiges Acht-
@@ -321,10 +321,10 @@ diese war mit mehreren Schlössern und offensichtlich auch durch
 Schutzzauber geschützt.
 
 Drinnen gingen wir zunächst durch zwei schwere Vorhänge und als wir da durch
-waren, sah ich, dass ich mich nicht geirrt hatte denn es war wirklich schön.
+waren, sah ich, dass ich mich nicht geirrt hatte, denn es war wirklich schön.
 
-Die Wände waren gestrichen, Kylie hatte echte Fenster, einen Kaming in der
-Ecke, überall Sitzgelegenheiten und außerdem Standen überall Dinge herum,
+Die Wände waren gestrichen, Kylie hatte echte Fenster, einen Kamin in der
+Ecke, überall Sitzgelegenheiten und außerdem standen überall Dinge herum,
 die von Orten kommen mussten, die ich noch nie gesehen hatte.
 
 Sie wühlte nun in einem Regal und holte eine eiserne Schatulle heraus, der sie
@@ -333,7 +333,7 @@ unverständliche Worte zuflüsterte, worauf sich die Schatulle öffnete.
 Kylie holte ein einfaches in Leder gebundenes Buch heraus und fragte dann
 nach der soeben von uns erworbenen Karte.
 
-Nach einem kurzen Blick was in sich in der Nähe von Silbrigmond befinden
+Nach einem kurzen Blick, was sich in der Nähe von Silbrigmond befinden
 würde und darauffolgendem Blättern in ihrem Buch, schlug sie uns zwei Portale
 vor:
 - Eins führte zur Höllentorfeste, dort hatte sie jedoch zwei Totenköpfe
@@ -351,4 +351,4 @@ und aktivierte das Portal.
 Es flackerte ein Bild von einer Dunkelheit auf, wir sahen eine Wasseroberfläche
 glänzen und es roch vermodert.
 
-Mit einem letzten Blick zu Kylie und der Stadt Sigil, gingen wir durch das Portal.
+Mit einem letzten Blick zu Kylie und der Stadt Sigil gingen wir durch das Portal.

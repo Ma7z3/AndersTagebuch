@@ -11,7 +11,7 @@ ein Gedanke, der sich wie ein kalter Finger an meinen Nacken legte:
 Der Raum war groß, gewaltig sogar – Überreste eines alten Marktplatzes
 vielleicht. Zelte, längst zerfallen, Steintische, noch immer von zwergischer
 Hand gezeichnet. Alte Glasvitrinen lagen zerborsten in der Ecke, und
-wiedererkannte ich das Teppichmuster, das schon unter der Balliste lag. Es war,
+wieder erkannte ich das Teppichmuster, das schon unter der Balliste lag. Es war,
 als führten alle Wege tiefer in dieses vergessene Herz.
 
 Hinter der Treppe hatten wir einen weiteren Weg gesehen. Und beim Fallgitter
@@ -52,8 +52,8 @@ Ein fürchterlicher Anblick. Aber ich hatte mich daran gewöhnt. Ser Ayne
 jedoch... geriet ins Wanken. Panik in seinen Augen.
 
 Ich schoss sofort einen Feuerpfeil. Treffer! Doch da jagte ein Blitzstrahl auf
-mich zu. Ich konnte nicht ganz ausweichen und verlore die Konzentration. Das
-Feenfeuers erlosch, und Hlamrot verschwand.
+mich zu. Ich konnte nicht ganz ausweichen und verlor die Konzentration. Das
+Feenfeuer erlosch, und Hlamrot verschwand.
 
 > ##### Phaerimm
 >
@@ -98,15 +98,15 @@ Ser Ayne… stürmte erneut auf mich zu. Wahnsinn in seinen Augen. Ich wich
 erneut aus und beschloss, dem Ding ein Ende zu setzen.
 
 Ich hob die Hände, hob dabei auch ein wenig vom Boden ab: Sengende
-Strahlen schossen hervor, sechs an der Zahl. Und sie trafen. Fast Alle, einige
+Strahlen schossen hervor, sechs an der Zahl. Und sie trafen. Fast alle, einige
 kritisch. Die Kreatur taumelte.
 
 Nun sah Hlamrot wirklich verletzt aus.
 
 ##### (Spielabend vom 23.06.2025)
 
-Durch diesen Angriff konnte Hlamrot seine Konzentration aufrechterhalten und
-als ich zu Ser Ayne schaute, war die Krone des Wahnsinns war bereits zerfallen,
+Durch diesen Angriff konnte Hlamrot seine Konzentration nicht aufrechterhalten und
+als ich zu Ser Ayne schaute, war die Krone des Wahnsinns bereits zerfallen,
 und so war er wieder bei Sinnen.
 
 Flint rannte los, seine Fledermäuse verteilten sich, doch sie fanden nichts.
@@ -153,9 +153,9 @@ Geschichte, doch er hielt es für Hirngespinste oder Schläge auf den Kopf. Was
 beides leider nicht ganz falsch war.
 
 Ich fragte nach Magiekundigen und Jolgrun verwies uns in den Oberberg – hier
-unten, im Underberg, gäbe es nur Handel.
+unten, im Unterberg, gäbe es nur Handel.
 
-Ser Ayne versuchte durch die Tür zu gelangen, aus der wir ursprünglich
+Ser Ayne versuchte, durch die Tür zu gelangen, aus der wir ursprünglich
 gekommen waren – im Osten. Zwei Wachen hielten ihn auf.
 
 „Kein Durchgang.“
@@ -223,7 +223,7 @@ Ich spielte den Fachmann: „Der Griff hat Kratzer, der Stein Einschlüsse.“
 
 Ich bot 600.
 
-Sie lachte. „Verhandelt mit dem wahren Besitzer.“, sagte sie nur.
+Sie lachte. „Verhandelt mit dem wahren Besitzer“, sagte sie nur.
 
 Ich folgte ihr ins Zelt.
 
@@ -261,12 +261,12 @@ Er bekam ein feines Messer – 20 Gold.
 Ich sprach weiter mit Erwiderung. Er erklärte mir, was Hlamrot wirklich war: ein
 Phaerimm, ein uralter Feind der Zauberer von Netheril. Sie entziehen Magie und
 Lebensenergie, kontrollieren, manipulieren. Und wenn sie sterben – entlädt sich
-alles aufgestaute Magie. Das war das Licht.
+alle aufgestaute Magie. Das war das Licht.
 
 „Vielleicht ist das hier eine Illusion. Vielleicht ist es echt“, sagte Erwiderung.
 „Aber ich habe einen Plan.“
 
-Er erzählte mir von einen Raum im Süden – mit einem gigantischen Zahnrad, in
+Er erzählte mir von einem Raum im Süden – mit einem gigantischen Zahnrad, in
 dem die Tore gesteuert werden.
 
 „Dieser Ort“, sagte er, „könnte die Zerstörung überstehen.“
@@ -283,7 +283,7 @@ Erwiderung wiederholte alles, was ich bereits gehört hatte.
 
 „Wenn mein Plan gelingt, habt ihr ein gutes Geschäft gemacht.“
 
-„Was hat sich verändert?“ fragte Erwiderung
+„Was hat sich verändert?“, fragte Erwiderung.
 
 Wir beschrieben den Raum: einst zerstört. Jetzt nicht mehr.
 
@@ -295,10 +295,10 @@ Ich leerte sie langsam aus.
 Ich konnte nichts erkennen, aber Flint sah es: die Magie aus der Phiole "floss"
 zum roten Zelt.
 
-Dort stand eine junge Zwergin Namens Terika.
+Dort stand eine junge Zwergin namens Terika.
 
-„Guten Tag, werter Herr“, sagte sie höflich zu Flint auch wenn man ihr ansah,
-dass sie gedacht hatte: "Hoffentlich kommen die verrückten nicht zu mir."
+„Guten Tag, werter Herr“, sagte sie höflich zu Flint, auch wenn man ihr ansah,
+dass sie gedacht hatte: "Hoffentlich kommen die Verrückten nicht zu mir."
 
 Sie stellte Steinarbeiten her – Ausstellungsstücke für Tethyamar. Außerdem
 wollte sie ihren Bruder besuchen.
@@ -313,11 +313,11 @@ Dann schrie Erwiderung: „Es ändert sich etwas. LOS! GIB MICH ZURÜCK!“
 
 Ich sprang auf, rannte zu Isballa.
 
-Im losrennen, fragte ich Terika noch, wie ihr Bruder heißen würde:
+Im Losrennen fragte ich Terika noch, wie ihr Bruder heißen würde:
 
 **„Orgul Rotaxt“**
 
-Als ich bei Isballa war und sie Erwiderung berührte sagte sie noch:
+Als ich bei Isballa war und sie Erwiderung berührte, sagte sie noch:
 
 „Ah“, sagte sie. „Ich verstehe. Ich werde ihn dort deponieren.“
 
@@ -341,7 +341,7 @@ Vielleicht – der Funke von etwas Größerem als Zeit.
 
 ##### (Spielabend vom 14.07.2025)
 
-„Was war das für ein Erlebnis?“ murmelte ich noch benommen, während ich die
+„Was war das für ein Erlebnis?“, murmelte ich noch benommen, während ich die
 letzten Nachbilder der vergangenen Vision abschüttelte. Gemeinsam mit Flint
 und Ser Ayne wandte ich mich gen Süden, um den Raum zu finden, von dem
 Erwiderung gesprochen hatte – jener Ort, der die Zerstörung von Tethyamar
@@ -359,7 +359,7 @@ Netherilzeit. Er runzelte die Stirn, dann schickte er drei Kobolde los: „Günt
 Dieter und Klaus. Sie sollen den Leichnam suchen.“
 
 Ich fragte ihn nach dem Raum mit dem Zahnrad. „Liegt auf dem Weg zum
-zweiten Problem,“ erklärte er. „Vor der Tür ist nur etwas Schutt, das müsste
+zweiten Problem“, erklärte er. „Vor der Tür ist nur etwas Schutt, das müsste
 geräumt werden.“
 
 Ich versuchte, ihn zu überzeugen, uns Kobolde für die Arbeit mitzugeben. Doch
@@ -407,7 +407,7 @@ Doch wir waren verwirrt. Wo war der Zahnradraum?
 alle nicht rein.“ Niemand widersprach.
 
 Vor der nächsten Tür lag Schutt, dies musste die richtige Tür sein. Klaus, Dieter
-und Günther fingen auch direkt an den Schutt wegzuräumen. Als die Tür
+und Günther fingen auch direkt an, den Schutt wegzuräumen. Als die Tür
 freigelegt war, öffnete ich sie selbst. Dahinter: Spinnweben. Dicht, wie aus Glas
 gewebt. Ich schoss einen Feuerpfeil hinein – doch die Fäden entzündeten sich
 nicht. Ich fragte die Kobolde nach Spinnen. „Ja, gibt’s hier. Die fressen

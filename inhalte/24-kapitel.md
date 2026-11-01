@@ -2,10 +2,10 @@
 
 Zu unserer Linken war eine Felswand und zu unserer Rechten brannte die Luft.
 Wir schienen uns auf einem schwebenden Felsbrocken zu befinden und als wir
-gerade unsere Orientierung wieder erlangt hatten, kamen vier bewaffnete
+gerade unsere Orientierung wiedererlangt hatten, kamen vier bewaffnete
 Humanoide auf uns zu.
 
-Wir versuchten diesen bewaffneten Humanoiden weiss zu machen, dass wir
+Wir versuchten, diesen bewaffneten Humanoiden weiszumachen, dass wir
 uns verlaufen hätten, aber die vier sagten, dass wir uns hinlegen sollen, was wir
 auch alle nach kurzem Zögern machten.
 
@@ -44,21 +44,21 @@ hier wollten.
 Wir überzeugten sie, dass wir einen Geheimauftrag aus der Leichenhalle hätten
 und mit dem Fürsten von Messingstadt reden müssten.
 
-Ich hatte das Gefühl, dass sie uns glauben würden und fragte dann noch,
+Ich hatte das Gefühl, dass sie uns glauben würden, und fragte dann noch,
 welcher Weg denn nach Messingstadt führen würde.
 
-Diese Frage konnten die Hobgoblins uns leider nicht beantwortet und uns
+Diese Frage konnten die Hobgoblins uns leider nicht beantworten und uns
 wurde gesagt, dass wir Marvent fragen sollten.
 
-Ich fragte dann noch, wo wir diesen Marvent finden würden und etwas verwirrt
-antworteten die Hobgoblins, dass wir die Treppe rauf gehen sollten.
+Ich fragte dann noch, wo wir diesen Marvent finden würden, und etwas verwirrt
+antworteten die Hobgoblins, dass wir die Treppe raufgehen sollten.
 
 Ich bedankte mich und wir gingen los.
 
-Nach etwas 30 Metern fingen die Hobgoblins plötzlich an auf uns zu feuern und
+Nach etwa 30 Metern fingen die Hobgoblins plötzlich an, auf uns zu feuern und es
 brach ein Kampf aus.
 
-Meinen Feuerbällen wiederstanden die Hobgoblins scheinbar recht gut, aber
+Meinen Feuerbällen widerstanden die Hobgoblins scheinbar recht gut, aber
 wir konnten relativ souverän über die Hobgoblins siegen, auch wenn Balgrim
 eine Menge einstecken musste.
 
@@ -67,20 +67,19 @@ ergab sich.
 
 Dieser Hobgoblin stellte sich als **Reißer** vor und wir boten ihm fünf
 Goldstücke dafür, dass er uns in und durch die Zitadelle, wie er es nannte,
-schleußt.
+schleust.
 
 Er nahm dieses Angebot an.
 
 Wir heilten nun noch kurz mit geeinten Kräften Balgrim und folgten Reißer dann
-außenherum, denn vorne ist es den einfachen Wachen scheinbar versagt hinein
-zu gehen.
+außenherum, denn vorne ist es den einfachen Wachen scheinbar versagt, hineinzugehen.
 
-Unsere erste "Herausforderung" bestand nun darin bei einem runden Turm, an
-dem 4 "Erleuchtete", wie Reißer sie nannte, standen, so zu Schauspielern, dass
-sie uns nicht beachteten, was uns auch gelang, indem Reißer behauptete er
+Unsere erste "Herausforderung" bestand nun darin, bei einem runden Turm, an
+dem 4 "Erleuchtete", wie Reißer sie nannte, standen, so zu schauspielern, dass
+sie uns nicht beachteten, was uns auch gelang, indem Reißer behauptete, er
 würde uns, den Neuen, die Gegend zeigen.
 
-Der nächste interessante Ort, an dem wir vorbei kamen, war eine gut sechs
+Der nächste interessante Ort, an dem wir vorbeikamen, war eine gut sechs
 Meter hohe Statue. Ich zauberte Magie entdecken und erkannte etwas, was ich
 in einem Buch im Kloster schon einmal gesehen hatte. Einen *Steingolem*,
 dieser war jedoch deutlich größer als alle, die in den Büchern beschrieben
@@ -94,12 +93,12 @@ waren.
 > hergestellt. Die elegantesten Steingolems werden sowohl als Wächter als auch
 > als Kunstwerke in magischen Gebäuden verwendet.
 
-Ein Kampf gegen dieses Ding, wäre vermutlich unser Ende, dachte ich.
+Ein Kampf gegen dieses Ding wäre vermutlich unser Ende, dachte ich.
 
 Wir gingen nun zwei Treppen runter, wobei wir uns bei der ersten rechts und
 links bewegen sollten und bei der zweiten in der Mitte.
 
-Unten angekommen waren wir in einem Raum, eine Art Thronsaal, bei dem die
+Unten angekommen, waren wir in einem Raum, eine Art Thronsaal, bei dem die
 Wände mit Dämonen, dunklen Schatten mit Augen und anderen bösen
 Bemalungen verziert waren. Der große Thron, welcher auf einer Plattform
 stand, war flankiert von rauchenden Feuerschalen.
@@ -110,38 +109,38 @@ uns jedoch nicht beachteten.
 <a id="p51"></a>
 
 Gegenüber von dem Thron war ein Tor, welches mit einem mit Scheusalen
-verzierten Fallgitter ausgestattet war und dort hinter herrschte absolute
+verzierten Fallgitter ausgestattet war und dahinter herrschte absolute
 Dunkelheit. Dies war nach Aussage von Reißer die andere Seite des Eingangs,
 welchen die Hobgoblins nicht nehmen sollten.
 
 Reißer ging nun in die Unterkünfte der Hobgoblins und rief uns nach kurzer Zeit
 herein.
 
-in dem Raum waren vier weitere Hobgoblins, welche wir jedoch nicht mit
-unserer Scharade behelligen wollten, wir wollten diese lieber überzeugen mit
-uns zusammen zu kämpfen.
+In dem Raum waren vier weitere Hobgoblins, welche wir jedoch nicht mit
+unserer Scharade behelligen wollten, wir wollten diese lieber überzeugen, mit
+uns zusammenzukämpfen.
 
 Wir versprachen den Hobgoblins sechs Gold pro Zehntag, was ein Gold mehr
 war, als sie bisher verdienten, und einen Bonus von zehn Goldmünzen pro
-Erleuteten den sie umbrächten.
+Erleuchteten, den sie umbrächten.
 
 Dieses Angebot schien gerecht, denn sie schlugen ein und stellten sich als
 **Heisser**, **Weisser**, **Schmeisser** und **Schleifer** vor.
-Wir sagten ihnen noch, dass sie Malvent am besten am Leben lassen sollten,
+Wir sagten ihnen noch, dass sie Marvent am besten am Leben lassen sollten,
 der Rest jedoch getötet werden könne und gingen dann in Richtung der Tür, wo
-Reißer Malvent vermutete.
+Reißer Marvent vermutete.
 
 Als ersten trafen wir auf zwei Gegner, irgendwelche Humanoide in
 Plattenrüstung, welche wir auf engstem Raum bekämpfen mussten. Die beiden
-Gegner waren Grundsätzlich leicht zu besiegen, der eine von ihnen rief jedoch
+Gegner waren grundsätzlich leicht zu besiegen, der eine von ihnen rief jedoch
 leider um Hilfe.
 
-Kurz nachdem er um hilfe gerufen hatte, bemerkten wir Geräusche an unserer
+Kurz nachdem er um Hilfe gerufen hatte, bemerkten wir Geräusche an unserer
 rechten Flanke und bereiteten uns auf einen Kampf an zwei Fronten vor.
 
 Basari, welcher an unsere rechte Flanke gegangen war, trat eine Tür, hinter der
-wir die Geräusche vermuteten auf und stach einem ziemlich überraschten
-Erleuteten drei mal in die Brust. Dieser Erleuchtete sagte nur: "Trent, schnapp
+wir die Geräusche vermuteten, auf und stach einem ziemlich überraschten
+Erleuchteten dreimal in die Brust. Dieser Erleuchtete sagte nur: "Trent, schnapp
 sie dir!" und ein Oger in Rüstung mit sehr großer Axt erschien von der Seite und
 traf Basari mit voller Breitseite.
 
@@ -149,44 +148,44 @@ Ich krümmte den Raum um Balgrim, um ihn zu dem Erleuchteten zu
 teleportieren, damit er Basaris Werk vollenden konnte, ob dies gelang, konnte
 ich jedoch nicht sehen, da der Oger im Weg stand.
 
-Während Basari dem Oger mit geübten Ausweichmanövern stand hielt, geschah
+Während Basari dem Oger mit geübten Ausweichmanövern standhielt, geschah
 auch irgendetwas an dem Ort, wo wir zuerst gekämpft hatten.
 
 Ich ging da nun also nachgucken und sah eine Zauberin, welche ich direkt in
 das Sichtfeld aller anderen beförderte, indem ich auch um sie den Raum
 krümmte.
 
-Kurz darauf aktivierte die Zauberin ein Schild, an dem dann auch direkt Bolzen
+Kurz darauf aktivierte die Zauberin einen Schild, an dem dann auch direkt Bolzen
 von Flint und Schwerthiebe der Hobgoblins abprallten.
 
-Im nächten Moment sah ich, wie der Oger einen der Hobgoblins in zwei Hälften
+Im nächsten Moment sah ich, wie der Oger einen der Hobgoblins in zwei Hälften
 spaltete, ich glaube, dass es Schleifer war.
 
 ##### (Spielabend vom 27.10.2022)
-Weisser versuchte den schwer verletzten Basari weg zu reißen, aber Basari war
+Weisser versuchte den schwer verletzten Basari wegzureißen, aber Basari war
 voller Kampfeslust und ließ sich nicht wegziehen.
 
 Im gleichen Moment griffen Pelgri und ich die Zauberin an, was jedoch
 scheinbar nicht viel nützte.
 
 Flint, der nun vor Trent stand, ließ seinen Bogen fallen und zog sein Rapier, um
-in den Nahkampf zu gehen nur um dann festzustellen, dass Trent von dem
+in den Nahkampf zu gehen, nur um dann festzustellen, dass Trent von dem
 Priester zu sich gerufen wurde. Balgrim schien dem Priester ordentlich Druck
 zu machen.
 
-Flint und zwei der Hobgoblins setzten Trent nach und das war das letzte was
+Flint und zwei der Hobgoblins setzten Trent nach und das war das Letzte, was
 ich sah, bevor ich von einer Magie der Zauberin erfasst wurde.
 
 Plötzlich stand ich auf einem Plateau inmitten einer Wüste. Die Zauberin schien
-mich zurück nach Ferûn verbannt zu haben.
+mich zurück nach Faerûn verbannt zu haben.
 
 Da ich wusste, dass diese Verbannung im besten Fall maximal eine Minute
 anhalten würde, trat ich nur einmal gegen den Sand, da ich nun möglicherweise
-den ganzen Kampf verpassen würde und setzte mich dann, um ein wenig mit
+den ganzen Kampf verpassen würde, und setzte mich dann, um ein wenig mit
 Hutbert zu plaudern und eine meiner Rationen zu verspeisen.
 
 Hutbert sagte, dass er gespannt wäre, was wir vorfinden würden, wenn wir
-wieder zurück kämen. Außerdem bat er darum, dass ich einen Turban umbinde,
+wieder zurückkämen. Außerdem bat er darum, dass ich einen Turban umbinde,
 da die Sonne sehr heiß ist.
 
 Als ich dann nach gut einer Minute wieder auftauchte, sah ich, dass es Weisser
@@ -196,7 +195,7 @@ Beim Umgucken fiel mir dann noch Schmeisser auf, der am Boden lag und noch
 rauchte, scheinbar hatte ihn starke Hitze dahingerafft.
 
 Der Rest meiner Truppe war Gott sei Dank noch am Leben, wobei Basari
-scheinbar Bewusstlos war.
+scheinbar bewusstlos war.
 
 Ich heilte Basari nun schnell mit einem heilenden Wort, worauf er sein
 Bewusstsein wiedererlangte.
@@ -205,17 +204,17 @@ Basari erzählte uns, dass die Zauberin beziehungsweise die Hexe einen Blitz
 auf ihn abgefeuert hatte und er dachte, dass es das nun mit ihm war.
 Pelgri zeigte mir noch eine Energiewand, hinter der sich die Hexe befinden soll.
 Diese Energiewand schien jedoch weder mit Magie noch mit Waffen zu
-durchdringen sein.
+durchdringen zu sein.
 
-Wir entschieden uns in den Raum des Priesters zu gehen, um dort kurz zu
+Wir entschieden uns, in den Raum des Priesters zu gehen, um dort kurz zu
 verschnaufen.
 
 Den Oger legten wir als Barrikade vor die Tür und stellten von innen noch einen
-Tisch dort gegen.
+Tisch dagegen.
 
-Ich stimmte ein Lied der Erholung an und als sich alle soweit beruhigt hatten
-oder eingeschlafen waren, hörte ich auf und fing an den Sekretär, der dort
-Stand zu durchsuchen.
+Ich stimmte ein Lied der Erholung an und als sich alle so weit beruhigt hatten
+oder eingeschlafen waren, hörte ich auf und fing an, den Sekretär, der dort
+stand, zu durchsuchen.
 
 Ich fand vier kleine Tränke in eisernen Phiolen, welche geruchlos waren.
 
@@ -235,63 +234,63 @@ Lykanthropen angebetet wird.
 > wilde Jagden, die Verbreitung des Fluchs der Lykanthropie und die allgemeine
 > Verachtung der Zivilisation. Er ist ein Exarch von Silvanus.
 
-Ich setzte mich zu Balgrim, da der Rest schlief oder ruhte und teilte eine Ration
+Ich setzte mich zu Balgrim, da der Rest schlief oder ruhte, und teilte eine Ration
 Trockenfleisch mit ihm.
 
 Nach einigen Augenblicken hörte Balgrim irgendetwas vor der Tür und Flint ging
-hin und horchte. Er hörte gerede, dass irgendwer uns aus dem Raum
+hin und horchte. Er hörte Gerede, dass irgendwer uns aus dem Raum
 rausbringen wollte.
 
-Wir weckten alle und löschten die Fackeln im Raum. Die meisten von uns gegen
-nun weiter nach hinten in den Raum um nicht direkt vor der Tür zu stehen.
+Wir weckten alle und löschten die Fackeln im Raum. Die meisten von uns gingen
+nun weiter nach hinten in den Raum, um nicht direkt vor der Tür zu stehen.
 
 Da ich nun direkt neben einer Kiste stand, guckte ich da noch schnell rein, ob
-dort vielleicht etwas nützliches drin war.
+dort vielleicht etwas Nützliches drin war.
 
 Es waren nur drei Beutel mit Geld drinnen, was nicht nützlich war, ich aber
 dennoch einsteckte.
 
-Nach wenigen weiteren Augenblicken hörten wir eine Stimme, die uns befahl
+Nach wenigen weiteren Augenblicken hörten wir eine Stimme, die uns befahl,
 uns zu ergeben.
 
-Wir erwiderten gar nichts, woraufhin wir jemanden rufen hörten: Haltet die
+Wir erwiderten gar nichts, woraufhin wir jemanden rufen hörten: "Haltet die
 Schilde hoch!" und im nächsten Moment flog Alchimistenfeuer bei uns in den
 Raum.
 
 ##### Der schurkische Mönch
 Ich hatte nun schon seit einigen Wochen das Gefühl, dass ich vieles aus
-meinem mönchischem Leben vergaß, bei diesem Kampf ist mir dann einmal
+meinem mönchischen Leben vergaß, bei diesem Kampf ist mir dann einmal
 mehr aufgefallen, dass ich mich nicht mehr wie ein Mönch bewegte.
 
 Ich hatte aber nicht nur Dinge vergessen, ich habe auch Dinge gelernt. Ich habe
 zum Beispiel von Flint viel über das Schleichen gelernt und durch meine
-Abendlichen versuche auf den Tavernenstuben mein eigenes Schloss zu
-knacken habe ich auch da drüber viel gelernt. Einige würden das vielleicht als
-Wandel zum Schurkentum sehen, ich jedoch sehe es als hinzugewinn von
+abendlichen Versuche auf den Tavernenstuben mein eigenes Schloss zu
+knacken, habe ich auch darüber viel gelernt. Einige würden das vielleicht als
+Wandel zum Schurkentum sehen, ich jedoch sehe es als Hinzugewinn von
 nützlichen Fähigkeiten.
 
 ##### (Spielabend vom 08.11.2022)
 
 Pelgri sprang kurzerhand zu uns rüber, um nicht durch das Feuer von uns
 getrennt zu werden. Dies erwies sich als klug, denn kurz darauf flog noch eine
-Flasche Alchimistenfeuer in den Raum hinein, und landete zwischen Pelgris
+Flasche Alchimistenfeuer in den Raum hinein und landete zwischen Pelgris
 alter Position und uns.
 
-Ich versuchte mit Flints Hilfe den Vorhang herunter zu reißen, wir schafften es
+Ich versuchte, mit Flints Hilfe den Vorhang herunterzureißen, wir schafften es
 aber nur, weil Basari uns zur Hilfe kam. Wir zogen den Vorhang über das Feuer
 und liefen darauf herum, wodurch das erste Feuer erstickte.
 
-Pelgri und Balgrim nahmen sich uns zum Vorbild und so gleich schnitt Pelgri
-den Vorhang ein, woraufhin es für Balgrim ein leichtes war, den Vorhang
+Pelgri und Balgrim nahmen sich uns zum Vorbild und sogleich schnitt Pelgri
+den Vorhang ein, woraufhin es für Balgrim ein Leichtes war, den Vorhang
 abzureißen.
 
 Zusammen erstickten wir alle Feuer bei uns im Raum.
 
-Nachdem das Problem mit dem Feuer gelöst war, entschied sich Pelgri auf die
-andere Seite von dem Oger einmal nachzusehen, wie viele Feind dort sind.
+Nachdem das Problem mit dem Feuer gelöst war, entschied sich Pelgri, auf die
+andere Seite von dem Oger einmal nachzusehen, wie viele Feinde dort sind.
 
 Als er an mir vorbeilief, machte ich ihn noch unsichtbar, wodurch er nicht nur
-spähen, sonder richtig nachschauen konnte.
+spähen, sondern richtig nachschauen konnte.
 
 Scheinbar wurde er beim Klettern nicht entdeckt, denn wir hörten weiter nichts,
 aber wir machten dennoch etwas Lärm bei uns im Raum, um es ihm einfacher
@@ -301,7 +300,7 @@ Als Pelgri wieder da war, sagte er uns, dass er einen Knochenteufel gesehen
 hat, so einen hatten Flint und ich bereits schon einmal in Dolchfall gesehen und
 wir konnten nur knapp entkommen.
 
-Wir versuchten erst den toten Oger zu schieben, um uns ein wenig Raum zu
+Wir versuchten erst, den toten Oger zu schieben, um uns ein wenig Raum zu
 geben, was jedoch nicht wirklich funktionierte.
 
 Nachdem ich ein kurzes Wortgefecht mit einer Wache hatte, bei der ich diese
@@ -311,7 +310,7 @@ schien sich der Knochenteufel hinter uns teleportiert zu haben.
 <a id="p53"></a>
 
 Wir versuchten erst zu entkommen, und Balgrim rutschte über den Oger und
-stieß beide Wachen um, um den Weg für den Rest frei zu machen. Ich sprang
+stieß beide Wachen um, um den Weg für den Rest freizumachen. Ich sprang
 auch direkt über den Oger und positionierte mich hinter den beiden
 umgestoßenen Wachen.
 
@@ -324,32 +323,32 @@ Leider wurde aus dem Abhauen nichts, denn Pelgri wurde von dem
 Knochenteufel auf die Bretter geschickt. Glücklicherweise konnte ich Pelgri
 wieder aufheben und Basari sprang in den Raum zurück.
 
-Nachdem Pelgri noch zwei mal mehr von dem Knochenteufel schwerst verletzt
+Nachdem Pelgri noch zweimal mehr von dem Knochenteufel schwerst verletzt
 wurde und ich fast meine gesamte magische Energie verbraucht hatte, um ihn
 am Leben zu halten, stellte sich Balgrim zwischen den Knochenteufel und
 Pelgri, wodurch dieser erstmal in Sicherheit war, denn durch diese Aktion wurde
 der Knochenteufel wütend auf Balgrim.
 
 Flint und ich kümmerten uns um die vier Wachen auf der Seite vom Oger, wo
-wir waren und Basari und Balgrim lieferten sich ein Gefecht mit dem
+wir waren, und Basari und Balgrim lieferten sich ein Gefecht mit dem
 Knochenteufel.
 
-An einer Stelle wurde es denn noch brenzlig, denn Basari bekam einen
+An einer Stelle wurde es dann noch brenzlig, denn Basari bekam einen
 Zufallstreffer vom Knochenteufel ab, der ihn beinahe dahinraffte.
 
 Glücklicherweise konnte ich durch meine Perle der Macht noch gerade so
 genug Magie kanalisieren, um Basaris Wunden zu schließen. Kurz darauf
 schickte Balgrim den Knochenteufel mit zwei mega brutalen Schlägen zurück in
-die neun Höllen.
+die Neun Höllen.
 
 Flint und ich hatten zu der Zeit schon zwei Wachen erledigt und die anderen
 beiden waren dann mit der Hilfe von Balgrim nicht mehr der Rede wert.
 
-Um zu erkunden, ob wir nun etwas ruhe hätten, verkleidete ich mich selbst als
+Um zu erkunden, ob wir nun etwas Ruhe hätten, verkleidete ich mich selbst als
 Wache und guckte in den angrenzenden Räumen, ob jemand dort sei.
 
 Ich ging zunächst in den Raum, der vorher noch durch die magische Barriere
-geschützt war und sah vorher niemanden. Das einzige, was in dem Raum war,
+geschützt war, und sah niemanden. Das Einzige, was in dem Raum war, war
 ein Tisch, auf dem drei kleine Säckchen lagen und ein Regal, in dem
 mindestens 50 Bücher standen.
 
@@ -363,13 +362,13 @@ Das Nächste, was ich sah, war Pelgri, welcher mir Heilung schenkte.
 Flint guckte sich dann die Tür an und erkannte einen Auslöser, wusste aber
 nicht, ob man diesen abschalten kann.
 
-Pelgri versuchte die Tür mittels einer Magischen Hand zu öffnen, scheiterte
+Pelgri versuchte, die Tür mittels einer Magischen Hand zu öffnen, scheiterte
 aber daran, dass die Tür verschlossen zu sein schien.
 
 Wir ließen die Tür erstmal in Ruhe und schauten den Rest des Raumes an.
 
 Flint guckte sich die drei Beutel von außen an und vermutete im ersten Münzen,
-im zweiten Perlen oder ähnliches und im dritten Pergamente.
+im zweiten Perlen oder Ähnliches und im dritten Pergamente.
 
 Nachdem Flint dies mit uns geteilt hatte, ging Pelgri zu dem Beutel mit den
 Münzen und kippte diesen aus. Es waren Platinmünzen.
@@ -378,7 +377,7 @@ Während Pelgri und Flint an den Beuteln waren, suchte ich im Regal, ob ich
 etwas Ungewöhnliches finde.
 Und siehe da: Tatsächlich fand ich einen geheimen Buchschalter.
 
-Flint machte den beutel mit den Pergamentblättern auf und las vor:
+Flint machte den Beutel mit den Pergamentblättern auf und las vor:
 
 "Liebe Imogen,
 
@@ -404,24 +403,23 @@ Nachdem ich sicher war, dass die Kiste nicht durch Fallen gesichert war,
 öffnete ich sie und fand ein Fläschchen mit einer Flüssigkeit und einen Stab,
 dessen Holz komplett weiß gefärbt wurde.
 
-Um die Tür zu öffnen, versuchte ich mir ein Diebeswerkzeug aus
+Um die Tür zu öffnen, versuchte ich, mir ein Diebeswerkzeug aus
 Alltagsgegenständen zu basteln.
 
-Flint sah scheinbar, wie ich meine Dinge auf dem Boden ausbreitete und kam zu
+Flint sah scheinbar, wie ich meine Dinge auf dem Boden ausbreitete, und kam zu
 mir herüber, um mir ein echtes Diebeswerkzeug zu geben.
 
 Etwas verwundert, dass er eins hat, nahm ich es und öffnete die Tür.
 
-Im selben Moment, wo ich die Tür entriegelt hatte, rief Pelgri "HEUREKA!" denn,
+Im selben Moment, wo ich die Tür entriegelt hatte, rief Pelgri "HEUREKA!", denn,
 wie sich herausstellte, hatte er eines der Fläschchen identifiziert, es war ein Öl
 der Elementarimmunität.
 
-Flint ging nun durch die soeben entriegelte Tür, um ersteinmal leise rein zu
-gucken.
+Flint ging nun durch die soeben entriegelte Tür, um erst einmal leise reinzugucken.
 Die Luft war rein und es befand sich eine große Truhe in diesem Raum.
 
 Diese Truhe schaffte Flint unter meiner Anleitung zu öffnen und wir fanden eine
-hölzerne Form mit sehr vielen Münzen. darunter fanden wir einen
+hölzerne Form mit sehr vielen Münzen. Darunter fanden wir einen
 Sechsplatzständer mit vier Phiolen, eine sauber zusammengerollte Schriftrolle
 und ein Buch.
 
@@ -432,7 +430,7 @@ Magierfrau, der wir zuvor begegnet waren.
 
 Bei der Schriftrolle handelte es sich um eine Schutzrolle gegen Elementare,
 eine Schutzrolle aus uralten Zeiten und von solcher Macht, dass jeder sie lesen
-kann. Sie schützt vor jeglichen Elemementarangriffen. Ich steckte sie ein.
+kann. Sie schützt vor jeglichen Elementarangriffen. Ich steckte sie ein.
 
 Die Phiolen gaben wir zu Pelgri, damit dieser sie in einem ruhigen Moment
 identifizieren kann.
@@ -441,10 +439,10 @@ In dem Raum war außerdem noch eine Falltür, welche Flint sogleich
 untersuchen wollte.
 
 Flint kletterte hinab und kam nach einiger Zeit wieder hinauf. Er sagte, dass
-dort unten ein in Stein gehauner Gang ist, der nach Norden führt. Es sei jedoch
-sehr heißt dort unten.
+dort unten ein in Stein gehauener Gang ist, der nach Norden führt. Es sei jedoch
+sehr heiß dort unten.
 
-Wir entschieden uns den von mir gefundenen Geheimgang noch zu erkunden.
+Wir entschieden uns, den von mir gefundenen Geheimgang noch zu erkunden.
 
 Dieser führte in einen festlich gestalteten Tempel, welcher im Gegensatz zum
 Rest dieser Festung in sehr hellem Licht gehalten und außerdem unnatürlich
@@ -454,14 +452,14 @@ Es lagen dort viele Kissen für etwaige Audienzteilnehmer bereit und wir sahen
 einen alten und einen jungen Mann an dem Altar und zwei Wachen an der
 regulären Eingangstür.
 
-Da wir alle noch ziemlich angeschlagen waren, entschieden wir uns in den
+Da wir alle noch ziemlich angeschlagen waren, entschieden wir uns, in den
 Schlafraum der toten Hobgoblins zu gehen, da wir vermuteten, dass dieser
-Leer war.
+leer war.
 
-Auf dem Weg zu dem Schlafraum, bemerkten wir Schritte auf den Stufen,
+Auf dem Weg zu dem Schlafraum bemerkten wir Schritte auf den Stufen,
 weshalb wir uns beeilten.
 
-Angekommen in dem Raum stellten wir die Betten so auf, dass wir uns darunter
+Angekommen in dem Raum, stellten wir die Betten so auf, dass wir uns darunter
 verstecken konnten.
 
 Gerade fertig kamen auch schon Wachen zu uns in den Raum.
@@ -472,14 +470,14 @@ Nachdem unser Raum verlassen wurde, hörten wir eine Frauenstimme vor der
 Tür einige Worte mit den Wachen wechseln. Leider verstanden wir nichts von
 dem, was die Frau, vermutlich die Magierin, sagte.
 
-Nach einigen Minuten kehrte Ruhe ein und wir entschieden uns noch eine Weile
-so wie wir sind zu verharren und uns dabei etwas auszuruhen.
+Nach einigen Minuten kehrte Ruhe ein und wir entschieden uns, noch eine Weile
+so, wie wir sind, zu verharren und uns dabei etwas auszuruhen.
 
 Pelgri ließ in der Zeit ein Buch herumgehen, in dem wir alle unterschreiben
 sollten. Er sagte uns, dass einer von uns dadurch vor dem Tod bewahrt werden
 könne.
 
-Nach dem Ausruhen, fragte ich Pelgri ob er den weißen Stab identifizieren
+Nach dem Ausruhen fragte ich Pelgri, ob er den weißen Stab identifizieren
 könne, den ich gefunden hatte, was er sogleich tat.
 
 Es war ein Stab der Illusionen.
@@ -491,10 +489,10 @@ spiegelte, sodass die Wachen uns nicht sehen konnten, als wir in Richtung des
 Raums mit der magischen Dunkelheit gingen.
 
 Dort angekommen, nahmen wir uns alle an die Hand und Pelgri führte uns, denn
-dieser kann durch magische Dunkelheit hindurch sehen.
+dieser kann durch magische Dunkelheit hindurchsehen.
 
 Nach einem kurzen Stück hielten wir an und Pelgri sagte uns, dass ihm zwei
-große Dämonenstatuen in der Mitte des Gangs Angst. Er schlug vor, dass wir
+große Dämonenstatuen in der Mitte des Gangs Angst machten. Er schlug vor, dass wir
 rennen sollten und wir taten dies.
 
 Wir hörten ein Klacken und eine unglaublich laute Stimme sagte uns: "DU
@@ -504,12 +502,12 @@ HAST. TRITT VOR IN DIE HALLE DER GERECHTIGKEIT."
 Eine Wache sah uns daraufhin und schrie: "EINDRINGLINGE! TÖTET SIE!"
 
 Pelgri antwortete: "Wir sind Ausdringlinge, ihr Idioten!", was mich selbst in
-dieser Situation ein wenig zum schmunzeln brachte.
+dieser Situation ein wenig zum Schmunzeln brachte.
 
-Wir mussten uns nun durch etliche Wache kämpfen, um zum Portal zu kommen.
+Wir mussten uns nun durch etliche Wachen kämpfen, um zum Portal zu kommen.
 
-Dort angekommen berührte Pelgri das Portal, worauf es sich öffnete.
+Dort angekommen, berührte Pelgri das Portal, worauf es sich öffnete.
 
-Wir rannten alle durch das Portal und sobald alle durch waren, rufte ich Pelgri
-zu, dass er sich schnellstmöglich vom Portal entfernene soll, damit es sich
+Wir rannten alle durch das Portal und sobald alle durch waren, rief ich Pelgri
+zu, dass er sich schnellstmöglich vom Portal entfernen soll, damit es sich
 schloss.

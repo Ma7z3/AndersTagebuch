@@ -30,7 +30,7 @@ schließlich tatsächlich.
 
 Dann befestigten wir ein Seil am Geröll und ließen uns langsam hinab.
 
-Als wir unten waren, sahen wir etwas beunruhigendes:
+Als wir unten waren, sahen wir etwas Beunruhigendes:
 
 Silbrig glänzende Eisengolems, riesig, bewaffnet mit gewaltigen Äxten. Aus
 ihren Helmen drang ein unnatürliches Leuchten.
@@ -44,7 +44,7 @@ vierundzwanzig Ambosse. Werkzeugständer reihten sich aneinander; manche
 noch vollständig erhalten, andere längst zerfallen.
 
 Ich rief laut:
-„Wir suchen Toguna Barrenbieger!“
+„Wir suchen Thoguna Barrenbieger!“
 
 Und tatsächlich reagierten die Golems.
 
@@ -148,11 +148,11 @@ zu einer Vermutung:
 5. Gold
 6. Meteoriteneisen
 
-Nach einer Rücksprache mit Erwiderung riet er uns erneut in die Krypta zu den
-Geistern zu gehen, was wir such taten.
+Nach einer Rücksprache mit Erwiderung riet er uns, erneut in die Krypta zu den
+Geistern zu gehen, was wir auch taten.
 
 Dort erfuhren wir etwas Wichtiges:
-Die Golems werden offenbar durch den Helm des Schmiedemeisters Toguna
+Die Golems werden offenbar durch den Helm des Schmiedemeisters Thoguna
 kontrolliert.
 
 Außerdem wurde uns eingeschärft, dort unten keinerlei Tränke zu öffnen. Die
@@ -163,7 +163,7 @@ das wir benötigen könnten, um Tethyamar wiederauferstehen zu lassen.
 Gleichzeitig besteht die Möglichkeit, dass Gothil ebenfalls danach sucht. Falls
 das stimmt, könnten wir uns damit endgültig zur Zielscheibe machen.
 
-Wir überlegten schließlich, die Überreste von Toguna selbst aus der Schmiede
+Wir überlegten schließlich, die Überreste von Thoguna selbst aus der Schmiede
 zu holen. Vielleicht könnte sein Geist uns sagen, wo sich sein Helm befindet.
 
 Ich erwähnte das Rätsel gegenüber Jolgrun Ambossarm. Er betrachtete das
@@ -180,13 +180,13 @@ Doch zuerst, so meinte er, sollten wir den Schmiedemeister zu ihnen bringen.
 Also pausierten wir kurz, sammelten unsere Kräfte – und machten uns erneut
 auf den Weg zurück zur Schmiede.
 
-##### (Spielabend vom 15.06.2026
+##### (Spielabend vom 15.06.2026)
 
 Wir standen noch immer oberhalb der Schmiede und blickten auf den Thron
-hinab, auf dem das Skelett von Toguna Barrenbieger seit Jahrhunderten
+hinab, auf dem das Skelett von Thoguna Barrenbieger seit Jahrhunderten
 ausgeharrt hatte.
 
-Flint wollte hinunter schleichen und die Gebeine bergen. Ich hatte jedoch
+Flint wollte hinunterschleichen und die Gebeine bergen. Ich hatte jedoch
 gewisse Zweifel daran, ob selbst ein Zwerg in der Lage wäre, samt Skelett und
 Ausrüstung unbeschadet wieder hochzuklettern. Also kletterte Flint erst einmal
 zurück nach oben, um einen Trank der Feuerriesenstärke zu trinken.
@@ -208,7 +208,7 @@ Erst dachte ich, er hätte die Nerven verloren.
 Doch dann erkannte ich, dass er den Helm gefunden hatte, nach dem wir
 gesucht hatten.
 
-Kurz darauf ging er erneut zum Thron, wuchtete das Skelett von Toguna
+Kurz darauf ging er erneut zum Thron, wuchtete das Skelett von Thoguna
 Barrenbieger auf seine Schultern und machte sich auf den Rückweg.
 
 Ich glaube, in diesem Moment war Flint stärker als sein eigenes Körpergewicht
@@ -231,9 +231,9 @@ Aber ich wäre euch dankbar, wenn ihr eine unbenutzte Gruft sucht und seine
 Gebeine so platziert, wie es von Natur aus gehört.“
 
 Das taten wir.
-Kaum hatten wir Toguna niedergelegt, erschien ein weiterer Geist.
+Kaum hatten wir Thoguna niedergelegt, erschien ein weiterer Geist.
 
-Toguna Barrenbieger.
+Thoguna Barrenbieger.
 
 Er klopfte sich den Staub von einer Rüstung, die längst nicht mehr existierte,
 blickte uns ernst an und verbeugte sich tief.
@@ -252,7 +252,7 @@ diesen Ort wiederfindet.“
 
 Dann hob er den Helm.
 
-„Ich gestatte euch, meinen Helm an euch zu binden und gewähre euch freien
+„Ich gestatte euch, meinen Helm an euch zu binden, und gewähre euch freien
 Zugang zur Schmiede.“
 
 Er erklärte uns, dass der Helm die Golems kontrollieren könne. Dass er Magie in
@@ -267,7 +267,7 @@ Nun gut.
 
 Ich bin auch kein besonders guter Würfelspieler und versuche es trotzdem.
 
-Toguna erklärte weiter, dass wir lediglich die Materialien vorbereiten müssten.
+Thoguna erklärte weiter, dass wir lediglich die Materialien vorbereiten müssten.
 Die Schmiede selbst würde den Rest erledigen.
 
 Der Schlüssel würde ein bis zwei Stunden zum Abkühlen brauchen.
@@ -278,7 +278,7 @@ Und dieser Kern sei instabil.
 
 Ich beschloss, über diese Aussage erst morgen nachzudenken.
 
-„Dumathoin sei mit euch“, sagte Toguna schließlich.
+„Dumathoin sei mit euch“, sagte Thoguna schließlich.
 
 Dann verschwand er.
 
@@ -312,7 +312,7 @@ Aber offenbar nur sehr schlecht aufheben.
 
 Nachdem Flint erwacht war, kehrten wir in die Schmiede zurück.
 
-Ich fragte ihn, ob er mir erlauben könne zu zaubern.
+Ich fragte ihn, ob er mir erlauben könne, zu zaubern.
 
 Das funktionierte zunächst nicht.
 
@@ -412,7 +412,7 @@ Nur einer war leer.
 
 Adamant.
 
-Und weil dort nichts lag, war mir sofort klar, was hinein gehörte.
+Und weil dort nichts lag, war mir sofort klar, was hineingehörte.
 
 Manchmal ist Forschung erstaunlich einfach.
 
@@ -471,7 +471,7 @@ Meine Magie floss wieder.
 
 Frei.
 
-Zum ersten Mal seit wir hier unten sind.
+Zum ersten Mal, seit wir hier unten sind.
 
 Ich nahm einen der Schmiedebehälter und wirkte Wasser erschaffen.
 
@@ -693,8 +693,8 @@ Die Krone fliegt, der Abgrund gähnt, wer nach der falschen Höhe sehnt.
 Sag uns das Wort, das uns band, um zu beschützen dieses Land.
 Was gaben wir den Herren der Luft, bevor sie sanken in die Gruft?"
 
-Flint löste das Rätsel zunächst nicht, aber er tat etwas viel besseres: Er
-schaffte es uns aus der Trance zu hole.
+Flint löste das Rätsel zunächst nicht, aber er tat etwas viel Besseres: Er
+schaffte es, uns aus der Trance zu holen.
 
 Gemeinsam lösten wir dann das Rätsel.
 
@@ -726,10 +726,8 @@ Sondern wegen ihrer natürlichen Widerstandskraft gegen Magie.
 
 Ich bat Flint, seinen Zahn zu benutzen.
 
-Kurz darauf berichtete er, dass obwohl wir wussten, dass in der Ätherebene
-alles farblos war,
-
-War das Zepter dies nicht.
+Kurz darauf berichtete Flint, dass das Zepter – anders als alles andere in der
+farblosen Ätherebene – seine Farbe behielt.
 
 Es leuchtete wie ein Leuchtfeuer.
 
@@ -797,14 +795,14 @@ Ich ging nun wieder Richtung Ausgang, doch bevor ich den Gang verlassen
 konnte, packte mich das Skelett der Zwergenkriegerin am Knöchel.
 
 Nach einem kurzen Schockmoment, in dem Ser Ayne und Flint mir nicht
-glauben wollten, kam Ser Ayne kam auf die einzig logische Erklärung.
+glauben wollten, kam Ser Ayne auf die einzig logische Erklärung.
 
 „Die müssen wir mitnehmen.“
 
 Natürlich.
 
-Die Tür, gegen die Ser Ayne vorhin gegen geknallt war, öffnete ich mit einem
-Kopfzauber... ich wollte einfach, dass es schnell geht.
+Die Tür, gegen die Ser Ayne vorhin gegengeknallt war, öffnete ich mit einem
+Klopfzauber... ich wollte einfach, dass es schnell geht.
 
 Dahinter befand sich tatsächlich die Waffenkammer.
 
@@ -829,7 +827,7 @@ Mich ließ sie inzwischen völlig unbehelligt.
 
 ---
 
-Ob es mein Heiliges Symbol, Selûne selbst oder die Essenz des Zwilichts war,
+Ob es mein heiliges Symbol, Selûne selbst oder die Essenz des Zwielichts war,
 wusste ich jedoch nicht.
 
 ---

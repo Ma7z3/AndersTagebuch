@@ -6,7 +6,7 @@
 
 ##### Ander Holimion beim Schreiben dieses Tagebuches.
 
-##### Dieses Tagebuch wurde von Ander Holimion während seiner Reisen durch Ferûn sowie durch das gesamte Multiversum geschrieben.
+##### Dieses Tagebuch wurde von Ander Holimion während seiner Reisen durch Faerûn sowie durch das gesamte Multiversum geschrieben.
 
 ##### Holimion ist elfisch für Diamanttau.
 ##### Er ist auch unter dem Namen Bruder Tau bekannt.

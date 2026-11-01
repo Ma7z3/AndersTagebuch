@@ -25,7 +25,7 @@ gegeben worden.
 > ![Kloster des aufgehenden Mondes](bilder/pdf-s003-11.png)
 >
 > Das Kloster des aufgehenden Mondes ist ein Kloster am Mondsee am Rande
-> des Galena Gebirges. Das Kloster hat sich der Göttin Selûne verschrieben und
+> des Galena-Gebirges. Das Kloster hat sich der Göttin Selûne verschrieben und
 > ist hauptsächlich ein Ort zum Studieren und weniger ein Ort der Kampfkünste,
 > wobei diese zur Selbstverteidigung praktiziert werden. Nachdem der Hauptteil
 > des Klosters abgebrannt war, hat es Jahre gedauert, das Kloster wieder

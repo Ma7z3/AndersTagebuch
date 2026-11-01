@@ -10,13 +10,13 @@ gingen wir zu einem zweiten Ausgang, durch den ebenfalls Kobolde geflohen
 sind. Über diesem stand in Zwergenrunen: "Diplomatenunterkünfte".
 
 Hier fanden wir ein Tor vor, welches mit verschiedensten seltsamen Symbolen,
-wie spitze Totenköpfe, Äxte und Schwertern, übermalt war.
+wie spitze Totenköpfen, Äxten und Schwertern, übermalt war.
 
-Diese Symbole waren Drakonisch und standen für: "Tod und Verderben allen
+Diese Symbole waren drakonisch und standen für: "Tod und Verderben allen
 Megalotorigto. Fürchtenichts leben hier."
 
 Ser Ayne guckte durch die Tür und sah einen breiten Gang, welcher irgendwann
-nach links abknickte. Wir entschieden uns dort durch zu gehen.
+nach links abknickte. Wir entschieden uns, dort durchzugehen.
 
 Hier wird scheinbar der Unrat hingekippt, denn es stank bestialisch.
 
@@ -24,15 +24,15 @@ Abgesehen von dem Gestank musste dies jedoch einmal ein sehr
 beeindruckender Bau gewesen sein.
 
 Am Ende des Ganges fanden wir eine Halle mit fünf Türen und einem
-Schutthaufen hinter dem teilweise Wände eingestürt waren. Alle fünf Türen
+Schutthaufen, hinter dem teilweise Wände eingestürzt waren. Alle fünf Türen
 waren beschmiert. Immer wieder mit dem Wort Fürchtenichts in verschiedenen
 Schreibweisen: Fürchtenix, Fürchtenüscht, Füchtenichts usw.
 
-Abseits von der Beschmierungen waren die Türen vom ehemaligen Ersteller
+Abseits von den Beschmierungen waren die Türen vom ehemaligen Ersteller
 dieses Baus verschieden verziert.
 * Die eine Tür hatte filigrane Verzierungen, welche an Efeu erinnerten.
 * Die zweite Tür hatte ein ziemlich ramponiertes Schild und zwei gekreuzte
-Schwerter als verzierung.
+Schwerter als Verzierung.
 * Die dritte Tür hatte ein Füllhorn und verschiedene Musikinstrumente darauf.
 * Die vierte und fünfte Tür, welche eine Doppeltür war, waren mit Zahnrädern
 verziert.
@@ -54,7 +54,7 @@ Ser Ayne bejahte.
 
 Ich ging rein und ich stand in einem Raum mit einer fünf bis sechs Meter hohen
 Decke, an die ein Nachthimmel gemalt war. Es wirkte etwas wie die
-Menschenstädte, die wir kannten wie zum Beispiel Baldurs Tor oder Tiefwasser.
+Menschenstädte, die wir kannten, wie zum Beispiel Baldurs Tor oder Tiefwasser.
 
 In der Ecke saß ein drei Meter großes Skelett, welches uns anzustarren schien.
 
@@ -68,8 +68,8 @@ welcher mit glühender Rüstung zu Boden ging.
 Nachdem Flint den zweiten Kobold erledigt hatte, beleidigte uns einer der
 Kobolde auf Drakonisch, woraufhin Ser Ayne ihn köpfte.
 
-Den letzten der vier Kobolde wollte ich zum Reden am leben lassen, weshalbich
-mit meinem Kampfstab auf ihn los ging. Leider prallte dieser an seiner
+Den letzten der vier Kobolde wollte ich zum Reden am Leben lassen, weshalb ich
+mit meinem Kampfstab auf ihn losging. Leider prallte dieser an seiner
 Plattenrüstung ab.
 
 Flint nutzte seine Kraft und formte, wo eben noch sein Bogen war, ebenfalls
@@ -85,26 +85,26 @@ jedoch wusste nicht, wo die beiden etwas sahen, weil ich auch nicht gesehen
 hatte, wohin die beiden geguckt haben.
 
 Wir entschieden uns anzugreifen und ehe wir uns versahen, stolperte Ser Ayne
-über das riesen Skelett und verursachte einen heiden Lärm.
+über das Riesenskelett und verursachte einen Heidenlärm.
 
 Von da an rannten wir los.
 
 Ich rannte tatsächlich zuerst in die falsche Richtung, worauf Flint mich jedoch
-glücklicherweise Frühzeitig hinwies.
+glücklicherweise frühzeitig hinwies.
 
 Wir liefen einen langen Gang hinunter. Die Räume an den Seiten waren leere
-Schlafsäle und am Ende des Ganges sahen wir dann duzende von Kobolden.
+Schlafsäle und am Ende des Ganges sahen wir dann Dutzende von Kobolden.
 
-Flint kam als erstes an und schoss direkt auf die Gegner und verschanzte sich.
+Flint kam als Erster an und schoss direkt auf die Gegner und verschanzte sich.
 
-Ser Ayne kam als nächstes an wirkte zunächst überrascht. Rief dann jedoch
+Ser Ayne kam als Nächster an und wirkte zunächst überrascht. Er rief dann jedoch
 "Lasst eure Waffen fallen!" und einige ließen tatsächlich die Waffen fallen.
-Danach zermetelte Ser Ayne einen Kobold vor sich aufs brutalste, wodurch
+Danach zermetzelte Ser Ayne einen Kobold vor sich aufs Brutalste, wodurch
 nochmal einige Kobolde mehr eingeschüchtert wurden.
 
-Als ich ebenfalls Vorne ankam, sah ich, dass die Kobolde in einer riesigen
+Als ich ebenfalls vorne ankam, sah ich, dass die Kobolde in einer riesigen
 Koboldtraube standen, worin ich meine Chance sah und mit einem Feuerball
-ungefähr einen drittel der Kobolde auslöschte.
+ungefähr ein Drittel der Kobolde auslöschte.
 
 Das fanden die Kobolde gar nicht gut, denn die Bolzen, die zunächst auf Ser
 Ayne flogen, flogen nun auf mich und es trafen mich auch einige Bolzen, welche
@@ -114,7 +114,7 @@ Flint ging noch ein Stück weiter nach vorne, zog sich jedoch direkt wieder
 zurück, weil er scheinbar etwas gesehen hatte.
 
 Ser Ayne ging ebenfalls noch einen Schritt nach vorne und drehte direkt wieder
-um und er riet mir dies ebenfalls zu tun.
+um und er riet mir, dies ebenfalls zu tun.
 
 <a id="p102"></a>
 
@@ -145,7 +145,7 @@ Ich erhitzte ein Stück Metall an der Schnecke, was sie scheinbar jedoch nur
 aggressiv machte, denn im nächsten Moment fiel das Teil von ihr ab und ich
 spürte einen magnetischen Sog auf die Schnecke zu, welchem ich im ersten
 Moment nicht widerstehen konnte. Mit Hutberts Hilfe konnte ich mich im
-zweiten Anlauf aus diesem magnetischen Feld entziehen und schaffte es
+zweiten Anlauf diesem magnetischen Feld entziehen und schaffte es,
 abzuhauen.
 
 Nach wenigen Metern ließ die Schnecke von uns ab und wir gingen zurück zu
@@ -153,14 +153,14 @@ dem gefesselten Kobold.
 
 Wir weckten den Kobold und ich befragte ihn auf Drakonisch.
 
-Ich fragte, verschiedenste Fragen und bekam auch Antworten:
-* Der Clan, dem die Kobolde hier angehörten hieß Fürchtenichts.
-* Der Clan besteht aus vielen Kobolden, auf Frage nach der speziellen Menge
+Ich stellte verschiedenste Fragen und bekam auch Antworten:
+* Der Clan, dem die Kobolde hier angehörten, hieß Fürchtenichts.
+* Der Clan besteht aus vielen Kobolden, auf die Frage nach der speziellen Menge
 wurde nur mit "Legionen" geantwortet.
 * Das Passwort für den anderen Eingang kennt nur der Clanführer, welcher im
 Bürgermeisterhaus den Gang runter hinter der Kneipe wohnt.
 
-Auf die Frage, ob dieser irgendwie speziell aussehen würde, Antwortete der
+Auf die Frage, ob dieser irgendwie speziell aussehen würde, antwortete der
 Kobold nur mit Flapp Flapp. Es hatte sich nach langem Hin und Her
 herausgestellt, dass damit gemeint war, dass der Clanführer Flügel hat. Der
 Name war irgendetwas wie: "Itzatzendun" oder so etwas.
@@ -169,16 +169,16 @@ Ich fragte Flint und Ser Ayne, was wir nun mit dem Kobold machen sollen und
 Ser Ayne wollte ihn eigentlich gerne umbringen, womit ich jedoch nicht
 einverstanden war und Flint hatte auch kein gutes Gewissen dabei.
 
-Nachdem ich gefragt hatte, was der Kobold nun vor hatte, gab ich ihm
+Nachdem ich gefragt hatte, was der Kobold nun vorhatte, gab ich ihm
 tatsächlich noch fünf Goldmünzen und sagte ihm dann "Flapp Flapp dich vom
-Acker" woraufhin er dann verschwand.
+Acker", woraufhin er dann verschwand.
 
 ##### (Spielabend vom 27.01.2025)
 
 Wir überlegten nun, was wir tun sollten und schickten dann Flint vor, welcher
-vorsichtig schleichend los ging.
+vorsichtig schleichend losging.
 
-Als er wieder zurück kam, erzählte er, dass er die Schwertschnecke gesehen
+Als er wieder zurückkam, erzählte er, dass er die Schwertschnecke gesehen
 hatte, wie sie langsam über die toten Kobolde glitt und durch ihren Schleim die
 Rüstungen und Waffen rosten ließ. Diesen Rost aß die Schnecke dann.
 Ansonsten tat sie nichts.
@@ -186,15 +186,15 @@ Ansonsten tat sie nichts.
 Er sagte außerdem, dass die Tür zur Kneipe offen war und sich ein Gang neben
 der Kneipe befand.
 
-Nach langem Diskutieren entscheiden wir uns, dass wir mithilfe eines Zaubers
-von Flint versuchen würden an der Schnecke vorbei zu kommen.
+Nach langem Diskutieren entschieden wir uns, dass wir mithilfe eines Zaubers
+von Flint versuchen würden, an der Schnecke vorbeizukommen.
 
 Als wir den Plan in die Tat umsetzten und uns der Schnecke näherten, streckte
 sie direkt ihre Fühler in unsere Nähe aus und zitterte mit diesen eigenartig.
 
 Offensichtlich konnte sie Metall spüren.
 
-Wir gingen schnell zurück und entschieden uns alle Metallgegenstände in
+Wir gingen schnell zurück und entschieden uns, alle Metallgegenstände in
 unsere beiden Nimmervollen Beutel zu verstauen. Wir taten dies mit ALLEN
 Metallgegenständen, einschließlich Ser Aynes Rüstung. Er sagte, dass er sich
 etwas schutzlos fühlte und dass er hoffe, dass das funktionieren würde.
@@ -202,20 +202,20 @@ etwas schutzlos fühlte und dass er hoffe, dass das funktionieren würde.
 Flint erschuf noch eine wunderschöne Großkeule durch seine Kräfte, die er
 durch den Ewigen Hain bekommen hatte.
 
-Dann machten wir uns auf den Weg zu versuch Nummer 2 und siehe da: Es
-funktionierte und wir konnten an der Kneipe vorbei schleichen in einen
+Dann machten wir uns auf den Weg zu Versuch Nummer 2 und siehe da: Es
+funktionierte und wir konnten an der Kneipe vorbeischleichen in einen
 schmalen Gang.
 
 <a id="p103"></a>
 
-Als wir leise durch diesen Gang gingen, hörten wir plötzlich geräusche von links
+Als wir leise durch diesen Gang gingen, hörten wir plötzlich Geräusche von links
 und als wir dort hinguckten, sahen wir, wie sich der Schutt, welcher dort
 aufgetürmt war, langsam in unsere Richtung bewegte.
 
 Flint schaltete schnell und lief direkt los. Er schaffte es auch ans andere Ende,
-bevor der Schutt auf uns nieder fiel.
+bevor der Schutt auf uns niederfiel.
 
-Ser Ayne und ich waren jedoch leider einen ticken zu langsam und wurden unter
+Ser Ayne und ich waren jedoch leider einen Ticken zu langsam und wurden unter
 dem Schutt begraben.
 
 Wir hörten nur diebisches Gegacker und es schienen Feinde aufzutauchen, die
@@ -225,23 +225,23 @@ Ser Ayne, der wusste, wie ausgelaugt ich war, rief mir zu, dass ich durchhalten
 solle, was mir auch tatsächlich neue Kraft zu geben schien.
 
 Ich hörte Flint, wie er mir zu Hilfe kam, aber selbst zu zweit schafften wir es
-nicht die Steine aus dem Weg zu räumen, weshalb ich mich entschied meinen
+nicht, die Steine aus dem Weg zu räumen, weshalb ich mich entschied, meinen
 Trank der Sturmriesenstärke einzusetzen.
 
 Im gleichen Moment hörte ich, wie ein Geschoss Flint traf, weshalb ich ihm
-sagte, dass ich es schaffen selbst schaffen würde und er lieber zurückschießen
+sagte, dass ich es selbst schaffen würde und er lieber zurückschießen
 sollte, was er offensichtlich auch tat, denn ich hörte kurz darauf mehrere
 Todesschreie.
 
-Ich spürte, wie der Trank anfing zu wirken und Schlug einmal mit voller Kraft
+Ich spürte, wie der Trank anfing zu wirken und schlug einmal mit voller Kraft
 nach oben.
 
-Zu meinem Erstaunen flogen alle Steine, die über mir lagen in den Himmel. Ich
-war wirklich sehr stark! Ich fing ohne nachzudenken an zu Klettern, woraufhin
-Hutbert nur sagte: "Halt dich fest du Idiot!" und direkt losflog.
+Zu meinem Erstaunen flogen alle Steine, die über mir lagen, in den Himmel. Ich
+war wirklich sehr stark! Ich fing ohne nachzudenken an zu klettern, woraufhin
+Hutbert nur sagte: "Halt dich fest, du Idiot!" und direkt losflog.
 
 Oben angekommen sah ich die schiere Anzahl an Gegnern, die Flint gerade in
-diesem Moment schwer unter beschuss nahmen. Glücklicherweise konnte Flint
+diesem Moment schwer unter Beschuss nahmen. Glücklicherweise konnte Flint
 den meisten Bolzen ausweichen.
 
 Ser Ayne schaffte es noch nicht herauszukommen, aber bevor wir helfen
@@ -252,32 +252,32 @@ Wir waren ein kurzes Stück um die Ecke gebogen, um auch die Kobolde dort zu
 erledigen, als wir sie auf Drakonisch rufen hörten: "Sie brechen durch! Macht
 alles bereit!"
 
-Flint und ich Kämpften weiter, während Ser Ayne es endlich schaffte sich zu
+Flint und ich kämpften weiter, während Ser Ayne es endlich schaffte, sich zu
 befreien.
 
 Leider wurde Ser Ayne im selben Moment von neu aufgetauchten Kobolden mit
 Öl beworfen und gleich darauf mit Fackeln, wodurch er Feuer fing.
 
-Nun drehten Flint und ich uns um, um die Kobolde, die Ser Ayne "einheizten" zu
+Nun drehten Flint und ich uns um, um die Kobolde, die Ser Ayne "einheizten", zu
 erledigen.
 
-Schlussendlich schafften wir es alle sichtbaren Kobolde zu erledigen, auch
+Schlussendlich schafften wir es, alle sichtbaren Kobolde zu erledigen, auch
 wenn Ser Ayne dabei mehrfach Feuer fing.
 
 Flint legte mir noch eine heilende Hand auf und wir begaben uns zu einer Tür,
 die nördlich von uns war und damit hoffentlich die beschriebene Tür "hinter der
-Kneipe war, hinter der sich der Clanchef befand.
+Kneipe" war, hinter der sich der Clanchef befand.
 
 ##### (Spielabend vom 31.03.2025)
 
 Wir positionierten uns und öffneten die Tür, woraufhin sich uns ein einst
-prächtigen Menschenhaus auftat, welches jedoch völlig heruntergekommen
+prächtiges Menschenhaus auftat, welches jedoch völlig heruntergekommen
 war.
 
 Direkt vor uns stand nun eine Reihe Kobolde mit Speeren, welche auf uns
 warteten. Sie griffen jedoch nicht direkt an.
 
-Dahinter standen vier geflügelte Kobolde, wovon einer größer war, als alle
+Dahinter standen vier geflügelte Kobolde, wovon einer größer war als alle
 anderen.
 
 In der Ecke stand noch ein kleiner Kobold in kruder Kleidung, welcher ein
@@ -292,34 +292,36 @@ Dieser sagte mir direkt "Passwort" und ich verstand zuerst nicht, dass
 "Passwort" auf Drakonisch das Passwort war.
 
 Als ich es dann verstanden hatte, meldete sich der Kobold in der kruden
-Kleidung zu Wort. Es war der Schamane des Clans und dieser Sprach in relativ
+Kleidung zu Wort. Es war der Schamane des Clans und dieser sprach in relativ
 guter Gemeinsprache zu uns. Er erzählte uns, dass das Koboldportal zu den
 Gebieten eines anderen Clans führen würde: "Dem Schwarzen Tod" und dass
-der Clan der Taugenichtse den Clan des Schwarzen Todes fürchten würde.
+der Clan der Fürchtenichtse den Clan des Schwarzen Todes fürchten würde.
+
+Taugenichtse hätte besser zu ihnen gepasst, dachte ich mir.
 
 Wir bedankten uns, ich verlangte jedoch als Sicherheit, dass einer der Diener
 mitkommen würde. Flapp Flapp befahl einem der Speerträger namens
-Knatzdeng mit uns mitzukommen.
+Knatzdeng, mit uns mitzukommen.
 
 Wir verließen nun den Raum und wir gingen zu einer Tür, wohinter ich eine
 Abkürzung vermutete.
 
 Knatzdeng aber wurde äußerst nervös und sagte, dass hinter dieser Tür der
-Zaubertod auf uns warten würde. Wir entschieden uns dazu unser Glück nicht
+Zaubertod auf uns warten würde. Wir entschieden uns dazu, unser Glück nicht
 herauszufordern und gingen den Weg zurück, den wir gekommen waren.
 
 Als wir bei der Schnecke ankamen, fiel Knatzdeng plötzlich um, wir wussten
 nicht, ob er gerade einen Herzinfarkt bekommen hatte oder schauspielerte, wir
-hatten aber auch keine Zeit es herauszufinden.
+hatten aber auch keine Zeit, es herauszufinden.
 
 Wir gingen nun in den Raum, wo wir den ersten Kobold verhört hatten und
-verbarrikadierten uns dort, um zu Rasten, da wir alle neue Kraft brauchten.
+verbarrikadierten uns dort, um zu rasten, da wir alle neue Kraft brauchten.
 
-Am morgen nutzten wir noch das Horn der Fülle und nahmen ein Heldenmahl zu
+Am Morgen nutzten wir noch das Horn der Fülle und nahmen ein Heldenmahl zu
 uns.
 
 Wir hörten zwar immer wieder Kobolde vor unserer Tür laufen, aber keiner
-versuchte bei uns hinein zu kommen.
+versuchte bei uns hineinzukommen.
 
 Zurück in dem Saal, von wo aus die Türen zu den Unterkünften der Zwerge,
 Halblinge, Menschen und Elfen führten, entschieden wir uns, dass wir nicht
