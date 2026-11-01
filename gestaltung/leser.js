@@ -17,7 +17,7 @@ const plain=s=>s.replace(/<[^>]*>/g,' ').replace(/!\[([^\]]*)\]\([^)]+\)/g,'$1')
 for(const section of sections){
   section.searchText=plain(section.text);
   section.folded=fold(section.searchText);
-  for(const match of section.text.matchAll(/<a id="(p\d+)"><\/a>/g))anchors.set(match[1],section.id);
+  for(const match of section.text.matchAll(/<a id="([a-zA-Z0-9-]+)"><\/a>/g))anchors.set(match[1],section.id);
   let count=0;
   for(const match of section.text.matchAll(/Spielabend vom\s+(\d{2}\.\d{2}\.\d{4})/g)){
     const anchor='abend-'+section.id+'-'+count++;
@@ -86,6 +86,10 @@ function safeMarkdown(text){
       const label=document.createElement('figcaption'),title=document.createElement('span');title.className='caption-title';title.append(...next.childNodes);label.append(title);figure.append(label);next.remove();
     }
   }
+  for(const img of parsed.body.querySelectorAll('img')){
+    const metadata=book.bilder.find(im=>im.datei===img.getAttribute('src'));
+    if(metadata?.gegenstand)img.classList.add('item-image');
+  }
   let count=0;
   for(const heading of parsed.body.querySelectorAll('h1,h2,h3,h4,h5,h6')){
     if(heading.textContent.includes('Spielabend vom')){
@@ -120,7 +124,7 @@ function showSection(section,target){
 
 function showGallery(){
   setActive('bilder');pathLabel.textContent='Das Bildarchiv';document.title='Bildarchiv · Ander Holimion';pager.replaceChildren();
-  content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>Aus dem Buch · Seite ${im.pdf_seiten[0]}</small></button>`).join('')}</div>`;
+  content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>${im.pdf_seiten?.length?`Aus dem Buch · Seite ${im.pdf_seiten[0]}`:'Magische Gegenstände'}</small></button>`).join('')}</div>`;
   window.scrollTo(0,0);
 }
 
@@ -166,7 +170,7 @@ function route(){
 function openImage(item){
   document.querySelector('#grossbild').src=item.datei;
   document.querySelector('#grossbild').alt=item.titel;
-  document.querySelector('#bildtitel').textContent=item.titel+' · Buchseite '+item.pdf_seiten[0];
+  document.querySelector('#bildtitel').textContent=item.titel+(item.pdf_seiten?.length?' · Buchseite '+item.pdf_seiten[0]:'');
   const link=document.querySelector('#bildkapitel');link.hidden=!item.kapitel;
   link.href='#'+(item.kapitel||'titel');dialog.showModal();
 }

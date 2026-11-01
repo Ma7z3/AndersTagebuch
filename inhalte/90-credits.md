@@ -17,7 +17,7 @@ konnten.
 ### Spielleiter
 
 Ein ganz besonderer Dank geht an unseren Spielleiter Heiko Rippel, der das
-erste Szenario für die 5te Edition umgeschrieben und die folgenden Szenarios
+erste Szenario für die 5. Edition umgeschrieben und die folgenden Szenarien
 ebenfalls adaptiert hat.
 
 Außerdem danke ich ihm dafür, dass er es mit uns ausgehalten hat und
@@ -25,8 +25,8 @@ aushält.
 
 ### Bilder
 
-Die meisten Bilder sind vom [Forgotten Ralms Wiki](https://forgottenrealms.fandom.com/wiki/Main_Page) oder dem [deutschsprachigen
-Pendent](https://forgotten-realms.fandom.com/de/wiki/Forgotten_Realms_Wiki).
+Die meisten Bilder sind vom [Forgotten Realms Wiki](https://forgottenrealms.fandom.com/wiki/Main_Page) oder dem [deutschsprachigen
+Pendant](https://forgotten-realms.fandom.com/de/wiki/Forgotten_Realms_Wiki).
 
 Einige Bilder sind auch von unserem Spielleiter selbst erstellt worden, wie
 beispielsweise die Karte der Stadt Dolchfall.

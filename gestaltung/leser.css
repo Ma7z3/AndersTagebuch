@@ -44,3 +44,8 @@
 .toolbar #buchpdf{padding:9px 12px;border-radius:4px;background:var(--wine);color:#fff6e4;white-space:nowrap}
 .nav-modes{flex-wrap:wrap}
 @media(max-width:760px){.toolbar #original{display:none}.toolbar #pfad{max-width:40%}.toolbar #buchpdf{padding:8px 10px}}
+
+/* Gegenstandsbilder passen sich Papier und schmalen Bildschirmen an. */
+.article img.item-image{max-width:min(100%,360px);max-height:340px;margin:18px auto 24px;mix-blend-mode:multiply}
+.gallery-card img{mix-blend-mode:multiply}
+@media(max-width:760px){.article img.item-image{max-height:280px}}

@@ -227,6 +227,11 @@ class BookImage(Image):
 def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,viewport=None):
     path=(ROOT/token['href']).resolve()
     if not path.is_relative_to(ROOT) or not path.is_file():raise FileNotFoundError(token['href'])
+    config=FIGURE_CONFIG.get(token['href'],{})
+    if config.get('gegenstand'):
+        maxheight=config.get('pdf_maxhoehe',150) if maxheight is None else maxheight
+        blend=True
+        viewport=viewport or config.get('pdf_bildausschnitt')
     im=BookImage(str(pdf_image(path)),mask='auto',lazy=0);im.blend_white=blend;im.source_image=token['href']
     maxw=420 if cover else min(width,210)
     maxh=400 if cover else (345 if im.imageHeight>im.imageWidth else 245)
@@ -293,8 +298,10 @@ def group_illustrations(tokens):
             result.append({'type':'illustrated_note','image':im,'note':nxt});i+=2;continue
         if im and nxt.get('type')=='paragraph' and len(nxt.get('tokens',[]))==1 and nxt['tokens'][0]['type']=='em' and 'Farbzeichnung von Ander Holimion' in nxt.get('text',''):
             result.append({'type':'figure','image':im,'heading':nxt,'credit':None});i+=2;continue
-        if t['type']=='heading' and t.get('depth')==4 and i+2<len(ts) and ts[i+1]['type']=='paragraph' and solo(ts[i+2]):
-            j=i+3
+        immediate=t['type']=='heading' and t.get('depth')==4 and i+1<len(ts) and solo(ts[i+1])
+        after_type=t['type']=='heading' and t.get('depth')==4 and i+2<len(ts) and ts[i+1]['type']=='paragraph' and solo(ts[i+2])
+        if immediate or after_type:
+            j=i+(2 if immediate else 3)
             while j<len(ts) and ts[j]['type']!='html' and not (ts[j]['type']=='heading' and ts[j].get('depth',6)<=5):j+=1
             result.append({'type':'illustrated_item','tokens':ts[i:j]});i=j;continue
         result.append(t);i+=1
@@ -422,6 +429,7 @@ def span_illustrations(flows):
 def build_story(book,refmap):
     global FIGURE_CONFIG
     FIGURE_CONFIG={c['bild']:c for c in book.get('bildlegenden',[])}
+    FIGURE_CONFIG.update({im['datei']:im for im in book.get('bilder',[]) if im.get('gegenstand')})
     finished=[s for s in book['abschnitte'] if s['art']!='entwurf']
     story=[];sessions={}
     title=finished[0]

@@ -13,7 +13,7 @@
 | Flint Otani | Waldläufer | Mensch | Auf Abenteuer | [Seite 4](#p4) | / | Marco |
 | Gibligrim Zhuck Gobbelbick Tarkelby | Mönch | Felsengnom | Sucht nach seinem Bruder | [Seite 5](#p5) | [Seite 15](#p15) | Lukas |
 | Pelgri Bogner | Hexenmeister | Halbling | Auf gefährlicher Mission | [Seite 16](#p16) | [Seite 56](#p56) | Lukas |
-| Balgrim | Barbar | Hügelzwerg | Auf Gefährlicher Mission | [Seite 21](#p21) | [Seite 56](#p56) | Simon |
+| Balgrim | Barbar | Hügelzwerg | Auf gefährlicher Mission | [Seite 21](#p21) | [Seite 56](#p56) | Simon |
 | Trakfajar | Barbar | Minotaur | Krank zuhause | [Seite 57](#p57) | [Seite 58](#p58) | Sven |
 | Basari | Gladiator (NSC) | Mensch | NSC | [Seite 58](#p58) | [Seite 60](#p60) | Marius |
 | Ser Ayne Darther | Krieger | Mensch | Auf Abenteuer | [Seite 60](#p60) | / | Marius |
@@ -24,16 +24,16 @@
 | Name | Herrscher | Verbündet? | Zuerst besucht | Weitere Information |
 |:----:|:---------:|:----------:|:--------------:|:-------------------:|
 | Sturmpenhauder | Telimas Traumweber | Ja | [Seite 4](#p4) | Gnomendorf im Spinnenspukwald. |
-| Schattental | Fürst Trauergrimm Amcathra | Ja | [Seite 4](#p4) | Eines der Täler in den Tallanden. Es befindet sich Südlich vom Dolchtal. |
+| Schattental | Fürst Trauergrimm Amcathra | Ja | [Seite 4](#p4) | Eines der Täler in den Tallanden. Es befindet sich südlich vom Dolchtal. |
 | Burg Dolchtal | Randall Morn | Ja | [Seite 6](#p6) | Stützpunkt der Freiheitsreiter. |
-| Ellinar-Hof | Seleca Ellinar | Ja | [Seite 6](#p6) | Schnapsbrenner Hof auf dem Weg zwischen Burg Dolchtal und Dolchfall. |
+| Ellinar-Hof | Seleca Ellinar | Ja | [Seite 6](#p6) | Schnapsbrennerhof auf dem Weg zwischen Burg Dolchtal und Dolchfall. |
 | Dolchfall | Randall Morn | Ja | [Seite 6](#p6) | Hauptstadt von Dolchtal. |
 | Wüste Anauroch | ? | ? | [Seite 29](#p29) | Magische Wüste im Norden von Faerûn, welche entstanden ist, als das Magierreich Netheril gefallen ist. |
 | Tethyamar | Suss Utlu | Ja | [Seite 98](#p98) | Gefallene Stadt aus dem alten Magierreich Netheril. |
 | Sigil | Die Dame der Schmerzen | Nein | [Seite 37](#p37) | Die Stadt der Portale in der Mitte der äußeren Ebenen. |
-| Zitadelle des Feuers | Oma Feen-Bann | Ja | [Seite 49](#p49) | Eine in der Feuerebene verortete Zitadelle, von der aus ein Komplott gegen die Stadt Sigil geschmiedet wurde. Diese wurde jedoch von uns übernommen und an Oma- Feenbann übertragen. |
+| Zitadelle des Feuers | Oma Feen-Bann | Ja | [Seite 49](#p49) | Eine in der Feuerebene verortete Zitadelle, von der aus ein Komplott gegen die Stadt Sigil geschmiedet wurde. Diese wurde jedoch von uns übernommen und an Oma Feen-Bann übertragen. |
 | Messingstadt | Der Großsultan der Ifriti | Ja | [Seite 76](#p76) | Die Hauptstadt der Ifriti, welche sich auf den Feuerebenen befindet und aus dem Aschenpalast heraus von dem Großsultan geführt wird. |
-| Silbrigmond | Der Hochmagier von Silbrigmond - Herrin Alustriel | Ja | [Seite 90](#p90) | Eine Stadt auf Toril, in Ferûn an der Schwertküste in den Silbermarschen |
+| Silbrigmond | Der Hochmagier von Silbrigmond - Herrin Alustriel | Ja | [Seite 90](#p90) | Eine Stadt auf Toril, in Faerûn an der Schwertküste in den Silbermarschen |
 
 <a id="p128"></a>
 
@@ -80,15 +80,15 @@
 | Name | Klasse | Rasse | Funktion | Erstes Treffen | Vermuteter Aufenthaltsort |
 |:----:|:------:|:-----:|:--------:|:--------------:|:-------------------------:|
 | Charles | Krieger | Molydeus | Jäger von abtrünnigen Tanari | [Seite 39](#p39) | unbekannt |
-| Gedramak Eisenfaust | ? | Zwerg | Mitglied des Bundes des Zeichen des Einen | [Seite 40](#p40) | *tot* |
+| Gedramak Eisenfaust | ? | Zwerg | Mitglied des Bundes des Zeichens des Einen | [Seite 40](#p40) | *tot* |
 | Torana | ? | ? | Mitglied des Bundes der Staubmenschen | [Seite 40](#p40) | Leichenhalle von Sigil |
 | Modrigaz | Priester | Mensch | ? | [Seite 41](#p41) | Irgendwo in Sigil |
-| "Schatten" | Magier/Schurke | Elf | ? | [Seite 42](#p42) | nicht mehr Tot, irgendwo in Sigil |
+| "Schatten" | Magier/Schurke | Elf | ? | [Seite 42](#p42) | nicht mehr tot, irgendwo in Sigil |
 | Tylarik Sturmschwinge | ? | Mensch | Mitglied der Gesellschaft der Empfindungen (Sinsat) | [Seite 42](#p42) | Vor dem Hauptquartier der Sinsaten |
 | A'kin | ? | Wolfshumanoider | Besitzer des Ladens "Zum freundlichen Scheusal" | [Seite 43](#p43) | Im freundlichen Scheusal |
 | Dittplanen "Ditt" | ? | Mensch | Verdammniswächter der Schicksalsgarde | [Seite 43](#p43) | Taverne zum Schwarzen Segel |
 | Rodlan | ? | Mensch | Verdammniswächter der Schicksalsgarde | [Seite 43](#p43) | Taverne zum Schwarzen Segel |
-| Eliat | Zauberer | Mensch | Mitglied der Schicksalsgarde | [Seite 44](#p44) | Taverne zum Schwarzen Segel |
+| Eliath | Zauberer | Mensch | Mitglied der Schicksalsgarde | [Seite 44](#p44) | Taverne zum Schwarzen Segel |
 | Fammek | Krieger | Mensch | Hauptmann der Harmonium Wachen | [Seite 45](#p45) | ? |
 | Mab und Simon | Leichensammler | Mensch | Staubmenschen | [Seite 46](#p46) | Im Stock, Sigil |
 | Galena | ? | Mensch | Bundschwester vom Zeichen der Einen | [Seite 46](#p46) | Halle der Sprecher |
@@ -144,8 +144,12 @@
 
 ## Addendum 2: Magische Gegenstände 
 
+<a id="gegenstand-zauberstab-magische-geschosse"></a>
+
 #### Zauberstab der Magischen Geschosse
 *Zauberstab*
+
+![Zauberstab der Magischen Geschosse](bilder/offiziell-zauberstab-magische-geschosse.jpg)
 ___
 - **Kategorie:** Arkaner Gegenstand
 - **Seltenheit:** ungewöhnlich
@@ -154,7 +158,7 @@ ___
 - **Einstimmung:** Nein
 
 Dieser Zauberstab hat 7 Aufladungen. Während er gehalten wird, kannst du
-eine Aktion aufwenden um das Aktivierungsport (Akpelar) zu sagen und eine
+eine Aktion aufwenden, um das Aktivierungswort (Akpelar) zu sagen und eine
 oder mehr Aufladungen zu nutzen, um den Zauber "Magische Geschosse" zu
 wirken. Für eine Aufladung zauberst du den Zauber auf dem ersten Grad. Für
 jede weitere Aufladung, die du ausgibst, kannst du den Zauber um je einen
@@ -164,8 +168,12 @@ Der Zauberstab bekommt zur Morgendämmerung 1W6+1 Aufladungen zurück.
 Wenn du die letzte Aufladung verbrauchst, dann rolle einen W20. Bei einer 1
 zerfällt der Zauberstab zu Staub und ist zerstört.
 
+<a id="gegenstand-unbewegliches-zepter"></a>
+
 #### Unbewegliches Zepter
 *Zepter*
+
+![Unbewegliches Zepter](bilder/offiziell-unbewegliches-zepter.jpg)
 ___
 - **Kategorie:** Arkaner Gegenstand
 - **Seltenheit:** ungewöhnlich
@@ -179,12 +187,16 @@ Position fixiert wird. Bis du oder eine andere Kreatur erneut eine Aktion
 aufwendet, um den Knopf zu drücken, bewegt sich der Stecken nicht, auch
 wenn er der Anziehungskraft ausgesetzt ist. Dieser Stecken kann ein Gewicht
 bis zu 8000 Pfund halten. Bei mehr Gewicht deaktiviert sich der Stecken und
-fällt zu Boden. Eine Kreatur kann eine Aktion verwenden und einen SG 30
+fällt zu Boden. Eine Kreatur kann eine Aktion verwenden, um einen SG 30
 Stärkewurf zu machen, um den Stecken bei einem Erfolg um 10 Fuß zu
 verschieben.
 
+<a id="gegenstand-ring-des-springens"></a>
+
 #### Ring des Springens
 *Ring*
+
+![Ring des Springens](bilder/offiziell-ring-des-springens.png)
 ___
 - **Kategorie:** Schmuck
 - **Seltenheit:** ungewöhnlich
@@ -196,8 +208,12 @@ Wenn du diesen Ring trägst, kannst du den Spruch "Springen" nach Belieben
 als Bonusaktion zaubern. Du kannst jedoch nur dich selbst als Ziel für diesen
 Spruch auswählen.
 
+<a id="gegenstand-hutbert"></a>
+
 #### Hutbert
 *Wundersamer Gegenstand*
+
+![Hutbert](bilder/gegenstand-hutbert.png)
 ___
 - **Kategorie:** Kopfbedeckung
 - **Seltenheit:** Artefakt
@@ -208,7 +224,7 @@ ___
 Dieser Hut hat eine eigene Persönlichkeit.
 
 Wenn du diesen Hut trägst, kannst du das Aktivierungswort "Doahr" sprechen,
-damit Hutbert los fliegt. Alles weitere muss dann mit Hutbert besprochen
+damit Hutbert losfliegt. Alles Weitere muss dann mit Hutbert besprochen
 werden.
 
 Es existiert laut Aussage von Hutbert noch ein zweites Aktivierungswort, dieses
@@ -218,8 +234,12 @@ Hutbert kann Magier-Zaubersprüche lernen. Diese können gezaubert werden,
 indem eine Probe auf Arkane Kunde bestanden wird und ein Zauberplatz des
 entsprechenden Levels genutzt wird.
 
+<a id="gegenstand-ionenstein-schutz"></a>
+
 #### Ionenstein des Schutzes
 *Wundersamer Gegenstand*
+
+![Ionenstein des Schutzes](bilder/gegenstand-ionenstein-schutz.png)
 ___
 - **Kategorie:** Wundersam
 - **Seltenheit:** selten
@@ -230,8 +250,12 @@ ___
 Du erhältst einen +1 Bonus auf deine RK, während dieses staubige rosarote
 Prisma deinen Kopf umkreist.
 
+<a id="gegenstand-schild-talions-mutter"></a>
+
 #### Schild der Mutter von Talion
 *Rüstung (Schild)*
+
+![Schild der Mutter von Talion](bilder/gegenstand-schild-talions-mutter.png)
 ___
 - **RK:** 2
 - **Kategorie:** Schild
@@ -244,8 +268,12 @@ Während du diesen Schild trägst und in größter Not bist, kannst du das
 Aktivierungswort "Marna" (der Name von Talions Mutter) sagen, um einen noch
 unbekannten Effekt hervorzurufen.
 
+<a id="gegenstand-nihilithenzahn"></a>
+
 #### Zahn eines Nihilithen
 *Wundersamer Gegenstand*
+
+![Zahn eines Nihilithen](bilder/gegenstand-nihilithenzahn.png)
 ___
 - **Kategorie:** Wundersam
 - **Seltenheit:** ?
@@ -254,12 +282,16 @@ ___
 - **Einstimmung:** Nein
 
 Wenn du dir diesen großen schwarzen Zahn in den Mund steckst, kannst du in
-die Ätherebene sehen und Teilweise sogar dort hin reisen.
+die Ätherebene sehen und teilweise sogar dorthin reisen.
 
 <a id="p132"></a>
 
+<a id="gegenstand-rabenbrosche"></a>
+
 #### Rabenbrosche
 *Wundersamer Gegenstand*
+
+![Rabenbrosche](bilder/gegenstand-rabenbrosche.png)
 ___
 - **Kategorie:** Schmuck
 - **Seltenheit:** ?
@@ -269,8 +301,12 @@ ___
 
 ?
 
+<a id="gegenstand-ehlonnas-koecher"></a>
+
 #### Ehlonnas Köcher
 *Wundersamer Gegenstand*
+
+![Ehlonnas Köcher](bilder/offiziell-ehlonnas-koecher.jpg)
 ___
 - **Kategorie:** Abenteuerausrüstung
 - **Seltenheit:** ungewöhnlich
@@ -279,18 +315,22 @@ ___
 - **Einstimmung:** Nein
 
 Dieser Köcher hat drei Fächer, welche mit einem extradimensionellen Raum
-verbunden sind. Das kürzeste Fach kann bis zu 60 Pfeile, Bolzen oder ähnliches
+verbunden sind. Das kürzeste Fach kann bis zu 60 Pfeile, Bolzen oder Ähnliches
 halten. Das mittelgroße Fach kann bis zu 18 Wurfspeere oder ähnliche Objekte
 halten und das längste Fach kann bis zu sechs lange Objekte, wie Bögen,
-Kampfstäbe oder Speere halten.
+Kampfstäbe oder Speere, halten.
 
 Der Köcher wiegt nie mehr als zwei Pfund.
 
 Du kannst jeden Gegenstand aus Ehlonnas Köcher ziehen, als ob du etwas aus
 einem normalen Köcher ziehst.
 
+<a id="gegenstand-marrakes-hammer"></a>
+
 #### Hammer von Marrake
 *Waffe (Zweihandhammer)*
+
+![Hammer von Marrake](bilder/gegenstand-marrakes-hammer.png)
 ___
 - **Kategorie:** Waffe
 - **Schaden:** 2W6
@@ -302,10 +342,14 @@ ___
 - **Derzeitiger Besitzer:** Basari
 - **Einstimmung:** Nein
 
-Bei einem kritischen Treffer macht der Hammer statt 4W6, 6W6 Schaden.
+Bei einem kritischen Treffer macht der Hammer statt 4W6 6W6 Schaden.
+
+<a id="gegenstand-schnitzis-schnitzmesser"></a>
 
 #### Schnitzmesser von Schnitzi dem Zwerg
 *Werkzeug (Schnitzmesser)*
+
+![Schnitzmesser von Schnitzi dem Zwerg](bilder/gegenstand-schnitzis-schnitzmesser.png)
 ___
 - **Kategorie:** Werkzeuge
 - **Seltenheit:** Artefakt
@@ -314,12 +358,16 @@ ___
 - **Derzeitiger Besitzer:** Ser Ayne
 - **Einstimmung:** Nein
 
-Dieses Schnitzmesser kann genutzt werden um jegliche Form von Holz zu
-Schnitzen und es scheint so, als würde alte Magie die Hand der Schnitzers
+Dieses Schnitzmesser kann genutzt werden, um jegliche Form von Holz zu
+schnitzen, und es scheint so, als würde alte Magie die Hand des Schnitzers
 führen.
+
+<a id="gegenstand-horn-fuelle"></a>
 
 #### Horn der Fülle
 *Wundersamer Gegenstand*
+
+![Horn der Fülle](bilder/gegenstand-horn-fuelle.png)
 ___
 - **Kategorie:** Wundersam
 - **Seltenheit:** sehr selten
@@ -330,15 +378,19 @@ ___
 Dieses wie ein Widderhorn aussehende Horn kann einmal pro Tag, wenn der
 Aktivierungssatz: "Es ist angerichtet." oder "Zu Tisch." gesprochen wird, eine
 üppige Mahlzeit, welche sich der Tageszeit anpasst, samt Tisch und Stühlen
-beschwören. Die Mahlzeit besteht aus genug Essen und Trinken um zwölf
+beschwören. Die Mahlzeit besteht aus genug Essen und Trinken, um zwölf
 Personen einen ganzen Tag lang zu sättigen. Die Nahrungsmittel sind zehn
 Stunden haltbar.
 
 Wenn eine Stunde am Stück mit dem Essen verbracht wird, treten beim Verzehr
 die Effekte des Zaubers "Heldenmahl" in Kraft.
 
+<a id="gegenstand-nimmervoller-beutel"></a>
+
 #### Nimmervoller Beutel
 *Wundersamer Gegenstand*
+
+![Nimmervoller Beutel](bilder/offiziell-nimmervoller-beutel.jpg)
 ___
 - **Kategorie:** Behälter
 - **Seltenheit:** Ungewöhnlich
@@ -346,12 +398,12 @@ ___
 - **Derzeitiger Besitzer:** 1x Bruder Tau, 1x Flint
 - **Einstimmung:** Nein
 
-Dieser Beutel hat innen deutlich größere Abmessung als es von außen scheint:
+Dieser Beutel hat innen deutlich größere Abmessungen, als es von außen scheint:
 Er hat an der Öffnung einen Durchmesser von circa zwei Fuß und ist vier Fuß
 tief. Der Beutel kann bis zu 500 Pfund tragen und hat ein Volumen von 64
 Kubikfuß. Der Beutel wiegt nie mehr als 15 Pfund, egal was in ihm drin ist.
 
-Einen Gegenstand aus dem Beutel zu holen kostet eine Aktion.
+Einen Gegenstand aus dem Beutel zu holen, kostet eine Aktion.
 
 Wenn der Beutel überladen, durchstochen oder zerrissen wird, platzt der Beutel
 und der Inhalt wird auf der Astralebene verstreut.
@@ -364,17 +416,21 @@ die 10 durch die Anzahl an Kreaturen entspricht (mindestens jedoch eine
 Minute), danach beginnen die Kreaturen zu ersticken.
 
 Wenn der Nimmervolle Beutel in einen anderen Gegenstand gelegt wird, der
-einen extradimensionalen Raum erzeugt, wie Beispielsweise einen zweiten
+einen extradimensionalen Raum erzeugt, wie beispielsweise einen zweiten
 Nimmervollen Beutel, werden beide Gegenstände sofort zerstört und öffnen ein
-Portal in die Astralebene. Jede Kreatur innerhalb von zehn Fuß werden in das
-Portal gesaugt und landen an einer zufälligen Stelle auf der Astralebene.
+Portal in die Astralebene. Jede Kreatur innerhalb von zehn Fuß wird in das
+Portal gesaugt und landet an einer zufälligen Stelle auf der Astralebene.
 Danach schließt sich das Portal. Das Portal ist ein Einwegportal und kann nicht
-wieder geöffnet werden
+wieder geöffnet werden.
 
 <a id="p133"></a>
 
+<a id="gegenstand-perle-der-macht"></a>
+
 #### Perle der Macht
 *Wundersamer Gegenstand*
+
+![Perle der Macht](bilder/offiziell-perle-der-macht.png)
 ___
 - **Kategorie:** Schmuck
 - **Seltenheit:** Ungewöhnlich
@@ -388,8 +444,12 @@ Zauberplatz wiederzubekommen. Wenn der Zauberplatz von Grad 4 oder höher
 war, ist der neue Platz auf Grad 3. Sobald die Perle benutzt wurde, kann sie bis
 zur nächsten Morgendämmerung nicht erneut verwendet werden.
 
+<a id="gegenstand-arm-der-ehre"></a>
+
 #### Arm der Ehre
 *Rüstung (Rüstungsset)*
+
+![Arm der Ehre](bilder/gegenstand-arm-der-ehre.png)
 ___
 - **RK:** ?
 - **Kategorie:** Rüstung
@@ -409,8 +469,12 @@ mit Ausnahme des Arms der Ehre getragen wird.
 4. ?
 5. ?
 
+<a id="gegenstand-wurfpfeil-wiederkehr"></a>
+
 #### Wurfpfeil der Wiederkehr
 *Waffe (Wurfpfeil)*
+
+![Wurfpfeil der Wiederkehr](bilder/gegenstand-wurfpfeil-wiederkehr.png)
 ___
 - **Kategorie:** Waffe
 - **Schaden:** 2W6+3
@@ -425,8 +489,12 @@ Kehrt bei einem Treffer am Anfang der nächsten Runde in die Hand des Werfers
 zurück. Falls der Wurfpfeil der Wiederkehr daneben geworfen wird, verliert er
 für alle Zeit sämtliche Magie.
 
+<a id="gegenstand-umhang-der-verlagerung"></a>
+
 #### Umhang der Verlagerung
 *Wundersamer Gegenstand*
+
+![Umhang der Verlagerung](bilder/offiziell-umhang-der-verlagerung.jpg)
 ___
 - **Kategorie:** Umhang
 - **Seltenheit:** selten
@@ -439,10 +507,14 @@ Ort in der Nähe deiner eigentlichen Position stehen lässt, was bewirkt, dass
 jede Kreatur einen Nachteil auf Angriffswürfe gegen dich hat. Wenn du
 Schaden nimmst, hört die Eigenschaft auf zu funktionieren, bis zum Start der
 nächsten Runde. Diese Eigenschaft wird unterdrückt, wenn du kampfunfähig,
-festgesetzt, oder auf eine andere Weise bewegungsunfähig bist.
+festgesetzt oder auf eine andere Weise bewegungsunfähig bist.
+
+<a id="gegenstand-zauberstab-der-angst"></a>
 
 #### Zauberstab der Angst
 *Zauberstab*
+
+![Zauberstab der Angst](bilder/offiziell-zauberstab-der-angst.jpg)
 ___
 - **Kategorie:** Arkaner Gegenstand
 - **Seltenheit:** selten
@@ -456,7 +528,7 @@ die letzte Ladung des Zauberstabs verbrauchst, wirf einen W20. Bei einer 1
 zerbröckelt der Zauberstab zu Asche und ist zerstört.
 
 **Herrschaft**. Während du diesen Zauberstab hältst, kannst du eine Aktion
-verwendung und 1 Ladung ausgeben, um einer anderen Kreatur zu befehlen zu
+verwenden und 1 Ladung ausgeben, um einer anderen Kreatur zu befehlen zu
 flüchten oder um Gnade zu winseln, als würdest du den Zauber *Befehl*
 (Rettungswurf SG 15) wirken.
 
@@ -476,8 +548,12 @@ bei Erfolg den Effekt beenden.
 
 <a id="p134"></a>
 
+<a id="gegenstand-armschienen-der-verteidigung"></a>
+
 #### Armschienen der Verteidigung
 *Wundersamer Gegenstand*
+
+![Armschienen der Verteidigung](bilder/offiziell-armschienen-der-verteidigung.jpg)
 ___
 - **Kategorie:** Armschienen
 - **Seltenheit:** selten
@@ -487,10 +563,14 @@ ___
 - **RK:** +2
 
 Während du diese Armschienen trägst, erhältst du einen Bonus von +2 auf
-deine Rüstungsklasse, wenn du keine Rüstung und kein Schild trägst.
+deine Rüstungsklasse, wenn du keine Rüstung und keinen Schild trägst.
+
+<a id="gegenstand-zauberstab-illusionen"></a>
 
 #### Zauberstab der Illusionen
 *Zauberstab*
+
+![Zauberstab der Illusionen](bilder/gegenstand-zauberstab-illusionen.png)
 ___
 - **Kategorie:** Arkaner Gegenstand
 - **Seltenheit:** selten
@@ -505,11 +585,15 @@ zerbröckelt der Zauberstab zu Asche und ist zerstört.
 Während du den Zauberstab hältst, kannst du eine Aktion benutzen, um
 Ladungen zu verbrauchen und damit einen der folgenden Zauber zu wirken, der
 deinen Zauberrettungswurf-SG und dein Zauberattribut benutzt: Einfache
-Illusion (0 Ladungen, Befehlswort: Imagi), Lautloses Trugbild (1 Ladungen,
+Illusion (0 Ladungen, Befehlswort: Imagi), Lautloses Trugbild (1 Ladung,
 Befehlswort: Imago), Mächtiges Trugbild (3 Ladungen, Befehlswort Imagon)
+
+<a id="gegenstand-schatzkompass"></a>
 
 #### Schatzkompass
 *Wundersamer Gegenstand*
+
+![Schatzkompass](bilder/gegenstand-schatzkompass.png)
 ___
 - **Kategorie:** Wundersam
 - **Seltenheit:** ?
@@ -519,10 +603,14 @@ ___
 
 Ein silberner Kompass, auf dem keine Himmelsrichtungen stehen. Wenn ein
 Metall benannt wird, während dieser Kompass gehalten wird, zeigt dieser auf
-die nächste größere Menge dieses Metalls auf der selben Existenzebene.
+die nächste größere Menge dieses Metalls auf derselben Existenzebene.
+
+<a id="gegenstand-ring-onisha"></a>
 
 #### Ring von Onisha Standfuß
 *Ring*
+
+![Ring von Onisha Standfuß](bilder/gegenstand-ring-onisha.png)
 ___
 - **Kategorie:** Schmuck
 - **Seltenheit:** ?
@@ -535,8 +623,12 @@ entweder an etwas Gutes oder an etwas Schlechtes gedacht wird und dann das
 Befehlswort "Orange" gesagt wird, passiert etwas Gutes oder etwas
 Schlechtes.
 
+<a id="gegenstand-tinktur-waermeempfinden"></a>
+
 #### Tinktur des Wärmeempfindens
 *Wundersamer Gegenstand*
+
+![Tinktur des Wärmeempfindens](bilder/gegenstand-tinktur-waermeempfinden.png)
 ___
 - **Kategorie:** Wundersam
 - **Seltenheit:** ?
@@ -554,8 +646,12 @@ Es befinden sich 10 Dosen in der Flasche und solange nicht die komplette
 Flüssigkeit aufgebraucht wurde, erneuert sich die Flüssigkeit um eine Dosis pro
 Tag, bis zu einem Maximum von 10 Dosen.
 
+<a id="gegenstand-riesentoeter"></a>
+
 #### Riesentöter
 *Waffe (Langschwert)*
+
+![Riesentöter](bilder/gegenstand-riesentoeter.png)
 ___
 - **Kategorie:** Waffe
 - **Schaden:** 1W8
@@ -567,11 +663,15 @@ ___
 - **Derzeitiger Besitzer:** Ser Ayne
 - **Einstimmung:** Nein
 
-Kreaturen vom Typ "Riese" erleiden 2W6 Extraschadenund müssen Stärke-RW
+Kreaturen vom Typ "Riese" erleiden 2W6 Extraschaden und müssen Stärke-RW
 gegen SG-15 bestehen. Wenn sie nicht bestehen, werden sie umgestoßen.
+
+<a id="gegenstand-drachentoeter"></a>
 
 #### Drachentöter
 *Waffe (Langschwert)*
+
+![Drachentöter](bilder/offiziell-drachentoeter.jpg)
 ___
 - **Kategorie:** Waffe
 - **Schaden:** 1W8
@@ -587,14 +687,18 @@ Kreaturen vom Typ "Drache" erleiden 3W6 Extraschaden.
 
 <a id="p135"></a>
 
+<a id="gegenstand-canaith-mandoline"></a>
+
 #### Canaith-Mandoline
 *Wundersamer Gegenstand*
+
+![Canaith-Mandoline](bilder/offiziell-canaith-mandoline.jpg)
 ___
 - **Kategorie:** Musikinstrument
 - **Seltenheit:** selten
 - **Gewicht:** 2 Pfund
 - **Derzeitiger Besitzer:** Bruder Tau
-- **Einstimmung:** Ja (Durch Barden)
+- **Einstimmung:** Ja (durch Barden)
 
 Eine Kreatur, die nicht auf das Instrument eingestimmt ist und versucht, es zu
 spielen, muss einen Weisheitsrettungswurf gegen SG 15 schaffen, andernfalls
@@ -614,13 +718,42 @@ Zauber eine Gesten- oder Materialkomponente benötigt.
 Bekannte Zauber: Fliegen, Unsichtbarkeit, Schweben, Schutz vor Gut und Böse,
 Wunden heilen (Grad 3), Magie bannen, Schutz vor Energie (nur Blitz)
 
+<a id="gegenstand-leitfaden-fuehrungskraft"></a>
+
 #### Leitfaden der Führungskraft und der Einflussnahme
+
+![Leitfaden der Führungskraft und der Einflussnahme](bilder/offiziell-leitfaden-fuehrungskraft.jpg)
+
+<a id="gegenstand-leitfaden-klares-denken"></a>
+
 #### Leitfaden des klaren Denkens
+
+![Leitfaden des klaren Denkens](bilder/offiziell-leitfaden-klares-denken.jpg)
+
+<a id="gegenstand-leitfaden-verstaendnis"></a>
+
 #### Leitfaden des Verständnisses
+
+![Leitfaden des Verständnisses](bilder/offiziell-leitfaden-verstaendnis.jpg)
+
+<a id="gegenstand-handbuch-koerperliche-ertuechtigung"></a>
+
 #### Handbuch der körperlichen Ertüchtigung
+
+![Handbuch der körperlichen Ertüchtigung](bilder/offiziell-handbuch-koerperliche-ertuechtigung.png)
+
+<a id="gegenstand-handbuch-koerperliche-gesundheit"></a>
+
 #### Handbuch der körperlichen Gesundheit
+
+![Handbuch der körperlichen Gesundheit](bilder/offiziell-handbuch-koerperliche-gesundheit.jpg)
+
+<a id="gegenstand-handbuch-schnelles-handeln"></a>
+
 #### Handbuch des schnellen Handelns
 *Wundersamer Gegenstand*
+
+![Handbuch des schnellen Handelns](bilder/offiziell-handbuch-schnelles-handeln.jpg)
 ___
 - **Kategorie:** Buch
 - **Seltenheit:** sehr selten
@@ -628,7 +761,7 @@ ___
 - **Derzeitiger Besitzer:** verteilt
 - **Einstimmung:** Nein
 
-Diese Bücher beschreibt Übungen und seine Worte sind mit Magie aufgeladen.
+Diese Bücher beschreiben Übungen und ihre Worte sind mit Magie aufgeladen.
 Wenn du 48 Stunden über einen Zeitraum von 6 Tagen oder weniger damit
 verbringst, eines der Bücher zu studieren und die Inhalte der Übungen zu
 praktizieren, wird dein Charisma-, Intelligenz-, Weisheits-, Stärke-,
@@ -649,7 +782,7 @@ ___
 - **Derzeitiger Besitzer:** Ser Ayne
 - **Einstimmung:** Nein
 
-Dieses Rüstungsset ist eine Spezialanfertigung des Großsultants von
+Dieses Rüstungsset ist eine Spezialanfertigung des Großsultans von
 Messingstadt Marrake al-Sidan al-Hariq ben Lazan für Ser Ayne Darther, nach
 folgenden Wünschen von Ser Ayne: 1. Die Rüstung sollte ihm genau passen, 2.
 dem Widerstand einer Ritterrüstung in nichts nachstehen und 3. gegen
@@ -662,12 +795,16 @@ Außerdem ist der Träger gegen jeglichen Schallschaden immun, solange das
 Visier unten ist. Das Visier kann mittels einer Bonusaktion hoch- und
 runtergeklappt werden.
 
-Der Träger ist Taub, solange das Visier unten ist.
+Der Träger ist taub, solange das Visier unten ist.
 
 <a id="p136"></a>
 
+<a id="gegenstand-ewiger-hain"></a>
+
 #### Ewiger Hain
 *Wundersamer Gegenstand*
+
+![Ewiger Hain](bilder/gegenstand-ewiger-hain.png)
 
 ___
 - **Kategorie:** Symbiont
@@ -680,8 +817,8 @@ Ein verzauberter Ableger eines Baumhirten. Bei genug Pflege und Zuneigung
 verbindet sich dieser kleine Ast auf schmerzhafte Weise mit seinem Träger.
 Danach ist der Träger auf ewig verbunden mit diesem Gegenstand.
 
-Sobald der Träger mit dem Baumhiren verbunden ist bekommt er folgende zwei
-Fähigkeiten, von denen er jedoch nur eine Gleichzeitig aufrechterhalten kann:
+Sobald der Träger mit dem Baumhirten verbunden ist, bekommt er folgende zwei
+Fähigkeiten, von denen er jedoch nur eine gleichzeitig aufrechterhalten kann:
 
 1. Schutz: Die Haut des Trägers verwandelt sich in widerstandsfähiges Holz,
 wodurch er +4 RK bekommt, solange er bei Bewusstsein ist.
@@ -695,7 +832,7 @@ Die erschaffenen Waffen sind alle magische Waffen mit +3 auf den Treffer- und
 Schadenswurf.
 
 Weiterhin kann der Träger bei einer kurzen Rast doppelt so viele Trefferpunkte
-zurückbekommen, wie normalerweise, wenn er sich über die Zeit der kurzen
+zurückbekommen wie normalerweise, wenn er sich über die Zeit der kurzen
 Rast in den Boden verwurzelt.
 
 Außerdem bekommt der Träger Resistenz gegenüber Hitzeschaden und
@@ -719,18 +856,18 @@ ___
 
 Dieses Rapier hat eine eigene Persönlichkeit.
 
-Auf dieses Rapier können sich mehrere Personen gleichzeitig Einstimmen.
+Auf dieses Rapier können sich mehrere Personen gleichzeitig einstimmen.
 
 Wenn der Träger dieses Rapiers mit einem Nahkampfangriff getroffen wird,
 erhält der Träger sofort eine Extraattacke auf den Angreifer.
 
 Wenn ein Zauberangriff nur den Träger als Ziel hat, kann der Träger seine
 Reaktion nutzen, um den Zauber abzuwehren. Tut er dies, muss er einen 1W8
-würfeln um den Zauber bei einer 1 auf den Angreifer zurückzuwerfen. Bei jeder
+würfeln, um den Zauber bei einer 1 auf den Angreifer zurückzuwerfen. Bei jeder
 anderen Zahl fliegt der Zauber in eine Richtung, die der DM bestimmt.
 
 Wenn wir uns als würdig erweisen, werden wir seine mächtigste Fähigkeit
-kennen lernen.
+kennenlernen.
 
 <a id="p137"></a>
 
@@ -817,7 +954,7 @@ Wunsch oder Göttliche Intervention kann die verlorene Seele zurückholen.
 | Azer | Ignis Fornax Azeris | Feurige Schmiedewesen aus der Elementarebene des Feuers, aus lebendigem Erz. | [47](#p47) |
 | Barghest | Lupus Tenebris Barghestis | Wolfsdämon, frisst Seelen und wächst an Macht. | [71](#p71) |
 | Beobachter | Oculus Destructor | Schwebendes, einäugiges Wesen mit zerstörerischen Blickstrahlen. | [17](#p17) |
-| Canoloth | Canis Planaris Canolothis | Höllischer Wachterhund, teleportiert sich mit Beute in andere Ebenen. | [67](#p67) |
+| Canoloth | Canis Planaris Canolothis | Höllischer Wächterhund, teleportiert sich mit Beute in andere Ebenen. | [67](#p67) |
 | Drachengeborene | Homo Draconis Sanguinis | Humanoide mit drakonischem Erbe, oft kriegerisch und ehrvoll, elementare Widerstände. | [106](#p106) |
 | Drinne | Arachnodrowus Cursis | Halb-Drow, halb Spinne - tödlich im Netz und im Nahkampf. | [57](#p57) |
 | Eisengolem | Golemum Ferratus | Unaufhaltsamer Konstruktkrieger aus massivem Eisen. | [62](#p62) |
@@ -835,7 +972,7 @@ Wunsch oder Göttliche Intervention kann die verlorene Seele zurückholen.
 | Jadespinne | Arachnida Jadea | Große, jadegrün schimmernde Spinne mit glasartigen Gliedmaßen. Verschießt harpunenartige Glasprojektile, um Beute heranzuziehen. | [111](#p111) |
 | Kobold | Draconis Minimus Koboldis | Kleine, listige Drachenanbeter mit Hang zu Fallen und Gemeinheiten. | [99](#p99) |
 | Landhai (Bulette) | Terrasharkus Bulettei | Rasender Raubgräber, der aus dem Boden springt, um zu töten. | [33](#p33) |
-| Metallmeister (Schwertschnecke) | Limacina Magnetica Metallumtrahens | Schleimige Kreatur mit magnetischer Anziehungskraft fur Metall. | [102](#p102) |
+| Metallmeister (Schwertschnecke) | Limacina Magnetica Metallumtrahens | Schleimige Kreatur mit magnetischer Anziehungskraft für Metall. | [102](#p102) |
 | Nagpa | Corvus Maledictus Nagpatis | Verfluchtes Geierwesen mit finsterer Magie und uraltem Wissen. | [58](#p58) |
 | Nic'Epona | Equus Divinus Nicaeponei | Märchenhaftes, göttliches Ross mit leuchtender Aura. | [79](#p79) |
 | Orks | Orcus Brutalis | Wilde, barbarische Humanoide, getrieben von Wut und Stärke | [13](#p13) |

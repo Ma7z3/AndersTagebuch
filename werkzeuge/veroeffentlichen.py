@@ -26,6 +26,7 @@ def copy_sources(target):
     for source in sorted((ROOT/'eintraege').glob('*.md')):copy_file(source,target/'eintraege'/source.name)
     for rel in ['START.html','gestaltung/leser.js','gestaltung/leser.css','gestaltung/marked.umd.js','gestaltung/bildlegenden.json','bilder/verzeichnis.json']:
         copy_file(ROOT/rel,target/rel)
+    if (ROOT/'bilder/gegenstaende.json').exists():copy_file(ROOT/'bilder/gegenstaende.json',target/'bilder/gegenstaende.json')
     for source in sorted((ROOT/'bilder').glob('*')):
         if source.suffix.lower() in ['.png','.jpg','.jpeg','.webp','.svg']:copy_file(source,target/'bilder'/source.name)
     for source in sorted((ROOT/'gestaltung/schriften').glob('*')):

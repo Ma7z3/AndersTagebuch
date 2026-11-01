@@ -91,6 +91,8 @@ def main():
     dates=[datetime.strptime(date,'%d.%m.%Y') for section in sections if section['art'] in ['kapitel','eintrag'] for date in re.findall(r'\(Spielabend vom (\d{2}\.\d{2}\.\d{4})\)',section['text'])]
     if dates:config['stand']='Erzählung bis '+max(dates).strftime('%d.%m.%Y')
     images=json.loads((ROOT/'bilder/verzeichnis.json').read_text())
+    extra=ROOT/'bilder/gegenstaende.json'
+    if extra.exists():images.extend(json.loads(extra.read_text()))
     data={**config,'abschnitte':sections,'bilder':[im for im in images if im['typ']=='illustration'],'bildlegenden':json.loads((ROOT/'gestaltung/bildlegenden.json').read_text())}
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
