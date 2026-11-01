@@ -308,8 +308,7 @@ Außerdem hörten wir ein Summen.
 Kurz darauf sahen wir, dass der große Baum ein Gesicht bekam und mit seinen
 Ästen, die nun Arme waren, wedelte.
 
-*Auf der nächsten Seite habe ich ihn einmal aus meinem Gedächtnis
-gezeichnet.*
+*Hier habe ich ihn einmal aus meinem Gedächtnis gezeichnet.*
 
 Wir sahen außerdem ringsherum im Sumpf drei Lichter erscheinen.
 
