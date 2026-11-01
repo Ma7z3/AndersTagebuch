@@ -164,6 +164,5 @@ stand. Der wahre **Schmetterschrei** war wiedergeboren.
 > von freundlichen alten Männern oder Damen an.
 > Sie helfen bereitwillig guten Wesen in Not, meiden aber ein Eingreifen, solange sie nicht um Hilfe gebeten werden oder durch Abwarten Böses entstehen
 > könnte.
-> Sie hassen Ungerechtigkeit und Grausamkeit, wobei sie sich nicht sonderlich
-> um die Bestrafung böser Wesen bemühen, als vielmehr um den Schutz
-> Unschuldiger und ihrer Heilung.
+> Sie hassen Ungerechtigkeit und Grausamkeit. Dabei geht es ihnen weniger um
+> die Bestrafung böser Wesen als um den Schutz und die Heilung Unschuldiger.

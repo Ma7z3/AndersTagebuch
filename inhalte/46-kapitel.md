@@ -160,13 +160,11 @@ Damit hatten wir wenigstens alle Bestandteile des Rätsels verstanden.
 
 Die Anordnung war eine andere Sache.
 
-Wir diskutierten über Eis und Tod, Licht und Dunkelheit, darüber, von welcher Richtung der Wind über welchen Berg wehen sollte und was die Zwerge genau mit „diametral“
-
-meinten.
+Wir diskutierten über Eis und Tod, Licht und Dunkelheit, darüber, von welcher Richtung der Wind über welchen Berg wehen sollte und was die Zwerge genau mit „diametral“ meinten.
 
 Ich glaube, wir haben inzwischen mehr Zeit mit zwergischen Rätseln verbracht als manche Zwerge.
 
-Wir kamen zu keinem genauen Ergebnis und überlegten, dass es sich uns vielleicht ergibt, wenn wir in den nächsten Raum gingen, also schriten wir durch die Tür.
+Wir kamen zu keinem genauen Ergebnis und überlegten, dass es sich uns vielleicht ergibt, wenn wir in den nächsten Raum gingen, also schritten wir durch die Tür.
 
 Vor uns lag der Kern.
 

@@ -6,27 +6,27 @@ Schmetterschrei sagte uns nun, dass er sich auf die Suche nach dem Stamm
 der Binwabi begeben würde und dass er spätestens am Abend zurück sein
 würde.
 
-Danach hob er ab und Flog fort.
+Danach hob er ab und flog fort.
 
 Kurz darauf zog ich Pelgri an die Seite und sagte ihm, dass ich gesehen hätte,
 dass er keine Zauber für weitreichende Entfernungen hätte und ihm gerne
 meinen Zauberstab der Magischen Geschosse überlassen würde. Ich erklärte
 ihm dann noch schnell, wie dieser funktionierte.
 
-Kurz darauf sagte Flint: "Lasst uns was essen, ich würde sagen: "Es ist
-angerichtet!". Auf diese Worte sprangen ein Tisch, eine Tischdecke, Platten,
+Kurz darauf sagte Flint: „Lasst uns was essen, ich würde sagen: ‚Es ist
+angerichtet!‘“ Auf diese Worte sprangen ein Tisch, eine Tischdecke, Platten,
 Gedecke, Bestecke und so weiter aus dem Horn und es standen plötzlich die
 leckersten Sachen vor uns. Diese leckeren Sachen waren passend zur Tageszeit
-Frühgstückssachen.
+Frühstückssachen.
 
-Wir aßen das erste mal seit langem mal wieder etwas anderes, als unsere
+Wir aßen das erste Mal seit Langem mal wieder etwas anderes als unsere
 Tagesrationen und genossen dies. Die Reste packten wir uns für später ein.
 Während die meisten von uns faulenzten, spielte Balgrim weiter mit seinem
 neuen Hammer.
 
 Am Nachmittag machte Flint eine fliegende Kreatur am Himmel aus.
 
-Vor dem Hintergrund, dass es in der gegend Blaue Drachen geben sollte,
+Vor dem Hintergrund, dass es in der Gegend blaue Drachen geben sollte,
 versteckte ich mich und Pelgri schmiss sich auf den Boden, aber der Rest blieb
 tapfer stehen.
 
@@ -35,11 +35,11 @@ Schuppen vor uns landete und uns erzählte, dass er die Binwabi gefunden hätte
 und wir heute noch hinkommen könnten, wenn wir sofort aufbrechen würden.
 
 Schmetterschrei ließ uns wieder auf seinen Rücken steigen und flog los. Er
-versprach uns keine wilden Manöver zu fliegen. Kurz darauf hoben wir sanft ab.
+versprach uns, keine wilden Manöver zu fliegen. Kurz darauf hoben wir sanft ab.
 Auch wenn er sehr tief flog, um keine Aufmerksamkeit zu erregen, war es kein
 wilder Konturenflug.
 
-Durch die geringe Entfernung zum Boden, konnten wir die Wüste Anauroch
+Durch die geringe Entfernung zum Boden konnten wir die Wüste Anauroch
 sehr gut beobachten. An einer Stelle flogen wir an einer Art Drachenfriedhof
 vorbei, was ein wenig gruselig war.
 
@@ -48,27 +48,27 @@ vorbei, was ein wenig gruselig war.
 ##### Zeichnung des "Drachenfriedhofs" in der Wüste Anauroch
 gezeichnet von Ander Holimion
 
-Der Flug ist mehr oder weniger Ereignislos, während einer Situation blieb mir
+Der Flug war mehr oder weniger ereignislos, während einer Situation blieb mir
 jedoch fast das Herz stehen: Pelgri holte bei voller Geschwindigkeit seinen
-Unbeweglichen Stecken hervor und begutachtete ihn. Er stecke ihn jedoch
+Unbeweglichen Stecken hervor und begutachtete ihn. Er steckte ihn jedoch
 glücklicherweise wieder weg.
 
-Nach nichteinmal zwei Stunden begann Schmetterschrei mit einem sehr
+Nach nicht einmal zwei Stunden begann Schmetterschrei mit einem sehr
 langsamen Sinkflug und landete dann in einer Art Festungsruine.
 
 Als wir alle von Schmetterschrei abgestiegen waren, zerlief er zu Quecksilber
-und formte sich als circa 1,85 Meter große, schlanke Gestallt mit weißen
+und formte sich als circa 1,85 Meter große, schlanke Gestalt mit weißen
 Haaren, sehr dunkler Haut und stahlblauen Augen. Er trug nun eine Art Robe.
 
-Er erzählte uns, dass die Nomaden seine wahre Gestallt nicht kennen, er in der
+Er erzählte uns, dass die Nomaden seine wahre Gestalt nicht kennen, er in der
 Menschenform aber ein Freund für sie ist.
 
-In dieser Gestallt kannte man ihn unter dem Namen **Basam**.
+In dieser Gestalt kannte man ihn unter dem Namen **Basam**.
 
 Wir hatten nun noch einen Fußmarsch von etwa einer halben Stunde vor uns
 und so zogen wir los.
 
-Basam erzählte uns, dass die Binwabi ein äußerst stolzes Volk seinen.
+Basam erzählte uns, dass die Binwabi ein äußerst stolzes Volk seien.
 Außerdem erzählte er uns, dass der Großteil der Binwabi die Gemeinsprache
 nicht sprechen würde und auf Nachfrage erzählte er uns, dass "Salam" "Guten
 Tag" heißen würde.
@@ -77,11 +77,11 @@ Er sagte uns, dass die Binwabi Basam als einen besonderen Gast ansehen
 würden. Er hatte schon mehrfach gute Informationen mit den Binwabi geteilt.
 
 Nach dem kurzen Marsch sahen wir eine Karawane von Menschen. Sie hatten
-keine Wägen dabei und all ihr hab und gut wurde entweder von den Kamelen,
+keine Wägen dabei und all ihr Hab und Gut wurde entweder von den Kamelen,
 Maultieren und Ziegen oder von den Menschen direkt getragen.
 
-Und fiel auf, dass die Frauen und Kinder in der Mitte liefen und alle die gleichen
-Gewänder, die Basam auch an hatte, trugen.
+Uns fiel auf, dass die Frauen und Kinder in der Mitte liefen und alle die gleichen
+Gewänder, die Basam auch anhatte, trugen.
 
 Basam gewann schnell an Tempo, um an die Spitze der Karawane zu gelangen.
 Pelgri und Talion schien dieses Tempo gar nichts auszumachen, Balgrim konnte
@@ -100,12 +100,12 @@ sollten, während er zur Spitze ging, um mit dem Anführer der Binwabi zu reden.
 Nachdem Basam an der Spitze angekommen war, blieb die Karawane stehen
 und Basam redete mit den drei Menschen an der Spitze.
 
-Nach einem kurzen Gespräch, kam Basam auf uns zu und wir bewegten uns
+Nach einem kurzen Gespräch kam Basam auf uns zu und wir bewegten uns
 auch in seine Richtung.
 
 Er hatte gerade mit **Halim**, dem Anführer der Binwabi, sozusagen dem König
 der Binwabi, gesprochen. Sein Wort ist bei den Binwabi Gesetz. Bei ihm
-standen **Djadi** die Priesterin der Binwabi und **Basari**, der oberste Krieger
+standen **Djadi**, die Priesterin der Binwabi, und **Basari**, der oberste Krieger
 der Binwabi.
 
 Basam erzählte uns, dass er den drei führenden Persönlichkeiten der Binwabi
@@ -123,7 +123,7 @@ gesehen.
 * Wir sollten keine hektischen Bewegungen machen.
 * Wir sollten uns respektvoll verhalten.
 
-Zum Schluss sagte Basam uns noch dass uns die Binwabi primitiv vorkommen
+Zum Schluss sagte Basam uns noch, dass uns die Binwabi primitiv vorkommen
 mögen, sie diese lebensfeindliche Umgebung jedoch selbst gewählt haben,
 worüber wir mal nachdenken sollten. Die Karawane würde sich wieder in
 Bewegung setzen, sobald wir bei Halim ankommen, wir sollten dann Schritt
@@ -134,19 +134,17 @@ und dann führte er uns zu Halim.
 
 Halim war ein alter Mann und hatte schon sehr ledrige Haut. Bei Halim stand
 eine Frau, welche wie der Rest der Frauen vollverschleiert war. Sie war genau
-wie Halim circa 1,80 Meter groß. Neben den beiden türmte ein mindestens 2,10
+wie Halim circa 1,80 Meter groß. Neben den beiden türmte sich ein mindestens 2,10
 Meter großer Krieger.
 
-Wir verbeugten uns vor den dreien und sobald wir begrüßt wurden und zurück
-gegrüßt hatten, setzte sich die Karawane auch schon in Bewegung.
+Wir verbeugten uns vor den dreien und sobald wir begrüßt wurden und zurückgegrüßt hatten, setzte sich die Karawane auch schon in Bewegung.
 
-Wir redeten während des Marsches, zunächst Sprach Halim mich an und wir
+Wir redeten während des Marsches, zunächst sprach Halim mich an und wir
 sprachen über unsere Namen. Bei den Binwabi wäre es wohl so, dass man nur
 einen zweiten Namen bekommen würde, wenn man eine große Tat vollbracht
 hatte.
 
-Ich glaube das Gespräch mit mir lief nicht so gut, da ich ihm auch ein oder zwei
-mal ins Wort gefallen war.
+Ich glaube, das Gespräch mit mir lief nicht so gut, da ich ihm auch ein- oder zweimal ins Wort gefallen war.
 
 Halim wollte dann mit wem anders sprechen und ich schubste Flint nach vorne.
 Flint erzählte Halim, dass wir nach Tethyamar suchen würden. Danach stellte
@@ -164,27 +162,27 @@ Nach kurzer Zeit, in der Talion, als ehemaliger Soldat, uns zeigen konnte, wie
 das mit dem Marschieren richtig ging, gab Basam Halim das Zeichen, den Pfad
 zu verlassen.
 
-Nach einer weiteren kurzen Zeit gab Halim das Zeichen zum stehen bleiben und
+Nach einer weiteren kurzen Zeit gab Halim das Zeichen zum Stehenbleiben und
 rief Basam zu sich.
 
 Nach einem kurzen Getuschel ging die Reise weiter und wir traten durch einen
 eigenartigen Schleier hindurch, wonach wir plötzlich an einer Oase standen.
-Das Wasser war kristallklar und die Luft war um vieles einfacher zu Atmen.
+Das Wasser war kristallklar und die Luft war um vieles einfacher zu atmen.
 
-Irgendwas war hier eigenartig und auch Halim traute dem ganzen nicht so ganz.
+Irgendwas war hier eigenartig und auch Halim traute dem Ganzen nicht so ganz.
 Basam beschwichtigte Halim jedoch und erzählte ihm, dass dies eines der
 Geheimnisse aus dem alten magischen Königreich Netheril war.
 
-Nachdem Halim ein Kommando gegeben hatte, begann die Karawane damit ein
+Nachdem Halim ein Kommando gegeben hatte, begann die Karawane damit, ein
 Lager aufzubauen und in wenigen Stunden entstand eine große Zeltstadt um
 die Oase herum.
 
-Unsere Gruppe setzte sich unter eine der Palmen und begann damit die
-Rationen von heute morgen zu verspeisen.
+Unsere Gruppe setzte sich unter eine der Palmen und begann damit, die
+Rationen von heute Morgen zu verspeisen.
 
-Als wir gerade angefangen hatten zu essen, kam ein Mann und vier Frauen der
+Als wir gerade angefangen hatten zu essen, kamen ein Mann und vier Frauen der
 Binwabi zu uns. Der Mann stellte sich als **Memnun** vor. Memnun sprach
-unsere Sprache und erzählte uns, dass der König ihn gebeten hatte uns die
+unsere Sprache und erzählte uns, dass der König ihn gebeten hatte, uns die
 Kleidung seines Volkes anzubieten.
 
 Wir nahmen alle an und uns wurde gezeigt, wie diese Kleidung anzulegen war.
@@ -205,28 +203,28 @@ Art der Fortbewegung besitzen würden, wodurch sie sich leichter durch die
 Wüste bewegen konnten. Deshalb guckt jeder auf die Füße seines
 Vordermannes.
 
-Auf die Nachfrage, warum die Frauen so unterwürfig seinen, wurde uns gesagt,
+Auf die Nachfrage, warum die Frauen so unterwürfig seien, wurde uns gesagt,
 dass die Männer großen Respekt vor den Frauen hätten und er durch seine
 Reisen auch weiß, dass stolze Frauen sich bei uns auf andere Art und Weise
-geben würde.
+geben würden.
 
-Uns wurde gesagt, dass das Volk der Binwabi nicht besonders Gesprächig ist
+Uns wurde gesagt, dass das Volk der Binwabi nicht besonders gesprächig ist
 und jeder im Stamm eine bestimmte Rolle inne hätte.
 
 <a id="p31"></a>
 
 Er gab uns noch den Tipp, dass ein Feigling zu sein bei den Binwabi der größte
 Ehrverlust sei und wir zu unseren Taten stehen sollten. Außerdem könnten wir
-uns im Lager frei bewegen, sollten uns aber von den Frauen fern halten.
+uns im Lager frei bewegen, sollten uns aber von den Frauen fernhalten.
 
 Zum Schluss lud Memnun mich noch ein, am Abend mit ihm zusammen für den
 Stamm zu musizieren, worauf ich zusagte.
 
-Nach dem kurzen Plausch mit Memnun, kam Basam zu uns und erzählte uns,
+Nach dem kurzen Plausch mit Memnun kam Basam zu uns und erzählte uns,
 dass ein Mahl für uns bereitet wird und wir deshalb mit dem Essen unserer
-Vorräte aufhören sollten. Wir sollten nicht zu viel erwartet, es sei aber wichtig,
+Vorräte aufhören sollten. Wir sollten nicht zu viel erwarten, es sei aber wichtig,
 dass wir mit den Binwabi zusammen speisen. Dies sei eine der größten Ehren,
-die man haben könnte. Basam erklärte uns auch, dass wir uns dieses mal ein
+die man haben könnte. Basam erklärte uns auch, dass wir uns dieses Mal ein
 wenig zusammenreißen müssten, denn das erste Zusammentreffen verlief nicht
 optimal.
 
@@ -234,22 +232,22 @@ Nach kürzester Zeit kam auch schon Memnun wieder auf uns zu, welcher uns
 zum versammelten Stamm brachte. Alle bis auf ein paar Wachen saßen auf
 Kissen und Decken.
 
-Nach einer kurzen Begrüßung, überreichte ich Halim als Geschenk unseren
-Trank des Süßwassers, welchen wir durch das Horn der Fülle wohl nichtmehr
+Nach einer kurzen Begrüßung überreichte ich Halim als Geschenk unseren
+Trank des Süßwassers, welchen wir durch das Horn der Fülle wohl nicht mehr
 brauchen würden. Halim war zunächst etwas skeptisch und bat einen der
 Binwabi auf Binwabisch etwas Kamelpisse zu holen.
 
-Als er damit zurück kam, tropfte ich in die grausig stinkende Flüssigkeit ein
-paar tropfen Süßwasser, woraufhin sie sich in klares Wasser verwandelte. Ich
+Als er damit zurückkam, tropfte ich in die grausig stinkende Flüssigkeit ein
+paar Tropfen Süßwasser, woraufhin sie sich in klares Wasser verwandelte. Ich
 trank davon und Halim war sichtlich begeistert.
 
-Halim bat uns die Plätze zu seiner linken an und wir setzten uns und uns wurde
+Halim bot uns die Plätze zu seiner Linken an und wir setzten uns und uns wurde
 Essen in Holzschalen gebracht, es war eine Art Brei mit ein bisschen Fleisch
 drin.
 
-Nachdem der Rest der Binwabi mit dem Essen anfingen, taten wir dies auch.
-Das essen war sehr gut gewürzt, was den meisten von uns auch schmeckte,
-nur Pelgris Kopf wurde Hochrot, woraufhin ihm direkt Kamelmilch und Brot
+Nachdem der Rest der Binwabi mit dem Essen anfing, taten wir dies auch.
+Das Essen war sehr gut gewürzt, was den meisten von uns auch schmeckte,
+nur Pelgris Kopf wurde hochrot, woraufhin ihm direkt Kamelmilch und Brot
 gereicht wurden.
 
 Als Halim sich erhob, sagte Basam uns, dass wir im Zelt des Königs erwartet
@@ -258,12 +256,11 @@ würden.
 Dort angekommen hob Basari die Zeltplane als Zeichen, dass wir eintreten
 dürften.
 
-Wir verbeugten uns vor Halim und Djadi und wurden gebeten Platz zu nehmen.
+Wir verbeugten uns vor Halim und Djadi und wurden gebeten, Platz zu nehmen.
 
-Halim erzählte uns, dass Basari einst nach Tethyama ging und wieder zurück
-kehrte. Er könne uns erzählen, wo es zu finden sei. Uns wurde aber auch
+Halim erzählte uns, dass Basari einst nach Tethyamar ging und wieder zurückkehrte. Er könne uns erzählen, wo es zu finden sei. Uns wurde aber auch
 erzählt, dass Basari es nicht jedem erzählen würde und zunächst einen
-Zweikopf mit entweder Talion oder Balgrim machen wollte.
+Zweikampf mit entweder Talion oder Balgrim machen wollte.
 
 Außerdem wurde uns angeboten, dass falls uns Krankheiten oder Wunden
 plagen würden, wir jederzeit zu Djadi kommen könnten.
@@ -288,7 +285,7 @@ bräuchten.
 Als wir das Zelt verließen, sahen wir alle Binwabi vor ihren Zelten sitzen und
 miteinander vergnügt reden.
 
-Während ich mit Memnun über unser gemeinsames Repertoi redeten, erzählte
+Während ich mit Memnun über unser gemeinsames Repertoire redete, erzählte
 der Rest Basam von dem Gespräch mit Halim.
 
 Basam sagte uns, dass er noch bis morgen bleiben würde, dann jedoch gehen
@@ -300,14 +297,14 @@ machte dies aber so überzeugend, dass die Binwabi wohl dachten, dass dies
 ein Tanz sei, denn die Binwabi machten die lächerlichen Bewegungen von Pelgri
 nach.
 
-Ich sah dann noch dass Balgrim sich in Richtung des Königs entfernte, mit Djadi
+Ich sah dann noch, dass Balgrim sich in Richtung des Königs entfernte, mit Djadi
 sprach und dann in ein Zelt verschwand.
 
 Ich ließ mir von Memnun noch ein paar Titel der Musik der Binwabi zeigen. Die
 Musik der Binwabi ist unterschiedlich, hat aber einen melodischen Klang und ist
 langsam.
 
-Alle hatten Spaß an dem Abend. Und am Ende des Abend wurde uns ein Zelt
+Alle hatten Spaß an dem Abend. Und am Ende des Abends wurde uns ein Zelt
 zugewiesen. Außerdem wurde uns noch von Basam gesagt, dass Balgrim "in
 Behandlung" sei.
 
