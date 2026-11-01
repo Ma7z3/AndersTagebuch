@@ -68,7 +68,8 @@ def main():
             if (stage/name).exists():shutil.copytree(stage/name,site/name)
         # The download and HTML data are deployed as one artifact and one version.
         (site/'export').mkdir();copy_file(pdf,site/'export/Ander-Holimion-Tagebuch.pdf')
-        (site/'export/aktuell.js').write_text('window.BUCH_PDF = "export/Ander-Holimion-Tagebuch.pdf";\n')
+        pdf_hash=hashlib.sha256(pdf.read_bytes()).hexdigest()
+        (site/'export/aktuell.js').write_text('window.BUCH_PDF = '+json.dumps('export/Ander-Holimion-Tagebuch.pdf?v='+pdf_hash[:16])+';\n')
         page=(stage/'START.html').read_text().replace('DAS TAGEBUCH · LOKALE AUSGABE','DAS TAGEBUCH · GEMEINSAME AUSGABE').replace('Nur auf deinem Rechner.<br>Text und Bilder sind lokal gespeichert.','Die Reisen des Ander Holimion.<br>Für unsere Abenteuerrunde.')
         page=re.sub(r'<a id="original".*?</a>','',page)
         page=page.replace('Zum Lesen dieser lokalen Ausgabe bitte JavaScript im Browser aktivieren. Der ursprüngliche PDF-Band liegt im Unterordner sicherung/originale.','Zum Lesen bitte JavaScript aktivieren. Die Buchfassung gibt es als PDF im Download.')
@@ -77,7 +78,7 @@ def main():
             return match[1]+relative+'?v='+hashlib.sha256(asset.read_bytes()).hexdigest()[:12]+match[3]
         page=re.sub(r'((?:src|href)=")([^"?]+\.(?:js|css))(?:\?v=[^" ]+)?(")',cache_asset,page)
         (site/'index.html').write_text(page);(site/'START.html').write_text(page);(site/'.nojekyll').touch()
-        manifest={'erstellt':datetime.now(ZoneInfo('Europe/Berlin')).isoformat(),'abschnitte':len(data['abschnitte']),'kapitel':sum(s['art'] in ['kapitel','eintrag'] for s in data['abschnitte']),'rohnotizen':0,'pdf_sha256':hashlib.sha256(pdf.read_bytes()).hexdigest(),**report}
+        manifest={'erstellt':datetime.now(ZoneInfo('Europe/Berlin')).isoformat(),'abschnitte':len(data['abschnitte']),'kapitel':sum(s['art'] in ['kapitel','eintrag'] for s in data['abschnitte']),'rohnotizen':0,'pdf_sha256':pdf_hash,**report}
         (site/'stand.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         assert not any((site/x).exists() for x in ['entwuerfe','eingang','sicherung','pruefung'])
         dest.parent.mkdir(parents=True,exist_ok=True);shutil.copytree(site,dest)
