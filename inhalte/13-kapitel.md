@@ -30,9 +30,8 @@ Grenzwald hinaus schafften und die Wüstenschlundberge sich vor uns erhoben.
 
 Talion entschied sich daraufhin dazu, den Raben **Korax** zu taufen.
 
-Nach etwa zwölf Kilometern an den Wüstenschlundbergen entlang, die wir
-grandios durch Flint geführt wurden, flog Korax plötzlich in Richtung Süden und
-wir folgten ihm.
+Flint führte uns grandios an den Wüstenschlundbergen entlang. Nach etwa
+zwölf Kilometern flog Korax plötzlich in Richtung Süden und wir folgten ihm.
 
 Nach kurzer Zeit hörten wir den Schrei einer Ziege und wir bewegten uns
 darauf zu.

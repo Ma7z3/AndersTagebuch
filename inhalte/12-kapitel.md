@@ -48,9 +48,9 @@ Wir gingen weiter und der Boden wurde immer glitschiger, was Talion und mich
 fast von den Beinen riss. Außerdem erschienen immer mehr dieser Augen,
 welche uns jedoch bloß anstarrten.
 
-Nach ein paar weiteren Metern erschien ein *großes, grünes, fliegendes Auge*
-mit mehreren Tentakelaugen auf uns zu und Flint schoss sofort mit seinem
-Bogen auf es. Pelgris heilige Flamme Zauber wurde irgendwie von dem Monster
+Nach ein paar weiteren Metern kam ein *großes, grünes Auge*
+mit mehreren Tentakelaugen auf uns zugeflogen und Flint schoss sofort mit seinem
+Bogen darauf. Pelgris Zauber „Heilige Flamme“ wurde irgendwie von dem Monster
 reflektiert, mein Feuerpfeil traf es jedoch direkt ins Zentrum. Nachdem das
 Auge uns mit zwei Strahlen beschoss, wovon einer Flint und einer mich traf,
 schoss Flint noch einmal und traf es diesmal an einer kritischen Stelle,
