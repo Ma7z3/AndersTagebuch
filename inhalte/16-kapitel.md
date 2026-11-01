@@ -8,29 +8,29 @@ Schmetterschrei nirgendwo zu sehen war.
 Wir guckten zum Höhleneingang und sahen Korax dort noch immer Wache
 halten.
 
-Wir fragten Korax, ob er irgendetwas ungewöhnliches in der Stadt fest gestellt
-hätte und ob er Schmetterschrei die Höhle verlassen hat. Beides verneinte er.
+Wir fragten Korax, ob er in der Nacht etwas Ungewöhnliches bemerkt oder gesehen
+hätte, wie Schmetterschrei die Höhle verließ. Beides verneinte er.
 
 Vor dem Höhleneingang sah alles normal aus und auch wir waren alle ohne
 Blessuren, die letzten Stunden schienen also wirklich nur ein eigenartiger
 Traum gewesen zu sein, den wir alle hatten.
 
 Wir fanden Ziegenspuren auf dem Höhlenboden und fragten unseren
-Waldläufer, ob er diesen Folgen könnte.
+Waldläufer, ob er diesen folgen könnte.
 
 Dies tat er dann auch und stellte relativ schnell fest, dass Schmetterschrei
 offensichtlich nicht freiwillig gegangen war, sondern von irgendetwas
 geschoben oder gezogen wurde.
 
-Nach etwas 100 Metern außerhalb der Höhle verlor Flint die Spur, fand jedoch
+Nach etwa 100 Metern außerhalb der Höhle verlor Flint die Spur, fand jedoch
 ein Geschöpf im Dreck liegen, welches wirklich schlimm mitgenommen war.
 
-Es war Balgrim der Zwergenbarbar aus unserem Traum. Vielleicht war es doch
+Es war Balgrim, der Zwergenbarbar aus unserem Traum. Vielleicht war es doch
 mehr als ein Traum?
 
-Wir erklären ihm unsere Situation, was den verwirrten Balgrim nur noch mehr zu
+Wir erklärten ihm unsere Situation, was den verwirrten Balgrim nur noch mehr zu
 verwirren schien. Er wusste jedoch, dass die Hexen irgendein Ritual mit
-Schmetterschrei vor hatten und erklärte, dass er mitkommen würde um die
+Schmetterschrei vorhatten und erklärte, dass er mitkommen würde, um die
 Hexen zur Strecke zu bringen.
 
 Da Balgrim keine Ausrüstung bei sich hatte, gab Talion ihm ein Langschwert.
@@ -42,17 +42,17 @@ Blättern in einer Art Sumpf, was wir für das Versteck der Hexen hielten.
 Flint fiel auf, dass dieser Sumpf sehr ähnlich aussah, wie der Sumpf aus
 unserem gemeinsamen Traum.
 
-Ich hatte noch überlegt meine Sinne zu erweitern um Magie sehen zu können,
-dies hätte aber zehn Minuten meditation verlangt, was der Gruppe zu lang
+Ich hatte noch überlegt, meine Sinne zu erweitern, um Magie sehen zu können,
+dies hätte aber zehn Minuten Meditation verlangt, was der Gruppe zu lang
 erschien.
 
 Pelgri schlug jedoch vor, dass wir vorsichtig vorgehen sollten.
 
 Als wir an der Grenze zu dem Sumpf ankamen, standen wir vor einem Wall aus
-Zweigen unter den wir uns entscheiden durchzukriechen, auch wenn es
+Zweigen, unter den wir uns entschieden durchzukriechen, auch wenn es
 ziemlich schlammig war.
 
-Im Sumpf angekommen sah auch der Rest von uns, dass es sich um den selben
+Im Sumpf angekommen sah auch der Rest von uns, dass es sich um denselben
 Sumpf wie in unserem Traum handelte.
 
 Ich war etwas erschrocken darüber und aktivierte spontan meine Magiesicht.
@@ -61,22 +61,22 @@ Sumpfes ließ sich nur eine leichte, zu vernachlässigende Hintergrundaura
 feststellen.
 
 Ich teilte dies meinen Mitstreitern mit und sagte gleichzeitig, dass wir uns von
-dem Rand fern halten sollten.
+dem Rand fernhalten sollten.
 
 Um zu der Hütte in der Mitte des Sumpfes zu kommen, welche wir ja schon aus
-unserem Traum kannten, gingen wir Folgendermaßen vor:
+unserem Traum kannten, gingen wir folgendermaßen vor:
 
 1. Balgrim sprang mit einem Ende eines Seils in der Hand über die Sumpfstellen.
 2. Balgrim und Flint hielten das Seil stramm.
 3. Talion, Pelgri und ich gingen durch den Sumpf mit dem Seil als Sicherung,
 damit wir nicht einsanken.
-4. Flint sprang mit Hilfe seines Ring des Springens ebenfalls rüber.
+4. Flint sprang mit Hilfe seines Rings des Springens ebenfalls rüber.
 5. Alle waren auf der anderen Seite.
 
 Dieses Vorgehen wiederholten wir, bis wir auf der Insel der Hütte waren.
 
 Kurz vor dem letzten Sprung hörten Talion und Balgrim irgendeinen leisen
-Singsang und Talion bat uns nah an ihm zu bleiben, da er davon ausging, dass
+Singsang und Talion bat uns, nah an ihm zu bleiben, da er davon ausging, dass
 seine Aura des Schutzes uns in gewisser Weise vor den Hexen schützen
 könnte.
 
@@ -94,7 +94,7 @@ Südwesten von uns stand.
 Diese kurze Verwirrtheit führte aber dazu, dass er einen unserer
 "Steingolemfreunde" (Pelgris Worte) sah.
 
-Von dem Ort wo wir nun waren, begangen wir zu schleichen und wir kamen
+Von dem Ort, wo wir nun waren, begannen wir zu schleichen und wir kamen
 auch sehr leise nah an die Hütte heran, was mich erstaunte.
 
 Als wir nun nah an der Hütte waren, hörte auch der Rest von uns den Singsang,
@@ -111,16 +111,16 @@ Schmetterschrei war in Gefahr, also entschieden wir, dass wir die Hexen
 Dies lief auch einigermaßen gut, bis Pelgri mit seinem Kopf versehentlich gegen
 die Hütte geknallt war.
 
-Eine der Hexen meint daraufhin nur: "War da was? Ich gehe mal nachgucken...
+Eine der Hexen meinte daraufhin nur: "War da was? Ich gehe mal nachgucken...
 diese Idioten sind da und haben den Zwerg mitgebracht."
 
 <a id="p27"></a>
 
 Daraufhin entbrannte ein Kampf, in dem die Hexen immer wieder unsichtbar
-und an anderer Stelle wieder sichtbar werden.
+und an anderer Stelle wieder sichtbar wurden.
 
-An einem Punkt im Kampf wo ich gerade keine der Hexen sah, redete ich mittels
-einer meiner neuen Bardenfähigkeiten mit Schmetterschrei, welche wollte, dass
+An einem Punkt im Kampf, wo ich gerade keine der Hexen sah, redete ich mittels
+einer meiner neuen Bardenfähigkeiten mit Schmetterschrei, welcher wollte, dass
 Flint zu ihm kam.
 
 Dann tauchten die Hexen jedoch wieder auf und Flint erstarrte. Er konnte sich
@@ -129,11 +129,11 @@ relativ schnell aus dieser Starre befreien und lief zu uns.
 Schmetterschrei wies auf Flints magischen Zahn hin.
 
 Ich lief nun raus aus dem Haus zu den Hexen, um wieder am Kampf
-teilzunehmen und rief Flint noch folgendes zu: "Steck dir das Ding in den
+teilzunehmen und rief Flint noch Folgendes zu: "Steck dir das Ding in den
 Mund!"
 
-Der Bestienreiter schaffte es dann die erste Hexe zu erschlagen, woraufhin ich
-wiederzu Schmetterschrei lief und mit seinem Geist verschmolz, um ihm zu
+Der Bestienreiter schaffte es dann, die erste Hexe zu erschlagen, woraufhin ich
+wieder zu Schmetterschrei lief und mit seinem Geist verschmolz, um ihm zu
 sagen, dass er sich wehren solle und wir schon eine der Hexen erschlagen
 hätten.
 
@@ -144,14 +144,14 @@ Als ich dies hörte, löste ich mich aus seinem Geist und schrie: "Die Nachthexe
 ist die Wichtigste!"
 
 Als Talion dies hörte, drehte er sich von der gerade unsichtbar werdenden
-Grünhexe zur Nachthexe um. Er nutze den Schwung vom Umdrehen, sein
-Schwert erleutete hell und er schlug der Hexe den Kopf ab.
+Grünhexe zur Nachthexe um. Er nutzte den Schwung vom Umdrehen, sein
+Schwert erleuchtete hell und er schlug der Hexe den Kopf ab.
 
 In dem Moment, wo die Hexe starb, fing Schmetterschrei an zu wachsen und
 Pelgri und ich flüchteten aus dem Haus.
 
 Wir konnten uns beide gerade noch rechtzeitig in Sicherheit bringen, bevor die
-Hütte zerbart und statt dessen ein gigantisch großer *Silberdrachen* vor uns
+Hütte zerbarst und stattdessen ein gigantisch großer *Silberdrache* vor uns
 stand. Der wahre **Schmetterschrei** war wiedergeboren.
 
 > ##### Silberdrachen
@@ -162,9 +162,8 @@ stand. Der wahre **Schmetterschrei** war wiedergeboren.
 > Drachen.
 > Sie mögen die Gesellschaft von Humanoiden und nehmen gern die Gestalt
 > von freundlichen alten Männern oder Damen an.
-> Sie helfen bereitwillig guten Wesen in Not, meiden aber ein Eingreifen so
-> lange sie nicht um Hilfe gebeten werden, oder durch Abwarten böses entstehen
+> Sie helfen bereitwillig guten Wesen in Not, meiden aber ein Eingreifen, solange sie nicht um Hilfe gebeten werden oder durch Abwarten Böses entstehen
 > könnte.
 > Sie hassen Ungerechtigkeit und Grausamkeit, wobei sie sich nicht sonderlich
-> um die Bestrafung böser Wesen bemühen, als viel mehr um den Schutz
+> um die Bestrafung böser Wesen bemühen, als vielmehr um den Schutz
 > Unschuldiger und ihrer Heilung.

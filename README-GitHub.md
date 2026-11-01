@@ -10,7 +10,7 @@ Die Website wird über GitHub Pages veröffentlicht. Der Knopf **PDF herunterlad
 
 Eine neue Markdown-Datei in **eintraege/** hinzufügen, zum Beispiel **47-fortsetzung.md**. Die erste Überschrift wird als Titel übernommen. Neue Texte werden in der alphabetischen Reihenfolge ihrer Dateinamen vor den Addenda eingeordnet. Vorhandene Kapitel können unter **inhalte/** bearbeitet werden.
 
-Bilder nach **bilder/** legen und im Text mit `![Beschreibung](bilder/dateiname.png)` einbinden. Bild und Erklärung bleiben im Buch zusammen, wenn sie als gemeinsamer Infokasten oder Bild mit anschließender Bildlegende aufgebaut sind. Die Legenden der vorhandenen Illustrationen liegen in **gestaltung/bildlegenden.json**.
+Bilder nach **bilder/** legen und im Text mit `![Beschreibung](bilder/dateiname.png)` einbinden. Bild und Erklärung bleiben im Buch zusammen, wenn sie als gemeinsamer Infokasten oder Bild mit anschließender Bildlegende aufgebaut sind. Die Legenden der vorhandenen Illustrationen liegen in **gestaltung/bildlegenden.json**. Dort bestimmt `pdf_satz` das Buchformat: `spalte` für ein Bild innerhalb einer Textspalte, `breit` für die Breite beider Spalten und `seite` für eine eigene Bildseite. Das Seitenverhältnis bleibt erhalten. Die vorhandenen Formate wurden mit der ursprünglichen PDF verglichen.
 
 Nach dem Speichern auf dem Zweig **main** erstellt GitHub Actions Website und PDF automatisch gemeinsam. Inhaltsverzeichnis, Seitenzahlen und interne Seitenverweise werden neu berechnet. Schlägt ein Aufbau fehl, wird diese Fassung nicht veröffentlicht; die vorige Ausgabe bleibt bestehen. Größere Änderungen am Satz bitte anhand der erzeugten PDF visuell prüfen.
 

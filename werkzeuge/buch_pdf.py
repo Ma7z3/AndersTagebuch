@@ -14,7 +14,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
 from reportlab.lib.styles import ParagraphStyle
-from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Image, PageBreak, NextPageTemplate, FrameBreak, Flowable, LongTable, Table, TableStyle, KeepTogether
+from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Image, PageBreak, NextPageTemplate, FrameBreak, Flowable, LongTable, Table, TableStyle, KeepTogether, BalancedColumns, CondPageBreak
 from reportlab.platypus.tableofcontents import TableOfContents
 
 from aktualisieren import versioniere_startseite
@@ -103,6 +103,7 @@ def make_styles():
     ST['coverbody']=ParagraphStyle('coverbody',fontName='Book',fontSize=6.7,leading=8.05,alignment=TA_CENTER,spaceBefore=5,spaceAfter=3)
 
 IMAGE_CACHE={}
+FIGURE_CONFIG={}
 def pdf_image(path):
     path=Path(path)
     if path in IMAGE_CACHE:return IMAGE_CACHE[path]
@@ -121,6 +122,7 @@ def book_page(physical):
     return max(0, physical-2)
 
 class Mark(Flowable):
+    _ZEROSIZE=True
     def __init__(self,key,label=None,toc=False):
         Flowable.__init__(self);self.key=key;self.label=label;self.toc=toc;self.width=0;self.height=0;self.keepWithNext=True
     def draw(self):
@@ -213,24 +215,38 @@ class BookImage(Image):
     def draw(self):
         self.canv.saveState()
         if getattr(self,'blend_white',False):self.canv.setBlendMode('Multiply')
-        super().draw();self.canv.restoreState()
+        viewport=getattr(self,'viewport',None)
+        if viewport:
+            left,top,right,bottom=viewport;scale=self.drawWidth/(right-left)
+            clip=self.canv.beginPath();clip.rect(0,0,self.drawWidth,self.drawHeight)
+            self.canv.clipPath(clip,stroke=0,fill=0)
+            self.canv.drawImage(self.filename,-left*scale,-(self.imageHeight-bottom)*scale,width=self.imageWidth*scale,height=self.imageHeight*scale,mask='auto')
+        else:super().draw()
+        self.canv.restoreState()
 
-def image_flow(token,width,cover=False,blend=False):
+def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,viewport=None):
     path=(ROOT/token['href']).resolve()
     if not path.is_relative_to(ROOT) or not path.is_file():raise FileNotFoundError(token['href'])
     im=BookImage(str(pdf_image(path)),mask='auto',lazy=0);im.blend_white=blend;im.source_image=token['href']
     maxw=420 if cover else min(width,210)
     maxh=400 if cover else (345 if im.imageHeight>im.imageWidth else 245)
+    if layout in ['breit','seite']:
+        maxw=width;maxh=650 if layout=='seite' else 550
+    if maxheight is not None:maxh=maxheight
     # This illustrated note fits below the bridge encounter in the left column.
     if token['href']=='bilder/pdf-s005-26.png' and not cover:maxh=min(maxh,185)
-    scale=min(maxw/im.imageWidth,maxh/im.imageHeight)
-    im.drawWidth=im.imageWidth*scale;im.drawHeight=im.imageHeight*scale;im.hAlign='CENTER'
+    # Ignore transparent padding in the page layout; leave source pixels intact.
+    box=viewport or (0,0,im.imageWidth,im.imageHeight)
+    if not (0<=box[0]<box[2]<=im.imageWidth and 0<=box[1]<box[3]<=im.imageHeight):raise ValueError('Ungültiger Bildausschnitt: '+token['href'])
+    iw,ih=box[2]-box[0],box[3]-box[1]
+    scale=min(maxw/iw,maxh/ih);im.viewport=viewport
+    im.drawWidth=iw*scale;im.drawHeight=ih*scale;im.hAlign='CENTER'
     return im
 
 def shade_note(flows,width):
     # One cell carries one continuous background behind heading, image and text.
     table=Table([[flows]],colWidths=[width],hAlign='LEFT',splitByRow=0,splitInRow=1,spaceBefore=8,spaceAfter=10)
-    table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),GREEN),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),9),('RIGHTPADDING',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
+    table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),GREEN),('ALIGN',(0,0),(-1,-1),'CENTER'),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),9),('RIGHTPADDING',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
     return table
 
 class IllustrationGroup(Flowable):
@@ -265,7 +281,7 @@ class IllustrationGroup(Flowable):
     def draw(self):
         self.inner.drawOn(self.canv,0,0)
         doc=self.canv._doctemplate
-        doc.illustration_blocks.append({'abschnitt':self.section,'art':self.kind,'bilder':[im.source_image for im in self._images(self.flows)],'pdf_seite':doc.page,'buchseite':book_page(doc.page),'spalte':doc.frame.id,'hoehe':round(self.height,2)})
+        doc.illustration_blocks.append({'abschnitt':self.section,'art':self.kind,'bilder':[im.source_image for im in self._images(self.flows)],'pdf_seite':doc.page,'buchseite':book_page(doc.page),'spalte':doc.frame.id,'hoehe':round(self.height,2),'breite':round(self.width,2),'satz':getattr(self,'pdf_layout','spalte')})
 
 def group_illustrations(tokens):
     """Recognize existing adjacent source blocks; do not rewrite the prose."""
@@ -288,7 +304,7 @@ def all_marks(flows):
     for flow in flows:
         if isinstance(flow,Mark):yield flow.key
         elif isinstance(flow,IllustrationGroup):yield from all_marks(flow.flows)
-        elif isinstance(flow,KeepTogether):yield from all_marks(flow._content)
+        elif isinstance(flow,(KeepTogether,BalancedColumns)):yield from all_marks(flow._content)
         elif isinstance(flow,Table):
             for row in flow._cellvalues:
                 for cell in row:
@@ -335,9 +351,12 @@ def section_flow(section,refmap,session_names):
                 flush();items=result[start:];del result[start:]
                 result.append(IllustrationGroup(items,WIDTH if wide else COL,'Bild mit Beschreibung' if typ=='illustrated_note' else 'Gegenstandsbild',section['id']));continue
             if typ=='figure':
-                flush();caption=[image_flow(t['image'],WIDTH if wide else COL,cover),Paragraph(inline(t['heading']['tokens'],refmap),ST['artist'])]
+                flush();config=FIGURE_CONFIG.get(t['image']['href'],{});layout=config.get('pdf_satz','spalte')
+                width=WIDTH if wide or layout in ['breit','seite'] else COL
+                caption=[image_flow(t['image'],width,cover,layout=layout,maxheight=config.get('pdf_maxhoehe'),viewport=config.get('pdf_bildausschnitt')),Paragraph(inline(t['heading']['tokens'],refmap),ST['artist'])]
                 if t.get('credit'):caption.append(Paragraph(inline(t['credit']['tokens'],refmap),ST['credit']))
-                result.append(IllustrationGroup(caption,WIDTH if wide else COL,'Bildlegende',section['id']));continue
+                figure=IllustrationGroup(caption,width,'Bildlegende',section['id']);figure.pdf_layout=layout
+                result.append(figure);continue
             if typ=='heading':
                 plain=t['text']
                 if section['art']=='addenda' and plain.startswith('Addendum 2:'):
@@ -380,7 +399,26 @@ def section_flow(section,refmap,session_names):
     convert(section['tokens']);flush()
     return result
 
+def span_illustrations(flows):
+    """Keep ordinary prose in two columns around full-width artwork."""
+    result=[];columns=[]
+    def flush_columns():
+        if columns:
+            result.append(BalancedColumns(columns[:],nCols=2,needed=72,leftPadding=0,rightPadding=0,innerPadding=GAP,topPadding=0,bottomPadding=0,endSlack=0))
+            columns.clear()
+    for i,flow in enumerate(flows):
+        layout=getattr(flow,'pdf_layout','spalte')
+        if layout not in ['breit','seite']:columns.append(flow);continue
+        flush_columns()
+        if layout=='seite':result.append(CondPageBreak(H-92))
+        result.append(flow)
+        if layout=='seite' and i<len(flows)-1:result.append(PageBreak())
+    flush_columns()
+    return result
+
 def build_story(book,refmap):
+    global FIGURE_CONFIG
+    FIGURE_CONFIG={c['bild']:c for c in book.get('bildlegenden',[])}
     finished=[s for s in book['abschnitte'] if s['art']!='entwurf']
     story=[];sessions={}
     title=finished[0]
@@ -404,9 +442,11 @@ def build_story(book,refmap):
     tab=Table(rows,colWidths=[COL/len(years)]*len(years))
     tab.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),GREEN),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.Color(1,1,1,alpha=0),GREEN]),('LINEBELOW',(0,0),(-1,0),.5,GOLD),('TOPPADDING',(0,0),(-1,-1),2),('BOTTOMPADDING',(0,0),(-1,-1),2)]));story.append(tab)
     for section in finished[1:]:
-        template='Wide' if section['art']=='addenda' else 'Two'
+        flows=section_flow(section,refmap,sessions)
+        has_spans=any(getattr(f,'pdf_layout','spalte') in ['breit','seite'] for f in flows)
+        template='Wide' if section['art']=='addenda' or has_spans else 'Two'
         story.extend([NextPageTemplate(template),PageBreak(),Mark(section['id'],section['titel'],toc=True)])
-        story.extend(section_flow(section,refmap,sessions))
+        story.extend(span_illustrations(flows) if has_spans else flows)
     return story
 
 def main():
