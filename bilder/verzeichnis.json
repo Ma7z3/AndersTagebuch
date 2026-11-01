@@ -1456,5 +1456,20 @@
     "quelle_url": "Vom Nutzer am 01.11.2026 bereitgestellt",
     "original_url": null,
     "herkunft": "Nutzerbild"
+  },
+  {
+    "datei": "bilder/symbol-selune.jpg",
+    "titel": "Selûnes heiliges Symbol",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "kapitel": "prolog",
+    "breite": 736,
+    "hoehe": 817,
+    "modus": "RGB",
+    "transparenz": false,
+    "sha256": "df3ff00297dbe4dd9ee87a0e01f0e388f697a24b22e6fd90774859c59f9cee0c",
+    "quelle_url": "https://www.pinterest.com/pin/selne-symbol-dnd--938015428621130715/",
+    "original_url": "https://i.pinimg.com/736x/0d/89/cf/0d89cfcec955e09bb2d8fe0a3faee8b9.jpg",
+    "herkunft": "veröffentlichte Illustration; klassisches Augenpaar mit sieben Sternen"
   }
 ]

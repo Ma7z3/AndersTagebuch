@@ -24,7 +24,7 @@ gegeben worden.
 
 > ##### Selûne
 >
-> ![Selûne](bilder/pdf-s125-528.png)
+> ![Selûnes heiliges Symbol](bilder/symbol-selune.jpg)
 >
 > Selûne ist die Göttin des Mondes und wird auch die Mondmaid genannt.
 > Ihr Licht gilt Reisenden und Suchenden als Wegweiser durch die Dunkelheit.
