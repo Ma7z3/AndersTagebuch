@@ -103,6 +103,19 @@ Wüste Anauroch befinden, sie wurden jedoch noch nicht gefunden. Nach dieser
 Stadt ist auch die Straße von Schattental nach Dolchfall benannt: Der
 Tethyamarpfad.
 
+<a id="info-mystra"></a>
+
+> ##### Mystra
+>
+> ![Mystra](bilder/wesen-mystra.jpg)
+>
+> Mystra ist die Göttin der Magie und wird als Herrin der Mysterien verehrt.
+> Sie ist eng mit dem Gewebe verbunden, durch das Zauberwirkende auf die
+> Magie der Welt zugreifen. Ihre Anhänger bewahren magisches Wissen und
+> erforschen die Möglichkeiten der Zauberei. Zu ihren bekanntesten
+> Auserwählten gehören Elminster und die Sieben Schwestern.
+
+
 Zum Abschluss des Abends bot Talion das Schwert der Täler Randall Morn ein
 letztes Mal an.
 

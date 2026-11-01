@@ -131,6 +131,20 @@ Ein paar Dabus gaben uns auf seltsame Art (es erschien eine Art Sprechblase
 mit Symbolen über ihren Köpfen, wenn sie "sprachen") zu verstehen, dass wir
 dort nicht weiter könnten.
 
+<a id="info-dabus"></a>
+
+> ##### Dabus
+>
+> ![Dabus](bilder/wesen-dabus.jpg)
+>
+> Dabus sind die rätselhaften Diener der Dame der Schmerzen und
+> Instandhalter Sigils. Sie schweben über dem Boden und kümmern sich
+> um Straßen, Gebäude und andere Teile der Stadt. Anstelle gewöhnlicher
+> Worte lassen sie Bilder und Zeichen über ihren Köpfen erscheinen.
+> Diese Bilderrätsel, sogenannte Rebusse, müssen ihre Gesprächspartner
+> erst deuten.
+
+
 Also drehten wir um und wollten gerade die andere Richtung gehen, als ein paar
 Schläger uns aufhalten wollten.
 
@@ -579,6 +593,19 @@ Ratten vernichtete.
 Balgrim und Talion versuchten beide, das Geschöpf zu treffen und wie durch ein
 Wunder gelang es Talion, wodurch das Wesen wieder sichtbar wurde und
 zusammensackte.
+
+<a id="info-schaedelratten"></a>
+
+> ##### Schädelratten
+>
+> ![Schädelratten](bilder/wesen-schaedelratten.png)
+>
+> Schädelratten, auch Cranium Rats genannt, erkennt man an ihren
+> vergrößerten, freiliegenden Gehirnen. Ein einzelnes Tier wirkt zunächst
+> wie eine ungewöhnliche Ratte. Im Schwarm verbinden sich ihre Gedanken
+> jedoch zu einem gemeinsamen Verstand, der psionische Kräfte entfalten
+> kann. So wird aus vielen kleinen Nagern ein gefährlicher Gegner.
+
 
 Balgrim zerstörte noch schnell den Rest der Wand, wodurch die Flasche zum
 Vorschein kam. Wir nahmen die Flasche an uns und wir zogen unsere

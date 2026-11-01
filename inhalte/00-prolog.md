@@ -20,6 +20,19 @@ zunächst bei meinem elfischen Vater. Ich bin jedoch schnell aufgrund meiner
 unnatürlichen Augenfarbe von ihm in das Kloster des aufgehenden Mondes
 gegeben worden.
 
+<a id="info-selune"></a>
+
+> ##### Selûne
+>
+> ![Selûne](bilder/pdf-s125-528.png)
+>
+> Selûne ist die Göttin des Mondes und wird auch die Mondmaid genannt.
+> Ihr Licht gilt Reisenden und Suchenden als Wegweiser durch die Dunkelheit.
+> Zu ihren Anhängern gehören unter anderem Seefahrer, Wanderer und jene,
+> die Trost oder einen neuen Anfang suchen. Ihr heiliges Symbol zeigt ein
+> Augenpaar, das von sieben Sternen umgeben ist.
+
+
 > ##### Kloster des aufgehenden Mondes
 >
 > ![Kloster des aufgehenden Mondes](bilder/pdf-s003-11.png)

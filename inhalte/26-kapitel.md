@@ -55,6 +55,19 @@ starb, in den Abgrund fiel und von dem Müllberg unter uns verschluckt wurde.
 
 Wir bedankten uns bei dem Minotaur, welcher sich als **Trakfajar** vorstellte.
 
+<a id="info-minotauren"></a>
+
+> ##### Minotauren
+>
+> ![Minotauren](bilder/wesen-minotaur.png)
+>
+> Minotauren sind kräftige Humanoide mit einem Stierkopf, Hörnern und
+> Hufen. Ihre Körperkraft und ihre Hörner machen sie zu gefährlichen
+> Gegnern im Nahkampf. Bekannt sind sie außerdem für ihren ausgeprägten
+> Orientierungssinn und ihre Verbindung zu Labyrinthen. Manche leben als
+> Krieger, Seefahrer oder Abenteurer unter anderen Völkern.
+
+
 Trakfajar hatte unser Gespräch in der Schwelenden Leiche mitbekommen und
 Verdacht geschöpft, da er die Staubmenschen nun schon eine Weile kannte und
 ein ungutes Gefühl bei der Sache hatte.

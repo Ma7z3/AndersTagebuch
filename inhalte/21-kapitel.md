@@ -28,6 +28,20 @@ Ziegenkörper hatte, auf dem ein menschlicher Oberkörper mit einem
 Widderkopf saß. Er sagte uns später, dass das Geschöpf ihn in Sigil, der Stadt
 der Portale, begrüßt hatte.
 
+<a id="info-bariauren"></a>
+
+> ##### Bariauren
+>
+> ![Bariauren](bilder/wesen-bariaur.png)
+>
+> Bariauren sind zentaurenähnliche Ebenenwanderer mit dem vierbeinigen
+> Unterkörper einer großen Ziege oder eines Widders und einem kräftigen,
+> menschenähnlichen Oberkörper. Viele tragen gebogene Hörner. Ihre Heimat
+> liegt auf Ysgard, doch ihre Wanderlust führt sie weit durch die Ebenen und
+> häufig nach Sigil. Freiheit, Gemeinschaft und die Freude am Reisen prägen
+> viele ihrer wandernden Herden.
+
+
 Ich war noch etwas perplex, als Talion sagte, dass er Basari und Balgrim hörte.
 
 Wir gingen zu den beiden und sahen einen entspannt wirkenden Balgrim und
@@ -57,6 +71,18 @@ Lendenschurz trugen,
 
 um nur einige zu nennen. Die letzten in der Aufzählung waren Flint zufolge
 Teufel der Gattung Nupperibos.
+
+<a id="info-nupperibos"></a>
+
+> ##### Nupperibos
+>
+> ![Nupperibos](bilder/wesen-nupperibo.png)
+>
+> Nupperibos sind niedere Teufel mit aufgeblähten, unförmigen Körpern.
+> Ihr Dasein wird von unstillbarem Hunger bestimmt. Schwärme beißenden
+> Ungeziefers umgeben sie und machen schon ihre Nähe gefährlich. Haben
+> sie eine Fährte aufgenommen, verfolgen sie ihre Beute hartnäckig.
+
 
 Anscheinend war in dieser Stadt jeder willkommen.
 
@@ -109,6 +135,19 @@ direkt vor der Schlangenfrau und enthauptete sie mit einem gezielten Schlag.
 Der Wolfsmensch warf der Bardame noch einen kleinen Geldbeutel zu und
 verschwand dann aus der Tür.
 
+<a id="info-marilith"></a>
+
+> ##### Marilith
+>
+> ![Marilith](bilder/wesen-marilith.jpg)
+>
+> Eine Marilith verbindet den Oberkörper einer Frau mit einem mächtigen
+> Schlangenleib und sechs Armen. Diese Dämoninnen führen mehrere Waffen
+> gleichzeitig und sind außergewöhnlich gefährliche Nahkämpferinnen.
+> Auch als Taktikerinnen und Anführerinnen in den Heeren des Abyss sind
+> sie gefürchtet.
+
+
 Im ersten Moment war ich etwas geschockt, aber als ich sah, dass die Situation
 niemanden groß störte, machte ich weiter, wo ich aufgehört hatte, und
 trank mit meinen Kameraden mein Schwefelbier.
@@ -149,6 +188,19 @@ Oberkörper nennt man Bariauren.
 und Arbeiterviertel, das Kuratorenviertel ist das Viertel der Informationen, im
 Marktviertel ist der Markt, im Gildenviertel sind die Handwerker vorherrschend
 und das Viertel der Dame ist das Reichenviertel
+
+<a id="info-molydeus"></a>
+
+> ##### Molydeus
+>
+> ![Molydeus](bilder/wesen-molydeus.jpg)
+>
+> Ein Molydeus ist ein mächtiger Dämon mit einem wolfartigen Haupt und
+> einem zusätzlichen Schlangenkopf, der aus seiner Schulter wächst.
+> Seine gewaltige Waffe macht ihn zu einem furchterregenden Gegner.
+> Molydei vollstrecken den Willen von Dämonenfürsten und verfolgen
+> ungehorsame oder abtrünnige Dämonen.
+
 
 Danach verkaufte sie uns noch eine Karte der Ebenen und erklärte uns alles,
 was sie über die inneren und äußeren Ebenen weiß.
