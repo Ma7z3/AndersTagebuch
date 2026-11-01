@@ -366,6 +366,7 @@ def section_flow(section,refmap,session_names):
                 flush()
                 session=re.search(r'Spielabend vom\s+(\d{2}\.\d{2}\.\d{4})',plain)
                 if session:
+                    if session[1] in section.get('pdf_seitenbeginn_spielabende',[]):result.append(PageBreak())
                     key='abend-'+section['id']+'-'+str(session_no);session_no+=1
                     result.append(Mark(key));session_names[session[1]]=key
                 style=ST.get('coverh'+str(t['depth']),ST['coverbody']) if cover else (ST['session'] if session else ST['h'+str(t['depth'])])
@@ -407,6 +408,8 @@ def span_illustrations(flows):
             result.append(BalancedColumns(columns[:],nCols=2,needed=72,leftPadding=0,rightPadding=0,innerPadding=GAP,topPadding=0,bottomPadding=0,endSlack=0))
             columns.clear()
     for i,flow in enumerate(flows):
+        if isinstance(flow,PageBreak):
+            flush_columns();result.append(flow);continue
         layout=getattr(flow,'pdf_layout','spalte')
         if layout not in ['breit','seite']:columns.append(flow);continue
         flush_columns()

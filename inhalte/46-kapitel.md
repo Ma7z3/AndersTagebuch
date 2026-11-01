@@ -299,3 +299,61 @@ Ich hasse es, wenn ich mit solchen Dingen recht habe.
 ![Hedistrin über dem Kern](bilder/pdf-s130-549.png)
 
 *Hedistrin über dem Kern – Farbzeichnung von Ander Holimion*
+
+##### (Spielabend vom 21.09.2026)
+
+Ser Ayne warf sein Schwert.
+
+Es traf.
+
+Dann rief er Flint zu, dass er laufen solle. Flint ließ sich das nicht zweimal sagen.
+
+Ser Ayne schleuderte auch sein zweites Schwert und forderte nun mich auf, ebenfalls loszulaufen. Anschließend setzte er sich selbst in Bewegung.
+
+Flint erreichte kurz darauf die Säule im Norden. Unserer bisherigen Überlegung nach musste sie für das Leben stehen. Dort sollten wir anfangen.
+
+Er rief uns zu, dass die Säulen auf der vom Kern abgewandten Seite eine Ausbuchtung besaßen. Dann beschwor er acht Eulen.
+
+Im nächsten Moment schoss ein Blitz aus dem Kern zu einer der weißen Säulen am Rand.
+
+Eine der Eulen befand sich genau im Strahl.
+
+Kaum war der Blitz verschwunden, wurden Hedistrin und Ser Ayne nach oben gerissen. Ein Sturm brauste durch den Raum und wirbelte die beiden umher.
+
+Hedistrins Gestalt verfestigte sich dabei noch weiter. Ihr Geheul erfüllte die ganze Halle.
+
+Ser Aynes Geschrei war ebenfalls gut zu hören.
+
+Schließlich landete er direkt vor meiner Nase. Er wandte sich einer der Eulen zu, um ihr einen Stab zu geben, und rannte dann sofort weiter.
+
+Flint steckte währenddessen offenbar den Stab des Lebens in die Ausbuchtung der nördlichen Säule.
+
+Es blitzte einmal auf.
+
+Das war anscheinend nicht ganz richtig gewesen.
+
+Kurz darauf tat Hedistrin etwas, das mir noch weniger gefiel. Ein Riss schien sich in der Wirklichkeit zu öffnen. Dahinter konnten wir in die Ätherebene blicken.
+
+Ich geriet in einen Sog, konnte mich ihm aber mit einem Nebelschritt entziehen.
+
+Dabei fiel mir etwas auf: Die Edelsteine an den Säulen hatten unterschiedliche Farben.
+
+Vielleicht hatten diese Farben etwas mit den Stäben zu tun. Es konnte passen.
+
+Ich rief Ser Ayne meine Beobachtung zu. Flint konnte mich leider nicht hören, weil sich der brummende Kern zwischen uns befand.
+
+Dann zuckten acht Blitze gleichzeitig vom Kern zu den äußeren Säulen.
+
+Die orangefarbenen Säulen leuchteten anschließend dauerhaft.
+
+Ser Ayne warf derweil seinen Wasserstab einer Eule zu. Er traf sie damit. Die Eule sah entsprechend überrascht aus und schien auch etwas abbekommen zu haben.
+
+Er hatte ihr offenbar nicht vorher Bescheid gegeben.
+
+Hedistrin kam um die Ecke und griff mich mit ihren ätherischen Krallen an. Zum Glück konnte ich den Angriff mit einem Schildzauber abwehren.
+
+Ich rief Ser Ayne noch zu, dass die orangefarbenen Säulen leuchteten, und versuchte, zu ihm zu gelangen.
+
+Dabei erwischten mich Hedistrins Krallen.
+
+Ich erstarrte.

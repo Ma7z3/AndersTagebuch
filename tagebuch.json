@@ -1,7 +1,7 @@
 {
   "titel": "Das Tagebuch des Ander Holimion",
   "autor": "Matthias Petersen",
-  "stand": "Erzählung bis 24.08.2026",
+  "stand": "Erzählung bis 21.09.2026",
   "erstellt": "2026-10-31",
   "abschnitte": [
     {
@@ -386,7 +386,10 @@
       "gruppe": "Viertes Szenario: Netheril",
       "art": "kapitel",
       "datei": "inhalte/46-kapitel.md",
-      "quelle": "Fertiger PDF-Band, Seiten 127–130; Textauszug und Bilder"
+      "quelle": "Fertiger PDF-Band, Seiten 127–130; Textauszug und Bilder; freigegebene Fortsetzung aus den Spielnotizen vom 21.09.2026",
+      "pdf_seitenbeginn_spielabende": [
+        "21.09.2026"
+      ]
     },
     {
       "id": "addenda",

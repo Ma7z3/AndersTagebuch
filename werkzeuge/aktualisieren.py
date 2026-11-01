@@ -38,7 +38,6 @@ def main():
     config=json.loads((ROOT/'tagebuch.json').read_text())
     if public:
         config['abschnitte']=[s for s in config['abschnitte'] if s['art']!='entwurf']
-        config['stand']='Erzählung bis 24.08.2026'
         config.pop('original_pdf',None)
     config['oeffentlich']=public
     if not public:
@@ -62,8 +61,12 @@ def main():
             print('Neue Rohnotizen:',target.name)
         imports_path.write_text(json.dumps(imports,ensure_ascii=False,indent=2)+'\n')
 
-    sections=config['abschnitte'][:]
-    known={s['datei'] for s in sections}
+    finished_ids={s['id'] for s in config['abschnitte'] if s['art']!='entwurf'}
+    for section in config['abschnitte']:
+        if section.get('verarbeitet_in') and section['verarbeitet_in'] not in finished_ids:
+            raise ValueError('Bearbeitete Rohnotizen verweisen auf fehlenden fertigen Abschnitt: '+section['id'])
+    known={s['datei'] for s in config['abschnitte']}
+    sections=[s for s in config['abschnitte'] if not s.get('verarbeitet_in')]
     for folder,kind,group in ([('eintraege','eintrag','Neue Einträge')] if public else [('eintraege','eintrag','Neue Einträge'),('entwuerfe','entwurf','Rohnotizen')]):
         for path in sorted((ROOT/folder).glob('*.md')):
             relative=str(path.relative_to(ROOT))
@@ -85,6 +88,8 @@ def main():
             target=ROOT/reference
             if reference.startswith(('http:','https:')):raise ValueError('Externes Bild im Kapitel: '+reference)
             if not target.exists():raise FileNotFoundError('Bild fehlt: '+reference)
+    dates=[datetime.strptime(date,'%d.%m.%Y') for section in sections if section['art'] in ['kapitel','eintrag'] for date in re.findall(r'\(Spielabend vom (\d{2}\.\d{2}\.\d{4})\)',section['text'])]
+    if dates:config['stand']='Erzählung bis '+max(dates).strftime('%d.%m.%Y')
     images=json.loads((ROOT/'bilder/verzeichnis.json').read_text())
     data={**config,'abschnitte':sections,'bilder':[im for im in images if im['typ']=='illustration'],'bildlegenden':json.loads((ROOT/'gestaltung/bildlegenden.json').read_text())}
     for item in data['bilder']:

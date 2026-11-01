@@ -12,7 +12,7 @@ Eine neue Markdown-Datei in **eintraege/** hinzufügen, zum Beispiel **47-fortse
 
 Bilder nach **bilder/** legen und im Text mit `![Beschreibung](bilder/dateiname.png)` einbinden. Bild und Erklärung bleiben im Buch zusammen, wenn sie als gemeinsamer Infokasten oder Bild mit anschließender Bildlegende aufgebaut sind. Die Legenden der vorhandenen Illustrationen liegen in **gestaltung/bildlegenden.json**. Dort bestimmt `pdf_satz` das Buchformat: `spalte` für ein Bild innerhalb einer Textspalte, `breit` für die Breite beider Spalten und `seite` für eine eigene Bildseite. Das Seitenverhältnis bleibt erhalten. Die vorhandenen Formate wurden mit der ursprünglichen PDF verglichen.
 
-Nach dem Speichern auf dem Zweig **main** erstellt GitHub Actions Website und PDF automatisch gemeinsam. Inhaltsverzeichnis, Seitenzahlen und interne Seitenverweise werden neu berechnet. Schlägt ein Aufbau fehl, wird diese Fassung nicht veröffentlicht; die vorige Ausgabe bleibt bestehen. Größere Änderungen am Satz bitte anhand der erzeugten PDF visuell prüfen.
+Nach dem Speichern auf dem Zweig **main** erstellt GitHub Actions Website und PDF automatisch gemeinsam. Inhaltsverzeichnis, Seitenzahlen und interne Seitenverweise werden neu berechnet. Der Erzählstand richtet sich nach dem jüngsten Spielabend-Datum in den fertigen Kapiteln. Schlägt ein Aufbau fehl, wird diese Fassung nicht veröffentlicht; die vorige Ausgabe bleibt bestehen. Größere Änderungen am Satz bitte anhand der erzeugten PDF visuell prüfen.
 
 Word-Rohnotizen müssen vorher redaktionell zu einem fertigen Eintrag werden. Sie werden nicht automatisch als Kapitel ausgearbeitet. Lokale Notizen und Sicherungen sind nicht Bestandteil dieses Repositorys.
 
@@ -35,7 +35,7 @@ Der Zielordner darf noch nicht existieren. Die öffentlich ausgelieferten Dateie
 
 Die Gestaltung enthält die rekonstruierten ursprünglichen Buchschriften und zusätzlich Cinzel Decorative von Natanael Gama für den neu gestalteten Titel. Die zugehörigen mitgelieferten Lizenztexte liegen bei den Schriftdateien. Die ursprünglichen Bildnachweise bleiben in den Credits des Tagebuchs erhalten.
 
-Die Sprachprüfung ist noch nicht abgeschlossen. Der Spielabend vom 21.09.2026 befindet sich noch in der gemeinsamen Ausarbeitung und ist nicht Teil des Buchs.
+Die Sprachprüfung ist noch nicht abgeschlossen. Der freigegebene Spielabend vom 21.09.2026 setzt Kapitel 46 fort und ist in Website und Buch enthalten.
 
 ## Reiseatlas
 

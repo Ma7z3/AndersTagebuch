@@ -16,7 +16,6 @@ def copy_sources(target):
     """Positive allow-list: neither private drafts nor generated local data."""
     config=json.loads((ROOT/'tagebuch.json').read_text())
     config['abschnitte']=[s for s in config['abschnitte'] if s['art']!='entwurf']
-    config['stand']='Erzählung bis 24.08.2026'
     config.pop('original_pdf',None)
     target.mkdir(parents=True,exist_ok=True)
     (target/'tagebuch.json').write_text(json.dumps(config,ensure_ascii=False,indent=2)+'\n')
@@ -78,7 +77,7 @@ def main():
             return match[1]+relative+'?v='+hashlib.sha256(asset.read_bytes()).hexdigest()[:12]+match[3]
         page=re.sub(r'((?:src|href)=")([^"?]+\.(?:js|css))(?:\?v=[^" ]+)?(")',cache_asset,page)
         (site/'index.html').write_text(page);(site/'START.html').write_text(page);(site/'.nojekyll').touch()
-        manifest={'erstellt':datetime.now(ZoneInfo('Europe/Berlin')).isoformat(),'abschnitte':len(data['abschnitte']),'kapitel':sum(s['art'] in ['kapitel','eintrag'] for s in data['abschnitte']),'rohnotizen':0,'pdf_sha256':pdf_hash,**report}
+        manifest={'erstellt':datetime.now(ZoneInfo('Europe/Berlin')).isoformat(),'abschnitte':len(data['abschnitte']),'kapitel':sum(s['art'] in ['kapitel','eintrag'] for s in data['abschnitte']),'rohnotizen':0,'erzaehlstand':data['stand'],'pdf_sha256':pdf_hash,**report}
         (site/'stand.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
         assert not any((site/x).exists() for x in ['entwuerfe','eingang','sicherung','pruefung'])
         dest.parent.mkdir(parents=True,exist_ok=True);shutil.copytree(site,dest)
