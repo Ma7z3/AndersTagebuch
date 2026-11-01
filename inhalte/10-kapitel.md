@@ -81,5 +81,5 @@ Der Holzklotz von Elminster, welchen er stehen gelassen hatte, flog ihm
 hinterher und wir hörten noch ein "Klock" und ein "AUA".
 Dies war das letzte, was wir von Gibligrim Zhuck Gobbelbick Tarkelby hörten.
 
-Auch wenn uns nun zwei Gefährten verlassen hatten, wir mussten weitermachen und den besessenen Iltond aufhalten, sich Tethyamar unter den Nagel
+Auch wenn uns nun zwei Gefährten verlassen hatten, mussten wir weitermachen und den besessenen Iltond daran hindern, sich Tethyamar unter den Nagel
 zu reißen.
