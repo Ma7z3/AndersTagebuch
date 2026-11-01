@@ -2,9 +2,9 @@
 
 # Das Tagebuch des Ander Holimion
 
-![Ander Holimion beim Schreiben](bilder/pdf-s001-14616.png)
+![Die Reisen des Ander Holimion](bilder/titelgemaelde-v5.png)
 
-##### Ander Holimion beim Schreiben dieses Tagebuches.
+##### Die Reisen des Ander Holimion
 
 ##### Dieses Tagebuch wurde von Ander Holimion während seiner Reisen durch Faerûn sowie durch das gesamte Multiversum geschrieben.
 

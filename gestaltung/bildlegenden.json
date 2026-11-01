@@ -2,7 +2,8 @@
   {
     "bild": "bilder/pdf-s001-14616.png",
     "titel": "Ander Holimion beim Schreiben dieses Tagebuches.",
-    "nachweis": ""
+    "nachweis": "",
+    "pdf_satz": "seite"
   },
   {
     "bild": "bilder/pdf-s007-32.png",
@@ -94,5 +95,11 @@
     "titel": "Hedistrin über dem Kern – Farbzeichnung von Ander Holimion",
     "nachweis": "",
     "pdf_satz": "breit"
+  },
+  {
+    "bild": "bilder/titelgemaelde-v5.png",
+    "titel": "Die Reisen des Ander Holimion",
+    "nachweis": "",
+    "pdf_satz": "titelgemaelde"
   }
 ]

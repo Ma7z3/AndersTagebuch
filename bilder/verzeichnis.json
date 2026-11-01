@@ -167,7 +167,7 @@
     "titel": "Ander Holimion beim Schreiben",
     "original_url": "https://i.ibb.co/rfnQjgQ/EF67-B315-DF30-42-C7-92-CC-2811-AB92-FF97.jpg",
     "code_reihenfolge": 1,
-    "kapitel": "titel"
+    "kapitel": "abschluss"
   },
   {
     "id": 770,
@@ -1303,7 +1303,7 @@
     "pdf_seiten": [
       141
     ],
-    "typ": "illustration",
+    "typ": "archiv-illustration",
     "transparenz": false,
     "titel": "Erwiderung",
     "original_url": "https://i.ibb.co/TDnSKSNy/F8295-A4-E-B002-4853-A9-A1-56524-E7100-A3.png",
@@ -1324,5 +1324,17 @@
     "original_url": "https://i.ibb.co/My4xwjVz/Essenz-des-Zwielichts.jpg",
     "code_reihenfolge": 65,
     "kapitel": "addenda"
+  },
+  {
+    "titel": "Die Reisen des Ander Holimion",
+    "datei": "bilder/titelgemaelde-v5.png",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "kapitel": "titel",
+    "breite": 1024,
+    "hoehe": 1536,
+    "modus": "RGB",
+    "sha256": "468665b8952763aec7e6c2fbe2be303c1a9fab5a107b831c03c72da6032d5fa6",
+    "herkunft": "Integrierte Bildgenerierung nach Figurenreferenzen und Nutzerangaben"
   }
 ]

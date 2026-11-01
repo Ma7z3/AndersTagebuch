@@ -406,6 +406,14 @@
       "art": "credits",
       "datei": "inhalte/90-credits.md",
       "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "abschluss",
+      "titel": "Ander Holimion beim Schreiben",
+      "gruppe": "Zum Abschluss",
+      "art": "schlussbild",
+      "datei": "inhalte/95-abschluss.md",
+      "quelle": "Bisheriges Titelbild, auf Wunsch ans Buchende versetzt"
     }
   ]
 }

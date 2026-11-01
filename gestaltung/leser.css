@@ -49,3 +49,6 @@
 .article img.item-image{max-width:min(100%,360px);max-height:340px;margin:18px auto 24px;mix-blend-mode:multiply}
 .gallery-card img{mix-blend-mode:multiply}
 @media(max-width:760px){.article img.item-image{max-height:280px}}
+
+/* The portrait cover stays large and centered on desktop and mobile. */
+.article.cover img[src='bilder/titelgemaelde-v5.png']{max-height:1050px;width:min(100%,700px);height:auto}

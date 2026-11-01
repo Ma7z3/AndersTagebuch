@@ -12,6 +12,7 @@ rl_config.useA85 = False
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
+from reportlab.lib.utils import ImageReader
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_JUSTIFY
 from reportlab.lib.styles import ParagraphStyle
 from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, Spacer, Image, PageBreak, NextPageTemplate, FrameBreak, Flowable, LongTable, Table, TableStyle, KeepTogether, BalancedColumns, CondPageBreak
@@ -317,6 +318,28 @@ def all_marks(flows):
                 for cell in row:
                     if isinstance(cell,(list,tuple)):yield from all_marks(cell)
 
+class CoverPainting(Flowable):
+    """Draw the approved portrait cover at page height, with selectable title text."""
+    def __init__(self,source,prefix,author):
+        Flowable.__init__(self);self.source=source;self.prefix=prefix;self.author=author;self.width=WIDTH;self.height=1
+    def draw(self):
+        c=self.canv;c.saveState();c.resetTransforms()
+        c.setFillColor(colors.HexColor('#142128'));c.rect(0,0,W,H,fill=1,stroke=0)
+        with PillowImage.open(ROOT/self.source) as im:iw=H*im.width/im.height
+        x=(W-iw)/2
+        c.drawImage(str(pdf_image(ROOT/self.source)),x,0,width=iw,height=H,mask='auto')
+        shade=PillowImage.new('RGBA',(4,1024))
+        shade.putdata([(16,26,32,round(222*y/1023)) for y in range(1024) for _ in range(4)])
+        c.drawImage(ImageReader(shade),x,0,width=iw,height=178,mask='auto')
+        c.setStrokeColor(colors.HexColor('#b79a60'));c.setLineWidth(.65);c.rect(18,18,W-36,H-36,fill=0,stroke=1)
+        for text,font,size,y in [(self.prefix,'Ornate',18,104),('Ander Holimion','Ornate-Bold',34,61),(self.author,'Book',10.5,30)]:
+            assert pdfmetrics.stringWidth(text,font,size)<W-70
+            c.setFont(font,size);c.setFillColor(colors.HexColor('#11151a'));c.drawCentredString(W/2+1,y-1,text)
+            c.setFillColor(colors.HexColor('#f2d49b'));c.drawCentredString(W/2,y,text)
+        c.restoreState()
+        doc=c._doctemplate
+        doc.illustration_blocks.append({'abschnitt':'titel','art':'Titelbild','bilder':[self.source],'pdf_seite':doc.page,'buchseite':0,'spalte':'cover','hoehe':H,'breite':W,'satz':'titelgemaelde'})
+
 def cover_flows(title,refmap):
     tokens=[t for t in title['tokens'] if t['type'] not in ['space','html']]
     hero=next(t for t in tokens if t['type']=='figure')
@@ -326,6 +349,8 @@ def cover_flows(title,refmap):
     if name or not prefix:raise ValueError('Unerwarteter Buchtitel')
     picture=IllustrationGroup([image_flow(hero['image'],WIDTH,True),Paragraph(inline(hero['heading']['tokens'],refmap),ST['artist'])],WIDTH,'Titelbild',title['id'])
     cover=[Spacer(1,24),Paragraph(esc(prefix.strip()),ST['coverh1']),Paragraph('Ander Holimion',ST['covername']),Spacer(1,8),picture,Spacer(1,18),Paragraph(inline(author['tokens'],refmap),ST['coverh2'])]
+    if FIGURE_CONFIG.get(hero['image']['href'],{}).get('pdf_satz')=='titelgemaelde':
+        cover=[CoverPainting(hero['image']['href'],prefix.strip(),author['text'].removeprefix('Autor: ').strip())]
     reverse=[Spacer(1,91)]
     for t in tokens:
         if t['type']=='heading' and t['depth']==5:reverse.append(Paragraph(inline(t['tokens'],refmap),ST['frontnote']))

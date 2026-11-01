@@ -48,7 +48,7 @@ def validate_pdf(path,data):
     expected=set(re.findall(r'!\[[^\]]*\]\((bilder/[^)]+)\)', '\n'.join(s['text'] for s in data['abschnitte'])))
     actual=[im for g in meta['bildgruppen'] for im in g['bilder']]
     assert expected==set(actual),'Bildgruppe fehlt im Buch'
-    assert all(g['hoehe']<=700.1 for g in meta['bildgruppen']),'Bildgruppe überschreitet Spaltenhöhe'
+    assert all(g['hoehe']<=(792.1 if g.get('satz')=='titelgemaelde' and g['abschnitt']=='titel' else 700.1) for g in meta['bildgruppen']),'Bildgruppe überschreitet Satzhöhe'
     for im in re.findall(r'(?:file:|/Users/|entwuerfe/|sicherung/)',texts):raise ValueError('Lokaler Verweis im veröffentlichten Buch: '+im)
     return {'pdf_seiten':len(reader.pages),'buchseiten':len(reader.pages)-2,'bildgruppen':len(actual),'alte_anker':len(meta['alte_anker_auf_neue_seiten'])}
 

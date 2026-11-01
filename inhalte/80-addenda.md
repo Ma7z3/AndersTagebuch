@@ -213,7 +213,7 @@ Spruch auswählen.
 #### Hutbert
 *Wundersamer Gegenstand*
 
-![Hutbert](bilder/gegenstand-hutbert.png)
+![Hutbert](bilder/gegenstand-hutbert-v2.png)
 ___
 - **Kategorie:** Kopfbedeckung
 - **Seltenheit:** Artefakt
@@ -233,6 +233,30 @@ ist jedoch noch unbekannt.
 Hutbert kann Magier-Zaubersprüche lernen. Diese können gezaubert werden,
 indem eine Probe auf Arkane Kunde bestanden wird und ein Zauberplatz des
 entsprechenden Levels genutzt wird.
+
+<a id="gegenstand-diebeswerkzeug-plus1"></a>
+
+#### Diebeswerkzeug +1
+*Magisches Werkzeug*
+
+![Diebeswerkzeug +1](bilder/gegenstand-diebeswerkzeug-plus1.png)
+
+___
+- **Kategorie:** Werkzeug
+- **Seltenheit:** ungewöhnlich
+- **Modifikatoren:** +1
+- **Derzeitiger Besitzer:** Bruder Tau
+
+Dieses hochwertige Diebeswerkzeug besteht aus gehärtetem Werkzeugstahl.
+Feine Messingverzierungen schmücken die Griffe und den Verschluss der
+feuerfesten Tasche, in der die Werkzeuge sicher verstaut werden können.
+
+Ein Handwerker in Messingstadt stellte das Set aus seinen eigenen,
+besonders robusten Werkzeugen zusammen. Als er erfuhr, dass wir Freunde
+des Sultans waren, schenkte er es mir.
+
+Bei Attributswürfen, für die du dieses Diebeswerkzeug verwendest, erhältst
+du einen Bonus von +1.
 
 <a id="gegenstand-ionenstein-schutz"></a>
 
@@ -255,7 +279,7 @@ Prisma deinen Kopf umkreist.
 #### Schild der Mutter von Talion
 *Rüstung (Schild)*
 
-![Schild der Mutter von Talion](bilder/gegenstand-schild-talions-mutter.png)
+![Schild der Mutter von Talion](bilder/gegenstand-schild-talions-mutter-v2.png)
 ___
 - **RK:** 2
 - **Kategorie:** Schild
@@ -841,7 +865,7 @@ Kälteschaden.
 #### Erwiderung
 *Waffe (Rapier +3)*
 
-![Erwiderung](bilder/pdf-s141-635.png)
+![Erwiderung](bilder/gegenstand-erwiderung-v2.png)
 
 ___
 - **Kategorie:** Waffe
