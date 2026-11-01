@@ -348,7 +348,7 @@ Um zu erkunden, ob wir nun etwas Ruhe hätten, verkleidete ich mich selbst als
 Wache und guckte in den angrenzenden Räumen, ob jemand dort sei.
 
 Ich ging zunächst in den Raum, der vorher noch durch die magische Barriere
-geschützt war, und sah niemanden. Das Einzige, was in dem Raum war, war
+geschützt war, und sah vorher niemanden. Das Einzige, was in dem Raum war, war
 ein Tisch, auf dem drei kleine Säckchen lagen und ein Regal, in dem
 mindestens 50 Bücher standen.
 

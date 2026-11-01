@@ -160,9 +160,9 @@ würden und dass wir uns Freunde machen müssten.
 
 Staubmenschen macht man sich laut Kylie mit Geld am besten zu Freunden.
 
-Wir müssten aufpassen, dass die Wachen keinen Alarm schlagen. Staubmenschen
-dürften herumlaufen, wo sie möchten. In ihrer Verkleidung würden uns die
-Zombies und Skelette nichts tun.
+Wir müssten aufpassen, dass die Wachen keinen Alarm schlugen, denn auch
+Staubmenschen dürften nicht überall herumlaufen. Solange niemand Alarm
+schlug, würden uns die Zombies und Skelette nichts tun.
 
 Der Weg zu dem Portal in die Feuerebenen führt in den obersten Raum der
 Leichenhalle. Wir müssten nach links durch zwei Türen und dann die Treppe
@@ -219,10 +219,10 @@ Feuers stammen würden.
 >
 > ![Azer](bilder/pdf-s047-206.png)
 >
-> Die Azer haben Ähnlichkeit mit Zwergen, allerdings mit messingfarbener Haut
-> und Haaren, deren Haare und Bärte aus Flammen bestanden. Die Körper der
-> Azer sind so heiß, dass ihre Waffen Hitze leiteten, so dass jedes Wesen, das
-> sich in Reichweite eines Azers befindet, durch die intensive Hitze verletzt wird.
+> Azer ähneln Zwergen, haben jedoch messingfarbene Haut. Ihre Haare und Bärte
+> bestehen aus Flammen. Die Körper der Azer sind so heiß, dass ihre Waffen Hitze
+> leiten, sodass jedes Wesen, das sich in Reichweite eines Azers befindet, durch
+> die intensive Hitze verletzt wird.
 > Viele Azer tragen Schottenröcke und schürzenartige Gewänder aus
 > geschlagenem Messing, Bronze oder Kupfer.
 

@@ -136,7 +136,7 @@ Wir hielten. Noch einmal.
 ##### (Spielabend vom 08.12.2025)
 Der Warg, der direkt vor mir stand, hatte keine Zeit zu reagieren.
 Noch bevor Ser Ayne überhaupt Luft holen konnte, zog ich Erwiderung hoch
-und ließ die Magie fließen. Die Klinge, in grünes Feuer gehüllt, traf den Wolf
+und ließ die Magie fließen. Die Flamme, in grünes Feuer gehüllt, traf den Wolf
 frontal – ein grollendes Heulen, dann brach das gewaltige Tier zusammen.
 Rauch stieg aus den rot glühenden Augen auf.
 

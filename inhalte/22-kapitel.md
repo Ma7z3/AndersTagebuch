@@ -564,15 +564,17 @@ Die Fangzähne der Gestalt stellten sich als Tentakeln heraus, womit es eine
 seltsame Welle, die durch meinen Geist drang, aussendete. Ich konnte diese
 abschütteln, jedoch der Rest der Gruppe nicht.
 
-Es entbrannte ein schneller, aber heftiger Kampf, nachdem das Duell zu Ende
-war und der Rest der Gruppe sich wieder gesammelt hatte. Nachdem wir alle
-mehrfach von heftigen Blitzen getroffen wurden, brachen kleine Ratten, deren
-Gehirne freigelegt waren, durch die Wand und griffen uns ebenfalls an.
+Der Kampf entwickelte sich zunächst zu einem Duell zwischen dem Gedankenschinder
+und mir, denn die anderen waren bewegungsunfähig. Dann brachen kleine Ratten,
+deren Gehirne freigelegt waren, durch die Wand und griffen uns ebenfalls an.
+Talion konnte sich wieder bewegen und ich wurde von einem heftigen Blitz
+getroffen. Kurz darauf traf mich ein weiterer Blitz, den ich etwas besser
+wegstecken konnte.
 
 Balgrim und Flint hauten wie Irre auf den Rattenschwarm ein und ich verbrannte
-auch ein paar Ratten, sodass diese schnell Geschichte waren. Die anderen
-beiden konzentrierten sich weiterhin auf die eigenartige Gestalt, welche sich
-aber, nachdem die Ratten vernichtet waren, unsichtbar machte.
+auch ein paar Ratten. Die anderen beiden konzentrierten sich weiterhin auf den
+Gedankenschinder. Dieser machte sich unsichtbar, während Balgrim die letzten
+Ratten vernichtete.
 
 Balgrim und Talion versuchten beide, das Geschöpf zu treffen und wie durch ein
 Wunder gelang es Talion, wodurch das Wesen wieder sichtbar wurde und

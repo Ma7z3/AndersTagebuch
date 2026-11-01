@@ -354,8 +354,8 @@ Ser Ayne und Basari als Warenträger.
 Er kenne sich außerdem ein wenig in Messingstadt aus, was für uns sicher auch
 von Vorteil sein würde.
 
-Wir entschlossen uns das Angebot wahrzunehmen, uns jedoch im Hinblick auf
-unser aller Erschöpfung bis zum nächsten Morgen ausruhen würden.
+Wir entschlossen uns, das Angebot anzunehmen, wollten uns jedoch angesichts
+unserer Erschöpfung bis zum nächsten Morgen ausruhen.
 
 Sam bejahte und begrüßte unseren Plan und so gingen wir zunächst
 auseinander und ich und meine Mitstreiter suchten ein nahes Gasthaus auf.
