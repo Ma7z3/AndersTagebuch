@@ -1,0 +1,112 @@
+#!/usr/bin/env python3
+"""Rebuild the offline reader using only Python's standard library."""
+from pathlib import Path
+from datetime import datetime
+import hashlib, json, re, zipfile, sys
+import xml.etree.ElementTree as ET
+from tabellen_pruefen import validate_tables
+
+ROOT=Path(__file__).resolve().parents[1]
+NS={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
+
+def docx_text(path):
+    with zipfile.ZipFile(path) as archive:
+        tree=ET.fromstring(archive.read('word/document.xml'))
+        body=tree.find('w:body',NS)
+        paragraphs=[]
+        for node in body:
+            if node.tag.endswith('}p'):
+                paragraphs.append(''.join(t.text or '' for t in node.findall('.//w:t',NS)))
+            elif node.tag.endswith('}tbl'):
+                for row in node.findall('w:tr',NS):
+                    paragraphs.append(' | '.join(' '.join(t.text or '' for t in cell.findall('.//w:t',NS)) for cell in row.findall('w:tc',NS)))
+        return '\n\n'.join(paragraphs).strip()
+
+def versioniere_startseite():
+    page=ROOT/'START.html'
+    if not page.exists():return
+    text=page.read_text()
+    def version(match):
+        path=ROOT/match[2]
+        if not path.exists():return match[0]
+        return match[1]+match[2]+'?v='+hashlib.sha256(path.read_bytes()).hexdigest()[:12]+match[3]
+    text=re.sub(r'((?:src|href)=")([^"?]+\.(?:js|css))(?:\?v=[^" ]+)?(")',version,text)
+    page.write_text(text)
+
+def main():
+    public='--oeffentlich' in sys.argv
+    config=json.loads((ROOT/'tagebuch.json').read_text())
+    if public:
+        config['abschnitte']=[s for s in config['abschnitte'] if s['art']!='entwurf']
+        config['stand']='Erzählung bis 24.08.2026'
+        config.pop('original_pdf',None)
+    config['oeffentlich']=public
+    if not public:
+        imports_path=ROOT/'eingang/importverzeichnis.json'
+        imports=json.loads(imports_path.read_text()) if imports_path.exists() else {}
+        for source in sorted((ROOT/'eingang').glob('*.docx')):
+            if source.name.startswith('~$'):continue
+            digest=hashlib.sha256(source.read_bytes()).hexdigest()
+            if digest in imports:
+                if not (ROOT/imports[digest]).exists():raise RuntimeError('Ein bereits importierter Entwurf fehlt: '+imports[digest])
+                continue
+            text=docx_text(source)
+            date=re.search(r'(\d{2})\.(\d{2})\.(\d{4})',source.stem)
+            label=f'{date[3]}-{date[2]}-{date[1]}' if date else re.sub(r'[^\w-]+','-',source.stem)
+            name=label+'-rohnotizen.md';target=ROOT/'entwuerfe'/name
+            if target.exists():target=target.with_name(target.stem+'-'+digest[:8]+target.suffix)
+            if target.exists():raise RuntimeError('Zieldatei existiert schon: '+str(target))
+            title='Spielabend vom '+date[0] if date else source.stem
+            target.write_text('# '+title+'\n\n'+text+'\n')
+            imports[digest]=str(target.relative_to(ROOT))
+            print('Neue Rohnotizen:',target.name)
+        imports_path.write_text(json.dumps(imports,ensure_ascii=False,indent=2)+'\n')
+
+    sections=config['abschnitte'][:]
+    known={s['datei'] for s in sections}
+    for folder,kind,group in ([('eintraege','eintrag','Neue Einträge')] if public else [('eintraege','eintrag','Neue Einträge'),('entwuerfe','entwurf','Rohnotizen')]):
+        for path in sorted((ROOT/folder).glob('*.md')):
+            relative=str(path.relative_to(ROOT))
+            if relative in known:continue
+            text=path.read_text()
+            heading=re.search(r'^#{1,6}\s+(.+)',text,re.M)
+            title=heading[1] if heading else path.stem
+            section={'id':kind+'-'+path.stem,'titel':title,'gruppe':group,'art':kind,'datei':relative,'quelle':'Lokale Textdatei'}
+            if kind=='eintrag':
+                position=next((i for i,s in enumerate(sections) if s['art'] in ['addenda','credits','entwurf']),len(sections))
+                sections.insert(position,section)
+            else:sections.append(section)
+    for section in sections:
+        path=ROOT/section['datei']
+        if not path.exists():raise FileNotFoundError('Kapiteldatei fehlt: '+section['datei'])
+        section['text']=path.read_text()
+        validate_tables(section['text'], section['datei'])
+        for reference in re.findall(r'!\[[^\]]*\]\(([^)]+)\)',section['text']):
+            target=ROOT/reference
+            if reference.startswith(('http:','https:')):raise ValueError('Externes Bild im Kapitel: '+reference)
+            if not target.exists():raise FileNotFoundError('Bild fehlt: '+reference)
+    images=json.loads((ROOT/'bilder/verzeichnis.json').read_text())
+    data={**config,'abschnitte':sections,'bilder':[im for im in images if im['typ']=='illustration'],'bildlegenden':json.loads((ROOT/'gestaltung/bildlegenden.json').read_text())}
+    for item in data['bilder']:
+        if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
+    payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
+    route_path=ROOT/'karten/reise.json'
+    if route_path.exists():
+        route=json.loads(route_path.read_text());ids={s['id'] for s in sections}
+        planes={p['id'] for p in route['ebenen']}
+        for step in route['stationen']:
+            if not set(step['kapitel'])<=ids:raise ValueError('Reiseatlas verweist auf fehlendes Kapitel: '+step['ort'])
+            if step['ebene'] not in planes:raise ValueError('Unbekannte Ebene: '+step['ebene'])
+            if step['region'] is not None and step['region'] not in route['regionen']:raise ValueError('Unbekannte Reiseregion')
+        (ROOT/'karten/reise.js').write_text('window.REISE = '+json.dumps(route,ensure_ascii=False).replace('</','<\\/')+';\n')
+    (ROOT/'gestaltung/daten.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/'gestaltung/daten.js').write_text('window.TAGEBUCH = '+payload+';\n')
+    versioniere_startseite()
+    print('Öffentliche Fassung ohne Rohnotizen.' if public else 'Word-Dateien werden nur als Rohnotizen übernommen. Keine automatische Umschreibung oder Kapitelzuordnung.')
+    print(f'Fertig: {len(sections)} Abschnitte und {len(data["bilder"])} Illustrationen. START.html kann geöffnet werden.')
+
+if __name__=='__main__':
+    try:main()
+    except Exception as exc:
+        print('Abgebrochen:',exc,file=sys.stderr)
+        sys.exit(1)

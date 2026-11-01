@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' file:; script-src 'self' file:; style-src 'self' file:; img-src 'self' file: data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Das Tagebuch des Ander Holimion</title>
+  <link rel="stylesheet" href="gestaltung/leser.css?v=f0bcdaab0be2">
+  <link rel="stylesheet" href="karten/atlas.css?v=b579c762115f">
+  <script src="gestaltung/marked.umd.js?v=0db7abc826b5" defer></script>
+  <script src="gestaltung/daten.js?v=e25ad24ac2ca" defer></script>
+  <script src="export/aktuell.js?v=595be9515ea1" defer></script>
+  <script src="karten/reise.js?v=249fe0cac755" defer></script>
+  <script src="karten/atlas.js?v=eb2d43c81a73" defer></script>
+  <script src="gestaltung/leser.js?v=8a4d50209caf" defer></script>
+</head>
+<body>
+  <a href="#lesetext" class="skip">Zum Text</a>
+  <button id="menue" class="mobile-menu" type="button" aria-controls="sidebar" aria-expanded="false">☰ Kapitel</button>
+  <aside id="sidebar">
+    <a class="brand" href="#titel"><span class="brand-mark">AH</span><span>Die Reisen des<br><strong>Ander Holimion</strong></span></a>
+    <p class="edition">DAS TAGEBUCH · LOKALE AUSGABE</p>
+    <div class="search-wrap"><label for="suche">Das Tagebuch durchsuchen</label><input id="suche" type="search" placeholder="Namen, Orte, Abenteuer …" autocomplete="off"><p id="suchstatus" role="status" aria-live="polite"></p></div>
+    <div class="nav-modes"><a href="#titel">Lesen</a><a href="#spielabende">Abende</a><a href="#bilder">Bilder</a><a href="#karten">Karten</a><a href="#hilfe">Erweitern</a></div>
+    <nav id="navigation" aria-label="Kapitel"></nav>
+    <footer>Nur auf deinem Rechner.<br>Text und Bilder sind lokal gespeichert.</footer>
+  </aside>
+  <main id="main">
+    <header class="toolbar"><span id="pfad">Das Tagebuch</span><div><a id="buchpdf" hidden target="_blank" rel="noopener" title="Vollständiges Buch ohne Rohnotizen">PDF herunterladen</a><a id="original" href="sicherung/originale/Das%20Tagebuch%20des%20Ander%20Holimion%20-%20Stand%2024.08.2026.pdf" target="_blank" rel="noopener">Vorlage ↗</a><button id="drucken" type="button">Abschnitt drucken</button></div></header>
+    <div id="inhalt"></div>
+    <nav id="blaettern" class="page-nav" aria-label="Weiterblättern"></nav>
+  </main>
+  <dialog id="bilddialog"><button id="bildschliessen" type="button" aria-label="Bild schließen">×</button><figure><img id="grossbild" alt=""><figcaption id="bildtitel"></figcaption></figure><a id="bildkapitel">Im Text ansehen →</a></dialog>
+  <noscript>Zum Lesen dieser lokalen Ausgabe bitte JavaScript im Browser aktivieren. Der ursprüngliche PDF-Band liegt im Unterordner sicherung/originale.</noscript>
+</body>
+</html>

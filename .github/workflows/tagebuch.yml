@@ -1,0 +1,43 @@
+name: Tagebuch und Buch-PDF
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: tagebuch-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+      - name: Buchwerkzeuge installieren
+        run: python -m pip install -r requirements.txt
+      - name: Leseausgabe und PDF gemeinsam erzeugen und prüfen
+        run: python werkzeuge/veroeffentlichen.py --ziel _site
+      - name: Gemeinsame Ausgabe bereitstellen
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Tagebuch veröffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+_site/
+export/
+eingang/
+entwuerfe/
+sicherung/
+pruefung/
+gestaltung/daten.js
+gestaltung/daten.json

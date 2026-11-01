@@ -1,0 +1,408 @@
+{
+  "titel": "Das Tagebuch des Ander Holimion",
+  "autor": "Matthias Petersen",
+  "stand": "Erzählung bis 24.08.2026",
+  "erstellt": "2026-10-31",
+  "abschnitte": [
+    {
+      "id": "titel",
+      "titel": "Das Tagebuch des Ander Holimion",
+      "gruppe": "Das Tagebuch",
+      "art": "titel",
+      "datei": "inhalte/00-titel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "prolog",
+      "titel": "Prolog",
+      "gruppe": "Das Tagebuch",
+      "art": "prolog",
+      "datei": "inhalte/00-prolog.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-01",
+      "titel": "Kapitel 1: Sturmpenhauder und die Aufgabe",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/01-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-02",
+      "titel": "Kapitel 2: Die Reise",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/02-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-03",
+      "titel": "Kapitel 3: Burg Dolchtal",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/03-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-04",
+      "titel": "Kapitel 4: Dolchfall",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/04-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-05",
+      "titel": "Kapitel 5: Der Kerker",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/05-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-06",
+      "titel": "Kapitel 6: Der Angriff",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/06-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-07",
+      "titel": "Kapitel 7: Die Schädel",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/07-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-08",
+      "titel": "Kapitel 8: Die Katapulte",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/08-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-09",
+      "titel": "Kapitel 9: Das Bankett",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/09-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-10",
+      "titel": "Kapitel 10: Die Abschiede",
+      "gruppe": "Erstes Szenario: Randall Morn",
+      "art": "kapitel",
+      "datei": "inhalte/10-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-11",
+      "titel": "Kapitel 11: Vorbereitungen für die Wüste",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/11-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-12",
+      "titel": "Kapitel 12: Der Augenwald",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/12-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-13",
+      "titel": "Kapitel 13: Schmetterschrei",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/13-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-14",
+      "titel": "Kapitel 14: Die Hexen",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/14-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-15",
+      "titel": "Kapitel 15: Der Sumpf",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/15-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-16",
+      "titel": "Kapitel 16: Der Hexenzirkel",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/16-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-17",
+      "titel": "Kapitel 17: Der Silberdrache",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/17-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-18",
+      "titel": "Kapitel 18: Die Binwabi",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/18-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-19",
+      "titel": "Kapitel 19: überleben in der Wüste",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/19-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-20",
+      "titel": "Kapitel 20: Der Gefallen für Basari",
+      "gruppe": "Zweites Szenario: Die Wüste der Binwabi",
+      "art": "kapitel",
+      "datei": "inhalte/20-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-21",
+      "titel": "Kapitel 21: Die Stadt der Portale",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/21-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-22",
+      "titel": "Kapitel 22: Die erste Quest",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/22-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-23",
+      "titel": "Kapitel 23: Der Einbruch bei den Toten",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/23-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-24",
+      "titel": "Kapitel 24: Die Ebenen des Feuers",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/24-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-25",
+      "titel": "Kapitel 25: Kräfte und Infos sammeln",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/25-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-26",
+      "titel": "Kapitel 26: Der Schrottplatz und neue Kameraden",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/26-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-27",
+      "titel": "Kapitel 27: Der zweite Feuerzitadellenversuch",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/27-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-28",
+      "titel": "Kapitel 28: Zurück in Sigil",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/28-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-29",
+      "titel": "Kapitel 29: Vorbereitungen treffen für Messingstadt",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/29-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-30",
+      "titel": "Kapitel 30: Messingstadt",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/30-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-31",
+      "titel": "Kapitel 31: Die letzten Tage in der Stadt der Portale",
+      "gruppe": "Drittes Szenario: Sigil",
+      "art": "kapitel",
+      "datei": "inhalte/31-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-32",
+      "titel": "Kapitel 32: Das Immermoor",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/32-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-33",
+      "titel": "Kapitel 33: Silbrigmond",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/33-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-34",
+      "titel": "Kapitel 34: Dolchfall die Zweite",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/34-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-35",
+      "titel": "Kapitel 35: Der Weg nach Tethyamar",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/35-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-36",
+      "titel": "Kapitel 36: Der Rote Drache",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/36-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-37",
+      "titel": "Kapitel 37: Der Koboldbau",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/37-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-38",
+      "titel": "Kapitel 38: Der Clan des Schwarzen Todes",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/38-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-39",
+      "titel": "Kapitel 39: Von Fanatikern und Geistern",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/39-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-40",
+      "titel": "Kapitel 40: Der Flüsterer in der Dunkelheit",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/40-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-41",
+      "titel": "Kapitel 41: Arachnider Horror",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/41-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-42",
+      "titel": "Kapitel 42 – Das Lied der Erwiderung",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/42-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-43",
+      "titel": "Kapitel 43 – Die Fanatiker",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/43-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-44",
+      "titel": "Kapitel 44: Die Geister der Zwerge",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/44-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-45",
+      "titel": "Kapitel 45: Die Schmiede des Thoguna",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/45-kapitel.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "kapitel-46",
+      "titel": "Kapitel 46: Der Kern von Tethyamar",
+      "gruppe": "Viertes Szenario: Netheril",
+      "art": "kapitel",
+      "datei": "inhalte/46-kapitel.md",
+      "quelle": "Fertiger PDF-Band, Seiten 127–130; Textauszug und Bilder"
+    },
+    {
+      "id": "addenda",
+      "titel": "Addenda",
+      "gruppe": "Nachschlagen",
+      "art": "addenda",
+      "datei": "inhalte/80-addenda.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    },
+    {
+      "id": "credits",
+      "titel": "Credits",
+      "gruppe": "Nachschlagen",
+      "art": "credits",
+      "datei": "inhalte/90-credits.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+    }
+  ]
+}
