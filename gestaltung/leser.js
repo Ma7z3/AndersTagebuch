@@ -114,7 +114,7 @@ function showSection(section,target){
   const cover=section.art==='titel';
   const note=section.art==='entwurf'?'<div class="status-note">Rohnotizen vom Spielabend. Der Wortlaut wurde aus Word übernommen; dies ist noch kein ausgearbeiteter Tagebucheintrag.</div>':'';
   const stats=cover?`<div class="book-stats"><span>${sections.filter(s=>s.art==='kapitel'||s.art==='eintrag').length} KAPITEL</span><span>${book.bilder.length} ILLUSTRATIONEN</span><span>2022–2026</span></div><a class="read-next" href="#prolog">Die Reise beginnen →</a>`:'';
-  content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${safeMarkdown(section.text)}</article>`;
+  content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''} ${section.katalog==='gegenstaende'?'inventory':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${safeMarkdown(section.text)}</article>`;
   const index=sections.indexOf(section);
   pager.innerHTML=(index>0?`<a href="#${encodeURIComponent(sections[index-1].id)}">← ${escapeHtml(sections[index-1].titel)}</a>`:'')+(index<sections.length-1?`<a href="#${encodeURIComponent(sections[index+1].id)}">${escapeHtml(sections[index+1].titel)} →</a>`:'');
   try{localStorage.setItem('ander-letztes-kapitel',section.id);}catch{}

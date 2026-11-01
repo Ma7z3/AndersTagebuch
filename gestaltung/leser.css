@@ -52,3 +52,8 @@
 
 /* The portrait cover stays large and centered on desktop and mobile. */
 .article.cover img[src='bilder/titelgemaelde-v5.png']{max-height:1050px;width:min(100%,700px);height:auto}
+
+
+/* Every inventory entry starts with a strong, distinct boundary. */
+.article.inventory h4{border-top:3px solid #a18b5b;padding:18px 0 0;margin:46px 0 18px;break-after:avoid}
+@media(max-width:760px){.article.inventory h4{margin-top:34px;padding-top:16px}}

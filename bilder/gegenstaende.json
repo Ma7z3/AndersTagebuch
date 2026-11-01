@@ -644,5 +644,51 @@
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-diebeswerkzeug-plus1",
     "anker": "gegenstand-diebeswerkzeug-plus1"
+  },
+  {
+    "titel": "Feurit-Rüstung der Taubheit",
+    "datei": "bilder/gegenstand-feurit-ruestung-v2.png",
+    "herkunft": "ki-gegenstand",
+    "nachweis": "Bestehende Kampagnenabbildung auf Nutzerwunsch freigestellt und im Inventarstil dargestellt",
+    "werkzeug": "Integrierte Bildgenerierung",
+    "prompt": "Use case: background-extraction with restrained style matching. Asset type: isolated fantasy magic-item illustration for the same illustrated D&D inventory. Image 1 is the EDIT TARGET: the existing Feurit-Rüstung der Taubheit. Image 2 is a STYLE REFERENCE ONLY for the clean, finely painted inventory cutout rendering, not its objects. Remove the entire forge/forest environment, bokeh, floor, and airborne sparks from image 1. Show ONLY the same empty suit of full plate armor, isolated on genuinely transparent alpha, as a refined detailed hand-painted fantasy sourcebook item illustration. Preserve its distinctive design: blackened iron plate, fine antique copper engraved scrolling motifs on the domed helmet and large rounded shoulder pauldrons, the closed visor with narrow vertical glowing orange slits, the same breastplate and segmented limbs with flowing thin molten-orange fissures, dark chainmail at the joints and groin, same gauntlets, belt, knee and shin plates. Keep the same slightly turned front three-quarter view and same relaxed hanging-arm pose, proportions, dark black/orange palette, surface wear and arrangement of ornament. This is the SAME object, not an alternative armor design. Use soft neutral inventory lighting so the black metal detail remains readable without changing its color. Show the entire suit with small clear margins; only finish the feet cropped in the source with plain matching black armored boots. No person or exposed body inside, no stand, no pedestal, no weapons, no extra gems, no new symbols, no scenery, no colored rectangle, no halo, no drop shadow, no text, no watermark. Preserve real transparency between its arms and torso and around every contour.",
+    "referenzen": [
+      "bilder/pdf-s140-627.png",
+      "bilder/gegenstand-diebeswerkzeug-plus1.png"
+    ],
+    "breite": 1024,
+    "hoehe": 1536,
+    "modus": "RGBA",
+    "transparenz": true,
+    "sha256": "55b64e6323d2d57b9ce8b41ec9dc49506985aee25e5ad6495d4bf75b4f4d06e6",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "gegenstand": true,
+    "pdf_maxhoehe": 235,
+    "kapitel": "gegenstand-feurit-ruestung",
+    "anker": "gegenstand-feurit-ruestung"
+  },
+  {
+    "titel": "Essenz des Zwielichts - Schlüssel des Großen Risses",
+    "datei": "bilder/gegenstand-essenz-zwielichts-v2.png",
+    "herkunft": "ki-gegenstand",
+    "nachweis": "Bestehende Kampagnenabbildung auf Nutzerwunsch freigestellt und im Inventarstil dargestellt",
+    "werkzeug": "Integrierte Bildgenerierung",
+    "prompt": "Use case: background-extraction with restrained style matching. Asset type: isolated fantasy magic-item illustration for an illustrated D&D inventory. Image 1 is the EDIT TARGET: the existing Essenz des Zwielichts, Schlüssel des Großen Risses. Image 2 is a STYLE REFERENCE ONLY for the clean, finely painted detailed inventory cutout rendering. Extract and faithfully re-present ONLY the central scepter from image 1 on genuinely transparent alpha. Remove ALL stone niche and ruins, misty blue portal/backdrop, surrounding chains, wall brackets/clamps, rubble, foreground skulls and books. Keep the scepter itself extremely faithful to the original: slender dark matte black iron, organically twisted strands/filigree, its large elongated pointed pale translucent blue-violet crystal at the top embraced by the same three curved dark fork/talon shapes, the small pale-blue glowing oval jewel in the upper stem, the same short central dark grip bearing tiny subtle icy blue glyphs in a vertical line, the same twisted lower stem and small teardrop blue crystal set at the bottom. Preserve its original full shape, proportions, fork arrangement and colors, with the top crystal by far the largest luminous element. Soft, controlled blue-violet light within the actual crystals only, no large magical cloud, no portal, no aura rectangle. Upright frontal presentation, complete object centered with comfortable margin, elegant detailed hand-painted sourcebook-item treatment and neutral gentle lighting to match the other inventory objects. Do not redesign or simplify the artifact, do not add horns or blades or new ornament. No other objects, no pedestal, no text, no watermark, no parchment or white or gray background; transparent cutout including all openings between the fork prongs.",
+    "referenzen": [
+      "bilder/pdf-s142-643.png",
+      "bilder/gegenstand-diebeswerkzeug-plus1.png"
+    ],
+    "breite": 1024,
+    "hoehe": 1536,
+    "modus": "RGBA",
+    "transparenz": true,
+    "sha256": "63f7a28801769e64200d991bb4f43dca3d416d255e325a62d4059898cdfe7c73",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "gegenstand": true,
+    "pdf_maxhoehe": 235,
+    "kapitel": "gegenstand-essenz-zwielichts",
+    "anker": "gegenstand-essenz-zwielichts"
   }
 ]

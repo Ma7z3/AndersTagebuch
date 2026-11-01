@@ -40,3 +40,7 @@ Die Sprachprüfung ist noch nicht abgeschlossen. Der freigegebene Spielabend vom
 ## Reiseatlas
 
 Unter **Karten** lassen sich 28 Hauptstationen der Kapitel 1–46 auf Faerûn und in einer Ebenenansicht verfolgen. Die Karte ist © 2015 Wizards of the Coast; Quelle und Einordnung stehen in der Ansicht. Teilweise sind nur Reiseregionen belegt. Neue Stationen werden nach inhaltlicher Prüfung in **karten/reise.json** ergänzt; die Position eines neuen Kapitels wird nicht erfunden.
+
+## Nachschlagen
+
+Die Addenda sind in Persönlichkeiten und Orte, Magische Gegenstände sowie Bestiarium aufgeteilt. Alle drei Teile stehen einzeln in der Navigation und im Buch-Inhaltsverzeichnis. Gegenstandseinträge sind durch kräftige Linien getrennt. Bestehende Seiten- und Gegenstandsanker bleiben erhalten.

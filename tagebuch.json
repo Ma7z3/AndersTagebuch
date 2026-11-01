@@ -393,11 +393,31 @@
     },
     {
       "id": "addenda",
-      "titel": "Addenda",
+      "titel": "Persönlichkeiten und Orte",
       "gruppe": "Nachschlagen",
       "art": "addenda",
       "datei": "inhalte/80-addenda.md",
-      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion"
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion",
+      "pdf_spalten": 1
+    },
+    {
+      "id": "magische-gegenstaende",
+      "titel": "Magische Gegenstände",
+      "gruppe": "Nachschlagen",
+      "art": "addenda",
+      "datei": "inhalte/81-magische-gegenstaende.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion",
+      "pdf_spalten": 2,
+      "katalog": "gegenstaende"
+    },
+    {
+      "id": "bestiarium",
+      "titel": "Bestiarium",
+      "gruppe": "Nachschlagen",
+      "art": "addenda",
+      "datei": "inhalte/82-bestiarium.md",
+      "quelle": "Style-Code-PDF; automatisierte Textrekonstruktion",
+      "pdf_spalten": 1
     },
     {
       "id": "credits",

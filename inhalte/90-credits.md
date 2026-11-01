@@ -4,7 +4,12 @@
 
 ### Layout
 
-Dieses Buch wurde mit ["The Homebrewery"](https://homebrewery.naturalcrit.com/) erstellt.
+Dieses Buch wurde ursprünglich mit [The Homebrewery](https://homebrewery.naturalcrit.com/) geschrieben.
+
+Nach einem Datenverlust wurde das Tagebuch mit Unterstützung von Codex
+wiederaufgebaut und weitergeführt. Seitdem werden Text und Gestaltung
+gemeinsam überarbeitet. Dabei wurden bereits mehr als zweitausend
+Rechtschreib- und Grammatikkorrekturen vorgenommen.
 
 ### Mitspieler
 
@@ -40,4 +45,5 @@ Das Aussehen meines Charakters habe ich mit [Hero Forge®](https://www.heroforge
 
 Dieses Werk ist nur für den privaten Gebrauch gedacht!
 
-Eine etwaige Veröffentlichung ist nicht mit dem Autor abgestimmt.
+Die aktuelle Web- und Buchfassung wird mit Zustimmung des Autors für
+unsere Abenteuerrunde bereitgestellt.

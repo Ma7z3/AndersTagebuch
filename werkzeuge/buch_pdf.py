@@ -140,7 +140,7 @@ class BookDoc(BaseDocTemplate):
         cover=Frame(MARGIN,32,WIDTH,H-92,id='cover',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
         self.addPageTemplates([PageTemplate(id='Cover',frames=[cover],onPage=self.paint),PageTemplate(id='Two',frames=[left,right],onPage=self.paint),PageTemplate(id='Wide',frames=[full],onPage=self.paint)])
     def beforeDocument(self):
-        self.anchor_pages={};self.section_pages={};self.illustration_blocks=[];self.footer_positions=[]
+        self.anchor_pages={};self.section_pages={};self.illustration_blocks=[];self.footer_positions=[];self.item_dividers=[]
         self.canv.addPageLabel(0,prefix='Titel')
         self.canv.addPageLabel(1,prefix='Hinweise')
         self.canv.addPageLabel(2,style='D',start=1)
@@ -255,6 +255,16 @@ def shade_note(flows,width):
     table.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),GREEN),('ALIGN',(0,0),(-1,-1),'CENTER'),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),9),('RIGHTPADDING',(0,0),(-1,-1),9),('TOPPADDING',(0,0),(-1,-1),8),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
     return table
 
+class ItemDivider(Flowable):
+    """A clear boundary kept inside the item block, together with its heading."""
+    def __init__(self,width,label):
+        Flowable.__init__(self);self.width=width;self.height=15;self.label=label
+    def draw(self):
+        c=self.canv;c.saveState();c.setStrokeColor(colors.HexColor('#a18b5b'));c.setLineWidth(1.5)
+        c.line(0,10,self.width,10);c.restoreState()
+        doc=c._doctemplate
+        doc.item_dividers.append({'gegenstand':self.label,'pdf_seite':doc.page,'spalte':doc.frame.id,'breite':self.width})
+
 class IllustrationGroup(Flowable):
     """An image and its explanation occupy one indivisible column block."""
     def __init__(self,flows,width,kind,section):
@@ -360,7 +370,7 @@ def cover_flows(title,refmap):
     return cover,reverse
 
 def section_flow(section,refmap,session_names):
-    cover=section['art']=='titel';wide=section['art']=='addenda';result=[];pending=[];session_no=0
+    cover=section['art']=='titel';wide=section['art']=='addenda' and section.get('pdf_spalten',1)==1;result=[];pending=[];session_no=0
     def flush():
         result.extend(pending);pending.clear()
     def convert(tokens,quote=False,prefix=None,regroup=True):
@@ -381,6 +391,8 @@ def section_flow(section,refmap,session_names):
                     convert([t['note']],regroup=False)
                 else:convert(t['tokens'],regroup=False)
                 flush();items=result[start:];del result[start:]
+                if typ=='illustrated_item' and section.get('katalog')=='gegenstaende':
+                    items.insert(0,ItemDivider(WIDTH if wide else COL,t['tokens'][0]['text']))
                 result.append(IllustrationGroup(items,WIDTH if wide else COL,'Bild mit Beschreibung' if typ=='illustrated_note' else 'Gegenstandsbild',section['id']));continue
             if typ=='figure':
                 flush();config=FIGURE_CONFIG.get(t['image']['href'],{});layout=config.get('pdf_satz','spalte')
@@ -391,9 +403,9 @@ def section_flow(section,refmap,session_names):
                 result.append(figure);continue
             if typ=='heading':
                 plain=t['text']
-                if section['art']=='addenda' and plain.startswith('Addendum 2:'):
+                if section['art']=='addenda' and 'pdf_spalten' not in section and plain.startswith('Addendum 2:'):
                     result.extend([NextPageTemplate('Two'),PageBreak()]);wide=False
-                elif section['art']=='addenda' and plain.startswith('Addendum 3:'):
+                elif section['art']=='addenda' and 'pdf_spalten' not in section and plain.startswith('Addendum 3:'):
                     result.extend([NextPageTemplate('Wide'),PageBreak()]);wide=True
                 flush()
                 session=re.search(r'Spielabend vom\s+(\d{2}\.\d{2}\.\d{4})',plain)
@@ -480,7 +492,7 @@ def build_story(book,refmap):
     for section in finished[1:]:
         flows=section_flow(section,refmap,sessions)
         has_spans=any(getattr(f,'pdf_layout','spalte') in ['breit','seite'] for f in flows)
-        template='Wide' if section['art']=='addenda' or has_spans else 'Two'
+        template='Wide' if (section['art']=='addenda' and section.get('pdf_spalten',1)==1) or has_spans else 'Two'
         story.extend([NextPageTemplate(template),PageBreak(),Mark(section['id'],section['titel'],toc=True)])
         story.extend(span_illustrations(flows) if has_spans else flows)
     return story
@@ -515,7 +527,7 @@ def main():
     with target.open('xb') as f:f.write(pdf_bytes)
     (export/'aktuell.js').write_text('window.BUCH_PDF = '+json.dumps('export/'+filename,ensure_ascii=False)+';\n')
     versioniere_startseite()
-    report={'datei':str(target.relative_to(ROOT)),'seiten':final_doc.page,'abschnitte':len([s for s in book['abschnitte'] if s['art']!='entwurf']),'rohnotizen_ausgeschlossen':[s['datei'] for s in book['abschnitte'] if s['art']=='entwurf'],'kapitel_seiten':final_doc.section_pages,'alte_anker_auf_neue_seiten':refmap,'alte_anker_auf_pdf_seiten':{k:v for k,v in final_doc.anchor_pages.items() if re.fullmatch(r'p\d+',k)},'bildgruppen':final_doc.illustration_blocks,'fusszeilen':final_doc.footer_positions,'nummerierung':{'titelblatt_pdf_seite':1,'hinweise_pdf_seite':2,'erste_buchseite_pdf_seite':3,'ungerade':'rechts','gerade':'links'},'hinweis':'Titelblatt und Rückseite unnummeriert; Buchzählung ab Inhaltsverzeichnis. Verweise zeigen Buchseiten.'}
+    report={'datei':str(target.relative_to(ROOT)),'seiten':final_doc.page,'abschnitte':len([s for s in book['abschnitte'] if s['art']!='entwurf']),'rohnotizen_ausgeschlossen':[s['datei'] for s in book['abschnitte'] if s['art']=='entwurf'],'kapitel_seiten':final_doc.section_pages,'alte_anker_auf_neue_seiten':refmap,'alte_anker_auf_pdf_seiten':{k:v for k,v in final_doc.anchor_pages.items() if re.fullmatch(r'p\d+',k)},'bildgruppen':final_doc.illustration_blocks,'fusszeilen':final_doc.footer_positions,'gegenstandstrenner':final_doc.item_dividers,'nummerierung':{'titelblatt_pdf_seite':1,'hinweise_pdf_seite':2,'erste_buchseite_pdf_seite':3,'ungerade':'rechts','gerade':'links'},'hinweis':'Titelblatt und Rückseite unnummeriert; Buchzählung ab Inhaltsverzeichnis. Verweise zeigen Buchseiten.'}
     (export/(target.stem+'.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print('Buch-PDF gespeichert:',target,flush=True)
     if '--open' in sys.argv:subprocess.run(['open',str(target)],check=False)
