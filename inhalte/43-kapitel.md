@@ -54,7 +54,7 @@ Ich wollte fliehen mit einem weiteren Donnerschritt – doch ich wurde
 unterbrochen. Noch ein Geschoss, ich hob mein Schild – aber dann traf mich
 ein Zauber, der mich ebenfalls lähmte.
 
-Ich war bewusst, starr, ausgeliefert.
+Ich war zwar bei Bewusstsein, jedoch starr und ausgeliefert.
 
 Drüben kämpfte Flint weiter, vernichtete die zweite Spinne und nahm den
 nächsten Kobold ins Visier.

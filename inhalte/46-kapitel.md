@@ -164,7 +164,8 @@ Wir diskutierten über Eis und Tod, Licht und Dunkelheit, darüber, von welcher 
 
 Ich glaube, wir haben inzwischen mehr Zeit mit zwergischen Rätseln verbracht als manche Zwerge.
 
-Wir kamen zu keinem genauen Ergebnis und überlegten, dass es sich uns vielleicht ergibt, wenn wir in den nächsten Raum gingen, also schritten wir durch die Tür.
+Wir kamen zu keinem genauen Ergebnis und überlegten, dass sich uns die Lösung
+vielleicht im nächsten Raum erschließen würde. Also schritten wir durch die Tür.
 
 Vor uns lag der Kern.
 

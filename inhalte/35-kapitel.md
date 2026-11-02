@@ -5,9 +5,9 @@
 Entlang des alten Pfades, welcher nur als die schwarze Straße bekannt war,
 verlief alles erstmal relativ ruhig.
 
-Als wir dann beim Grenzwald ankamen und dort nach einiger Zeit in eine
-[seltsam verformte Gegend](#p17) kamen, die wir schon aus unserem ersten
-Trip durch den Grenzwald kannten.
+Als wir dann beim Grenzwald ankamen, gelangten wir nach einiger Zeit in eine [seltsam
+verformte Gegend](#p17), die wir schon von unserem ersten Trip durch den Grenzwald
+kannten.
 
 Wir redeten etwas über den Beobachter und über Betrachter im Allgemeinen.
 Wir einigten uns darauf, dass diese Gegend von dem Betrachter befreit werden
@@ -167,10 +167,10 @@ Am Ende der Brücke waren zwei riesige Steinportale, die aus den Angeln
 gebrochen waren und diese zeigten einen gigantischen Durchgang von
 mindestens 25 Metern Höhe.
 
-Dort durchgegangen stolperte ich ein wenig, woraufhin ich bemerkte, dass dies
-wo ich drauf stand eine Art absenkbarer Block zu sein und als ich nach oben
-guckte, sah ich einen großen breiten Schlitz und ein dickes eisernes Fallgatter,
-welches sich irgendwie verkantet hatte.
+Als ich dort hindurchging, stolperte ich ein wenig und bemerkte, dass der Boden unter
+mir eine Art absenkbarer Block zu sein schien. Als ich nach oben guckte, sah ich
+einen großen, breiten Schlitz und ein dickes eisernes Fallgatter, welches sich
+irgendwie verkantet hatte.
 
 Möglicherweise war dies eine alte Falle oder sonst irgendetwas.
 

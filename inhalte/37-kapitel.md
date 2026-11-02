@@ -43,7 +43,7 @@ verschiedenen nicht-zwergischen Völker waren.
 Der Efeu könnte für die Elfen stehen, das Schild für die Menschen, das Füllhorn
 für die Halblinge und die Zahnräder für die Gnome.
 
-Mangels weiterer Hinweise entschieden wir uns auszutesten.
+Mangels weiterer Hinweise entschieden wir uns, die Türen auszuprobieren.
 
 Ser Ayne machte die Tür mit dem Schild auf und ging hinein.
 

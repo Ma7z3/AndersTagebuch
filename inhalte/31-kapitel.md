@@ -333,8 +333,8 @@ unverständliche Worte zuflüsterte, worauf sich die Schatulle öffnete.
 Kylie holte ein einfaches in Leder gebundenes Buch heraus und fragte dann
 nach der soeben von uns erworbenen Karte.
 
-Nach einem kurzen Blick, was sich in der Nähe von Silbrigmond befinden
-würde und darauffolgendem Blättern in ihrem Buch, schlug sie uns zwei Portale
+Nachdem Kylie auf der Karte nachgesehen hatte, was sich in der Nähe von Silbrigmond
+befand, und anschließend in ihrem Buch geblättert hatte, schlug sie uns zwei Portale
 vor:
 - Eins führte zur Höllentorfeste, dort hatte sie jedoch zwei Totenköpfe
 nebendran gemalt.

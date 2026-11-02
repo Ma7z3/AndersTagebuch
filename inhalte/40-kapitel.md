@@ -420,9 +420,8 @@ Aber er ging hinein.
 
 Nichts passierte.
 
-Wir überlegten, wie wir auf die andere Seite des Raumes kommen würden und
-ich schlug vor, dass ich versuchen könnte mich akrobatisch an den
-Spinnenweben tänzeln könnte.
+Wir überlegten, wie wir auf die andere Seite des Raumes kommen könnten, und ich
+schlug vor, akrobatisch zwischen den Spinnenweben hindurchzutänzeln.
 
 Ich trat vorsichtig einen Schritt hinein – und blieb sofort hängen. Das Netz
 schnitt in meine Haut, scharf wie Splitterglas. Es klirrte laut.

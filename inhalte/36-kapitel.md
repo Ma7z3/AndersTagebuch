@@ -103,8 +103,8 @@ stand dort nur noch eine vereiste Drachenstatue.
 
 Hiervon überrascht flohen die Kobolde völlig panisch.
 
-Flint ließ durch die Raben eine spanische Reihe bilden, sodass diese uns
-Bescheid geben konnten, falls die Kobolde zurückkamen.
+Flint ließ die Raben als Wachposten Stellung beziehen, sodass sie uns Bescheid geben
+konnten, falls die Kobolde zurückkamen.
 
 Ich nutzte die gewonnene Zeit und heilte mich erstmal mit meiner eigenen Kraft
 und auch durch das Spielen auf meiner Canaith Mandoline.

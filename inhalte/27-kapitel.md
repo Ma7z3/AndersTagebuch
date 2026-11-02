@@ -275,11 +275,10 @@ er in der näheren Umgebung erst einmal kundschaften konnte.
 Als er wiederkam, erzählte er uns, dass er 7 weitere Wachen in der
 unmittelbaren Umgebung gesehen hatte.
 
-Wir entschieden uns nun dazu, Waldramm dazu zu nutzen, weitere Wachen zu
-uns zu locken. Damit dieser keine Faxen machen würde, schärfte Ser Ayne ihm
-noch einmal ein, dass das, was er mit den acht Wachen, die er zu Kleinholz
-verarbeitet hatte, das geringste Problem von Waldramm sein werde, wenn
-dieser uns verraten würde.
+Wir entschieden uns nun dazu, Waldramm dazu zu nutzen, weitere Wachen zu uns zu
+locken. Damit dieser keine Faxen machen würde, schärfte Ser Ayne ihm noch einmal ein,
+dass das Schicksal der acht Wachen, die er zu Kleinholz verarbeitet hatte, noch
+harmlos im Vergleich zu dem sei, was Waldramm bei einem Verrat erwarten würde.
 
 Waldramm schien sichtlich eingeschüchtert zu sein und legte dann aber eine
 super schauspielerische Leistung hin, mit der er noch zwei weitere Wachen zu

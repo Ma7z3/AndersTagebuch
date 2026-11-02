@@ -373,9 +373,9 @@ Ich träumte sehr gut!
 
 <a id="p43"></a>
 
-Am nächsten Morgen gab Talion jedem von uns beim Frühstück noch einen
-Trank der überlegenen Heilung, welche ihm am Abend zuvor noch von einem
-Boten gebracht wurden.
+Am nächsten Morgen gab Talion jedem von uns beim Frühstück noch einen Trank der
+überlegenen Heilung. Die Tränke waren ihm am Abend zuvor von einem Boten gebracht
+worden.
 
 Auf dem Weg zum Schwarzen Segel wollten wir noch bei einem Laden mit
 magischen Gegenständen vorbeischauen.
@@ -537,8 +537,8 @@ Flint schien äußerst leise und wie eine Katze zu sein. Bis wir nach einigen
 Minuten etwas Poltern hörten. Wir blickten uns verwirrt um und einige
 Augenblicke später hörten wir, wie Flint uns ansprach.
 
-Er erzählte uns von einer Form in der Wand, die der Flasche ähnelte, aber sonst
-niemand in dem Gebäude zu sein schien.
+Er erzählte uns von einer Form in der Wand, die der Flasche ähnelte. Ansonsten schien
+das Gebäude leer zu sein.
 
 Flint ging vor, um das Schloss der Tür zu knacken. Zum glück schaffte er es
 schnell genug, denn Balgrim wurde etwas ungeduldig und wollte gerade mit

@@ -53,7 +53,7 @@ unsere Reise weiterführten.
 Nach der kurzen Rast am Holzfällerlager machten wir uns weiter auf den Weg
 ins Dolchtal, um die Rebellen zu finden.
 
-Nach ein paar Stunden begrüßte uns eine Kriegerin mit langen schwarzen
+Nach ein paar Stunden begrüßte uns eine Kriegerin mit langen roten
 Locken und ihrem Helm unterm Arm mit ihrem Pferd vom Wegesrand. Wir ritten
 zu ihr und sie stellte sich als **Captain Mestina Durmark** vor. Sie sagte, dass
 ihr Flint und Talion beschrieben wurden und sie hier auf uns gewartet hatte. Sie

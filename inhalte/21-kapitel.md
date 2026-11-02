@@ -129,8 +129,8 @@ hübsche Frau mit Schlangenkörper hereinkommen, sie hatte sechs Arme und
 war mit ebenso vielen Waffen bestückt. Sie sah wie eine äußerst fähige
 Kämpferin aus.
 
-Noch nicht ganz in der Mitte angekommen, enttarnte sich der Wolfsmensch
-direkt vor der Schlangenfrau und enthauptete sie mit einem gezielten Schlag.
+Noch bevor ich die Mitte erreicht hatte, enttarnte sich der Wolfsmensch direkt vor
+der Schlangenfrau und enthauptete sie mit einem gezielten Schlag.
 
 Der Wolfsmensch warf der Bardame noch einen kleinen Geldbeutel zu und
 verschwand dann aus der Tür.

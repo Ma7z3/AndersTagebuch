@@ -27,8 +27,8 @@ müsste. Er wünschte uns noch einen schönen Tag und ließ uns vorbei.
 Auf etwa der halben Strecke zur Garnison schrie jemand: "Das ist ja jetzt nicht
 euer Ernst! HEY DA!"
 
-Es war Captain Mestina Durmark.
-Die rothaarige kurvige Frau schloss erst Flint und dann mich in die Arme.
+Es war Captain Mestina Durmark. Die kurvige Frau mit den langen roten Locken schloss
+erst Flint und dann mich in die Arme.
 
 Sie fragte uns, wo wir so lange waren und erzählte uns von der Situation vor
 Ort: Es war ruhig geworden im Dolchtal. Nur sehr vereinzelt würden die

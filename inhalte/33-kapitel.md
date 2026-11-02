@@ -45,9 +45,9 @@ Ein alter Diener sowie zwei Hausdamen öffneten die Tür und der Hauptmann,
 welcher sich als **Hauptmann Danton** vorstellte, sagte: "Ich bringe den
 jungen Herrn Immerstern zurück."
 
-Dem alten Diener fiel alles aus den Augen, er wollte gerade anfangen zu
-sprechen, als Hauptmann Danton ihn unterbrach und sagte: "Ich möchte
-zunächst einmal wissen, ob Herr Gosran seinen Sohn erkennt."
+Dem alten Diener stand die Überraschung ins Gesicht geschrieben. Er wollte gerade
+anfangen zu sprechen, als Hauptmann Danton ihn unterbrach und sagte: „Ich möchte
+zunächst einmal wissen, ob Herr Gosran seinen Sohn erkennt.“
 
 Der Diener nickte bloß und rannte los.
 
@@ -512,8 +512,8 @@ Flint meldete sich nach kurzer Bedenkzeit zu Wort und erzählte von seinem Ast.
 Bei diesem wurde Alustriel neugierig, denn A'kin schien ein wenig von der Wahrheit
 verschwiegen zu haben.
 
-Alustriel erzählte uns, dass dieser Ast ein Ableger eines Baumhirten sein
-könnte, der verzaubert worden ist. Und eine Art Symbiont zu sein schien. Wenn
+Alustriel erzählte uns, dass dieser Ast ein verzauberter Ableger eines Baumhirten
+sein könnte. Er schien eine Art Symbiont zu sein. Wenn
 Flint diesen weiterhin fleißig gießen würde, würde er sich irgendwann mit Flint
 verbinden, wodurch es unmöglich wäre, diesen zurückzugeben.
 
@@ -589,8 +589,8 @@ Flint tat dies und folgte dann den Anweisungen Alustriels: Er ging mit dem Ast
 zum magischen Wasser und begann mit der Hand das Wasser über den Ast zu
 gießen.
 
-Der Ast fing an, äußerst schnell zu wachsen. Es wuchsen ihm Blätter und immer
-mehr weitere Äste kamen aus dem ursprünglich *kleinen Ästchen* zu wachsen.
+Der Ast fing an, äußerst schnell zu wachsen. Ihm wuchsen Blätter und aus dem
+ursprünglich *kleinen Ästchen* sprossen immer mehr Äste.
 
 Die Äste wickelten sich langsam um Flints Unterarme, dann über die Schulter
 und den Hals hinauf.
