@@ -1327,14 +1327,14 @@
   },
   {
     "titel": "Die Reisen des Ander Holimion",
-    "datei": "bilder/titelgemaelde-v5.png",
+    "datei": "bilder/titelgemaelde-v7.png",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "titel",
     "breite": 1024,
     "hoehe": 1536,
     "modus": "RGB",
-    "sha256": "468665b8952763aec7e6c2fbe2be303c1a9fab5a107b831c03c72da6032d5fa6",
+    "sha256": "3eca4df7d1bdfbfdb7cddd9c47656c71d5c7964bd825791607322542cb40cf4f",
     "herkunft": "Integrierte Bildgenerierung nach Figurenreferenzen und Nutzerangaben"
   },
   {
