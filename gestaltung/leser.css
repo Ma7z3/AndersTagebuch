@@ -57,3 +57,23 @@
 /* Every inventory entry starts with a strong, distinct boundary. */
 .article.inventory h4{border-top:3px solid #a18b5b;padding:18px 0 0;margin:46px 0 18px;break-after:avoid}
 @media(max-width:760px){.article.inventory h4{margin-top:34px;padding-top:16px}}
+
+/* Facing chapter quote and painting; on narrow screens read in that same order. */
+.article .chapter-spread{display:grid;grid-template-columns:1fr 1fr;margin:0 -40px 42px;border:1px solid #d8cbb0;background:#f5edda}
+.article .chapter-quote{display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:34px 24px;background:#f8f1df}
+.article .chapter-quote blockquote{background:transparent;border:0;padding:0;margin:0 0 24px;display:block}
+.article .chapter-quote blockquote p{font-family:DiaryBook,Times,serif;font-style:italic;font-size:clamp(18px,1.8vw,24px);line-height:1.6;color:#263c35}
+.article .chapter-quote>span{font-family:DiaryCaps,Times,serif;font-size:12px;color:#806b42;border-top:1px solid #b59863;padding-top:15px}
+.article .chapter-painting{position:relative;margin:0;overflow:hidden;aspect-ratio:17/22;background:#16212a}
+.article .chapter-painting img{width:100%;height:100%;max-height:none;object-fit:cover;margin:0;mix-blend-mode:normal}
+.article .chapter-painting figcaption{position:absolute;inset:0 0 auto;padding:28px 20px 60px;text-align:center;color:#f7e6c1;background:linear-gradient(#08121acf,transparent);pointer-events:none}
+.article .chapter-painting small{font-family:DiaryCaps,Times,serif;font-size:13px;color:#d3ba83}
+.article .chapter-painting h2{font-family:DiaryOrnate,Times,serif;font-size:clamp(17px,1.9vw,25px);line-height:1.4;color:inherit;margin:12px 0 0;overflow-wrap:normal}
+@media(max-width:1050px){.article .chapter-spread{margin:0 -20px 36px}.article .chapter-quote{padding:24px 18px}}
+@media(max-width:760px){.article .chapter-spread{grid-template-columns:1fr;margin:0 -10px 32px}.article .chapter-quote{padding:44px 28px}.article .chapter-painting h2{font-size:clamp(22px,6vw,34px)}.article .chapter-painting figcaption{padding:30px 24px 90px}}
+@media print{.article .chapter-spread{margin:0 0 24pt;break-inside:avoid}.article .chapter-quote{padding:20pt}.article .chapter-painting{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+
+/* Long unbroken quotations and scene-specific title positions. */
+.article .chapter-quote.long-word blockquote p{font-size:clamp(16px,1.5vw,21px);overflow-wrap:normal;hyphens:auto}
+.article .chapter-painting.caption-bottom figcaption{inset:auto 0 0;background:linear-gradient(transparent,#08121ae6);padding:70px 20px 28px}
+@media(max-width:760px){.article .chapter-painting.caption-bottom figcaption{padding:100px 24px 30px}}

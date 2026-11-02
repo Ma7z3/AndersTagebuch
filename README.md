@@ -35,6 +35,10 @@ Der Zielordner darf noch nicht existieren. Die öffentlich ausgelieferten Dateie
 
 Die Gestaltung enthält die rekonstruierten ursprünglichen Buchschriften und zusätzlich Cinzel Decorative von Natanael Gama für den neu gestalteten Titel. Die zugehörigen mitgelieferten Lizenztexte liegen bei den Schriftdateien. Die ursprünglichen Bildnachweise bleiben in den Credits des Tagebuchs erhalten.
 
+Alle 46 Kapitel beginnen im Buch mit einer Doppelseite: links auf einer geraden Buchseite steht ein wörtliches Zitat aus dem Kapitel, rechts auf einer ungeraden Seite ein ganzseitiges Gemälde mit separat gesetzter Kapitelüberschrift. Der Satz fügt bei Bedarf eine Leerseite ein und berechnet Inhaltsverzeichnis und Verweise entsprechend neu. In der Leseausgabe stehen Zitat und Gemälde nebeneinander; auf schmalen Bildschirmen folgen sie aufeinander.
+
+Die Zuordnung liegt in **gestaltung/kapitelauftakte.json**. Jeder Eintrag enthält das unveränderte Kapitelzitat, den Bildpfad und eine Szenenbeschreibung. Jedes als `kapitel` registrierte Kapitel benötigt einen solchen Eintrag; fehlende Bilder oder Zitate, die im Kapitel nicht vorkommen, stoppen den Aufbau. Bei neuen Gemälden müssen Figuren und Ausrüstung dem Stand der gewählten Szene entsprechen. Die Überschrift gehört nicht zur Bilddatei.
+
 Die Sprachprüfung ist noch nicht abgeschlossen. Der freigegebene Spielabend vom 21.09.2026 setzt Kapitel 46 fort und ist in Website und Buch enthalten.
 
 ## Reiseatlas

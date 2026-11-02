@@ -90,6 +90,11 @@ function safeMarkdown(text){
     const metadata=book.bilder.find(im=>im.datei===img.getAttribute('src'));
     if(metadata?.gegenstand)img.classList.add('item-image');
   }
+  if(book.kapitelauftakte?.[activeId]){
+    for(const heading of parsed.body.querySelectorAll('h1,h2,h3')){
+      if(/^Kapitel\s+\d+/.test(heading.textContent)||heading.textContent===byId.get(activeId)?.gruppe)heading.remove();
+    }
+  }
   let count=0;
   for(const heading of parsed.body.querySelectorAll('h1,h2,h3,h4,h5,h6')){
     if(heading.textContent.includes('Spielabend vom')){
@@ -108,13 +113,22 @@ function setActive(id){
   }
 }
 
+function chapterOpening(section){
+  const opening=book.kapitelauftakte?.[section.id];
+  if(!opening)return '';
+  const number=Number(section.id.split('-').at(-1));
+  const title=section.titel.replace(/^Kapitel \d+[: –]+/,'');
+  const longWord=opening.zitat.split(/\s+/).some(word=>word.length>30);
+  return `<header class="chapter-spread" aria-label="Auftakt zu Kapitel ${number}"><div class="chapter-quote ${longWord?'long-word':''}"><blockquote><p>„${escapeHtml(opening.zitat)}“</p></blockquote><span>Aus dem Tagebuch des Ander Holimion</span></div><figure class="chapter-painting ${opening.titelposition==='unten'?'caption-bottom':''}"><img src="${escapeHtml(opening.bild)}" alt="${escapeHtml(opening.szene||title)}" decoding="async"><figcaption><small>Kapitel ${number}</small><h2>${escapeHtml(title)}</h2></figcaption></figure></header>`;
+}
+
 function showSection(section,target){
   setActive(section.id);pathLabel.textContent=section.gruppe;
   document.title=section.titel+' · Ander Holimion';
   const cover=section.art==='titel';
   const note=section.art==='entwurf'?'<div class="status-note">Rohnotizen vom Spielabend. Der Wortlaut wurde aus Word übernommen; dies ist noch kein ausgearbeiteter Tagebucheintrag.</div>':'';
   const stats=cover?`<div class="book-stats"><span>${sections.filter(s=>s.art==='kapitel'||s.art==='eintrag').length} KAPITEL</span><span>${book.bilder.length} ILLUSTRATIONEN</span><span>2022–2026</span></div><a class="read-next" href="#prolog">Die Reise beginnen →</a>`:'';
-  content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''} ${section.katalog==='gegenstaende'?'inventory':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${safeMarkdown(section.text)}</article>`;
+  content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''} ${section.katalog==='gegenstaende'?'inventory':''} ${book.kapitelauftakte?.[section.id]?'with-opening':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${chapterOpening(section)}${safeMarkdown(section.text)}</article>`;
   const index=sections.indexOf(section);
   pager.innerHTML=(index>0?`<a href="#${encodeURIComponent(sections[index-1].id)}">← ${escapeHtml(sections[index-1].titel)}</a>`:'')+(index<sections.length-1?`<a href="#${encodeURIComponent(sections[index+1].id)}">${escapeHtml(sections[index+1].titel)} →</a>`:'');
   try{localStorage.setItem('ander-letztes-kapitel',section.id);}catch{}
@@ -124,7 +138,7 @@ function showSection(section,target){
 
 function showGallery(){
   setActive('bilder');pathLabel.textContent='Das Bildarchiv';document.title='Bildarchiv · Ander Holimion';pager.replaceChildren();
-  content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>${im.pdf_seiten?.length?`Aus dem Buch · Seite ${im.pdf_seiten[0]}`:'Magische Gegenstände'}</small></button>`).join('')}</div>`;
+  content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>${im.pdf_seiten?.length?`Aus dem Buch · Seite ${im.pdf_seiten[0]}`:im.kapitel_auftakt?'Kapitelgemälde':'Magische Gegenstände'}</small></button>`).join('')}</div>`;
   window.scrollTo(0,0);
 }
 

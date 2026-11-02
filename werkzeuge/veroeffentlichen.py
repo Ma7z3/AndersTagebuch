@@ -7,7 +7,7 @@ import argparse, hashlib, json, re, shutil, subprocess, sys, tempfile
 from pypdf import PdfReader
 
 ROOT=Path(__file__).resolve().parents[1]
-TOOLS=['aktualisieren.py','buch_pdf.py','markdown_tokens.cjs','tabellen_pruefen.py','veroeffentlichen.py','github_paket.py']
+TOOLS=['aktualisieren.py','buch_pdf.py','markdown_tokens.cjs','tabellen_pruefen.py','veroeffentlichen.py','github_paket.py','kapitelauftakte.py']
 
 def copy_file(source,target):
     target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
@@ -26,6 +26,7 @@ def copy_sources(target):
     for source in sorted((ROOT/'eintraege').glob('*.md')):copy_file(source,target/'eintraege'/source.name)
     for rel in ['START.html','gestaltung/leser.js','gestaltung/leser.css','gestaltung/marked.umd.js','gestaltung/bildlegenden.json','bilder/verzeichnis.json']:
         copy_file(ROOT/rel,target/rel)
+    if (ROOT/'gestaltung/kapitelauftakte.json').exists():copy_file(ROOT/'gestaltung/kapitelauftakte.json',target/'gestaltung/kapitelauftakte.json')
     if (ROOT/'bilder/gegenstaende.json').exists():copy_file(ROOT/'bilder/gegenstaende.json',target/'bilder/gegenstaende.json')
     for source in sorted((ROOT/'bilder').glob('*')):
         if source.suffix.lower() in ['.png','.jpg','.jpeg','.webp','.svg']:copy_file(source,target/'bilder'/source.name)
@@ -46,14 +47,18 @@ def validate_pdf(path,data):
     texts='\n'.join(p.extract_text() for p in reader.pages)
     for s in data['abschnitte'][1:]:assert s['id'] in meta['kapitel_seiten'],'Abschnitt fehlt im PDF: '+s['id']
     expected=set(re.findall(r'!\[[^\]]*\]\((bilder/[^)]+)\)', '\n'.join(s['text'] for s in data['abschnitte'])))
+    expected.update(o['bild'] for o in data.get('kapitelauftakte',{}).values())
     actual=[im for g in meta['bildgruppen'] for im in g['bilder']]
+    pairs=meta.get('kapitel_doppelseiten',[])
+    assert {x['kapitel'] for x in pairs}==set(data.get('kapitelauftakte',{})), 'Kapitelauftakt fehlt'
+    assert all(x['zitat_buchseite']%2==0 and x['bild_buchseite']==x['zitat_buchseite']+1 for x in pairs), 'Doppelseite ist versetzt'
     assert expected==set(actual),'Bildgruppe fehlt im Buch'
-    assert all(g['hoehe']<=(792.1 if g.get('satz')=='titelgemaelde' and g['abschnitt']=='titel' else 700.1) for g in meta['bildgruppen']),'Bildgruppe überschreitet Satzhöhe'
+    assert all(g['hoehe']<=(792.1 if g.get('satz') in ['titelgemaelde','kapitelgemaelde'] else 700.1) for g in meta['bildgruppen']),'Bildgruppe überschreitet Satzhöhe'
     for im in re.findall(r'(?:file:|/Users/|entwuerfe/|sicherung/)',texts):raise ValueError('Lokaler Verweis im veröffentlichten Buch: '+im)
     items=[s for s in data['abschnitte'] if s.get('katalog')=='gegenstaende']
     expected_items=[m[1] for s in items for m in re.finditer(r'^#### (.+)$',s['text'],re.M)]
     assert expected_items==[x['gegenstand'] for x in meta['gegenstandstrenner']],'Gegenstandstrenner fehlt oder Reihenfolge abweichend'
-    return {'pdf_seiten':len(reader.pages),'buchseiten':len(reader.pages)-2,'bildgruppen':len(actual),'alte_anker':len(meta['alte_anker_auf_neue_seiten'])}
+    return {'pdf_seiten':len(reader.pages),'buchseiten':len(reader.pages)-2,'bildgruppen':len(actual),'alte_anker':len(meta['alte_anker_auf_neue_seiten']),'kapitel_doppelseiten':len(pairs),'eingefuegte_leerseiten':len(meta.get('kapitel_leerseiten',[]))}
 
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--ziel',required=True,type=Path);args=parser.parse_args();dest=args.ziel.resolve()

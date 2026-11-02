@@ -19,6 +19,7 @@ from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Paragraph, 
 from reportlab.platypus.tableofcontents import TableOfContents
 
 from aktualisieren import versioniere_startseite
+from kapitelauftakte import AlignQuotePage, ChapterQuote, ChapterPainting
 
 ROOT=Path(__file__).resolve().parents[1]
 W,H=612,792
@@ -138,13 +139,15 @@ class BookDoc(BaseDocTemplate):
         right=Frame(MARGIN+COL+GAP,45,COL,H-92,id='right',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
         full=Frame(MARGIN,45,WIDTH,H-92,id='full',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
         cover=Frame(MARGIN,32,WIDTH,H-92,id='cover',leftPadding=0,rightPadding=0,topPadding=0,bottomPadding=0)
-        self.addPageTemplates([PageTemplate(id='Cover',frames=[cover],onPage=self.paint),PageTemplate(id='Two',frames=[left,right],onPage=self.paint),PageTemplate(id='Wide',frames=[full],onPage=self.paint)])
+        self.addPageTemplates([PageTemplate(id='Cover',frames=[cover],onPage=self.paint),PageTemplate(id='Two',frames=[left,right],onPage=self.paint),PageTemplate(id='Wide',frames=[full],onPage=self.paint),PageTemplate(id='OpeningArt',frames=[full],onPage=self.paint)])
     def beforeDocument(self):
-        self.anchor_pages={};self.section_pages={};self.illustration_blocks=[];self.footer_positions=[];self.item_dividers=[]
+        self.anchor_pages={};self.section_pages={};self.illustration_blocks=[];self.footer_positions=[];self.item_dividers=[];self.opening_spreads=[];self.opening_blank_pages=[];self.pending_opening=None
+        self.canv._doc.Catalog.setPageLayout('TwoColumnRight')
         self.canv.addPageLabel(0,prefix='Titel')
         self.canv.addPageLabel(1,prefix='Hinweise')
         self.canv.addPageLabel(2,style='D',start=1)
     def paint(self,c,doc):
+        if self.pageTemplate.id=='OpeningArt':return
         c.saveState()
         c.drawImage(str(pdf_image(ROOT/'bilder/pdf-s001-14348.png')),0,H-817.5,width=1920,height=817.5,mask='auto')
         if doc.page==1:
@@ -369,7 +372,7 @@ def cover_flows(title,refmap):
         if t['type']=='paragraph':reverse.append(Paragraph(inline(t['tokens'],refmap),ST['legal']))
     return cover,reverse
 
-def section_flow(section,refmap,session_names):
+def section_flow(section,refmap,session_names,opening=False):
     cover=section['art']=='titel';wide=section['art']=='addenda' and section.get('pdf_spalten',1)==1;result=[];pending=[];session_no=0
     def flush():
         result.extend(pending);pending.clear()
@@ -403,6 +406,8 @@ def section_flow(section,refmap,session_names):
                 result.append(figure);continue
             if typ=='heading':
                 plain=t['text']
+                if opening and (re.match(r'^Kapitel\s+\d+',plain) or plain==section['gruppe']):
+                    flush();continue
                 if section['art']=='addenda' and 'pdf_spalten' not in section and plain.startswith('Addendum 2:'):
                     result.extend([NextPageTemplate('Two'),PageBreak()]);wide=False
                 elif section['art']=='addenda' and 'pdf_spalten' not in section and plain.startswith('Addendum 3:'):
@@ -490,10 +495,18 @@ def build_story(book,refmap):
     tab=Table(rows,colWidths=[COL/len(years)]*len(years))
     tab.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),GREEN),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.Color(1,1,1,alpha=0),GREEN]),('LINEBELOW',(0,0),(-1,0),.5,GOLD),('TOPPADDING',(0,0),(-1,-1),2),('BOTTOMPADDING',(0,0),(-1,-1),2)]));story.append(tab)
     for section in finished[1:]:
-        flows=section_flow(section,refmap,sessions)
+        opening=book.get('kapitelauftakte',{}).get(section['id'])
+        flows=section_flow(section,refmap,sessions,bool(opening))
         has_spans=any(getattr(f,'pdf_layout','spalte') in ['breit','seite'] for f in flows)
         template='Wide' if (section['art']=='addenda' and section.get('pdf_spalten',1)==1) or has_spans else 'Two'
-        story.extend([NextPageTemplate(template),PageBreak(),Mark(section['id'],section['titel'],toc=True)])
+        if opening:
+            story.extend([NextPageTemplate('Wide'),PageBreak(),AlignQuotePage(),
+                          ChapterQuote(section,opening,Paragraph),NextPageTemplate('OpeningArt'),PageBreak(),
+                          Mark(section['id'],section['titel'],toc=True),
+                          ChapterPainting(section,opening,pdf_image(ROOT/opening['bild']),Paragraph),
+                          NextPageTemplate(template),PageBreak()])
+        else:
+            story.extend([NextPageTemplate(template),PageBreak(),Mark(section['id'],section['titel'],toc=True)])
         story.extend(span_illustrations(flows) if has_spans else flows)
     return story
 
@@ -527,7 +540,7 @@ def main():
     with target.open('xb') as f:f.write(pdf_bytes)
     (export/'aktuell.js').write_text('window.BUCH_PDF = '+json.dumps('export/'+filename,ensure_ascii=False)+';\n')
     versioniere_startseite()
-    report={'datei':str(target.relative_to(ROOT)),'seiten':final_doc.page,'abschnitte':len([s for s in book['abschnitte'] if s['art']!='entwurf']),'rohnotizen_ausgeschlossen':[s['datei'] for s in book['abschnitte'] if s['art']=='entwurf'],'kapitel_seiten':final_doc.section_pages,'alte_anker_auf_neue_seiten':refmap,'alte_anker_auf_pdf_seiten':{k:v for k,v in final_doc.anchor_pages.items() if re.fullmatch(r'p\d+',k)},'bildgruppen':final_doc.illustration_blocks,'fusszeilen':final_doc.footer_positions,'gegenstandstrenner':final_doc.item_dividers,'nummerierung':{'titelblatt_pdf_seite':1,'hinweise_pdf_seite':2,'erste_buchseite_pdf_seite':3,'ungerade':'rechts','gerade':'links'},'hinweis':'Titelblatt und Rückseite unnummeriert; Buchzählung ab Inhaltsverzeichnis. Verweise zeigen Buchseiten.'}
+    report={'datei':str(target.relative_to(ROOT)),'seiten':final_doc.page,'abschnitte':len([s for s in book['abschnitte'] if s['art']!='entwurf']),'rohnotizen_ausgeschlossen':[s['datei'] for s in book['abschnitte'] if s['art']=='entwurf'],'kapitel_seiten':final_doc.section_pages,'alte_anker_auf_neue_seiten':refmap,'alte_anker_auf_pdf_seiten':{k:v for k,v in final_doc.anchor_pages.items() if re.fullmatch(r'p\d+',k)},'bildgruppen':final_doc.illustration_blocks,'fusszeilen':final_doc.footer_positions,'gegenstandstrenner':final_doc.item_dividers,'kapitel_doppelseiten':final_doc.opening_spreads,'kapitel_leerseiten':final_doc.opening_blank_pages,'nummerierung':{'titelblatt_pdf_seite':1,'hinweise_pdf_seite':2,'erste_buchseite_pdf_seite':3,'ungerade':'rechts','gerade':'links'},'hinweis':'Titelblatt und Rückseite unnummeriert; Buchzählung ab Inhaltsverzeichnis. Verweise zeigen Buchseiten.'}
     (export/(target.stem+'.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print('Buch-PDF gespeichert:',target,flush=True)
     if '--open' in sys.argv:subprocess.run(['open',str(target)],check=False)

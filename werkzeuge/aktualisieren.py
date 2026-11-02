@@ -94,6 +94,20 @@ def main():
     extra=ROOT/'bilder/gegenstaende.json'
     if extra.exists():images.extend(json.loads(extra.read_text()))
     data={**config,'abschnitte':sections,'bilder':[im for im in images if im['typ']=='illustration'],'bildlegenden':json.loads((ROOT/'gestaltung/bildlegenden.json').read_text())}
+    openings=ROOT/'gestaltung/kapitelauftakte.json'
+    if openings.exists():
+        data['kapitelauftakte']=json.loads(openings.read_text())
+        chapter_ids={s['id'] for s in sections if s['art']=='kapitel'}
+        if set(data['kapitelauftakte'])!=chapter_ids:
+            raise ValueError('Für jedes Kapitel muss genau ein vollständiger Kapitelauftakt vorliegen.')
+        for key,opening in data['kapitelauftakte'].items():
+            if opening.get('titelposition','oben') not in ['oben','unten']:raise ValueError('Ungültige Titelposition: '+key)
+            section=next(s for s in sections if s['id']==key and s['art']=='kapitel')
+            compact=lambda text: re.sub(r'\s+',' ',re.sub(r'[#*_]','',text)).strip()
+            if compact(opening['zitat']) not in compact(section['text']):raise ValueError('Kapitelzitat nicht im Original: '+key)
+            picture=(ROOT/opening['bild']).resolve()
+            if not picture.is_relative_to(ROOT) or not picture.is_file():raise FileNotFoundError(opening['bild'])
+            data['bilder'].append({'datei':opening['bild'],'titel':section['titel']+' – Kapitelgemälde','typ':'illustration','kapitel_auftakt':key,'kapitel':key,'pdf_seiten':[]})
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
     payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
