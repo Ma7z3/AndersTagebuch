@@ -7,10 +7,10 @@ permissions:
   contents: read
 concurrency:
   group: tagebuch-pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v6
