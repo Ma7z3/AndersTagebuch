@@ -5,6 +5,7 @@ from datetime import datetime
 from collections import defaultdict
 from io import BytesIO
 import html, json, re, shutil, subprocess, sys, hashlib
+import os
 from html.parser import HTMLParser
 from PIL import Image as PillowImage
 from reportlab import rl_config
@@ -110,13 +111,18 @@ def pdf_image(path):
     path=Path(path)
     if path in IMAGE_CACHE:return IMAGE_CACHE[path]
     with PillowImage.open(path) as im:
-        opaque=im.mode!='RGBA' or im.getchannel('A').getextrema()==(255,255)
-        if opaque:
-            digest=hashlib.sha256(path.read_bytes()).hexdigest()[:20]
-            directory=ROOT/'export/.bildcache';directory.mkdir(parents=True,exist_ok=True)
-            output=directory/(digest+'-q90.jpg')
-            if not output.exists():im.convert('RGB').save(output,'JPEG',quality=90,optimize=True)
-        else:output=path
+        # Only the PDF receives a compact copy; the source paintings stay intact.
+        # White cutout backgrounds are blended into the paper by image_flow.
+        limit=int(os.environ.get('TAGEBUCH_PDF_BILDKANTE','900'))
+        quality=int(os.environ.get('TAGEBUCH_PDF_JPEG_QUALITAET','58'))
+        if FIGURE_CONFIG.get(str(path.relative_to(ROOT)),{}).get('gegenstand'):limit=600
+        digest=hashlib.sha256(path.read_bytes()).hexdigest()[:20]
+        directory=ROOT/'export/.bildcache';directory.mkdir(parents=True,exist_ok=True)
+        output=directory/(f'{digest}-{limit}-q{quality}-weiss.jpg')
+        if not output.exists():
+            image=im.convert('RGBA');image.thumbnail((limit,limit),PillowImage.Resampling.LANCZOS)
+            white=PillowImage.new('RGB',image.size,'white');white.paste(image,mask=image.getchannel('A'))
+            white.save(output,'JPEG',quality=quality,optimize=True)
     IMAGE_CACHE[path]=output
     return output
 
@@ -236,7 +242,12 @@ def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,vi
         maxheight=config.get('pdf_maxhoehe',150) if maxheight is None else maxheight
         blend=True
         viewport=viewport or config.get('pdf_bildausschnitt')
+    with PillowImage.open(path) as source:
+        ow,oh=source.size
+        blend=blend or ('A' in source.getbands() and source.getchannel('A').getextrema()!=(255,255))
     im=BookImage(str(pdf_image(path)),mask='auto',lazy=0);im.blend_white=blend;im.source_image=token['href']
+    if viewport:
+        viewport=[viewport[0]*im.imageWidth/ow,viewport[1]*im.imageHeight/oh,viewport[2]*im.imageWidth/ow,viewport[3]*im.imageHeight/oh]
     maxw=420 if cover else min(width,210)
     maxh=400 if cover else (345 if im.imageHeight>im.imageWidth else 245)
     if layout in ['breit','seite']:
@@ -381,6 +392,12 @@ def section_flow(section,refmap,session_names,opening=False):
         for t in (group_illustrations(tokens) if regroup else tokens):
             typ=t['type']
             if typ in ['space','def']:continue
+            if typ=='narrative':
+                flush();start=len(result);convert(t['tokens'],True);flush()
+                items=result[start:];del result[start:]
+                box=LongTable([[items]],colWidths=[WIDTH if wide else COL],splitByRow=0,splitInRow=1,spaceBefore=8,spaceAfter=10)
+                box.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),colors.HexColor('#faf7ea')),('LINEBEFORE',(0,0),(0,-1),.8,colors.HexColor('#654525')),('LINEAFTER',(-1,0),(-1,-1),.8,colors.HexColor('#654525')),('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7)]))
+                result.append(box);continue
             if typ=='html':
                 ids=re.findall(r'<a\s+id=["\']([^"\']+)["\']\s*></a>',t.get('raw',''))
                 pending.extend(Mark(key) for key in ids)

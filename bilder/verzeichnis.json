@@ -685,18 +685,18 @@
   },
   {
     "id": 213,
-    "datei": "bilder/pdf-s048-213.png",
-    "breite": 438,
-    "hoehe": 540,
+    "datei": "bilder/wesen-peppi-giff-v2.png",
+    "breite": 1126,
+    "hoehe": 1397,
     "pdf_seiten": [
       48
     ],
     "typ": "illustration",
     "transparenz": true,
     "titel": "Giff",
-    "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/7/74/Giff-5e.png",
     "code_reihenfolge": 26,
-    "kapitel": "kapitel-23"
+    "kapitel": "kapitel-23",
+    "quelle": "KI-Bildbearbeitung nach Nutzerkorrekturen, 03.11.2026"
   },
   {
     "id": 219,
@@ -1327,7 +1327,7 @@
   },
   {
     "titel": "Die Reisen des Ander Holimion",
-    "datei": "bilder/titelgemaelde-v7.png",
+    "datei": "bilder/titelgemaelde-v8.png",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "titel",
@@ -1335,7 +1335,8 @@
     "hoehe": 1536,
     "modus": "RGB",
     "sha256": "3eca4df7d1bdfbfdb7cddd9c47656c71d5c7964bd825791607322542cb40cf4f",
-    "herkunft": "Integrierte Bildgenerierung nach Figurenreferenzen und Nutzerangaben"
+    "herkunft": "Integrierte Bildgenerierung nach Figurenreferenzen und Nutzerangaben",
+    "quelle": "KI-Bildbearbeitung nach Nutzerkorrekturen, 03.11.2026"
   },
   {
     "datei": "bilder/wesen-mystra.jpg",
