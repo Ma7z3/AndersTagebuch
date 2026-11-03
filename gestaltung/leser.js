@@ -119,7 +119,7 @@ function chapterOpening(section){
   const number=Number(section.id.split('-').at(-1));
   const title=section.titel.replace(/^Kapitel \d+[: –]+/,'');
   const longWord=opening.zitat.split(/\s+/).some(word=>word.length>30);
-  return `<header class="chapter-spread" aria-label="Auftakt zu Kapitel ${number}"><div class="chapter-quote ${longWord?'long-word':''}"><blockquote><p>„${escapeHtml(opening.zitat)}“</p></blockquote><span>Aus dem Tagebuch des Ander Holimion</span></div><figure class="chapter-painting ${opening.titelposition==='unten'?'caption-bottom':''}"><img src="${escapeHtml(opening.bild)}" alt="${escapeHtml(opening.szene||title)}" decoding="async"><figcaption><small>Kapitel ${number}</small><h2>${escapeHtml(title)}</h2></figcaption></figure></header>`;
+  return `<header class="chapter-spread" aria-label="Auftakt zu Kapitel ${number}"><div class="chapter-quote ${longWord?'long-word':''}"><blockquote><p>„${escapeHtml(opening.zitat)}“</p></blockquote><span>${escapeHtml(opening.zitat_urheber)}</span></div><figure class="chapter-painting ${opening.titelposition==='unten'?'caption-bottom':''}"><img src="${escapeHtml(opening.bild)}" alt="${escapeHtml(opening.szene||title)}" decoding="async"><figcaption><small>Kapitel ${number}</small><h2>${escapeHtml(title)}</h2></figcaption></figure></header>`;
 }
 
 function showSection(section,target){

@@ -2,232 +2,278 @@
   "kapitel-01": {
     "zitat": "Der einzige Lohn, den Ghom verlangte, war eine neue grüne Robe.",
     "bild": "bilder/kapitel-01-auftakt-v2.png",
-    "szene": "Die erste Begegnung im Haus von Telimas in Sturmpenhauder."
+    "szene": "Die erste Begegnung im Haus von Telimas in Sturmpenhauder.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-02": {
     "zitat": "Talion war dadurch etwas aufgebracht und entschied, dass wir einfach über die Brücke galoppieren und über die Barrikade springen sollten.",
     "bild": "bilder/kapitel-02-auftakt.png",
-    "szene": "Die Gefährten kämpfen an der Schlangenbrücke."
+    "szene": "Die Gefährten kämpfen an der Schlangenbrücke.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-03": {
     "zitat": "Um in die Stadt zu gelangen, entschieden wir uns für eine Tarnung als Händler.",
     "bild": "bilder/kapitel-03-auftakt-v3.png",
-    "szene": "Die Gruppe erreicht das Lager der Freiheitsreiter in den Ruinen von Burg Dolchtal."
+    "szene": "Die Gruppe erreicht das Lager der Freiheitsreiter in den Ruinen von Burg Dolchtal.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-04": {
     "zitat": "Ich bin die Verstärkung",
     "bild": "bilder/kapitel-04-auftakt.png",
-    "szene": "Tau entdeckt Koril im doppelten Boden des Händlerwagens."
+    "szene": "Tau entdeckt Koril im doppelten Boden des Händlerwagens.",
+    "zitat_urheber": "Koril"
   },
   "kapitel-05": {
     "zitat": "Ich werde diese Stadt nicht aufgeben!",
     "bild": "bilder/kapitel-05-auftakt-v3.png",
-    "szene": "Ghom öffnet den Fluchtweg aus dem Kerker, während Hedistrin den Knochenteufel bindet."
+    "szene": "Ghom öffnet den Fluchtweg aus dem Kerker, während Hedistrin den Knochenteufel bindet.",
+    "zitat_urheber": "Randall Morn"
   },
   "kapitel-06": {
     "zitat": "Gut, dass Flint so gut reagiert hat!",
     "bild": "bilder/kapitel-06-auftakt-v2.png",
-    "szene": "Tau und Flint am brennenden Osttor von Dolchfall."
+    "szene": "Tau und Flint am brennenden Osttor von Dolchfall.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-07": {
     "zitat": "Tethyamar wird mir gehören!",
     "bild": "bilder/kapitel-07-auftakt-v2.png",
-    "szene": "Das Schädelritual und Iltonds Übernahme durch Hedistrin."
+    "szene": "Das Schädelritual und Iltonds Übernahme durch Hedistrin.",
+    "zitat_urheber": "Iltond (nach Hedistrins Übernahme)"
   },
   "kapitel-08": {
     "zitat": "Wir zerstörten die Katapulte noch komplett und setzten sie in Brand.",
     "bild": "bilder/kapitel-08-auftakt-v2.png",
-    "szene": "Die Sabotage der Ork-Katapulte vor Dolchfall."
+    "szene": "Die Sabotage der Ork-Katapulte vor Dolchfall.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-09": {
     "zitat": "Das Schwert der Täler ist zurück in den Händen des rechtmäßigen Herrschers von Dolchtal.",
     "bild": "bilder/kapitel-09-auftakt-v2.png",
-    "szene": "Talion überreicht Randall Morn beim Bankett das Schwert der Täler."
+    "szene": "Talion überreicht Randall Morn beim Bankett das Schwert der Täler.",
+    "zitat_urheber": "Randall Morn"
   },
   "kapitel-10": {
     "zitat": "Es ist an der Zeit.",
     "bild": "bilder/kapitel-10-auftakt.png",
-    "szene": "Elminster überreicht den Gefährten ihre Geschenke."
+    "szene": "Elminster überreicht den Gefährten ihre Geschenke.",
+    "zitat_urheber": "Elminster"
   },
   "kapitel-11": {
     "zitat": "Ganz schön blöd.",
     "bild": "bilder/kapitel-11-auftakt-v6.png",
-    "szene": "Tau nach seinem missglückten Probesprung mit Hutbert."
+    "szene": "Tau nach seinem missglückten Probesprung mit Hutbert.",
+    "zitat_urheber": "Hutbert"
   },
   "kapitel-12": {
     "zitat": "Als wir weiterliefen, hörte die Stille nicht auf.",
     "bild": "bilder/kapitel-12-auftakt-v4.png",
-    "szene": "Augen und ein Beobachter lauern im stillen Augenwald."
+    "szene": "Augen und ein Beobachter lauern im stillen Augenwald.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-13": {
     "zitat": "Schmetterschrei sucht dich.",
     "bild": "bilder/kapitel-13-auftakt-v3.png",
-    "szene": "Tau begegnet Schmetterschrei in Gestalt eines Ziegenkitzes und dem mechanischen Raben Korax."
+    "szene": "Tau begegnet Schmetterschrei in Gestalt eines Ziegenkitzes und dem mechanischen Raben Korax.",
+    "zitat_urheber": "Korax"
   },
   "kapitel-14": {
     "zitat": "Sie haben magische Waffen!",
     "bild": "bilder/kapitel-14-auftakt.png",
-    "szene": "Hutbert trägt Tau vor dem Erdelementar die Klippe hinauf."
+    "szene": "Hutbert trägt Tau vor dem Erdelementar die Klippe hinauf.",
+    "zitat_urheber": "Die Hexe an der Klippe"
   },
   "kapitel-15": {
     "zitat": "Der Zwerg fluchte ohne Pause und wir schafften es mit gemeinsamen Kräften, auch die letzte Spinne zu vernichten.",
     "bild": "bilder/kapitel-15-auftakt-v3.png",
-    "szene": "Balgrim wird aus dem Spinnenkokon im Sumpf befreit."
+    "szene": "Balgrim wird aus dem Spinnenkokon im Sumpf befreit.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-16": {
     "zitat": "Der wahre Schmetterschrei war wiedergeboren.",
     "bild": "bilder/kapitel-16-auftakt-v4.png",
-    "szene": "Schmetterschrei sprengt nach dem Ende des Fluchs die Hexenhütte."
+    "szene": "Schmetterschrei sprengt nach dem Ende des Fluchs die Hexenhütte.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-17": {
     "zitat": "Ihr verbeugt euch vor niemandem, ihr habt mein Leben gerettet.",
     "bild": "bilder/kapitel-17-auftakt-v3.png",
-    "szene": "Der Silberdrache übergibt Balgrim den Hammer von Marrake."
+    "szene": "Der Silberdrache übergibt Balgrim den Hammer von Marrake.",
+    "zitat_urheber": "Schmetterschrei"
   },
   "kapitel-18": {
     "zitat": "Hilfe müsste man sich bei den Binwabi erst verdienen.",
     "bild": "bilder/kapitel-18-auftakt-v4.png",
-    "szene": "Tau und Memnun musizieren im Lager der Binwabi, während Pelgri tanzt."
+    "szene": "Tau und Memnun musizieren im Lager der Binwabi, während Pelgri tanzt.",
+    "zitat_urheber": "Halim"
   },
   "kapitel-19": {
     "zitat": "Berühre mich, um den Segen der Königin zu empfangen und springe dann von der Klippe in dein neues Leben.",
     "bild": "bilder/kapitel-19-auftakt-v5.png",
-    "szene": "Talion begegnet dem Raben auf der Wüstenklippe."
+    "szene": "Talion begegnet dem Raben auf der Wüstenklippe.",
+    "zitat_urheber": "Der Rabe der Rabenkönigin"
   },
   "kapitel-20": {
     "zitat": "Der Punkt wurde ein Ring, der aussah wie altes Eisen.",
     "bild": "bilder/kapitel-20-auftakt-v2.png",
-    "szene": "Die Flasche reißt die Gefährten in einen Wirbel zwischen den Ebenen."
+    "szene": "Die Flasche reißt die Gefährten in einen Wirbel zwischen den Ebenen.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-21": {
     "zitat": "Gasthaus zur ehemals schwelenden Leiche",
     "bild": "bilder/kapitel-21-auftakt-v4.png",
-    "szene": "Die Gefährten sehen erstmals Sigils unmöglichen Himmel."
+    "szene": "Die Gefährten sehen erstmals Sigils unmöglichen Himmel.",
+    "zitat_urheber": "Das Schild des Gasthauses"
   },
   "kapitel-22": {
     "zitat": "Der Kampf entwickelte sich zunächst zu einem Duell zwischen dem Gedankenschinder und mir, denn die anderen waren bewegungsunfähig.",
     "bild": "bilder/kapitel-22-auftakt-v3.png",
-    "szene": "Tau kämpft gegen den Gedankenschinder; Schädelratten brechen durch die Wand."
+    "szene": "Tau kämpft gegen den Gedankenschinder; Schädelratten brechen durch die Wand.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-23": {
     "zitat": "Solange niemand Alarm schlug, würden uns die Zombies und Skelette nichts tun.",
     "bild": "bilder/kapitel-23-auftakt-v4.png",
-    "szene": "In Staubmenschenroben schleicht sich die Gruppe in die Leichenhalle."
+    "szene": "In Staubmenschenroben schleicht sich die Gruppe in die Leichenhalle.",
+    "zitat_urheber": "Kylie"
   },
   "kapitel-24": {
     "zitat": "Wir sind Ausdringlinge, ihr Idioten!",
     "bild": "bilder/kapitel-24-auftakt-v4.png",
-    "szene": "Die Gruppe flieht durch das Portal aus der Feuerzitadelle."
+    "szene": "Die Gruppe flieht durch das Portal aus der Feuerzitadelle.",
+    "zitat_urheber": "Pelgri"
   },
   "kapitel-25": {
     "zitat": "Ein Teil der Gruppe müsse aber den eigentlichen Auftrag weiterverfolgen.",
     "bild": "bilder/kapitel-25-auftakt-v2.png",
-    "szene": "Nach dem Abschiedsbrief von Balgrim und Pelgri erhält Basari den Hammer."
+    "szene": "Nach dem Abschiedsbrief von Balgrim und Pelgri erhält Basari den Hammer.",
+    "zitat_urheber": "Balgrim und Pelgri"
   },
   "kapitel-26": {
     "zitat": "Wir bedankten uns bei dem Minotaur, welcher sich als Trakfajar vorstellte.",
     "bild": "bilder/kapitel-26-auftakt-v3.png",
-    "szene": "Trakfajar hilft Tau, Flint und Basari auf dem Schrottplatz."
+    "szene": "Trakfajar hilft Tau, Flint und Basari auf dem Schrottplatz.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-27": {
     "zitat": "Der Feind meines Feindes ist mein Freund.",
     "bild": "bilder/kapitel-27-auftakt-v3.png",
     "szene": "Tau befreit Ser Ayne aus seinen Fesseln.",
-    "titelposition": "unten"
+    "titelposition": "unten",
+    "zitat_urheber": "Alte Weisheit"
   },
   "kapitel-28": {
     "zitat": "Super! Der Löffel ist eine Einhandwaffe. Du musst immer rühren und nicht aufhören.",
     "bild": "bilder/kapitel-28-auftakt-v2.png",
-    "szene": "Tau braut bei Oma Feen-Bann einen Trank."
+    "szene": "Tau braut bei Oma Feen-Bann einen Trank.",
+    "zitat_urheber": "Oma Feen-Bann"
   },
   "kapitel-29": {
     "zitat": "Werter Tau, ich denke, wir haben etwas für euch gefunden.",
     "bild": "bilder/kapitel-29-auftakt-v4.png",
-    "szene": "Galena überreicht Tau die Canaith-Mandoline und den anderen ihre Waffen."
+    "szene": "Galena überreicht Tau die Canaith-Mandoline und den anderen ihre Waffen.",
+    "zitat_urheber": "Galena"
   },
   "kapitel-30": {
     "zitat": "Auch wenn du dir nichts gewünscht hast, habe ich nachgedacht.",
     "bild": "bilder/kapitel-30-auftakt-v5.png",
-    "szene": "Der Sultan präsentiert Ser Aynes neue Feurit-Rüstung."
+    "szene": "Der Sultan präsentiert Ser Aynes neue Feurit-Rüstung.",
+    "zitat_urheber": "Sultan Marrake"
   },
   "kapitel-31": {
     "zitat": "Mit einem letzten Blick zu Kylie und der Stadt Sigil gingen wir durch das Portal.",
     "bild": "bilder/kapitel-31-auftakt-v6.png",
-    "szene": "Kylie verabschiedet die Gruppe am Portal ins Immermoor."
+    "szene": "Kylie verabschiedet die Gruppe am Portal ins Immermoor.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-32": {
     "zitat": "Es riss uns so richtig heftig zurück nach Faerûn, denn der Gestank war wirklich brutal.",
     "bild": "bilder/kapitel-32-auftakt-v3.png",
-    "szene": "Im nächtlichen Immermoor lauert ein schwarzer Drache."
+    "szene": "Im nächtlichen Immermoor lauert ein schwarzer Drache.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-33": {
     "zitat": "Die Äste wickelten sich langsam um Flints Unterarme, dann über die Schulter und den Hals hinauf.",
     "bild": "bilder/kapitel-33-auftakt-v5.png",
-    "szene": "Flints Symbiose mit dem verzauberten Ast beginnt in Silbrigmond."
+    "szene": "Flints Symbiose mit dem verzauberten Ast beginnt in Silbrigmond.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-34": {
     "zitat": "Das ist ja jetzt nicht euer Ernst! HEY DA!",
     "bild": "bilder/kapitel-34-auftakt-v5.png",
-    "szene": "Mestina begrüßt Tau und Flint in Dolchfall."
+    "szene": "Mestina begrüßt Tau und Flint in Dolchfall.",
+    "zitat_urheber": "Captain Mestina Durmark"
   },
   "kapitel-35": {
     "zitat": "Beim Ausgang war ein Abhang zu sehen und in einer großen Höhle vor uns lag leicht schräg eine Stadt.",
     "bild": "bilder/kapitel-35-auftakt-v3.png",
-    "szene": "Basari verabschiedet sich am Eingang nach Tethyamar."
+    "szene": "Basari verabschiedet sich am Eingang nach Tethyamar.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-36": {
     "zitat": "Auseinander!",
     "bild": "bilder/kapitel-36-auftakt-v4.png",
-    "szene": "Tau, Flint und Ser Ayne stehen dem roten Drachen gegenüber."
+    "szene": "Tau, Flint und Ser Ayne stehen dem roten Drachen gegenüber.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-37": {
     "zitat": "Passwort",
     "bild": "bilder/kapitel-37-auftakt-v4.png",
-    "szene": "Das Gespräch mit Flapp Flapp und das Koboldportal."
+    "szene": "Das Gespräch mit Flapp Flapp und das Koboldportal.",
+    "zitat_urheber": "Flapp Flapp"
   },
   "kapitel-38": {
     "zitat": "Das Feuer brennt in uns allen",
     "bild": "bilder/kapitel-38-auftakt-v5.png",
-    "szene": "Der Kampf gegen den steinhäutigen Höhlenriesen."
+    "szene": "Der Kampf gegen den steinhäutigen Höhlenriesen.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-39": {
     "zitat": "Ich konnte und wollte niemanden töten, der Familie hatte – selbst wenn es ein Kobold war.",
     "bild": "bilder/kapitel-39-auftakt-v2.png",
-    "szene": "Tau und Flint verhandeln mit Suss Utlu über Tethyamars Zukunft."
+    "szene": "Tau und Flint verhandeln mit Suss Utlu über Tethyamars Zukunft.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-40": {
     "zitat": "Ah… intelligente Wesen. Das wird interessant.",
     "bild": "bilder/kapitel-40-auftakt-v6.png",
-    "szene": "Die unsichtbare Stimme im verlassenen Markt von Tethyamar."
+    "szene": "Die unsichtbare Stimme im verlassenen Markt von Tethyamar.",
+    "zitat_urheber": "Hlamrot"
   },
   "kapitel-41": {
     "zitat": "Vorsicht, die haben Säure im Biss.",
     "bild": "bilder/kapitel-41-auftakt-v4.png",
-    "szene": "Die Jadespinne und ihre gläsernen Netze."
+    "szene": "Die Jadespinne und ihre gläsernen Netze.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-42": {
     "zitat": "Dreitausendachthundertneunundfünfzig Jahre, vier Monate und sechzehn Tage.",
     "bild": "bilder/kapitel-42-auftakt-v3.png",
-    "szene": "Erwiderung ist nach Jahrtausenden wieder in Taus Hand."
+    "szene": "Erwiderung ist nach Jahrtausenden wieder in Taus Hand.",
+    "zitat_urheber": "Erwiderung"
   },
   "kapitel-43": {
     "zitat": "Wir hielten. Noch einmal.",
     "bild": "bilder/kapitel-43-auftakt-v5.png",
-    "szene": "Der Kampf gegen die Fanatiker über der Schlucht."
+    "szene": "Der Kampf gegen die Fanatiker über der Schlucht.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   },
   "kapitel-44": {
     "zitat": "Der Pfad ist versperrt. Die Toten halten ihn.",
     "bild": "bilder/kapitel-44-auftakt-v5.png",
-    "szene": "Die Begegnung mit Bekel und den Zwergengeistern."
+    "szene": "Die Begegnung mit Bekel und den Zwergengeistern.",
+    "zitat_urheber": "Die Stimme an der Barriere"
   },
   "kapitel-45": {
     "zitat": "Ah, Meister.",
     "bild": "bilder/kapitel-45-auftakt-v5.png",
-    "szene": "Die Golems erkennen Flint unter Thogunas Helm als Meister an."
+    "szene": "Die Golems erkennen Flint unter Thogunas Helm als Meister an.",
+    "zitat_urheber": "Ein Golem der Schmiede"
   },
   "kapitel-46": {
     "zitat": "Vor uns lag der Kern.",
     "bild": "bilder/kapitel-46-auftakt-v4.png",
-    "szene": "Die drei Gefährten betreten die gewaltige Halle des Kerns."
+    "szene": "Die drei Gefährten betreten die gewaltige Halle des Kerns.",
+    "zitat_urheber": "Ander „Tau“ Holimion"
   }
 }

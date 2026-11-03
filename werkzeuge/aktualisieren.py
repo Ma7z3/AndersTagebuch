@@ -101,6 +101,7 @@ def main():
         if set(data['kapitelauftakte'])!=chapter_ids:
             raise ValueError('Für jedes Kapitel muss genau ein vollständiger Kapitelauftakt vorliegen.')
         for key,opening in data['kapitelauftakte'].items():
+            if not isinstance(opening.get('zitat_urheber'),str) or not opening['zitat_urheber'].strip():raise ValueError('Zitatsprecher oder Quelle fehlt: '+key)
             if opening.get('titelposition','oben') not in ['oben','unten']:raise ValueError('Ungültige Titelposition: '+key)
             section=next(s for s in sections if s['id']==key and s['art']=='kapitel')
             compact=lambda text: re.sub(r'\s+',' ',re.sub(r'[#*_]','',text)).strip()

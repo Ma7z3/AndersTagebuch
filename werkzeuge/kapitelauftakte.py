@@ -49,12 +49,13 @@ class ChapterQuote(Flowable):
         c.line(W / 2 - 36, baseline - 28, W / 2 + 36, baseline - 28)
         c.setFillColor(INK)
         c.setFont('Caps', 11)
-        c.drawCentredString(W / 2, baseline - 54, 'Aus dem Tagebuch des Ander Holimion')
+        c.drawCentredString(W / 2, baseline - 54, self.opening['zitat_urheber'])
         c.setFont('Scaly', 9)
         c.setFillColor(colors.HexColor('#8a7039'))
         c.drawCentredString(W / 2, baseline - 73, 'Kapitel ' + self.section['id'].split('-')[-1].lstrip('0'))
         c.restoreState()
         doc.pending_opening = {'kapitel': self.section['id'], 'zitat': self.opening['zitat'],
+                               'zitat_urheber': self.opening['zitat_urheber'],
                                'zitat_pdf_seite': doc.page, 'zitat_buchseite': doc.page - 2}
 
 class ChapterPainting(Flowable):
