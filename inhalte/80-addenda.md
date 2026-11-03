@@ -35,7 +35,7 @@
 <a id="p128"></a>
 
 
-### Weitere Personen und Geschöpfe (1)
+### Weitere Personen und Geschöpfe
 | Name | Klasse | Rasse | Funktion | Erstes Treffen | Vermuteter Aufenthaltsort |
 |:----:|:------:|:-----:|:--------:|:--------------:|:-------------------------:|
 | Telimas Traumweber | Traumdeuter | Gnom | Oberhaupt von Sturmpenhauder | [Seite 4](#p4) | Sturmpenhauder |
@@ -69,14 +69,7 @@
 | Rami | Waldläufer | Mensch (Nomade) | Späher der Binwabi | [Seite 32](#p32) | Wüste Anauroch |
 | Marrake al-Sidan al-Hariq ben Lazan | Zauberer | Adliger Ifrit | Großsultan von Messingstadt | [Seite 36](#p36) | Aschenpalast, Messingstadt |
 | Kylie | Spion | Tiefling | Bardame des Gasthauses zur schwelenden Leiche | [Seite 39](#p39) | Gasthaus zur schwelenden Leiche |
-
-<a id="p129"></a>
-
-
-### Weitere Personen und Geschöpfe (2)
-| Name | Klasse | Rasse | Funktion | Erstes Treffen | Vermuteter Aufenthaltsort |
-|:----:|:------:|:-----:|:--------:|:--------------:|:-------------------------:|
-| Charles | Krieger | Molydeus | Jäger von abtrünnigen Tanari | [Seite 39](#p39) | unbekannt |
+| <a id="p129"></a>Charles | Krieger | Molydeus | Jäger von abtrünnigen Tanari | [Seite 39](#p39) | unbekannt |
 | Gedramak Eisenfaust | ? | Zwerg | Mitglied des Bundes des Zeichens des Einen | [Seite 40](#p40) | *tot* |
 | Torana | ? | ? | Mitglied des Bundes der Staubmenschen | [Seite 40](#p40) | Leichenhalle von Sigil |
 | Modrigaz | Priester | Mensch | ? | [Seite 41](#p41) | Irgendwo in Sigil |
@@ -105,14 +98,7 @@
 | Ulfwald | Händler | Halbelf | Anhänger von Tharizdun, Ehemaliger Gefangener in der Zitadelle des Feuers | [Seite 64](#p64) | *verrückt geworden und erschlagen* |
 | Clarena | Söldner | Mensch | Ehemalige Gefangene in der Zitadelle des Feuers | [Seite 65](#p65) | Sucht Schlägerei im Schwarzen Segel |
 | Barrak | Arbeiter | Azer | Sprecher der Azer aus der Zitadelle | [Seite 65](#p65) | Baut die Zitadelle des Feuers wieder auf |
-
-<a id="p130"></a>
-
-
-### Weitere Personen und Geschöpfe (3)
-| Name | Klasse | Rasse | Funktion | Erstes Treffen | Vermuteter Aufenthaltsort |
-|:----:|:------:|:-----:|:--------:|:--------------:|:-------------------------:|
-| Fbbebriess | Handwerker | Tiefengnom | Jadekunsthandwerker in Sigil | [Seite 72](#p72) | Viertel der Handwerker, Sigil |
+| <a id="p130"></a>Fbbebriess | Handwerker | Tiefengnom | Jadekunsthandwerker in Sigil | [Seite 72](#p72) | Viertel der Handwerker, Sigil |
 | Alvion Immerstern | Adliger | Mensch | Ehemals Gefangener in der Zitadelle des Feuers (apathischer Mann) | [Seite 73](#p73) | Herrenhaus der Immersterns in Silbrigmond |
 | Kemp alias "Sam" | Vorarbeiter | Halb-Ork | Vorarbeiter der großen Gießerei | [Seite 73](#p73) | Büro des Vorarbeiters der großen Gießerei |
 | Almaraki ibn Şahin ibn Muhammad ibn Hamza | Fährmann | Ifrit | Fährmann in Messingstadt | [Seite 77](#p77) | Auf einem Boot auf einem der Kanäle Messingstadts |
@@ -135,3 +121,21 @@
 | Draxil | Zauberer | Kobold | Zauberer des Fanatiker-Kobold-Clans | [Seite 117](#p117) | Tethyamar |
 | Urak | Krieger (?) | Kobold | Anführer des Fanatiker-Kobold-Clans | [Seite 117](#p117) | Tethyamar |
 | Bekel Kupferhammer | Handwerker | Zwergen-Geist | Einer der Wächter des Kerns von Tethyamar | [Seite 118](#p118) | Tethyamar |
+| Gothil | ? | ? | Bedrohung aus der Vorgeschichte; zunächst nur erwähnt | [Kapitel 9](#kapitel-09) | ? |
+| Flapp Flapp | Häuptling | Geflügelter Kobold | Anführer der Fürchtenichtse | [Kapitel 37](#kapitel-37) | ? |
+| Knatzdeng | ? | Kobold | Begleiter von Flapp Flapp; trägt einen Speer | [Kapitel 37](#kapitel-37) | ? |
+| Hlamrot | ? | Phaerimm | Gegner auf dem verlassenen Markt | [Kapitel 40](#kapitel-40) | ? |
+| Jolgrun Ambossarm | ? | Zwerg | Begegnung auf dem Markt in Tethyamar | [Kapitel 40](#kapitel-40) | ? |
+| Terika | ? | Zwergin | Verkäuferin; Schwester von Orgul Rotaxt | [Kapitel 40](#kapitel-40) | ? |
+| Klaus | ? | Kobold | Helfer der Gruppe in Tethyamar | [Kapitel 40](#kapitel-40) | ? |
+| Günther | ? | Kobold | Helfer der Gruppe in Tethyamar | [Kapitel 40](#kapitel-40) | ? |
+| Dieter | ? | Kobold | Helfer der Gruppe in Tethyamar | [Kapitel 40](#kapitel-40) | ? |
+| Zarguras Eisenbart | Hauptmann | Zwergen-Geist | Hauptmann der Wache | [Kapitel 44](#kapitel-44) | ? |
+| Thoguna Barrenbieger | Schmiedemeister | Zwergen-Geist | Meister der Schmiede; zunächst in Kapitel 44 erwähnt | [Kapitel 44](#kapitel-44) | ? |
+| Draken Lederarm | ? | Zwergen-Geist | Mit dem mechanischen Spielzeug verbunden | [Kapitel 44](#kapitel-44) | ? |
+| Selmuria Blutschwert | Wächterin | Zwergen-Geist | Letzte Wächterin der Essenz des Zwielichts | [Kapitel 45](#kapitel-45) | ? |
+| Annica von Velden | Adlige | ? | Tochter des Grafen von Lysandra; Verfasserin der zitierten Erinnerung an Ser Ayne | [Kapitel 38](#kapitel-38) (Erwähnung) | ? |
+| Selûne | Göttin | Gottheit | Anders Glaubensweg; erscheint ihm später selbst | [Kapitel 27](#kapitel-27) (Erwähnung) | ? |
+| Mystra | Göttin | Gottheit | Göttin der Magie; Teil der erzählten Vorgeschichte Netherils | [Kapitel 9](#kapitel-09) (Erwähnung) | ? |
+| Karsus | Magier | Mensch | Magier Netherils; nur in der Vorgeschichte erwähnt | [Kapitel 9](#kapitel-09) (Erwähnung) | ? |
+| Die Rabenkönigin | Göttin | Gottheit | Auftraggeberin von Talions eigener Mission | [Kapitel 23](#kapitel-23) (Erwähnung) | ? |

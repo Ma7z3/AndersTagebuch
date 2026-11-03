@@ -216,7 +216,12 @@ def table_flow(token,refmap):
     rows=[[Paragraph(inline(c['tokens'],refmap).replace('Erstes Treffen','Erstes<br/>Treffen').replace('Letzter Auftritt','Letzter<br/>Auftritt').replace('Vermuteter Aufenthaltsort','Vermuteter<br/>Aufenthaltsort').replace('Wissenschaftliche Bezeichnung','Wissenschaftliche<br/>Bezeichnung'),ST['th']) for c in token['header']]]
     for row in token['rows']:
         if len(row)!=n:raise ValueError('Abweichende Spaltenzahl')
-        rows.append([Paragraph(inline(c['tokens'],refmap) or ' ',ST['cell']) for c in row])
+        cells=[]
+        for cell in row:
+            marks=[Mark(a) for a in re.findall(r'<a\s+id=["\']([^"\']+)["\']\s*></a>',cell.get('text',''))]
+            para=Paragraph(inline(cell['tokens'],refmap) or ' ',ST['cell'])
+            cells.append([*marks,para] if marks else para)
+        rows.append(cells)
     flow=LongTable(rows,colWidths=widths,repeatRows=1,hAlign='LEFT',splitByRow=1)
     flow.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),GREEN),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.Color(1,1,1,alpha=0),colors.HexColor('#edf0d8')]),('LINEBELOW',(0,0),(-1,0),.7,GOLD),('LINEBELOW',(0,1),(-1,-1),.25,colors.HexColor('#c8cba6')),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),5),('RIGHTPADDING',(0,0),(-1,-1),5),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5)]))
     return flow

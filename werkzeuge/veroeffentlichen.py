@@ -24,7 +24,7 @@ def copy_sources(target):
         if not source.is_relative_to(ROOT.resolve()):raise ValueError('Quelle außerhalb des Tagebuchs')
         copy_file(source,target/s['datei'])
     for source in sorted((ROOT/'eintraege').glob('*.md')):copy_file(source,target/'eintraege'/source.name)
-    for rel in ['START.html','gestaltung/leser.js','gestaltung/leser.css','gestaltung/marked.umd.js','gestaltung/bildlegenden.json','bilder/verzeichnis.json']:
+    for rel in ['START.html','gestaltung/leser.js','gestaltung/leser.css','gestaltung/struktur.js','gestaltung/erzaehlkaesten.json','gestaltung/chronik.js','gestaltung/chronik.css','gestaltung/chronik.json','gestaltung/marked.umd.js','gestaltung/bildlegenden.json','bilder/verzeichnis.json']:
         copy_file(ROOT/rel,target/rel)
     if (ROOT/'gestaltung/kapitelauftakte.json').exists():copy_file(ROOT/'gestaltung/kapitelauftakte.json',target/'gestaltung/kapitelauftakte.json')
     if (ROOT/'bilder/gegenstaende.json').exists():copy_file(ROOT/'bilder/gegenstaende.json',target/'bilder/gegenstaende.json')
@@ -33,7 +33,7 @@ def copy_sources(target):
     for source in sorted((ROOT/'gestaltung/schriften').glob('*')):
         if source.suffix.lower() in ['.ttf','.woff2','.txt']:copy_file(source,target/'gestaltung/schriften'/source.name)
     for source in sorted((ROOT/'karten').glob('*')):
-        if source.is_file() and source.suffix.lower() in ['.json','.js','.css','.svg','.png','.jpg','.md']:copy_file(source,target/'karten'/source.name)
+        if source.is_file() and source.suffix.lower() in ['.json','.js','.css','.svg','.png','.jpg','.md','.pdf']:copy_file(source,target/'karten'/source.name)
     for name in TOOLS:copy_file(ROOT/'werkzeuge'/name,target/'werkzeuge'/name)
     for rel in ['requirements.txt','.github/workflows/tagebuch.yml','.gitignore']:
         copy_file(ROOT/rel,target/rel)

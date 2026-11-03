@@ -33,6 +33,33 @@ def versioniere_startseite():
     text=re.sub(r'((?:src|href)=")([^"?]+\.(?:js|css))(?:\?v=[^" ]+)?(")',version,text)
     page.write_text(text)
 
+def validate_chronicle(data):
+    chronicle=data.get('chronik')
+    if not chronicle:return
+    figures=chronicle['figuren'];items=chronicle['gegenstaende']
+    for group in [figures,items]:
+        ids=[e['id'] for e in group]
+        if len(ids)!=len(set(ids)):raise ValueError('Doppelte Kennung in der Chronik')
+        for entry in group:
+            if not 0<=entry['ab_kapitel']<=46:raise ValueError('Ungültiger Lesestand: '+entry['id'])
+            for event in entry.get('ereignisse',[])+entry.get('fakten',[])+entry.get('beziehungen',[])+entry.get('auftritte',[]):
+                if not entry['ab_kapitel']<=event['kapitel']<=46:raise ValueError('Chronik-Ereignis vor Einführung: '+entry['id'])
+            portrait=entry.get('portrait')
+            image=portrait['bild'] if portrait else entry.get('bild')
+            if image:
+                path=(ROOT/image).resolve()
+                if not path.is_relative_to(ROOT.resolve()) or not path.is_file():raise ValueError('Chronik-Bild fehlt: '+image)
+            if portrait:
+                x,y,w,h=portrait['ausschnitt']
+                if not (0<=x<100 and 0<=y<100 and w>0 and h>0 and x+w<=100.01 and y+h<=100.01):raise ValueError('Porträtausschnitt außerhalb des Bildes: '+entry['id'])
+                if portrait['ab_kapitel']<entry['ab_kapitel']:raise ValueError('Porträt vor Figureneinführung: '+entry['id'])
+    for chapter,spots in chronicle['gemalde'].items():
+        if chapter not in data['kapitelauftakte']:raise ValueError('Gemälde ohne Kapitel: '+chapter)
+        for spot in spots:
+            group=figures if spot['art']=='figur' else items
+            if not any(e['id']==spot['id'] for e in group) or not(0<=spot['x']<=100 and 0<=spot['y']<=100):raise ValueError('Ungültiger Bildpunkt: '+chapter)
+
+
 def main():
     public='--oeffentlich' in sys.argv
     config=json.loads((ROOT/'tagebuch.json').read_text())
@@ -94,6 +121,9 @@ def main():
     extra=ROOT/'bilder/gegenstaende.json'
     if extra.exists():images.extend(json.loads(extra.read_text()))
     data={**config,'abschnitte':sections,'bilder':[im for im in images if im['typ']=='illustration'],'bildlegenden':json.loads((ROOT/'gestaltung/bildlegenden.json').read_text())}
+    for key in ['erzaehlkaesten','chronik']:
+        path=ROOT/'gestaltung'/f'{key}.json'
+        if path.exists():data[key]=json.loads(path.read_text())
     openings=ROOT/'gestaltung/kapitelauftakte.json'
     if openings.exists():
         data['kapitelauftakte']=json.loads(openings.read_text())
@@ -111,6 +141,7 @@ def main():
             data['bilder'].append({'datei':opening['bild'],'titel':section['titel']+' – Kapitelgemälde','typ':'illustration','kapitel_auftakt':key,'kapitel':key,'pdf_seiten':[]})
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
+    validate_chronicle(data)
     payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
     route_path=ROOT/'karten/reise.json'
     if route_path.exists():

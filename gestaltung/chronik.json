@@ -1,0 +1,4455 @@
+{
+  "version": 1,
+  "figuren": [
+    {
+      "id": "ander-bruder-tau-holimion",
+      "name": "Ander \"Bruder Tau\" Holimion",
+      "ab_kapitel": 0,
+      "art": "abenteurer",
+      "rasse": "Halbelf",
+      "aliases": [
+        "Tau",
+        "Ander Holimion",
+        "Bruder Tau"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 46,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 0,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/portrait-ander-tau-v1.png",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 0,
+        "herkunft": "Neues Porträt nach Kapitel 1; dezent granatrote Iris nach Charakterbeschreibung"
+      }
+    },
+    {
+      "id": "ghom-der-grune",
+      "name": "Ghom der Grüne",
+      "ab_kapitel": 1,
+      "art": "abenteurer",
+      "rasse": "Mensch",
+      "aliases": [
+        "Ghom"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 1,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 8,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 10,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 1,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-01-auftakt-v2.png",
+        "ausschnitt": [
+          62.42067089755213,
+          34.04628330995792,
+          18.5856754306437,
+          14.375876577840112
+        ],
+        "ab_kapitel": 1,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "talion-bestienreiter-grindansson",
+      "name": "Talion \"Bestienreiter\" Grindansson",
+      "ab_kapitel": 1,
+      "art": "abenteurer",
+      "rasse": "Mensch",
+      "aliases": [
+        "Talion"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 1,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 2,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 8,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 10,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 12,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 13,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 14,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 16,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 17,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 20,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 1,
+          "text": "Paladin und Gefährte der Gruppe."
+        },
+        {
+          "kapitel": 23,
+          "text": "Bricht zu einem eigenen Auftrag der Rabenkönigin auf."
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-01-auftakt-v2.png",
+        "ausschnitt": [
+          21.12420670897552,
+          27.91023842917251,
+          19.038984587488667,
+          14.726507713884994
+        ],
+        "ab_kapitel": 1,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "flint-otani",
+      "name": "Flint Otani",
+      "ab_kapitel": 1,
+      "art": "abenteurer",
+      "rasse": "Mensch",
+      "aliases": [
+        "Flint"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 1,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 2,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 8,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 10,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 12,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 13,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 14,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 16,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 17,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 20,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 26,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 32,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 34,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 36,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 37,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 38,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 39,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 41,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 42,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 46,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 1,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-01-auftakt-v2.png",
+        "ausschnitt": [
+          12.239,
+          43.478,
+          15.413,
+          11.921
+        ],
+        "ab_kapitel": 1,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "gibligrim-zhuck-gobbelbick-tarkelby",
+      "name": "Gibligrim Zhuck Gobbelbick Tarkelby",
+      "ab_kapitel": 2,
+      "art": "abenteurer",
+      "rasse": "Felsengnom",
+      "aliases": [
+        "Gibligrim"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 2,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 10,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 2,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-04-auftakt.png",
+        "ausschnitt": [
+          71.23411978221415,
+          33.98738612473721,
+          19.056261343012704,
+          14.716187806587246
+        ],
+        "ab_kapitel": 4,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "pelgri-bogner",
+      "name": "Pelgri Bogner",
+      "ab_kapitel": 11,
+      "art": "abenteurer",
+      "rasse": "Halbling",
+      "aliases": [
+        "Pelgri"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 12,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 13,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 14,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 16,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 17,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 20,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 11,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-11-auftakt-v6.png",
+        "ausschnitt": [
+          49.41069809610154,
+          42.42636746143057,
+          19.038984587488667,
+          14.726507713884994
+        ],
+        "ab_kapitel": 11,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "balgrim",
+      "name": "Balgrim",
+      "ab_kapitel": 15,
+      "art": "abenteurer",
+      "rasse": "Hügelzwerg",
+      "aliases": [
+        "Balgrim"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 16,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 17,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 20,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 15,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-17-auftakt-v3.png",
+        "ausschnitt": [
+          68.058,
+          42.397,
+          19.056,
+          14.716
+        ],
+        "ab_kapitel": 17,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "trakfajar",
+      "name": "Trakfajar",
+      "ab_kapitel": 26,
+      "art": "abenteurer",
+      "rasse": "Minotaur",
+      "aliases": [
+        "Trakfajar"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 26,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 26,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-26-auftakt-v4.png",
+        "ausschnitt": [
+          51.67724388032638,
+          36.32538569424965,
+          19.945602901178603,
+          15.427769985974754
+        ],
+        "ab_kapitel": 26,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "basari",
+      "name": "Basari",
+      "ab_kapitel": 18,
+      "art": "abenteurer",
+      "rasse": "Mensch",
+      "aliases": [
+        "Basari"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 20,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 26,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 32,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 18,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-18-auftakt-v4.png",
+        "ausschnitt": [
+          15.41251133272892,
+          12.97335203366059,
+          17.225747960108794,
+          13.32398316970547
+        ],
+        "ab_kapitel": 18,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "ser-ayne-darther",
+      "name": "Ser Ayne Darther",
+      "ab_kapitel": 27,
+      "art": "abenteurer",
+      "rasse": "Mensch",
+      "aliases": [
+        "Ser Ayne",
+        "Ayne"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 32,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 36,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 37,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 38,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 39,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 41,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 42,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 46,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 27,
+          "text": "Mitglied der Abenteuerrunde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-29-auftakt-v5.png",
+        "ausschnitt": [
+          64.88203266787659,
+          25.92852137351086,
+          19.056261343012704,
+          14.716187806587246
+        ],
+        "ab_kapitel": 29,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "telimas-traumweber",
+      "name": "Telimas Traumweber",
+      "ab_kapitel": 1,
+      "art": "person",
+      "rasse": "Gnom",
+      "aliases": [
+        "Telimas Traumweber"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 1,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Oberhaupt von Sturmpenhauder"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "mandarn-spinnenjager",
+      "name": "Mandarn Spinnenjäger",
+      "ab_kapitel": 1,
+      "art": "person",
+      "rasse": "Gnom",
+      "aliases": [
+        "Mandarn Spinnenjäger"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 1,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Spinnenhirte"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "captain-bleotik",
+      "name": "Captain Bleotik",
+      "ab_kapitel": 2,
+      "art": "person",
+      "rasse": "Hobgoblin",
+      "aliases": [
+        "Captain Bleotik"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 2,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Anführer einer Hobgoblinbande"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "mestina-durmark",
+      "name": "Mestina Durmark",
+      "ab_kapitel": 2,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Mestina"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 2,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 12,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 34,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Captain der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-34-auftakt-v6.png",
+        "ausschnitt": [
+          50.363,
+          27.68,
+          19.964,
+          15.417
+        ],
+        "ab_kapitel": 34,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "koril-benshay",
+      "name": "Koril Benshay",
+      "ab_kapitel": 3,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Koril"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 8,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 12,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "ariton-delmis",
+      "name": "Ariton Delmis",
+      "ab_kapitel": 3,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Ariton Delmis"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "ehemaliger Captain der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "binch",
+      "name": "Binch",
+      "ab_kapitel": 3,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Binch"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "enit-ellinar",
+      "name": "Enit Ellinar",
+      "ab_kapitel": 3,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Enit Ellinar"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Schnapsbrauer"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "seleca-ellinar",
+      "name": "Seleca Ellinar",
+      "ab_kapitel": 3,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Seleca Ellinar"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 3,
+          "art": "Erster Verzeichniseintrag"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Verwalterin des Ellinar-Hofes"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "dulwar",
+      "name": "Dulwar",
+      "ab_kapitel": 4,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Dulwar"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Spion der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "markail",
+      "name": "Markaïl",
+      "ab_kapitel": 4,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Markaïl"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Priester des Lathander"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "guthbert-golthammer",
+      "name": "Guthbert Golthammer",
+      "ab_kapitel": 5,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Guthbert Golthammer"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "ehemaliger Kommandeur der Zhentarim in Dolchfall"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "randall-morn",
+      "name": "Randall Morn",
+      "ab_kapitel": 5,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Randall Morn"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 34,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Anführer der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "iltond",
+      "name": "Iltond",
+      "ab_kapitel": 5,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Iltond"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 10,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Magier der Zhentarim"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-07-auftakt-v3.png",
+        "ausschnitt": [
+          59.891,
+          23.125,
+          18.149,
+          14.015
+        ],
+        "ab_kapitel": 7,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "hedistrin",
+      "name": "Hedistrin",
+      "ab_kapitel": 5,
+      "art": "person",
+      "rasse": "Erzschatten",
+      "aliases": [
+        "Hedistrin"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 17,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 39,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 46,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Geist des Schwertes der Täler"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-07-auftakt-v3.png",
+        "ausschnitt": [
+          63.067,
+          2.453,
+          22.686,
+          17.519
+        ],
+        "ab_kapitel": 7,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "digbier",
+      "name": "Digbier",
+      "ab_kapitel": 5,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Digbier"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 5,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Einwohner Dolchfalls"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "fammek-dolchfall",
+      "name": "Fammek (Freiheitsreiter)",
+      "ab_kapitel": 5,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Fammek"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 5,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied der Freiheitsreiter"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "lhaeo",
+      "name": "Lhaeo",
+      "ab_kapitel": 8,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Lhaeo"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 8,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Schreiber von Schattental"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "elminster-aumar",
+      "name": "Elminster Aumar",
+      "ab_kapitel": 9,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Elminster"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 10,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 11,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Gelehrter von Schattental"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-10-auftakt.png",
+        "ausschnitt": [
+          66.18313689936537,
+          21.73913043478261,
+          21.758839528558475,
+          16.830294530154276
+        ],
+        "ab_kapitel": 10,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "hutbert",
+      "name": "Hutbert",
+      "ab_kapitel": 10,
+      "art": "gegenstand",
+      "rasse": "Hut",
+      "aliases": [
+        "Hutbert"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 10,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 13,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 14,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 32,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 37,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 42,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 10,
+          "text": "Sprechender Hut, den Ander von Elminster erhält."
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/gegenstand-hutbert-v2.png",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 10,
+        "herkunft": "Bestehende Illustration des Tagebuchs"
+      }
+    },
+    {
+      "id": "korax",
+      "name": "Korax",
+      "ab_kapitel": 13,
+      "art": "person",
+      "rasse": "Mechanischer Rabe",
+      "aliases": [
+        "Korax"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 13,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 14,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 16,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Begleiter von Schmetterschrei"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "schmetterschrei",
+      "name": "Ziegli",
+      "ab_kapitel": 13,
+      "art": "person",
+      "rasse": "",
+      "aliases": [
+        "Ziegli",
+        "Schmetterschrei"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 13,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 14,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 16,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 17,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 13,
+          "text": "Die Gruppe begegnet ihm bei der Höhle."
+        },
+        {
+          "kapitel": 16,
+          "text": "Der Fluch wird gebrochen; Schmetterschrei erscheint als Silberdrache."
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-16-auftakt-v4.png",
+        "ausschnitt": [
+          56.210335448776064,
+          9.46704067321178,
+          27.198549410698096,
+          21.037868162692845
+        ],
+        "ab_kapitel": 16,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      },
+      "namen": [
+        {
+          "kapitel": 13,
+          "name": "Ziegli / Schmetterschrei"
+        },
+        {
+          "kapitel": 16,
+          "name": "Schmetterschrei"
+        },
+        {
+          "kapitel": 18,
+          "name": "Schmetterschrei (Basam)"
+        }
+      ]
+    },
+    {
+      "id": "fugentun",
+      "name": "Fugentun",
+      "ab_kapitel": 15,
+      "art": "person",
+      "rasse": "Feengeist",
+      "aliases": [
+        "Fugentun"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 15,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Begleiter von Schmetterschrei"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "halim",
+      "name": "Halim",
+      "ab_kapitel": 18,
+      "art": "person",
+      "rasse": "Mensch (Nomade)",
+      "aliases": [
+        "Halim"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 20,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Anführer der Binwabi"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "djadi",
+      "name": "Djadi",
+      "ab_kapitel": 18,
+      "art": "person",
+      "rasse": "Mensch (Nomade)",
+      "aliases": [
+        "Djadi"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Priesterin der Binwabi"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "memnun",
+      "name": "Memnun",
+      "ab_kapitel": 18,
+      "art": "person",
+      "rasse": "Mensch (Nomade)",
+      "aliases": [
+        "Memnun"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 18,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 35,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Musiker der Binwabi"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "rami",
+      "name": "Rami",
+      "ab_kapitel": 19,
+      "art": "person",
+      "rasse": "Mensch (Nomade)",
+      "aliases": [
+        "Rami"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 19,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Späher der Binwabi"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "marrake-al-sidan-al-hariq-ben-lazan",
+      "name": "Marrake al-Sidan al-Hariq ben Lazan",
+      "ab_kapitel": 20,
+      "art": "person",
+      "rasse": "Adliger Ifrit",
+      "aliases": [
+        "Marrake al-Sidan al-Hariq ben Lazan"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 20,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Großsultan von Messingstadt"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "kylie",
+      "name": "Kylie",
+      "ab_kapitel": 21,
+      "art": "person",
+      "rasse": "Tiefling",
+      "aliases": [
+        "Kylie"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Bardame des Gasthauses zur schwelenden Leiche"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/pdf-s039-179.png",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 21,
+        "herkunft": "Bestehende Illustration des Tagebuchs"
+      }
+    },
+    {
+      "id": "charles",
+      "name": "Charles",
+      "ab_kapitel": 21,
+      "art": "person",
+      "rasse": "Molydeus",
+      "aliases": [
+        "Charles"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 21,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Jäger von abtrünnigen Tanari"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "gedramak-eisenfaust",
+      "name": "Gedramak Eisenfaust",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Zwerg",
+      "aliases": [
+        "Gedramak Eisenfaust"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied des Bundes des Zeichens des Einen"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "torana",
+      "name": "Torana",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "?",
+      "aliases": [
+        "Torana"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied des Bundes der Staubmenschen"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "modrigaz",
+      "name": "Modrigaz",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Modrigaz"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "?"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "schatten",
+      "name": "\"Schatten\"",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Elf",
+      "aliases": [
+        "Schatten"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Erster Verzeichniseintrag"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "?"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "tylarik-sturmschwinge",
+      "name": "Tylarik Sturmschwinge",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Tylarik Sturmschwinge"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied der Gesellschaft der Empfindungen (Sinsat)"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "a-kin",
+      "name": "A'kin",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Wolfshumanoider",
+      "aliases": [
+        "A'kin"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Besitzer des Ladens \"Zum freundlichen Scheusal\""
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/pdf-s043-188.png",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "herkunft": "Bestehende Illustration des Tagebuchs"
+      }
+    },
+    {
+      "id": "dittplanen-ditt",
+      "name": "Dittplanen \"Ditt\"",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Dittplanen \"Ditt\""
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Erster Verzeichniseintrag"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Verdammniswächter der Schicksalsgarde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "rodlan",
+      "name": "Rodlan",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Rodlan"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Verdammniswächter der Schicksalsgarde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "eliath",
+      "name": "Eliath",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Eliath"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mitglied der Schicksalsgarde"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "fammek-sigil",
+      "name": "Fammek (Harmonium)",
+      "ab_kapitel": 22,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Fammek"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hauptmann der Harmonium Wachen"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "galena",
+      "name": "Galena",
+      "ab_kapitel": 23,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Galena"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Bundschwester vom Zeichen der Einen"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "peppi",
+      "name": "Peppi",
+      "ab_kapitel": 23,
+      "art": "person",
+      "rasse": "Giff",
+      "aliases": [
+        "Peppi"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 23,
+          "text": "Giff im Gasthaus zur schwelenden Leiche. Sie untersucht den Ohrclip."
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/wesen-peppi-giff-v2.png",
+        "ausschnitt": [
+          39,
+          12,
+          35,
+          29
+        ],
+        "ab_kapitel": 23,
+        "herkunft": "Neue Illustration nach der vom Autor bereitgestellten Spielfigur"
+      }
+    },
+    {
+      "id": "reier",
+      "name": "Reißer",
+      "ab_kapitel": 24,
+      "art": "person",
+      "rasse": "Hobgoblin",
+      "aliases": [
+        "Reißer"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hobgoblin Söldner"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "heisser",
+      "name": "Heisser",
+      "ab_kapitel": 24,
+      "art": "person",
+      "rasse": "Hobgoblin",
+      "aliases": [
+        "Heisser"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hobgoblin Söldner"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "weisser",
+      "name": "Weisser",
+      "ab_kapitel": 24,
+      "art": "person",
+      "rasse": "Hobgoblin",
+      "aliases": [
+        "Weisser"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hobgoblin Söldner"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "schmeisser",
+      "name": "Schmeisser",
+      "ab_kapitel": 24,
+      "art": "person",
+      "rasse": "Hobgoblin",
+      "aliases": [
+        "Schmeisser"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hobgoblin Söldner"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "schleifer",
+      "name": "Schleifer",
+      "ab_kapitel": 24,
+      "art": "person",
+      "rasse": "Hobgoblin",
+      "aliases": [
+        "Schleifer"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 24,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hobgoblin Söldner"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "iduna",
+      "name": "Iduna",
+      "ab_kapitel": 25,
+      "art": "person",
+      "rasse": "Aquatischer Elf",
+      "aliases": [
+        "Iduna"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Bundschwester vom Zeichen der Einen"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "ulfmaer",
+      "name": "Ulfmaer",
+      "ab_kapitel": 25,
+      "art": "person",
+      "rasse": "Tiefengnom",
+      "aliases": [
+        "Ulfmaer"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 26,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Staubmensch"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "andaria",
+      "name": "Andaria",
+      "ab_kapitel": 25,
+      "art": "person",
+      "rasse": "Goblin",
+      "aliases": [
+        "Andaria"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 25,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 26,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Staubmensch"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "oma-feen-bann",
+      "name": "Oma Feen-Bann",
+      "ab_kapitel": 26,
+      "art": "person",
+      "rasse": "Nagpa",
+      "aliases": [
+        "Oma Feen-Bann"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 26,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Aufseherin des Schrottplatzes von Sigil"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-28-auftakt-v2.png",
+        "ausschnitt": [
+          48.050770625566635,
+          22.44039270687237,
+          29.011786038077968,
+          22.44039270687237
+        ],
+        "ab_kapitel": 28,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "imogen",
+      "name": "Imogen",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Imogen"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "ehemalige Gehilfin von Marvent"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "waldramm",
+      "name": "Waldramm",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Waldramm"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Söldner der Schwarzspeere"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "der-grune-marvent",
+      "name": "Der grüne Marvent",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Der grüne Marvent"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Ehemaliger Besitzer der Zitadelle des Feuers"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "ulfwald",
+      "name": "Ulfwald",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Halbelf",
+      "aliases": [
+        "Ulfwald"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Anhänger von Tharizdun, Ehemaliger Gefangener in der Zitadelle des Feuers"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "clarena",
+      "name": "Clarena",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Clarena"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Ehemalige Gefangene in der Zitadelle des Feuers"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "barrak",
+      "name": "Barrak",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Azer",
+      "aliases": [
+        "Barrak"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 27,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 28,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Sprecher der Azer aus der Zitadelle"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "fbbebriess",
+      "name": "Fbbebriess",
+      "ab_kapitel": 29,
+      "art": "person",
+      "rasse": "Tiefengnom",
+      "aliases": [
+        "Fbbebriess"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Jadekunsthandwerker in Sigil"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "alvion-immerstern",
+      "name": "Alvion Immerstern",
+      "ab_kapitel": 29,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Alvion Immerstern"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 29,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Ehemals Gefangener in der Zitadelle des Feuers (apathischer Mann)"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "kemp-alias-sam",
+      "name": "Kemp alias \"Sam\"",
+      "ab_kapitel": 29,
+      "art": "person",
+      "rasse": "Halb-Ork",
+      "aliases": [
+        "Kemp",
+        "Sam"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 29,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Vorarbeiter der großen Gießerei"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "almaraki-ibn-sahin-ibn-muhammad-ibn-hamza",
+      "name": "Almaraki ibn Şahin ibn Muhammad ibn Hamza",
+      "ab_kapitel": 30,
+      "art": "person",
+      "rasse": "Ifrit",
+      "aliases": [
+        "Almaraki ibn Şahin ibn Muhammad ibn Hamza"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 30,
+          "art": "Erster Verzeichniseintrag"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Fährmann in Messingstadt"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "abdul-quavi",
+      "name": "Abdul Quavi",
+      "ab_kapitel": 30,
+      "art": "person",
+      "rasse": "Ifrit",
+      "aliases": [
+        "Abdul Quavi"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 30,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Großwesir von Messingstadt"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "cuinn",
+      "name": "Cuinn",
+      "ab_kapitel": 31,
+      "art": "person",
+      "rasse": "Zwerg",
+      "aliases": [
+        "Cuinn"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Freitagsschicht des (Z)Werksverkauf der großen Gießerei von Sigil"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "ab_kapitel": 31,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Aurora"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Besitzerin von einem Kartenladen in Sigil"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "danton",
+      "name": "Danton",
+      "ab_kapitel": 32,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Danton"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 32,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hauptmann der Stadtwache von Silbrigmond"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "gosran-immerstern",
+      "name": "Gosran Immerstern",
+      "ab_kapitel": 32,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Gosran Immerstern"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 32,
+          "art": "Erster Verzeichniseintrag"
+        },
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Adliger von Silbrigmond"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "yasar",
+      "name": "Yasar",
+      "ab_kapitel": 33,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Yasar"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Majordomus der Familie Immerstern"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "hezel",
+      "name": "Hezel",
+      "ab_kapitel": 33,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Hezel"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Wirt der Tanzenden Ziege"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "haffirin-haffi",
+      "name": "Haffirin \"Haffi\"",
+      "ab_kapitel": 33,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Haffirin \"Haffi\""
+      ],
+      "auftritte": [
+        {
+          "kapitel": 33,
+          "art": "Erster Verzeichniseintrag"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Sohn des Wirtes der Tanzenden Ziege"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "letanon-lechko",
+      "name": "Letanon Lechko",
+      "ab_kapitel": 33,
+      "art": "person",
+      "rasse": "Gnom",
+      "aliases": [
+        "Letanon Lechko"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Ansprechpartner in der Bank von Silbrigmond"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "duana",
+      "name": "Duana",
+      "ab_kapitel": 33,
+      "art": "person",
+      "rasse": "Halbelf",
+      "aliases": [
+        "Duana"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Oberste Zofe von Alustriel"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "alustriel-silberhand",
+      "name": "Alustriel Silberhand",
+      "ab_kapitel": 33,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Alustriel"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 33,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 34,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hohe Lady von Silbrigmond und Auserwählte Mystras"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-33-auftakt-v6.png",
+        "ausschnitt": [
+          75.56561085972851,
+          31.60112359550562,
+          20.81447963800905,
+          16.151685393258425
+        ],
+        "ab_kapitel": 33,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "kurzpieks",
+      "name": "Kurzpieks",
+      "ab_kapitel": 39,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Kurzpieks"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 39,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Einfacher Kobold in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "suss-utlu",
+      "name": "Suss Utlu",
+      "ab_kapitel": 39,
+      "art": "person",
+      "rasse": "Drachengeborener",
+      "aliases": [
+        "Suss Utlu"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 39,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 42,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Oberanführer aller 10 Koboldstämme in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/kapitel-39-auftakt-v2.png",
+        "ausschnitt": [
+          71.16953762466002,
+          28.751753155680223,
+          20.85222121486854,
+          16.129032258064516
+        ],
+        "ab_kapitel": 39,
+        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+      }
+    },
+    {
+      "id": "isballa",
+      "name": "Isballa",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Zwergen-Geist",
+      "aliases": [
+        "Isballa"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Einer der Wächter des Kerns von Tethyamar/Verkäuferin von Erwiderung"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "erwiderung",
+      "name": "Erwiderung",
+      "ab_kapitel": 40,
+      "art": "gegenstand",
+      "rasse": "Rapier",
+      "aliases": [
+        "Erwiderung"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 42,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 40,
+          "text": "Bewusstes Rapier, das der Gruppe auf dem Markt begegnet."
+        },
+        {
+          "kapitel": 42,
+          "text": "Ander erhält Erwiderung zurück."
+        }
+      ],
+      "beziehungen": [],
+      "portrait": {
+        "bild": "bilder/gegenstand-erwiderung-v2.png",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "herkunft": "Gegenstandsillustration des Tagebuchs"
+      }
+    },
+    {
+      "id": "orgul-rotaxt",
+      "name": "Orgul Rotaxt",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Zwerg",
+      "aliases": [
+        "Orgul Rotaxt"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Bruder von Terika, Verkäuferin in der Vergangenheit in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "draxil",
+      "name": "Draxil",
+      "ab_kapitel": 43,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Draxil"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Zauberer des Fanatiker-Kobold-Clans"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "urak",
+      "name": "Urak",
+      "ab_kapitel": 43,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Urak"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Anführer des Fanatiker-Kobold-Clans"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "bekel-kupferhammer",
+      "name": "Bekel Kupferhammer",
+      "ab_kapitel": 44,
+      "art": "person",
+      "rasse": "Zwergen-Geist",
+      "aliases": [
+        "Bekel Kupferhammer"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Einer der Wächter des Kerns von Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "gothil",
+      "name": "Gothil",
+      "ab_kapitel": 9,
+      "art": "person",
+      "rasse": "?",
+      "aliases": [
+        "Gothil"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 9,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Bedrohung aus der Vorgeschichte; zunächst nur erwähnt"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "flapp-flapp",
+      "name": "Flapp Flapp",
+      "ab_kapitel": 37,
+      "art": "person",
+      "rasse": "Geflügelter Kobold",
+      "aliases": [
+        "Flapp Flapp"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 37,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Anführer der Fürchtenichtse"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "knatzdeng",
+      "name": "Knatzdeng",
+      "ab_kapitel": 37,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Knatzdeng"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 37,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Begleiter von Flapp Flapp; trägt einen Speer"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "hlamrot",
+      "name": "Hlamrot",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Phaerimm",
+      "aliases": [
+        "Hlamrot"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Gegner auf dem verlassenen Markt"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "jolgrun-ambossarm",
+      "name": "Jolgrun Ambossarm",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Zwerg",
+      "aliases": [
+        "Jolgrun Ambossarm"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Begegnung auf dem Markt in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "terika",
+      "name": "Terika",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Zwergin",
+      "aliases": [
+        "Terika"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Verkäuferin; Schwester von Orgul Rotaxt"
+        }
+      ],
+      "beziehungen": [
+        {
+          "kapitel": 40,
+          "name": "Orgul Rotaxt",
+          "text": "Schwester von Orgul Rotaxt."
+        }
+      ],
+      "portrait": null
+    },
+    {
+      "id": "klaus",
+      "name": "Klaus",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Klaus"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Helfer der Gruppe in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "gunther",
+      "name": "Günther",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Günther"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Helfer der Gruppe in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "dieter",
+      "name": "Dieter",
+      "ab_kapitel": 40,
+      "art": "person",
+      "rasse": "Kobold",
+      "aliases": [
+        "Dieter"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 43,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Helfer der Gruppe in Tethyamar"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "zarguras-eisenbart",
+      "name": "Zarguras Eisenbart",
+      "ab_kapitel": 44,
+      "art": "person",
+      "rasse": "Zwergen-Geist",
+      "aliases": [
+        "Zarguras Eisenbart"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Hauptmann der Wache"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "thoguna-barrenbieger",
+      "name": "Thoguna Barrenbieger",
+      "ab_kapitel": 44,
+      "art": "person",
+      "rasse": "Zwergen-Geist",
+      "aliases": [
+        "Thoguna Barrenbieger"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Meister der Schmiede; zunächst in Kapitel 44 erwähnt"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "draken-lederarm",
+      "name": "Draken Lederarm",
+      "ab_kapitel": 44,
+      "art": "person",
+      "rasse": "Zwergen-Geist",
+      "aliases": [
+        "Draken Lederarm"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 44,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Mit dem mechanischen Spielzeug verbunden"
+        }
+      ],
+      "beziehungen": [],
+      "portrait": null
+    },
+    {
+      "id": "selmuria-blutschwert",
+      "name": "Selmuria Blutschwert",
+      "ab_kapitel": 45,
+      "art": "person",
+      "rasse": "Zwergen-Geist",
+      "aliases": [
+        "Selmuria"
+      ],
+      "fakten": [
+        {
+          "kapitel": 45,
+          "text": "Letzte Wächterin der Essenz des Zwielichts"
+        }
+      ],
+      "beziehungen": [],
+      "auftritte": [
+        {
+          "kapitel": 46,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 45,
+          "art": "Textstelle"
+        }
+      ],
+      "portrait": null
+    },
+    {
+      "id": "annica-von-velden",
+      "name": "Annica von Velden",
+      "ab_kapitel": 38,
+      "art": "person",
+      "rasse": "?",
+      "aliases": [
+        "Annica von Velden"
+      ],
+      "fakten": [
+        {
+          "kapitel": 38,
+          "text": "Tochter des Grafen von Lysandra; Verfasserin der zitierten Erinnerung an Ser Ayne"
+        }
+      ],
+      "beziehungen": [],
+      "auftritte": [
+        {
+          "kapitel": 38,
+          "art": "Erwähnung"
+        }
+      ],
+      "portrait": null
+    },
+    {
+      "id": "selune",
+      "name": "Selûne",
+      "ab_kapitel": 27,
+      "art": "person",
+      "rasse": "Gottheit",
+      "aliases": [
+        "Selûne"
+      ],
+      "fakten": [
+        {
+          "kapitel": 27,
+          "text": "Selûne wird Teil von Anders Glaubensweg."
+        },
+        {
+          "kapitel": 45,
+          "text": "Ander begegnet Selûne selbst."
+        }
+      ],
+      "beziehungen": [],
+      "auftritte": [
+        {
+          "kapitel": 46,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 32,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 28,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 33,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 45,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 27,
+          "art": "Erwähnung"
+        }
+      ],
+      "portrait": {
+        "bild": "bilder/pdf-s125-528.png",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 45,
+        "herkunft": "Illustration des Tagebuchs"
+      }
+    },
+    {
+      "id": "mystra",
+      "name": "Mystra",
+      "ab_kapitel": 9,
+      "art": "person",
+      "rasse": "Gottheit",
+      "aliases": [
+        "Mystra"
+      ],
+      "fakten": [
+        {
+          "kapitel": 9,
+          "text": "Göttin der Magie; Teil der erzählten Vorgeschichte Netherils"
+        }
+      ],
+      "beziehungen": [],
+      "auftritte": [
+        {
+          "kapitel": 24,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 33,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 9,
+          "art": "Erwähnung"
+        }
+      ],
+      "portrait": {
+        "bild": "bilder/wesen-mystra.jpg",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 9,
+        "herkunft": "Bestehende Illustration des Tagebuchs"
+      }
+    },
+    {
+      "id": "karsus",
+      "name": "Karsus",
+      "ab_kapitel": 9,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Karsus"
+      ],
+      "fakten": [
+        {
+          "kapitel": 9,
+          "text": "Magier Netherils; nur in der Vorgeschichte erwähnt"
+        }
+      ],
+      "beziehungen": [],
+      "auftritte": [
+        {
+          "kapitel": 9,
+          "art": "Erwähnung"
+        },
+        {
+          "kapitel": 45,
+          "art": "Erwähnung"
+        }
+      ],
+      "portrait": null
+    },
+    {
+      "id": "die-rabenkonigin",
+      "name": "Die Rabenkönigin",
+      "ab_kapitel": 23,
+      "art": "person",
+      "rasse": "Gottheit",
+      "aliases": [
+        "Rabenkönigin"
+      ],
+      "fakten": [
+        {
+          "kapitel": 23,
+          "text": "Auftraggeberin von Talions eigener Mission"
+        }
+      ],
+      "beziehungen": [],
+      "auftritte": [
+        {
+          "kapitel": 23,
+          "art": "Erwähnung"
+        }
+      ],
+      "portrait": null
+    },
+    {
+      "id": "mab",
+      "name": "Mab",
+      "ab_kapitel": 23,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Mab"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Staubmenschen"
+        }
+      ],
+      "beziehungen": [
+        {
+          "kapitel": 23,
+          "name": "Simon",
+          "text": "Bruder von Simon."
+        }
+      ],
+      "portrait": null
+    },
+    {
+      "id": "simon",
+      "name": "Simon",
+      "ab_kapitel": 23,
+      "art": "person",
+      "rasse": "Mensch",
+      "aliases": [
+        "Simon"
+      ],
+      "auftritte": [
+        {
+          "kapitel": 23,
+          "art": "Textstelle"
+        }
+      ],
+      "fakten": [
+        {
+          "kapitel": 46,
+          "text": "Staubmenschen"
+        }
+      ],
+      "beziehungen": [
+        {
+          "kapitel": 23,
+          "name": "Mab",
+          "text": "Bruder von Mab."
+        }
+      ],
+      "portrait": null
+    }
+  ],
+  "gegenstaende": [
+    {
+      "id": "marrakes-hammer",
+      "name": "Hammer von Marrake",
+      "bild": "bilder/gegenstand-marrakes-hammer.png",
+      "ab_kapitel": 17,
+      "anker": "gegenstand-marrakes-hammer",
+      "ereignisse": [
+        {
+          "kapitel": 17,
+          "text": "Schmetterschrei übergibt Balgrim den Hammer.",
+          "besitzer": "Balgrim"
+        },
+        {
+          "kapitel": 25,
+          "text": "Der Brief regelt die Übergabe; der Wirt überreicht Basari den Hammer.",
+          "besitzer": "Basari"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 17,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 22,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 25,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 27,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 30,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    },
+    {
+      "id": "riesentoeter",
+      "name": "Riesentöter",
+      "bild": "bilder/gegenstand-riesentoeter-v2.png",
+      "ab_kapitel": 29,
+      "anker": "gegenstand-riesentoeter",
+      "ereignisse": [
+        {
+          "kapitel": 29,
+          "text": "Galena überreicht Ser Ayne den Riesentöter.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 29,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    },
+    {
+      "id": "drachentoeter",
+      "name": "Drachentöter",
+      "bild": "bilder/offiziell-drachentoeter.jpg",
+      "ab_kapitel": 29,
+      "anker": "gegenstand-drachentoeter",
+      "ereignisse": [
+        {
+          "kapitel": 29,
+          "text": "Ser Ayne erhält den Drachentöter.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 29,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 32,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 38,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    },
+    {
+      "id": "hutbert",
+      "name": "Hutbert",
+      "bild": "bilder/gegenstand-hutbert-v2.png",
+      "ab_kapitel": 10,
+      "anker": "gegenstand-hutbert",
+      "ereignisse": [
+        {
+          "kapitel": 10,
+          "text": "Elminster überreicht Ander den sprechenden Hut.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 13,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 14,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 15,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 19,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 22,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 24,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 27,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 28,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 32,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 33,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 35,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 37,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 42,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 43,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 45,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    },
+    {
+      "id": "erwiderung",
+      "name": "Erwiderung",
+      "bild": "bilder/gegenstand-erwiderung-v2.png",
+      "ab_kapitel": 40,
+      "anker": "gegenstand-erwiderung",
+      "ereignisse": [
+        {
+          "kapitel": 40,
+          "text": "Ander begegnet dem bewussten Rapier auf dem Markt.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 42,
+          "text": "Erwiderung ist wieder in Anders Hand.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 40,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 42,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 43,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 44,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 45,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    }
+  ],
+  "gemalde": {
+    "kapitel-17": [
+      {
+        "art": "figur",
+        "id": "balgrim",
+        "x": 80,
+        "y": 56
+      },
+      {
+        "art": "gegenstand",
+        "id": "marrakes-hammer",
+        "x": 65,
+        "y": 39
+      }
+    ],
+    "kapitel-22": [
+      {
+        "art": "figur",
+        "id": "ander-bruder-tau-holimion",
+        "x": 44,
+        "y": 48
+      },
+      {
+        "art": "figur",
+        "id": "balgrim",
+        "x": 83,
+        "y": 48
+      },
+      {
+        "art": "gegenstand",
+        "id": "marrakes-hammer",
+        "x": 73,
+        "y": 62
+      }
+    ],
+    "kapitel-29": [
+      {
+        "art": "figur",
+        "id": "ser-ayne-darther",
+        "x": 74,
+        "y": 54
+      },
+      {
+        "art": "gegenstand",
+        "id": "marrakes-hammer",
+        "x": 62,
+        "y": 37
+      },
+      {
+        "art": "gegenstand",
+        "id": "drachentoeter",
+        "x": 89,
+        "y": 64
+      },
+      {
+        "art": "gegenstand",
+        "id": "riesentoeter",
+        "x": 66,
+        "y": 71
+      }
+    ],
+    "kapitel-33": [
+      {
+        "art": "figur",
+        "id": "alustriel-silberhand",
+        "x": 85,
+        "y": 48
+      },
+      {
+        "art": "figur",
+        "id": "flint-otani",
+        "x": 50,
+        "y": 62
+      }
+    ],
+    "kapitel-46": [
+      {
+        "art": "figur",
+        "id": "flint-otani",
+        "x": 18,
+        "y": 49
+      },
+      {
+        "art": "figur",
+        "id": "ander-bruder-tau-holimion",
+        "x": 49,
+        "y": 49
+      },
+      {
+        "art": "figur",
+        "id": "ser-ayne-darther",
+        "x": 80,
+        "y": 52
+      },
+      {
+        "art": "gegenstand",
+        "id": "drachentoeter",
+        "x": 73,
+        "y": 44
+      }
+    ]
+  },
+  "hinweis": "Textstellen zeigen Namensnennungen, nicht notwendigerweise persönliche Begegnungen. Beziehungen und Besitzwechsel sind gesondert belegt."
+}

@@ -47,3 +47,13 @@ Dieses Werk ist nur für den privaten Gebrauch gedacht!
 
 Die aktuelle Web- und Buchfassung wird mit Zustimmung des Autors für
 unsere Abenteuerrunde bereitgestellt.
+
+### Ergänzte Karten und Illustrationen
+
+Die Karten von Sigil, den Außenlanden und den Ebenen wurden vom Autor als Referenzmaterial bereitgestellt. Die beiden Planescape-Übersichtskarten tragen den Rechtevermerk © 1994 TSR, Inc. Die Urheberschaft der bereitgestellten Sigil-Karte ist in der Datei nicht eindeutig ausgewiesen; sie wird hier nicht ergänzt oder geraten.
+
+„Citadel on the Fire Plane“: Alan Pollack, 1994, für TSR / Planescape, *The Eternal Boundary*. Die Abbildung wird im Reiseatlas als Illustration des Schauplatzes gezeigt.
+
+Die überarbeitete Peppi-Illustration orientiert sich an der vom Autor bereitgestellten Spielfigur. Die neuen Kapitelgemälde und ihre Korrekturen wurden mit ChatGPT erstellt. Figurenporträts aus Kapitelgemälden verwenden dieselben Darstellungen; neu entworfene Porträts werden als solche gekennzeichnet.
+
+Dies ist ein kostenloses, inoffizielles Fanwerk. Es wird von Wizards of the Coast weder unterstützt noch gesponsert. Vorhandene Rechtevermerke auf Karten und Abbildungen bleiben erhalten. Die Bereitstellung durch den Autor begründet keine zusätzlichen Nutzungsrechte an fremden Werken.

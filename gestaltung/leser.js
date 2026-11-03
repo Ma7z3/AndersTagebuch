@@ -45,11 +45,13 @@ function drawNav(query=''){
 }
 
 function safeMarkdown(text){
+  text=window.TagebuchStruktur.prepare(text,activeId,book.erzaehlkaesten||[]);
   const parsed=new DOMParser().parseFromString(marked.parse(text,{gfm:true,breaks:false}),'text/html');
-  const allowed=new Set(['A','P','H1','H2','H3','H4','H5','H6','STRONG','EM','DEL','UL','OL','LI','BLOCKQUOTE','TABLE','THEAD','TBODY','TR','TD','TH','HR','BR','IMG','PRE','CODE','SPAN']);
+  const allowed=new Set(['A','P','H1','H2','H3','H4','H5','H6','STRONG','EM','DEL','UL','OL','LI','BLOCKQUOTE','TABLE','THEAD','TBODY','TR','TD','TH','HR','BR','IMG','PRE','CODE','SPAN','ASIDE']);
   for(const el of [...parsed.body.querySelectorAll('*')]){
     if(!allowed.has(el.tagName)){el.replaceWith(...el.childNodes);continue;}
     for(const attr of [...el.attributes]){
+      if(attr.name==='class'&&el.tagName==='ASIDE'&&attr.value==='narrative-box')continue;
       if(!['href','src','alt','id','title','start'].includes(attr.name))el.removeAttribute(attr.name);
     }
     for(const attr of ['href','src']){
@@ -129,6 +131,7 @@ function showSection(section,target){
   const note=section.art==='entwurf'?'<div class="status-note">Rohnotizen vom Spielabend. Der Wortlaut wurde aus Word übernommen; dies ist noch kein ausgearbeiteter Tagebucheintrag.</div>':'';
   const stats=cover?`<div class="book-stats"><span>${sections.filter(s=>s.art==='kapitel'||s.art==='eintrag').length} KAPITEL</span><span>${book.bilder.length} ILLUSTRATIONEN</span><span>2022–2026</span></div><a class="read-next" href="#prolog">Die Reise beginnen →</a>`:'';
   content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''} ${section.katalog==='gegenstaende'?'inventory':''} ${book.kapitelauftakte?.[section.id]?'with-opening':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${chapterOpening(section)}${safeMarkdown(section.text)}</article>`;
+  window.TagebuchChronik.enhance(content,book,section);
   const index=sections.indexOf(section);
   pager.innerHTML=(index>0?`<a href="#${encodeURIComponent(sections[index-1].id)}">← ${escapeHtml(sections[index-1].titel)}</a>`:'')+(index<sections.length-1?`<a href="#${encodeURIComponent(sections[index+1].id)}">${escapeHtml(sections[index+1].titel)} →</a>`:'');
   try{localStorage.setItem('ander-letztes-kapitel',section.id);}catch{}
@@ -139,16 +142,6 @@ function showSection(section,target){
 function showGallery(){
   setActive('bilder');pathLabel.textContent='Das Bildarchiv';document.title='Bildarchiv · Ander Holimion';pager.replaceChildren();
   content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>${im.pdf_seiten?.length?`Aus dem Buch · Seite ${im.pdf_seiten[0]}`:im.kapitel_auftakt?'Kapitelgemälde':'Magische Gegenstände'}</small></button>`).join('')}</div>`;
-  window.scrollTo(0,0);
-}
-
-function showHelp(){
-  setActive('hilfe');pathLabel.textContent='Das Tagebuch weiterführen';document.title='Erweitern · Ander Holimion';pager.replaceChildren();
-  if(book.oeffentlich){
-    content.innerHTML=`<article class="sheet help"><p class="eyebrow">Das Tagebuch weiterführen</p><h1>Neue Abenteuer, dieselbe Reise</h1><p>Diese Leseausgabe und die Buch-PDF entstehen aus denselben fertigen Kapiteln. Nach einer Änderung im <a href="https://github.com/Ma7z3/AndersTagebuch" target="_blank" rel="noopener">Tagebuch-Repository</a> werden beide gemeinsam neu erstellt.</p><p>Mit <strong>PDF herunterladen</strong> erhältst du die Buchfassung des zuletzt erfolgreich veröffentlichten Standes. Die Datei enthält die eingebetteten Buchschriften und Bilder und lässt sich direkt verschicken.</p><h2>Gemeinsam weiterschreiben</h2><p>Neue Spielnotizen formulieren wir zuerst gemeinsam aus. Erst ein abgestimmter Tagebucheintrag wird als Markdown-Datei ergänzt und veröffentlicht. Rohnotizen und lokale Sicherungen gehören nicht zu dieser Ausgabe.</p><p>Wenn der Aufbau einer neuen Fassung scheitert, bleibt die vorherige Ausgabe erreichbar.</p></article>`;
-    window.scrollTo(0,0);return;
-  }
-  content.innerHTML=`<article class="sheet help"><p class="eyebrow">Neue Abenteuer festhalten</p><h1>Gemeinsam weiterschreiben</h1><p>Die Word-Notizen bleiben unser Ausgangsmaterial. Wir gehen sie hier im Chat zusammen durch, klären offene Stellen und machen daraus einen Tagebucheintrag. Anschließend ordnen wir ihn dem passenden Kapitel zu.</p><p>Ich übernehme die abgestimmte Fassung in deinen Tagebuchordner und erneuere Leseausgabe und Buch-PDF. Du musst dafür keine Command-Datei selbst ausführen.</p><h2>Lesen und verschicken</h2><p><strong>PDF herunterladen</strong> oben lädt die zuletzt erzeugte vollständige Fassung zum Verschicken. Rohnotizen gehören nicht zu diesem Band. Nach einer Überarbeitung diese Browserseite einmal neu laden.</p><p><strong>Vorlage</strong> öffnet den ursprünglichen Band. <strong>Abschnitt drucken</strong> druckt nur den gerade geöffneten Lesetext.</p><details><summary>Die technischen Helfer – optional</summary><p><code>Aktualisieren.command</code> liest die lokalen Texte neu ein und übernimmt neue Word-Dateien aus <code>eingang</code> als Rohnotizen. Es formuliert nichts aus und vergibt keine Kapitelnummern.</p><p><code>Buch-PDF erstellen.command</code> setzt die fertigen Texte als vollständigen Band. Jede Fassung erhält Datum und Uhrzeit im Namen und liegt unter <code>export</code>. Ältere Exporte bleiben erhalten.</p><p>Kapitel liegen unter <code>inhalte</code>, Bilder unter <code>bilder</code>. Die <a href="README.md" target="_blank">Anleitung</a> beschreibt die Ablage. Tabellen werden vor jeder Aktualisierung geprüft.</p></details><h2>Korrekturen nachvollziehen</h2><p>Unter <code>pruefung</code> liegen die laufende Änderungsliste, der Stand der Sprachprüfung und die dokumentierten Freigaben zu neuen Spielabenden. Die ursprünglichen Quellen und die Sicherungen vor Überarbeitungen bleiben erhalten.</p></article>`;
   window.scrollTo(0,0);
 }
 
@@ -170,7 +163,8 @@ function route(){
   document.body.classList.remove('menu-open');document.querySelector('#menue').setAttribute('aria-expanded','false');
   if(hash==='lesetext'){document.querySelector('#lesetext')?.focus();return;}
   if(hash==='bilder'){showGallery();return;}
-  if(hash==='hilfe'){showHelp();return;}
+  if(hash==='hilfe'){location.replace('#titel');return;}
+  if(hash==='chronik'){setActive('chronik');pathLabel.textContent='Figuren und Gegenstände';pager.replaceChildren();window.TagebuchChronik.show(content,book);return;}
   if(hash==='karten'){setActive('karten');pathLabel.textContent='Die Reise durch die Welten';document.title='Reiseatlas · Ander Holimion';pager.replaceChildren();window.TagebuchAtlas.show(content,book);window.scrollTo(0,0);return;}
   if(hash==='spielabende'){
     setActive('spielabende');pager.replaceChildren();pathLabel.textContent='Alle Spielabende';
@@ -190,6 +184,7 @@ function openImage(item){
 }
 
 content.addEventListener('click',event=>{
+  if(event.target.closest('.directory-portrait,.painting-hotspots'))return;
   const card=event.target.closest('[data-image]');
   if(card){openImage(book.bilder[Number(card.dataset.image)]);return;}
   if(event.target.matches('.article img')){

@@ -79,11 +79,11 @@
     {
       "id": "feuer",
       "name": "Ebene des Feuers",
-      "short": "Zitadelle und Messingstadt",
+      "short": "Innere Ebene · Feuer",
       "x": 1000,
       "y": 300,
       "color": "fire",
-      "text": "Zwei Reisen führen in die Feuerzitadelle. Später erreicht die Gruppe Messingstadt über Sams Spiegel."
+      "text": "Die Elementarebene des Feuers gehört zu den Inneren Ebenen. Messingstadt und die Feuerzitadelle sind zwei getrennte Schauplätze auf derselben Ebene."
     },
     {
       "id": "aether",
@@ -270,7 +270,8 @@
       ],
       "beschreibung": "Die Gruppe stürzt in die ringförmige Stadt und sucht das Gasthaus zur schwelenden Leiche auf.",
       "ankunft": "sonderuebergang",
-      "schluessel": "Hariqs Flasche; kein gewöhnlicher Reiseweg"
+      "schluessel": "Hariqs Flasche; kein gewöhnlicher Reiseweg",
+      "ortskarte": "sigil"
     },
     {
       "id": "station-15",
@@ -283,7 +284,8 @@
       ],
       "beschreibung": "Die erste Quest führt zur Leichenhalle. Dort öffnet Pelgris Ohrclip das feurige Portal.",
       "ankunft": "land",
-      "schluessel": null
+      "schluessel": null,
+      "ortskarte": "sigil"
     },
     {
       "id": "station-16",
@@ -295,7 +297,8 @@
       ],
       "beschreibung": "Das Portal führt auf eine Felsplattform in der Feuerebene. Nach dem Einbruch muss die Gruppe zurückfliehen.",
       "ankunft": "portal",
-      "schluessel": "Pelgris Ohrclip"
+      "schluessel": "Pelgris Ohrclip",
+      "ortskarte": "feuerzitadelle"
     },
     {
       "id": "station-17",
@@ -308,7 +311,8 @@
       ],
       "beschreibung": "Die Gruppe sammelt Informationen und gelangt zu Oma Feen-Bann auf dem Schrottplatz.",
       "ankunft": "portal",
-      "schluessel": "Rückkehr durch das Portal der Zitadelle"
+      "schluessel": "Rückkehr durch das Portal der Zitadelle",
+      "ortskarte": "sigil"
     },
     {
       "id": "station-18",
@@ -320,7 +324,8 @@
       ],
       "beschreibung": "Ein Metallstück im Roststaub der Hütte öffnet einen anderen Zugang zur Zitadelle.",
       "ankunft": "portal",
-      "schluessel": "Metallstück von Oma Feen-Bann"
+      "schluessel": "Metallstück von Oma Feen-Bann",
+      "ortskarte": "feuerzitadelle"
     },
     {
       "id": "station-19",
@@ -334,7 +339,8 @@
       ],
       "beschreibung": "Nach der Zitadelle führt der Weg zu Galena, Oma Feen-Bann und Sam in der großen Gießerei.",
       "ankunft": "portal",
-      "schluessel": "Ohrclip am Portal zur Leichenhalle"
+      "schluessel": "Ohrclip am Portal zur Leichenhalle",
+      "ortskarte": "sigil"
     },
     {
       "id": "station-20",
@@ -346,7 +352,8 @@
       ],
       "beschreibung": "Sams Spiegel führt nach Messingstadt. Die Gruppe erreicht den Aschenpalast und den Großsultan.",
       "ankunft": "portal",
-      "schluessel": "Omas Brosche und der Spiegel in Sams Werkstatt"
+      "schluessel": "Omas Brosche und der Spiegel in Sams Werkstatt",
+      "ortskarte": "messingstadt"
     },
     {
       "id": "station-21",
@@ -358,7 +365,8 @@
       ],
       "beschreibung": "Abdul Quavi öffnet das Rückportal. Später sucht Kylie einen Zugang in die Nähe von Silbrigmond.",
       "ankunft": "portal",
-      "schluessel": "Portal des Großwesirs"
+      "schluessel": "Portal des Großwesirs",
+      "ortskarte": "sigil"
     },
     {
       "id": "station-22",

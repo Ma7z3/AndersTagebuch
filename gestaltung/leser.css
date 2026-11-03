@@ -51,7 +51,7 @@
 @media(max-width:760px){.article img.item-image{max-height:280px}}
 
 /* The portrait cover stays large and centered on desktop and mobile. */
-.article.cover img[src='bilder/titelgemaelde-v5.png']{max-height:1050px;width:min(100%,700px);height:auto}
+.article.cover figure.artist img{max-height:1050px;width:min(100%,700px);height:auto}
 
 
 /* Every inventory entry starts with a strong, distinct boundary. */
@@ -77,3 +77,10 @@
 .article .chapter-quote.long-word blockquote p{font-size:clamp(16px,1.5vw,21px);overflow-wrap:normal;hyphens:auto}
 .article .chapter-painting.caption-bottom figcaption{inset:auto 0 0;background:linear-gradient(transparent,#08121ae6);padding:70px 20px 28px}
 @media(max-width:760px){.article .chapter-painting.caption-bottom figcaption{padding:100px 24px 30px}}
+
+/* Narrative additions keep their original cream/brown appearance. */
+.article .narrative-box{position:relative;background:#faf7ea;border-inline:1px solid #654525;padding:20px 26px;margin:28px 0;display:flow-root}
+.article .narrative-box::before,.article .narrative-box::after{content:"";position:absolute;inset:-2px -3px auto;border-inline:5px solid #654525;height:5px}
+.article .narrative-box::after{top:auto;bottom:-2px}
+.article .narrative-box p,.article .narrative-box li{font-family:DiarySans,Times,sans-serif;font-size:16px;line-height:1.55}
+.article .narrative-box h5{margin-top:0}.article .narrative-box p:last-child{margin-bottom:0}
