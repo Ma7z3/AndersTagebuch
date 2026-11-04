@@ -44,8 +44,8 @@ function drawNav(query=''){
   }
 }
 
-function safeMarkdown(text){
-  text=window.TagebuchStruktur.prepare(text,activeId,book.erzaehlkaesten||[]);
+function safeMarkdown(text,sectionId){
+  if(sectionId)text=window.TagebuchStruktur.prepare(text,sectionId,book.erzaehlkaesten||[]);
   const parsed=new DOMParser().parseFromString(marked.parse(text,{gfm:true,breaks:false}),'text/html');
   const allowed=new Set(['A','P','H1','H2','H3','H4','H5','H6','STRONG','EM','DEL','UL','OL','LI','BLOCKQUOTE','TABLE','THEAD','TBODY','TR','TD','TH','HR','BR','IMG','PRE','CODE','SPAN','ASIDE']);
   for(const el of [...parsed.body.querySelectorAll('*')]){
@@ -92,23 +92,21 @@ function safeMarkdown(text){
     const metadata=book.bilder.find(im=>im.datei===img.getAttribute('src'));
     if(metadata?.gegenstand)img.classList.add('item-image');
   }
-  if(book.kapitelauftakte?.[activeId]){
+  if(book.kapitelauftakte?.[sectionId]){
     for(const heading of parsed.body.querySelectorAll('h1,h2,h3')){
-      if(/^Kapitel\s+\d+/.test(heading.textContent)||heading.textContent===byId.get(activeId)?.gruppe)heading.remove();
+      if(/^Kapitel\s+\d+/.test(heading.textContent)||heading.textContent===byId.get(sectionId)?.gruppe)heading.remove();
     }
   }
   let count=0;
   for(const heading of parsed.body.querySelectorAll('h1,h2,h3,h4,h5,h6')){
     if(heading.textContent.includes('Spielabend vom')){
-      heading.className='session';heading.id='abend-'+activeId+'-'+count++;
+      heading.className='session';heading.id='abend-'+sectionId+'-'+count++;
     }
   }
   return parsed.body.innerHTML;
 }
 
-let activeId='titel';
 function setActive(id){
-  activeId=id;
   for(const link of nav.querySelectorAll('.nav-item')){
     const active=link.dataset.section===id;link.classList.toggle('active',active);
     if(active)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
@@ -130,8 +128,9 @@ function showSection(section,target){
   const cover=section.art==='titel';
   const note=section.art==='entwurf'?'<div class="status-note">Rohnotizen vom Spielabend. Der Wortlaut wurde aus Word übernommen; dies ist noch kein ausgearbeiteter Tagebucheintrag.</div>':'';
   const stats=cover?`<div class="book-stats"><span>${sections.filter(s=>s.art==='kapitel'||s.art==='eintrag').length} KAPITEL</span><span>${book.bilder.length} ILLUSTRATIONEN</span><span>2022–2026</span></div><a class="read-next" href="#prolog">Die Reise beginnen →</a>`:'';
-  content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''} ${section.katalog==='gegenstaende'?'inventory':''} ${book.kapitelauftakte?.[section.id]?'with-opening':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${chapterOpening(section)}${safeMarkdown(section.text)}</article>`;
+  content.innerHTML=`<article id="lesetext" tabindex="-1" class="sheet article ${cover?'cover':''} ${section.katalog==='gegenstaende'?'inventory':''} ${book.kapitelauftakte?.[section.id]?'with-opening':''}"><p class="eyebrow">${escapeHtml(cover?'Ander „Tau“ Holimion · Der Mondberührte':section.gruppe)}</p>${note}${stats}${chapterOpening(section)}${safeMarkdown(section.text,section.id)}</article>`;
   window.TagebuchChronik.enhance(content,book,section);
+  enhanceIllustratedDirectory(section);
   const index=sections.indexOf(section);
   pager.innerHTML=(index>0?`<a href="#${encodeURIComponent(sections[index-1].id)}">← ${escapeHtml(sections[index-1].titel)}</a>`:'')+(index<sections.length-1?`<a href="#${encodeURIComponent(sections[index+1].id)}">${escapeHtml(sections[index+1].titel)} →</a>`:'');
   try{localStorage.setItem('ander-letztes-kapitel',section.id);}catch{}
@@ -165,7 +164,7 @@ function route(){
   if(hash==='bilder'){showGallery();return;}
   if(hash==='hilfe'){location.replace('#titel');return;}
   if(hash==='chronik'){setActive('chronik');pathLabel.textContent='Figuren und Gegenstände';pager.replaceChildren();window.TagebuchChronik.show(content,book);return;}
-  if(hash==='karten'){setActive('karten');pathLabel.textContent='Die Reise durch die Welten';document.title='Reiseatlas · Ander Holimion';pager.replaceChildren();window.TagebuchAtlas.show(content,book);window.scrollTo(0,0);return;}
+  if(hash==='karten'){setActive('karten');pathLabel.textContent='Die Reise durch die Welten';document.title='Reiseatlas · Ander Holimion';pager.replaceChildren();window.TagebuchAtlas.show(content,book,placeThumbnail);window.scrollTo(0,0);return;}
   if(hash==='spielabende'){
     setActive('spielabende');pager.replaceChildren();pathLabel.textContent='Alle Spielabende';
     content.innerHTML=`<section class="sheet"><p class="eyebrow">Von Abend zu Abend</p><h1>Die Spielabende</h1><div class="session-list">${sessions.map(s=>`<a href="#${s.anchor}">${s.date}</a>`).join('')}</div></section>`;return;
@@ -178,13 +177,94 @@ function route(){
 function openImage(item){
   document.querySelector('#grossbild').src=item.datei;
   document.querySelector('#grossbild').alt=item.titel;
-  document.querySelector('#bildtitel').textContent=item.titel+(item.pdf_seiten?.length?' · Buchseite '+item.pdf_seiten[0]:'');
+  const title=document.querySelector('#bildtitel');
+  title.textContent=item.titel+(item.pdf_seiten?.length?' · Buchseite '+item.pdf_seiten[0]:'');
+  let details=dialog.querySelector('.image-dialog-details');
+  if(!details){
+    details=document.createElement('div');
+    details.className='image-dialog-details';
+    title.after(details);
+    dialog.setAttribute('aria-labelledby',title.id);
+  }
+  details.hidden=!item.details;
+  details.innerHTML=item.details?safeMarkdown(item.details):'';
+  dialog.classList.toggle('with-details',Boolean(item.details));
   const link=document.querySelector('#bildkapitel');link.hidden=!item.kapitel;
   link.href='#'+(item.kapitel||'titel');dialog.showModal();
 }
 
+function imageThumbnail(label,source,open){
+  const button=document.createElement('button');
+  button.type='button';
+  button.className='illustrated-thumbnail';
+  button.setAttribute('aria-label',label);
+  const image=document.createElement('img');
+  image.src=source;
+  image.alt='';
+  image.loading='lazy';
+  image.decoding='async';
+  button.append(image);
+  button.addEventListener('click',open);
+  return button;
+}
+
+function placeThumbnail(id){
+  const place=book.ortsansichten?.[id];
+  if(!place)return null;
+  const source='bilder/ort-'+id;
+  return imageThumbnail('Ortsansicht öffnen: '+place.name,source+'-vorschau.webp',()=>{
+    openImage({datei:source+'.webp',titel:place.name,kapitel:place.kapitel});
+  });
+}
+
+function openBestiaryCard(name,card){
+  openImage({datei:card.bild,titel:card.titel||name,details:card.text,kapitel:card.kapitel});
+}
+
+function enhanceIllustratedDirectory(section){
+  if(section.id==='addenda'){
+    const places=new Map(Object.entries(book.ortsansichten||{})
+      .filter(([,place])=>place.ortsverzeichnis)
+      .map(([id,place])=>[place.name,id]));
+    const heading=[...content.querySelectorAll('h3')].find(el=>el.textContent.trim()==='Wichtige Orte');
+    if(!heading)return;
+    heading.id='wichtige-orte';
+    for(const cell of heading.nextElementSibling.querySelectorAll('tbody tr > td:first-child')){
+      const thumbnail=placeThumbnail(places.get(cell.textContent.trim()));
+      if(thumbnail)cell.prepend(thumbnail);
+    }
+    return;
+  }
+  const cards=Object.entries(book.bestiarium_karten||{});
+  if(section.id==='bestiarium'){
+    for(const cell of content.querySelectorAll('tbody tr > td:first-child')){
+      const name=cell.textContent.trim();
+      const card=book.bestiarium_karten?.[name];
+      if(!card)continue;
+      const button=imageThumbnail('Bestiarium öffnen: '+name,card.vorschau||card.bild,()=>openBestiaryCard(name,card));
+      if(card.auftakt)button.classList.add('bestiary-dragon-thumbnail');
+      cell.prepend(button);
+    }
+    return;
+  }
+  const chapterCards=new Map(cards.filter(([,card])=>card.kapitel===section.id&&!card.auftakt)
+    .map(([name,card])=>[card.bild,[name,card]]));
+  for(const image of content.querySelectorAll('blockquote img')){
+    const entry=chapterCards.get(image.getAttribute('src'));
+    if(!entry)continue;
+    const button=document.createElement('button');
+    button.type='button';
+    button.className='chapter-bestiary-trigger';
+    button.setAttribute('aria-label','Bestiarium öffnen: '+entry[0]);
+    button.addEventListener('click',()=>openBestiaryCard(...entry));
+    image.loading='eager';
+    image.before(button);
+    button.append(image);
+  }
+}
+
 content.addEventListener('click',event=>{
-  if(event.target.closest('.directory-portrait,.painting-hotspots'))return;
+  if(event.target.closest('.directory-portrait,.painting-hotspots,.illustrated-thumbnail,.chapter-bestiary-trigger'))return;
   const card=event.target.closest('[data-image]');
   if(card){openImage(book.bilder[Number(card.dataset.image)]);return;}
   if(event.target.matches('.article img')){

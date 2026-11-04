@@ -1,7 +1,6 @@
 <a id="p138"></a>
 
 # Addendum 3: Das Bestiarium des Ander Holimion
-### Bestiarium (1)
 | Name | Wissenschaftliche Bezeichnung | Beschreibung | Seite |
 |:----:|:-----------------------------:|:------------:|:-----:|
 | Arcanoloth | Daemonis Vulpinus Arcanolothis | Fuchsähnlicher Dämon mit magischer List und tödlichen Zaubern. | [82](#p82) |
@@ -39,14 +38,7 @@
 | Orks | Orcus Brutalis | Wilde, barbarische Humanoide, getrieben von Wut und Stärke | [13](#p13) |
 | Osyluth | Ossus Diabolus Osyluthi | Peitschen tragender Knochen-Teufel mit grausiger Präsenz. | [9](#p9) |
 | Phaerimm | Conus Malevolus Arcanis | Uralte, schwebende Magierwesen aus der Tiefe, die psionisch und magisch zugleich wirken. | [108](#p108) |
-
-<a id="p139"></a>
-
-
-### Bestiarium (2)
-| Name | Wissenschaftliche Bezeichnung | Beschreibung | Seite |
-|:----:|:-----------------------------:|:------------:|:-----:|
-| Phasenspinnen | Arachnida Phasica | Spinnen aus der Ätherebene erscheinen und verschwinden plötzlich. | [21](#p21) |
+| <a id="p139"></a>Phasenspinnen | Arachnida Phasica | Spinnen aus der Ätherebene erscheinen und verschwinden plötzlich. | [21](#p21) |
 | Roter Drache | Draco Tyrannus Rubris | Feuerspeiender Tyrann, Symbol des Zorns und der Zerstörung. | [100](#p100) |
 | Ruinenspinnen | Arachnida Ruina | Aus der Magie des Kartenspiels der vielen Dinge geboren, verwandeln sich Riesenspinnen in diese säuregiftigen Jäger, deren Panzer das Muster der Karten trägt. | [113](#p113) |
 | Schwarzer Drache | Draco Veneficus Atratus | Heimtückischer Säuredrache, herrscht über Sümpfe und Furcht. | [90](#p90) |

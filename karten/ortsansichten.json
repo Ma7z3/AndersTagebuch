@@ -1,0 +1,217 @@
+{
+  "sturmpenhauder": {
+    "name": "Sturmpenhauder",
+    "kapitel": "kapitel-01",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-01"
+    ]
+  },
+  "schattental": {
+    "name": "Schattental",
+    "kapitel": "kapitel-09",
+    "ortsverzeichnis": true
+  },
+  "burg-dolchtal": {
+    "name": "Burg Dolchtal",
+    "kapitel": "kapitel-03",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-03"
+    ]
+  },
+  "ellinar-hof": {
+    "name": "Ellinar-Hof",
+    "kapitel": "kapitel-03",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-04"
+    ]
+  },
+  "dolchfall": {
+    "name": "Dolchfall",
+    "kapitel": "kapitel-04",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-05",
+      "station-24"
+    ]
+  },
+  "anauroch": {
+    "name": "Wüste Anauroch",
+    "kapitel": "kapitel-18",
+    "ortsverzeichnis": true
+  },
+  "tethyamar": {
+    "name": "Tethyamar",
+    "kapitel": "kapitel-35",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-26"
+    ]
+  },
+  "sigil": {
+    "name": "Sigil",
+    "kapitel": "kapitel-21",
+    "ortsverzeichnis": true
+  },
+  "feuerzitadelle": {
+    "name": "Zitadelle des Feuers",
+    "kapitel": "kapitel-24",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-16",
+      "station-18"
+    ]
+  },
+  "messingstadt": {
+    "name": "Messingstadt",
+    "kapitel": "kapitel-30",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-20"
+    ]
+  },
+  "silbrigmond": {
+    "name": "Silbrigmond",
+    "kapitel": "kapitel-33",
+    "ortsverzeichnis": true,
+    "stationen": [
+      "station-23"
+    ]
+  },
+  "schlangenbruecke": {
+    "name": "Schlangenbrücke",
+    "kapitel": "kapitel-02",
+    "stationen": [
+      "station-02"
+    ]
+  },
+  "grenzwald": {
+    "name": "Grenzwald · der Augenwald",
+    "kapitel": "kapitel-12",
+    "stationen": [
+      "station-06",
+      "station-25"
+    ]
+  },
+  "schmetterschreis-hoehle": {
+    "name": "Höhle von Schmetterschrei",
+    "kapitel": "kapitel-13",
+    "stationen": [
+      "station-07"
+    ]
+  },
+  "bei-den-hexen": {
+    "name": "Bei den Hexen",
+    "kapitel": "kapitel-14",
+    "stationen": [
+      "station-08"
+    ]
+  },
+  "sumpf": {
+    "name": "Der Sumpf",
+    "kapitel": "kapitel-15",
+    "stationen": [
+      "station-09"
+    ]
+  },
+  "hexenzirkel": {
+    "name": "Der Hexenzirkel",
+    "kapitel": "kapitel-16",
+    "stationen": [
+      "station-10"
+    ]
+  },
+  "schmetterschreis-reich": {
+    "name": "Schmetterschreis Reich",
+    "kapitel": "kapitel-17",
+    "stationen": [
+      "station-11"
+    ]
+  },
+  "binwabi": {
+    "name": "Lager der Binwabi",
+    "kapitel": "kapitel-18",
+    "stationen": [
+      "station-12"
+    ]
+  },
+  "basaris-flasche": {
+    "name": "Basaris Flasche",
+    "kapitel": "kapitel-20",
+    "stationen": [
+      "station-13"
+    ]
+  },
+  "sigil-stock": {
+    "name": "Sigil · der Stock",
+    "kapitel": "kapitel-21",
+    "stationen": [
+      "station-14"
+    ]
+  },
+  "sigil-leichenhalle": {
+    "name": "Sigil · Leichenhalle",
+    "kapitel": "kapitel-23",
+    "stationen": [
+      "station-15"
+    ]
+  },
+  "sigil-schrottplatz": {
+    "name": "Sigil · Schrottplatz",
+    "kapitel": "kapitel-26",
+    "stationen": [
+      "station-17"
+    ]
+  },
+  "sigil-giesserei": {
+    "name": "Sigil · Große Gießerei",
+    "kapitel": "kapitel-29",
+    "stationen": [
+      "station-19",
+      "station-21"
+    ]
+  },
+  "immermoor": {
+    "name": "Das Immermoor",
+    "kapitel": "kapitel-32",
+    "stationen": [
+      "station-22"
+    ]
+  },
+  "tethyamar-aether": {
+    "name": "Tethyamar auf der Ätherebene",
+    "kapitel": "kapitel-46",
+    "stationen": [
+      "station-27"
+    ]
+  },
+  "tethyamar-kern": {
+    "name": "Am Kern von Tethyamar",
+    "kapitel": "kapitel-46",
+    "stationen": [
+      "station-28"
+    ]
+  },
+  "sigil-halle-der-sprecher": {
+    "name": "Sigil · Halle der Sprecher",
+    "kapitel": "kapitel-22"
+  },
+  "sigil-freundliches-scheusal": {
+    "name": "Sigil · Zum freundlichen Scheusal",
+    "kapitel": "kapitel-22"
+  },
+  "aschenpalast": {
+    "name": "Messingstadt · Aschenpalast",
+    "kapitel": "kapitel-30"
+  },
+  "messingstadt-lavakanaele": {
+    "name": "Messingstadt · Lava-Kanäle",
+    "kapitel": "kapitel-30"
+  },
+  "messingstadt-handwerker": {
+    "name": "Messingstadt · Handwerker",
+    "kapitel": "kapitel-30"
+  }
+}

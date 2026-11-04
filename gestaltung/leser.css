@@ -84,3 +84,77 @@
 .article .narrative-box::after{top:auto;bottom:-2px}
 .article .narrative-box p,.article .narrative-box li{font-family:DiarySans,Times,sans-serif;font-size:16px;line-height:1.55}
 .article .narrative-box h5{margin-top:0}.article .narrative-box p:last-child{margin-bottom:0}
+
+/* Round previews in the illustrated directories and atlas. */
+.illustrated-thumbnail,
+.atlas .illustrated-thumbnail {
+  display: inline-grid;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0 8px 2px 0;
+  vertical-align: middle;
+  flex: none;
+  border: 2px solid #aa935e;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #e4e7ca;
+  cursor: zoom-in;
+}
+.illustrated-thumbnail img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+.bestiary-dragon-thumbnail img {
+  object-position: center 18%;
+}
+.chapter-bestiary-trigger {
+  display: block;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  margin: 28px auto;
+  width: 100%;
+  min-height: 24px;
+  cursor: zoom-in;
+}
+.chapter-bestiary-trigger img {
+  margin: 0 auto;
+}
+#bilddialog.with-details {
+  width: min(680px, 92vw);
+  overflow: auto;
+}
+#bilddialog.with-details img {
+  display: block;
+  max-width: 100%;
+  max-height: min(330px, 44vh);
+  margin: 0 auto;
+}
+#bilddialog.with-details figcaption {
+  color: var(--wine);
+  font-size: 22px;
+  font-weight: bold;
+}
+.image-dialog-details {
+  font: 16px/1.65 Georgia, serif;
+}
+.atlas-place-link {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  background: #eee5cf;
+  padding: 4px 8px;
+}
+.atlas-place-link .illustrated-thumbnail {
+  margin: 0;
+}
+.atlas-place-link a {
+  flex: 1;
+}
+@media print {
+  .illustrated-thumbnail { display: none; }
+}

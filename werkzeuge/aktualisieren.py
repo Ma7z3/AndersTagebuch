@@ -63,6 +63,57 @@ def validate_chronicle(data):
             if not any(e['id']==spot['id'] for e in group) or not(0<=spot['x']<=100 and 0<=spot['y']<=100):raise ValueError('Ungültiger Bildpunkt: '+chapter)
 
 
+def bestiary_cards(sections, openings):
+    """Use the image and Markdown from the illustrated chapter box."""
+    aliases = {
+        'Drachengeborene': 'Drachengeborener',
+        'Hobgoblin': 'Hobgoblins',
+        'Ifrit': 'Ifriti',
+        'Landhai (Bulette)': 'Landhai',
+        'Metallmeister (Schwertschnecke)': 'Metallmeister',
+        'Ruinenspinnen': 'Ruinenspinne',
+        'Silberdrache': 'Silberdrachen',
+    }
+    boxes = {}
+    for section in sections:
+        if section['art'] != 'kapitel':
+            continue
+        for quote in re.findall(r'(?m)(?:^>[^\n]*\n?)+', section['text']):
+            lines = [re.sub(r'^> ?', '', line) for line in quote.splitlines()]
+            heading = re.fullmatch(r'#####\s+(.+)', lines[0])
+            if not heading:
+                continue
+            for index, line in enumerate(lines[1:], 1):
+                image = re.fullmatch(r'!\[([^\]]*)\]\((bilder/[^)]+)\)', line.strip())
+                if image:
+                    boxes[heading[1].strip().casefold()] = {
+                        'titel': heading[1].strip(),
+                        'bild': image[2],
+                        'text': '\n'.join(lines[1:index] + lines[index + 1:]).strip(),
+                        'kapitel': section['id'],
+                    }
+                    break
+    section = next(section for section in sections if section['id'] == 'bestiarium')
+    cards = {}
+    for row in section['text'].splitlines():
+        if not row.startswith('|'):
+            continue
+        name, _, summary, _ = [cell.strip() for cell in row.strip('|').split('|')]
+        name = re.sub(r'<a id="[^"]+"></a>', '', name)
+        if name == 'Name' or name.startswith(':'):
+            continue
+        if name == 'Roter Drache':
+            # Chapter 36 depicts the dragon in its opening painting; it has no box.
+            card = {'bild': openings['kapitel-36']['bild'], 'text': summary, 'kapitel': 'kapitel-36', 'auftakt': True}
+        else:
+            card = boxes[aliases.get(name, name).casefold()]
+        preview = 'bilder/bestiarium-' + Path(card['bild']).stem + '-vorschau.webp'
+        if (ROOT/preview).is_file():
+            card['vorschau'] = preview
+        cards[name] = card
+    return cards
+
+
 def main():
     public='--oeffentlich' in sys.argv
     config=json.loads((ROOT/'tagebuch.json').read_text())
@@ -145,7 +196,7 @@ def main():
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
     validate_chronicle(data)
-    payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
+    data['bestiarium_karten'] = bestiary_cards(sections, data.get('kapitelauftakte', {}))
     route_path=ROOT/'karten/reise.json'
     if route_path.exists():
         route=json.loads(route_path.read_text());ids={s['id'] for s in sections}
@@ -154,7 +205,19 @@ def main():
             if not set(step['kapitel'])<=ids:raise ValueError('Reiseatlas verweist auf fehlendes Kapitel: '+step['ort'])
             if step['ebene'] not in planes:raise ValueError('Unbekannte Ebene: '+step['ebene'])
             if step['region'] is not None and step['region'] not in route['regionen']:raise ValueError('Unbekannte Reiseregion')
+        places = json.loads((ROOT/'karten/ortsansichten.json').read_text())
+        station_ids = [station for place in places.values() for station in place.get('stationen', [])]
+        if len(station_ids) != len(set(station_ids)) or not set(station_ids) <= {step['id'] for step in route['stationen']}:
+            raise ValueError('Ortsansicht verweist auf eine doppelte oder unbekannte Reisestation')
+        for key, place in places.items():
+            if not re.fullmatch(r'[a-z0-9-]+', key) or place['kapitel'] not in ids:
+                raise ValueError('Ungültige Ortsansicht: '+key)
+            for file in (f'ort-{key}.webp', f'ort-{key}-vorschau.webp'):
+                if not (ROOT/'bilder'/file).is_file():
+                    raise FileNotFoundError('Ortsansicht fehlt: '+file)
+        data['ortsansichten'] = places
         (ROOT/'karten/reise.js').write_text('window.REISE = '+json.dumps(route,ensure_ascii=False).replace('</','<\\/')+';\n')
+    payload=json.dumps(data,ensure_ascii=False).replace('</','<\\/')
     (ROOT/'gestaltung/daten.json').write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     (ROOT/'gestaltung/daten.js').write_text('window.TAGEBUCH = '+payload+';\n')
     versioniere_startseite()

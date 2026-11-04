@@ -1,13 +1,17 @@
 'use strict';
 window.TagebuchAtlas=(function(){
   const data=window.REISE,ns='http://www.w3.org/2000/svg';
-  let host,book,steps,index=0,mode='faerun',box=[1740,250,1570,1100],drag=null;
+  let host,book,steps,placeThumbnail,placeByStation,index=0,mode='faerun',box=[1740,250,1570,1100],drag=null;
   const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const travel={land:'Landreise',flug:'Flug',portal:'Portal',sonderuebergang:'Magischer Übergang',teleportation:'Teleportation',aetherschritt:'Ätherschritt'};
   function svgNode(tag,attrs,text){const n=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(attrs||{}))n.setAttribute(k,String(v));if(text)n.textContent=text;return n;}
   function point(s){const r=data.regionen[s.region];return r?[r.x,r.y]:null;}
-  function show(container,diary){
+  function show(container,diary,createPlaceThumbnail){
     host=container;book=diary;steps=data.stationen;index=Math.min(index,steps.length-1);
+    placeThumbnail=createPlaceThumbnail;
+    placeByStation=new Map(Object.entries(book.ortsansichten||{}).flatMap(
+      ([id,place])=>(place.stationen||[]).map(station=>[station,id])
+    ));
     host.innerHTML=`<section class="atlas" id="lesetext" tabindex="-1"><header class="atlas-heading"><p class="eyebrow">Ein Tagebuch · viele Welten</p><h1>${esc(data.titel)}</h1><p>Folge Ander und seinen Gefährten durch Faerûn, Sigil und die Ebenen. Jede Station führt zurück zum passenden Kapitel.</p></header><div class="atlas-tabs" role="group" aria-label="Kartenansicht"><button data-mode="faerun" type="button">Faerûn</button><button data-mode="ebenen" type="button">Die Ebenen</button><button data-mode="sigil" type="button">Sigil</button><button data-mode="feuer" type="button">Feuerebene</button><button data-mode="ortskarten" type="button">Ortskarten</button><button data-mode="kosmos" type="button">Multiversum</button></div><div class="atlas-layout"><div><div class="atlas-viewport" id="atlas-canvas"></div><div class="atlas-map-tools" role="group" aria-label="Karte bedienen"><button data-map="in" type="button" aria-label="Karte vergrößern">+</button><button data-map="out" type="button" aria-label="Karte verkleinern">−</button><button data-map="route" type="button">Reisegebiet</button><button data-map="all" type="button">Ganze Karte</button><button data-map="focus" type="button">Zur Station</button></div><p class="atlas-map-note" id="atlas-map-note"></p></div><aside class="atlas-detail" id="atlas-detail" aria-live="polite"></aside></div><section class="atlas-journey"><div class="atlas-playback"><button data-step="prev" type="button">← Zurück</button><label for="atlas-progress">Station <span id="atlas-position"></span></label><button data-step="next" type="button">Weiter →</button></div><input id="atlas-progress" type="range" min="0" max="${steps.length-1}" value="${index}" aria-label="Station der Reise"><ol class="atlas-stops">${steps.map((s,i)=>`<li><button data-station="${i}" type="button"><span>${i+1}</span><strong>${esc(s.ort)}</strong><small>${esc(data.ebenen.find(p=>p.id===s.ebene).name)}</small></button></li>`).join('')}</ol></section><details class="atlas-sources"><summary>Wie diese Reise rekonstruiert wurde</summary><p>${esc(data.hinweis)}</p><p>Die erste Fassung zeigt ${steps.length} Hauptstationen der Kapitel 1–46. Einzelne Häuser und Räume sind noch nicht als eigene Kartenpunkte erfasst. Tethyamar folgt der Darstellung eurer Kampagne.</p>${data.quellen.map(s=>`<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.titel)}</a> · ${esc(s.hinweis)}</p>`).join('')}</details></section>`;
     host.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>{setMode(b.dataset.mode);}));
     host.querySelectorAll('[data-station]').forEach(b=>b.addEventListener('click',()=>select(Number(b.dataset.station))));
@@ -31,6 +35,8 @@ window.TagebuchAtlas=(function(){
     const slider=host.querySelector('#atlas-progress');slider.value=index;slider.setAttribute('aria-valuetext',s.ort);
     host.querySelector('[data-step="prev"]').disabled=index===0;host.querySelector('[data-step="next"]').disabled=index===steps.length-1;
     host.querySelector('#atlas-detail').innerHTML=`<p class="eyebrow">Station ${index+1} · ${esc(plane.name)}</p><h2>${esc(s.ort.replace(/ · /g,': '))}</h2><p>${esc(s.beschreibung)}</p><p class="atlas-arrival"><strong>${esc(travel[s.ankunft])}</strong>${s.schluessel?'<br>'+esc(s.schluessel):''}</p>${region?`<p class="atlas-confidence">${esc(region.lage)}</p>`:''}<div class="atlas-chapters">${s.kapitel.map(id=>{const c=book.abschnitte.find(s=>s.id===id);return c?`<a href="#${id}">${esc(c.titel)}</a>`:'';}).join('')}</div>${s.ebene==='toril'&&mode!=='faerun'?'<button type="button" id="atlas-go-faerun">Auf Faerûn ansehen →</button>':''}`;
+    const thumbnail=placeThumbnail(placeByStation.get(s.id));
+    if(thumbnail)host.querySelector('#atlas-detail h2').prepend(thumbnail);
     host.querySelector('#atlas-go-faerun')?.addEventListener('click',()=>{mode='faerun';paint();mapAction('focus');});
     host.querySelector('.atlas-map-tools').hidden=mode!=='faerun';
     if(mode==='faerun')paintFaerun();else if(mode==='ebenen')paintPlanes();else if(mode==='sigil')paintSigil();else if(mode==='feuer')paintFire();else if(mode==='kosmos')paintCosmos();else paintLocalMaps();
@@ -84,10 +90,30 @@ window.TagebuchAtlas=(function(){
     let zoom=100;const img=canvas.querySelector('img');canvas.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{zoom=b.dataset.zoom==='reset'?100:Math.max(100,Math.min(600,zoom*(b.dataset.zoom==='in'?1.5:1/1.5)));img.style.width=zoom+'%';}));
     return canvas.querySelector('.local-map-links');
   }
-  function placeLinks(root,places){root.innerHTML=places.map(p=>`<a href="#kapitel-${String(p[1]).padStart(2,'0')}"><strong>${esc(p[0])}</strong><small>Kapitel ${p[1]}</small></a>`).join('');}
+  function placeLinks(root,places){
+    for(const [label,chapter,id] of places){
+      const entry=document.createElement('div');
+      entry.className='atlas-place-link';
+      const thumbnail=placeThumbnail(id);
+      if(thumbnail)entry.append(thumbnail);
+      const link=document.createElement('a');
+      link.href='#kapitel-'+String(chapter).padStart(2,'0');
+      link.innerHTML=`<strong>${esc(label)}</strong><small>Kapitel ${chapter}</small>`;
+      entry.append(link);
+      root.append(entry);
+    }
+  }
   function paintSigil(){
     const links=mapViewer('karten/sigil-stadtplan.jpg','Sigil · Stadtplan','Vom Autor bereitgestellter Stadtplan. Englische Viertelnamen; „The Hive“ entspricht dem Stock. Urheber in der bereitgestellten Datei nicht eindeutig ausgewiesen.','karten/sigil-stadtplan.pdf');
-    placeLinks(links,[['Der Stock · Gasthaus zur schwelenden Leiche',21],['Halle der Sprecher · Zeichnaten',22],['Zum freundlichen Scheusal',22],['Leichenhalle · Staubmenschen',23],['Schrottplatz · Oma Feen-Bann',26],['Große Gießerei · Sams Werkstatt',29]]);
+    placeLinks(links,[
+      ['Sigil · Die Stadt der Portale',21,'sigil'],
+      ['Der Stock · Gasthaus zur schwelenden Leiche',21,'sigil-stock'],
+      ['Halle der Sprecher · Zeichnaten',22,'sigil-halle-der-sprecher'],
+      ['Zum freundlichen Scheusal',22,'sigil-freundliches-scheusal'],
+      ['Leichenhalle · Staubmenschen',23,'sigil-leichenhalle'],
+      ['Schrottplatz · Oma Feen-Bann',26,'sigil-schrottplatz'],
+      ['Große Gießerei · Sams Werkstatt',29,'sigil-giesserei'],
+    ]);
     host.querySelector('#atlas-map-note').textContent='Orte aus der Erzählung sind unten einzeln verlinkt. Nicht belegte Hauspositionen werden nicht als exakte Punkte auf dem Stadtplan eingezeichnet.';
   }
   function paintFire(){
@@ -96,7 +122,14 @@ window.TagebuchAtlas=(function(){
     const choices=document.createElement('div');choices.className='atlas-fire-choices';
     for(const [label,key] of [['Feuerzitadelle','feuerzitadelle'],['Messingstadt','messingstadt']]){const b=document.createElement('button');b.type='button';b.textContent=label;b.setAttribute('aria-pressed',String((city?'messingstadt':'feuerzitadelle')===key));b.addEventListener('click',()=>{const i=steps.findIndex(s=>s.ortskarte===key);select(i);});choices.append(b);}
     links.before(choices);
-    placeLinks(links,city?[['Aschenpalast · Großsultan',30],['Lava-Kanäle · Überfahrt mit Almaraki',30],['Handwerker · magisches Diebeswerkzeug',30]]:[['Erster Versuch',24],['Zweiter Zugang · Gefangene und Befreiung',27]]);
+    placeLinks(links,city?[
+      ['Aschenpalast · Großsultan',30,'aschenpalast'],
+      ['Lava-Kanäle · Überfahrt mit Almaraki',30,'messingstadt-lavakanaele'],
+      ['Handwerker · magisches Diebeswerkzeug',30,'messingstadt-handwerker'],
+    ]:[
+      ['Erster Versuch',24,'feuerzitadelle'],
+      ['Zweiter Zugang · Gefangene und Befreiung',27],
+    ]);
     host.querySelector('#atlas-map-note').textContent='Die Feuerebene ist eine Innere Ebene. Messingstadt und Feuerzitadelle sind getrennte Schauplätze auf derselben Ebene; ihre Entfernung ist im Tagebuch nicht vermessen.';
   }
   function paintCosmos(){
