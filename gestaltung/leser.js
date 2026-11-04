@@ -140,7 +140,7 @@ function showSection(section,target){
 
 function showGallery(){
   setActive('bilder');pathLabel.textContent='Das Bildarchiv';document.title='Bildarchiv · Ander Holimion';pager.replaceChildren();
-  content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>${im.pdf_seiten?.length?`Aus dem Buch · Seite ${im.pdf_seiten[0]}`:im.kapitel_auftakt?'Kapitelgemälde':'Magische Gegenstände'}</small></button>`).join('')}</div>`;
+  content.innerHTML=`<section class="gallery-head"><p class="eyebrow">Karten · Wesen · Erinnerungen</p><h1>Das Bildarchiv</h1><p>${book.bilder.length} Illustrationen aus dem Tagebuch – zum Vergrößern auswählen.</p></section><div class="gallery-grid">${book.bilder.map((im,i)=>`<button class="gallery-card" data-image="${i}" type="button"><img src="${escapeHtml(im.datei)}" alt="${escapeHtml(im.titel)}" loading="lazy"><strong>${escapeHtml(im.titel)}</strong><small>${im.pdf_seiten?.length?`Aus dem Buch · Seite ${im.pdf_seiten[0]}`:im.kapitel_auftakt?'Kapitelgemälde':im.gegenstand?'Magische Gegenstände':'Kapitelillustration'}</small></button>`).join('')}</div>`;
   window.scrollTo(0,0);
 }
 
@@ -242,12 +242,11 @@ function enhanceIllustratedDirectory(section){
       const card=book.bestiarium_karten?.[name];
       if(!card)continue;
       const button=imageThumbnail('Bestiarium öffnen: '+name,card.vorschau||card.bild,()=>openBestiaryCard(name,card));
-      if(card.auftakt)button.classList.add('bestiary-dragon-thumbnail');
       cell.prepend(button);
     }
     return;
   }
-  const chapterCards=new Map(cards.filter(([,card])=>card.kapitel===section.id&&!card.auftakt)
+  const chapterCards=new Map(cards.filter(([,card])=>card.kapitel===section.id)
     .map(([name,card])=>[card.bild,[name,card]]));
   for(const image of content.querySelectorAll('blockquote img')){
     const entry=chapterCards.get(image.getAttribute('src'));

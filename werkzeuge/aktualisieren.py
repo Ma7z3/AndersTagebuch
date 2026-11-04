@@ -63,7 +63,7 @@ def validate_chronicle(data):
             if not any(e['id']==spot['id'] for e in group) or not(0<=spot['x']<=100 and 0<=spot['y']<=100):raise ValueError('Ungültiger Bildpunkt: '+chapter)
 
 
-def bestiary_cards(sections, openings):
+def bestiary_cards(sections):
     """Use the image and Markdown from the illustrated chapter box."""
     aliases = {
         'Drachengeborene': 'Drachengeborener',
@@ -98,15 +98,11 @@ def bestiary_cards(sections, openings):
     for row in section['text'].splitlines():
         if not row.startswith('|'):
             continue
-        name, _, summary, _ = [cell.strip() for cell in row.strip('|').split('|')]
+        name = row.split('|', 2)[1].strip()
         name = re.sub(r'<a id="[^"]+"></a>', '', name)
         if name == 'Name' or name.startswith(':'):
             continue
-        if name == 'Roter Drache':
-            # Chapter 36 depicts the dragon in its opening painting; it has no box.
-            card = {'bild': openings['kapitel-36']['bild'], 'text': summary, 'kapitel': 'kapitel-36', 'auftakt': True}
-        else:
-            card = boxes[aliases.get(name, name).casefold()]
+        card = boxes[aliases.get(name, name).casefold()]
         preview = 'bilder/bestiarium-' + Path(card['bild']).stem + '-vorschau.webp'
         if (ROOT/preview).is_file():
             card['vorschau'] = preview
@@ -196,7 +192,7 @@ def main():
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
     validate_chronicle(data)
-    data['bestiarium_karten'] = bestiary_cards(sections, data.get('kapitelauftakte', {}))
+    data['bestiarium_karten'] = bestiary_cards(sections)
     route_path=ROOT/'karten/reise.json'
     if route_path.exists():
         route=json.loads(route_path.read_text());ids={s['id'] for s in sections}

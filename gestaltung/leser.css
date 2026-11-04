@@ -108,9 +108,6 @@
   margin: 0;
   object-fit: cover;
 }
-.bestiary-dragon-thumbnail img {
-  object-position: center 18%;
-}
 .chapter-bestiary-trigger {
   display: block;
   border: 0;

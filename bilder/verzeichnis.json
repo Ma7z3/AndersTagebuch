@@ -1104,6 +1104,17 @@
     "kapitel": "kapitel-35"
   },
   {
+    "datei": "bilder/wesen-roter-drache.webp",
+    "titel": "Roter Drache",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "kapitel": "kapitel-36",
+    "breite": 1200,
+    "hoehe": 1097,
+    "transparenz": false,
+    "herkunft": "Mit ChatGPT nach dem Kapitelgemälde erstellt"
+  },
+  {
     "id": 440,
     "datei": "bilder/pdf-s102-440.png",
     "breite": 320,
