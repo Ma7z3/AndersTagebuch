@@ -28,12 +28,19 @@
       "station-04"
     ]
   },
-  "dolchfall": {
-    "name": "Dolchfall",
+  "dolchfall-zhentarim": {
+    "name": "Dolchfall unter den Zhentarim",
     "kapitel": "kapitel-04",
-    "ortsverzeichnis": true,
+    "ortsverzeichnis": "Dolchfall",
     "stationen": [
-      "station-05",
+      "station-05"
+    ]
+  },
+  "dolchfall": {
+    "name": "Dolchfall bei der Rückkehr",
+    "kapitel": "kapitel-34",
+    "ortsverzeichnis": "Dolchfall",
+    "stationen": [
       "station-24"
     ]
   },
@@ -72,7 +79,7 @@
       "station-20"
     ]
   },
-  "silbrigmond": {
+  "silbrigmond-v2": {
     "name": "Silbrigmond",
     "kapitel": "kapitel-33",
     "ortsverzeichnis": true,

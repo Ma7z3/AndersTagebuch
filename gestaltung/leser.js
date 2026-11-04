@@ -212,9 +212,11 @@ function placeThumbnail(id){
   const place=book.ortsansichten?.[id];
   if(!place)return null;
   const source='bilder/ort-'+id;
-  return imageThumbnail('Ortsansicht öffnen: '+place.name,source+'-vorschau.webp',()=>{
+  const button=imageThumbnail('Ortsansicht öffnen: '+place.name,source+'-vorschau.webp',()=>{
     openImage({datei:source+'.webp',titel:place.name,kapitel:place.kapitel});
   });
+  button.title=place.name;
+  return button;
 }
 
 function openBestiaryCard(name,card){
@@ -223,15 +225,19 @@ function openBestiaryCard(name,card){
 
 function enhanceIllustratedDirectory(section){
   if(section.id==='addenda'){
-    const places=new Map(Object.entries(book.ortsansichten||{})
-      .filter(([,place])=>place.ortsverzeichnis)
-      .map(([id,place])=>[place.name,id]));
+    const places=new Map();
+    for(const [id,place] of Object.entries(book.ortsansichten||{})){
+      if(!place.ortsverzeichnis)continue;
+      const label=place.ortsverzeichnis===true?place.name:place.ortsverzeichnis;
+      const views=places.get(label)||[];
+      views.push(id);
+      places.set(label,views);
+    }
     const heading=[...content.querySelectorAll('h3')].find(el=>el.textContent.trim()==='Wichtige Orte');
     if(!heading)return;
-    heading.id='wichtige-orte';
     for(const cell of heading.nextElementSibling.querySelectorAll('tbody tr > td:first-child')){
-      const thumbnail=placeThumbnail(places.get(cell.textContent.trim()));
-      if(thumbnail)cell.prepend(thumbnail);
+      const views=places.get(cell.textContent.trim())||[];
+      cell.prepend(...views.map(placeThumbnail));
     }
     return;
   }

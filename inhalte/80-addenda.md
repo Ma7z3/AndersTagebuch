@@ -17,6 +17,8 @@
 
 
 
+<a id="wichtige-orte"></a>
+
 ### Wichtige Orte
 | Name | Herrscher | Verbündet? | Zuerst besucht | Weitere Information |
 |:----:|:---------:|:----------:|:--------------:|:-------------------:|
