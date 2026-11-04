@@ -74,7 +74,8 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/portrait-ander-tau-v1.png",
+        "bild": "bilder/portrait-ander-bruder-tau-holimion-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-ander-bruder-tau-holimion-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -82,7 +83,8 @@
           100
         ],
         "ab_kapitel": 0,
-        "herkunft": "Neues Porträt nach Kapitel 1; dezent granatrote Iris nach Charakterbeschreibung"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -144,15 +146,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-01-auftakt-v2.png",
+        "bild": "bilder/portrait-ghom-der-grune-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-ghom-der-grune-gesicht-v1.webp",
         "ausschnitt": [
-          62.42067089755213,
-          34.04628330995792,
-          18.5856754306437,
-          14.375876577840112
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 1,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -270,15 +274,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-01-auftakt-v2.png",
+        "bild": "bilder/portrait-talion-bestienreiter-grindansson-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-talion-bestienreiter-grindansson-gesicht-v1.webp",
         "ausschnitt": [
-          21.12420670897552,
-          27.91023842917251,
-          19.038984587488667,
-          14.726507713884994
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 1,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -484,15 +490,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-01-auftakt-v2.png",
+        "bild": "bilder/portrait-flint-otani-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-flint-otani-gesicht-v1.webp",
         "ausschnitt": [
-          12.239,
-          43.478,
-          15.413,
-          11.921
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 1,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -522,15 +530,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-04-auftakt.png",
+        "bild": "bilder/portrait-gibligrim-zhuck-gobbelbick-tarkelby-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-gibligrim-zhuck-gobbelbick-tarkelby-gesicht-v1.webp",
         "ausschnitt": [
-          71.23411978221415,
-          33.98738612473721,
-          19.056261343012704,
-          14.716187806587246
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 4,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 2,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -612,15 +622,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-11-auftakt-v6.png",
+        "bild": "bilder/portrait-pelgri-bogner-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-pelgri-bogner-gesicht-v1.webp",
         "ausschnitt": [
-          49.41069809610154,
-          42.42636746143057,
-          19.038984587488667,
-          14.726507713884994
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 11,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -686,15 +698,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-17-auftakt-v3.png",
+        "bild": "bilder/portrait-balgrim-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-balgrim-gesicht-v1.webp",
         "ausschnitt": [
-          68.058,
-          42.397,
-          19.056,
-          14.716
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 17,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -720,15 +734,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-26-auftakt-v4.png",
+        "bild": "bilder/portrait-trakfajar-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-trakfajar-gesicht-v1.webp",
         "ausschnitt": [
-          51.67724388032638,
-          36.32538569424965,
-          19.945602901178603,
-          15.427769985974754
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 26,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -814,15 +830,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-18-auftakt-v4.png",
+        "bild": "bilder/portrait-basari-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-basari-gesicht-v1.webp",
         "ausschnitt": [
-          15.41251133272892,
-          12.97335203366059,
-          17.225747960108794,
-          13.32398316970547
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 18,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -921,15 +939,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-29-auftakt-v5.png",
+        "bild": "bilder/portrait-ser-ayne-darther-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-ser-ayne-darther-gesicht-v1.webp",
         "ausschnitt": [
-          64.88203266787659,
-          25.92852137351086,
-          19.056261343012704,
-          14.716187806587246
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 29,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 30,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -954,7 +974,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-telimas-traumweber-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-telimas-traumweber-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 1,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "mandarn-spinnenjager",
@@ -978,7 +1010,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-mandarn-spinnenjager-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-mandarn-spinnenjager-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 1,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "captain-bleotik",
@@ -1002,7 +1046,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-captain-bleotik-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-captain-bleotik-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 2,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "mestina-durmark",
@@ -1043,15 +1099,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-34-auftakt-v6.png",
+        "bild": "bilder/portrait-mestina-durmark-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-mestina-durmark-gesicht-v1.webp",
         "ausschnitt": [
-          50.363,
-          27.68,
-          19.964,
-          15.417
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 34,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 2,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -1104,7 +1162,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-koril-benshay-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-koril-benshay-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 3,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "ariton-delmis",
@@ -1128,7 +1198,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-ariton-delmis-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-ariton-delmis-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 3,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "binch",
@@ -1152,7 +1234,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-binch-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-binch-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 3,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "enit-ellinar",
@@ -1176,7 +1270,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-enit-ellinar-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-enit-ellinar-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 3,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "seleca-ellinar",
@@ -1200,7 +1306,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-seleca-ellinar-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-seleca-ellinar-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 3,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "dulwar",
@@ -1228,7 +1346,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-dulwar-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-dulwar-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 4,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "markail",
@@ -1260,7 +1390,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-markail-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-markail-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 4,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "guthbert-golthammer",
@@ -1284,7 +1426,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-guthbert-golthammer-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-guthbert-golthammer-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 5,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "randall-morn",
@@ -1332,7 +1486,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-randall-morn-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-randall-morn-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 5,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "iltond",
@@ -1373,15 +1539,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-07-auftakt-v3.png",
+        "bild": "bilder/portrait-iltond-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-iltond-gesicht-v1.webp",
         "ausschnitt": [
-          59.891,
-          23.125,
-          18.149,
-          14.015
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 7,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 5,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -1439,15 +1607,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-07-auftakt-v3.png",
+        "bild": "bilder/portrait-hedistrin-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-hedistrin-gesicht-v1.webp",
         "ausschnitt": [
-          63.067,
-          2.453,
-          22.686,
-          17.519
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 7,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 46,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -1476,7 +1646,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-digbier-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-digbier-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 5,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "fammek-dolchfall",
@@ -1504,7 +1686,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-fammek-dolchfall-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-fammek-dolchfall-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 5,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "lhaeo",
@@ -1532,7 +1726,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-lhaeo-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-lhaeo-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 8,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "elminster-aumar",
@@ -1577,15 +1783,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-10-auftakt.png",
+        "bild": "bilder/portrait-elminster-aumar-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-elminster-aumar-gesicht-v1.webp",
         "ausschnitt": [
-          66.18313689936537,
-          21.73913043478261,
-          21.758839528558475,
-          16.830294530154276
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 10,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 9,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -1671,7 +1879,8 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/gegenstand-hutbert-v2.png",
+        "bild": "bilder/portrait-hutbert-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-hutbert-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -1679,7 +1888,8 @@
           100
         ],
         "ab_kapitel": 10,
-        "herkunft": "Bestehende Illustration des Tagebuchs"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -1716,7 +1926,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-korax-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-korax-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 13,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "schmetterschrei",
@@ -1774,15 +1996,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-16-auftakt-v4.png",
+        "bild": "bilder/portrait-schmetterschrei-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-schmetterschrei-gesicht-v1.webp",
         "ausschnitt": [
-          56.210335448776064,
-          9.46704067321178,
-          27.198549410698096,
-          21.037868162692845
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 16,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       },
       "namen": [
         {
@@ -1821,7 +2045,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-fugentun-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-fugentun-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 15,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "halim",
@@ -1857,7 +2093,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-halim-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-halim-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 18,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "djadi",
@@ -1889,7 +2137,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-djadi-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-djadi-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 18,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "memnun",
@@ -1921,7 +2181,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-memnun-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-memnun-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 18,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "rami",
@@ -1945,7 +2217,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-rami-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-rami-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 19,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "marrake-al-sidan-al-hariq-ben-lazan",
@@ -1985,7 +2269,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-marrake-al-sidan-al-hariq-ben-lazan-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-marrake-al-sidan-al-hariq-ben-lazan-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 20,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "kylie",
@@ -2034,7 +2330,8 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/pdf-s039-179.png",
+        "bild": "bilder/portrait-kylie-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-kylie-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -2042,7 +2339,8 @@
           100
         ],
         "ab_kapitel": 21,
-        "herkunft": "Bestehende Illustration des Tagebuchs"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -2067,7 +2365,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-charles-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-charles-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 21,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "gedramak-eisenfaust",
@@ -2091,7 +2401,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-gedramak-eisenfaust-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-gedramak-eisenfaust-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "torana",
@@ -2123,7 +2445,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-torana-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-torana-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "modrigaz",
@@ -2147,7 +2481,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-modrigaz-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-modrigaz-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "schatten",
@@ -2171,7 +2517,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-schatten-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-schatten-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "tylarik-sturmschwinge",
@@ -2199,7 +2557,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-tylarik-sturmschwinge-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-tylarik-sturmschwinge-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "a-kin",
@@ -2244,7 +2614,8 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/pdf-s043-188.png",
+        "bild": "bilder/portrait-a-kin-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-a-kin-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -2252,7 +2623,8 @@
           100
         ],
         "ab_kapitel": 22,
-        "herkunft": "Bestehende Illustration des Tagebuchs"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -2277,7 +2649,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-dittplanen-ditt-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-dittplanen-ditt-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "rodlan",
@@ -2301,7 +2685,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-rodlan-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-rodlan-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "eliath",
@@ -2333,7 +2729,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-eliath-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-eliath-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "fammek-sigil",
@@ -2357,7 +2765,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-fammek-sigil-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-fammek-sigil-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 22,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "galena",
@@ -2393,7 +2813,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-galena-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-galena-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 23,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "peppi",
@@ -2426,15 +2858,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/wesen-peppi-giff-v2.png",
+        "bild": "bilder/portrait-peppi-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-peppi-gesicht-v1.webp",
         "ausschnitt": [
-          39,
-          12,
-          35,
-          29
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 23,
-        "herkunft": "Neue Illustration nach der vom Autor bereitgestellten Spielfigur"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -2463,7 +2897,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-reier-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-reier-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 24,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "heisser",
@@ -2491,7 +2937,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-heisser-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-heisser-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 24,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "weisser",
@@ -2519,7 +2977,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-weisser-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-weisser-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 24,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "schmeisser",
@@ -2547,7 +3017,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-schmeisser-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-schmeisser-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 24,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "schleifer",
@@ -2575,7 +3057,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-schleifer-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-schleifer-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 24,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "iduna",
@@ -2599,7 +3093,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-iduna-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-iduna-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 25,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "ulfmaer",
@@ -2627,7 +3133,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-ulfmaer-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-ulfmaer-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 25,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "andaria",
@@ -2655,7 +3173,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-andaria-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-andaria-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 25,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "oma-feen-bann",
@@ -2700,15 +3230,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-28-auftakt-v2.png",
+        "bild": "bilder/portrait-oma-feen-bann-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-oma-feen-bann-gesicht-v1.webp",
         "ausschnitt": [
-          48.050770625566635,
-          22.44039270687237,
-          29.011786038077968,
-          22.44039270687237
+          0,
+          0,
+          100,
+          100
         ],
-        "ab_kapitel": 28,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ab_kapitel": 26,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -2737,7 +3269,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-imogen-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-imogen-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 27,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "waldramm",
@@ -2761,7 +3305,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-waldramm-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-waldramm-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 27,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "der-grune-marvent",
@@ -2785,7 +3341,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-der-grune-marvent-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-der-grune-marvent-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 27,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "ulfwald",
@@ -2813,7 +3381,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-ulfwald-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-ulfwald-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 27,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "clarena",
@@ -2841,7 +3421,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-clarena-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-clarena-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 27,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "barrak",
@@ -2869,7 +3461,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-barrak-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-barrak-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 27,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "fbbebriess",
@@ -2893,7 +3497,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-fbbebriess-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-fbbebriess-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 29,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "alvion-immerstern",
@@ -2921,7 +3537,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-alvion-immerstern-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-alvion-immerstern-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 29,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "kemp-alias-sam",
@@ -2954,7 +3582,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-kemp-alias-sam-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-kemp-alias-sam-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 29,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "almaraki-ibn-sahin-ibn-muhammad-ibn-hamza",
@@ -2978,7 +3618,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-almaraki-ibn-sahin-ibn-muhammad-ibn-hamza-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-almaraki-ibn-sahin-ibn-muhammad-ibn-hamza-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 30,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "abdul-quavi",
@@ -3002,7 +3654,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-abdul-quavi-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-abdul-quavi-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 30,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "cuinn",
@@ -3026,7 +3690,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-cuinn-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-cuinn-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 31,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "aurora",
@@ -3050,7 +3726,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-aurora-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-aurora-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 31,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "danton",
@@ -3078,7 +3766,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-danton-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-danton-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 32,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "gosran-immerstern",
@@ -3106,7 +3806,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-gosran-immerstern-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-gosran-immerstern-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 32,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "yasar",
@@ -3130,7 +3842,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-yasar-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-yasar-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 33,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "hezel",
@@ -3154,7 +3878,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-hezel-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-hezel-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 33,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "haffirin-haffi",
@@ -3178,7 +3914,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-haffirin-haffi-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-haffirin-haffi-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 33,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "letanon-lechko",
@@ -3202,7 +3950,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-letanon-lechko-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-letanon-lechko-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 33,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "duana",
@@ -3226,7 +3986,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-duana-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-duana-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 33,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "alustriel-silberhand",
@@ -3255,15 +4027,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-33-auftakt-v6.png",
+        "bild": "bilder/portrait-alustriel-silberhand-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-alustriel-silberhand-gesicht-v1.webp",
         "ausschnitt": [
-          75.56561085972851,
-          31.60112359550562,
-          20.81447963800905,
-          16.151685393258425
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 33,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -3288,7 +4062,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-kurzpieks-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-kurzpieks-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 39,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "suss-utlu",
@@ -3329,15 +4115,17 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/kapitel-39-auftakt-v2.png",
+        "bild": "bilder/portrait-suss-utlu-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-suss-utlu-gesicht-v1.webp",
         "ausschnitt": [
-          71.16953762466002,
-          28.751753155680223,
-          20.85222121486854,
-          16.129032258064516
+          0,
+          0,
+          100,
+          100
         ],
         "ab_kapitel": 39,
-        "herkunft": "Ausschnitt aus dem Kapitelgemälde"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -3366,7 +4154,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-isballa-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-isballa-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 44,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "erwiderung",
@@ -3411,7 +4211,8 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/gegenstand-erwiderung-v2.png",
+        "bild": "bilder/portrait-erwiderung-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-erwiderung-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -3419,7 +4220,8 @@
           100
         ],
         "ab_kapitel": 40,
-        "herkunft": "Gegenstandsillustration des Tagebuchs"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -3448,7 +4250,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-orgul-rotaxt-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-orgul-rotaxt-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "draxil",
@@ -3472,7 +4286,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-draxil-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-draxil-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 43,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "urak",
@@ -3500,7 +4326,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-urak-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-urak-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 43,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "bekel-kupferhammer",
@@ -3528,7 +4366,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-bekel-kupferhammer-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-bekel-kupferhammer-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 44,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "gothil",
@@ -3556,7 +4406,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-gothil-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-gothil-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 9,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "flapp-flapp",
@@ -3580,7 +4442,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-flapp-flapp-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-flapp-flapp-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 37,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "knatzdeng",
@@ -3604,7 +4478,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-knatzdeng-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-knatzdeng-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 37,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "hlamrot",
@@ -3628,7 +4514,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-hlamrot-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-hlamrot-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "jolgrun-ambossarm",
@@ -3656,7 +4554,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-jolgrun-ambossarm-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-jolgrun-ambossarm-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "terika",
@@ -3686,7 +4596,19 @@
           "text": "Schwester von Orgul Rotaxt."
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-terika-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-terika-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "klaus",
@@ -3722,7 +4644,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-klaus-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-klaus-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "gunther",
@@ -3758,7 +4692,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-gunther-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-gunther-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "dieter",
@@ -3794,7 +4740,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-dieter-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-dieter-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 40,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "zarguras-eisenbart",
@@ -3822,7 +4780,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-zarguras-eisenbart-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-zarguras-eisenbart-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 44,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "thoguna-barrenbieger",
@@ -3850,7 +4820,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-thoguna-barrenbieger-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-thoguna-barrenbieger-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 44,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "draken-lederarm",
@@ -3874,7 +4856,19 @@
         }
       ],
       "beziehungen": [],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-draken-lederarm-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-draken-lederarm-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 44,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "selmuria-blutschwert",
@@ -3902,7 +4896,19 @@
           "art": "Textstelle"
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-selmuria-blutschwert-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-selmuria-blutschwert-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 45,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "annica-von-velden",
@@ -3926,7 +4932,19 @@
           "art": "Erwähnung"
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-annica-von-velden-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-annica-von-velden-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 38,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "selune",
@@ -3975,7 +4993,8 @@
         }
       ],
       "portrait": {
-        "bild": "bilder/pdf-s125-528.png",
+        "bild": "bilder/portrait-selune-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-selune-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -3983,7 +5002,8 @@
           100
         ],
         "ab_kapitel": 45,
-        "herkunft": "Illustration des Tagebuchs"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -4017,7 +5037,8 @@
         }
       ],
       "portrait": {
-        "bild": "bilder/wesen-mystra.jpg",
+        "bild": "bilder/portrait-mystra-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-mystra-gesicht-v1.webp",
         "ausschnitt": [
           0,
           0,
@@ -4025,7 +5046,8 @@
           100
         ],
         "ab_kapitel": 9,
-        "herkunft": "Bestehende Illustration des Tagebuchs"
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
     },
     {
@@ -4054,7 +5076,19 @@
           "art": "Erwähnung"
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-karsus-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-karsus-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 9,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "die-rabenkonigin",
@@ -4078,7 +5112,19 @@
           "art": "Erwähnung"
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-die-rabenkonigin-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-die-rabenkonigin-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 23,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "mab",
@@ -4108,7 +5154,19 @@
           "text": "Bruder von Simon."
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-mab-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-mab-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 23,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     },
     {
       "id": "simon",
@@ -4138,7 +5196,19 @@
           "text": "Bruder von Mab."
         }
       ],
-      "portrait": null
+      "portrait": {
+        "bild": "bilder/portrait-simon-ganzkoerper-v1.jpg",
+        "vorschau": "bilder/portrait-simon-gesicht-v1.webp",
+        "ausschnitt": [
+          0,
+          0,
+          100,
+          100
+        ],
+        "ab_kapitel": 23,
+        "ganzkoerper": true,
+        "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
+      }
     }
   ],
   "gegenstaende": [

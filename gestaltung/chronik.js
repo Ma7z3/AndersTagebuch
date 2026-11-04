@@ -11,11 +11,13 @@ window.TagebuchChronik=(()=>{
   const link=(n,label)=>`<a href="#${ch(n)}">${esc(label||'Kapitel '+n)}</a>`;
   function portrait(e,large=false){
     const p=e.portrait&&e.portrait.ab_kapitel<=limit?e.portrait:null;
-    return `<span class="chronik-portrait ${large?'large':''}" ${p?`data-portrait="${esc(e.id)}"`:''}>${p?`<img src="${esc(p.bild)}" alt="" loading="lazy">`:`<span aria-hidden="true">${esc(e.name.slice(0,1))}</span>`}</span>`;
+    if(large&&p?.ganzkoerper)return `<figure class="chronik-ganzkoerper"><a href="${esc(p.bild)}" target="_blank" rel="noopener" aria-label="Ganzkörperporträt von ${esc(name(e))} in voller Größe öffnen"><img src="${esc(p.bild)}" alt="Ganzkörperporträt von ${esc(name(e))}"></a></figure>`;
+    return `<span class="chronik-portrait ${large?'large':''}" ${p?`data-portrait="${esc(e.id)}"`:''}>${p?`<img src="${esc(p.vorschau||p.bild)}" alt="" loading="lazy" decoding="async">`:`<span aria-hidden="true">${esc(e.name.slice(0,1))}</span>`}</span>`;
   }
   function applyPortraits(root){
     root.querySelectorAll('[data-portrait]').forEach(el=>{
       const e=data().figuren.find(e=>e.id===el.dataset.portrait),p=e?.portrait,img=el.querySelector('img');if(!p||!img)return;
+      if(p.vorschau){Object.assign(img.style,{width:'100%',height:'100%',left:'0',top:'0'});return;}
       const [x,y,w,h]=p.ausschnitt||[0,0,100,100];
       img.style.width=(10000/w)+'%';img.style.height=(10000/h)+'%';img.style.left=(-100*x/w)+'%';img.style.top=(-100*y/h)+'%';
     });

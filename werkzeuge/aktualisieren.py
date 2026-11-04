@@ -50,6 +50,9 @@ def validate_chronicle(data):
                 path=(ROOT/image).resolve()
                 if not path.is_relative_to(ROOT.resolve()) or not path.is_file():raise ValueError('Chronik-Bild fehlt: '+image)
             if portrait:
+                if portrait.get('vorschau'):
+                    preview=(ROOT/portrait['vorschau']).resolve()
+                    if not preview.is_relative_to(ROOT.resolve()) or not preview.is_file():raise ValueError('Porträtvorschau fehlt: '+entry['id'])
                 x,y,w,h=portrait['ausschnitt']
                 if not (0<=x<100 and 0<=y<100 and w>0 and h>0 and x+w<=100.01 and y+h<=100.01):raise ValueError('Porträtausschnitt außerhalb des Bildes: '+entry['id'])
                 if portrait['ab_kapitel']<entry['ab_kapitel']:raise ValueError('Porträt vor Figureneinführung: '+entry['id'])
