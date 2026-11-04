@@ -33,8 +33,6 @@ beiden konnte ich sehen, waren ebenso geschickt wie ich.
 > Feuer kann ihnen nichts anhaben. Ihr Odem breitet sich als Feuerkegel aus.
 > Ihren Hort legen sie oft in Berghöhlen oder in verlassenen Zwergenfestungen
 > an. Vulkanisch erhitzte Höhlen sind ihnen besonders lieb.
->
-> *Zum Drachentyp siehe die [D&D-Grundregeln von 2014](https://www.dndbeyond.com/monsters/16771-adult-red-dragon).*
 
 Ser Ayne fackelte nicht lange, rannte auf den Drachen zu und schlug mit einer
 absurden Geschwindigkeit auf ihn ein. Leider traf nur die Hälfte der Schläge,
