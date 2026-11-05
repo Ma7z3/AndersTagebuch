@@ -197,6 +197,7 @@ def main():
             picture=(ROOT/opening['bild']).resolve()
             if not picture.is_relative_to(ROOT) or not picture.is_file():raise FileNotFoundError(opening['bild'])
             data['bilder'].append({'datei':opening['bild'],'titel':section['titel']+' – Kapitelgemälde','typ':'illustration','kapitel_auftakt':key,'kapitel':key,'pdf_seiten':[]})
+    wash_rules = []
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
         if 'farbklecks' in item:
@@ -205,6 +206,9 @@ def main():
                 raise ValueError('Ungültiger Farbklecks: '+item['datei'])
             if not (ROOT/wash).is_file():
                 raise FileNotFoundError(wash)
+            selector = 'img[src='+json.dumps(item['datei'])+']'
+            wash_rules.append(f'{selector} {{ background: url("../{wash}") center / contain no-repeat; }}')
+    (ROOT/'gestaltung/gegenstandsfarben.css').write_text('\n'.join(wash_rules)+'\n')
     validate_chronicle(data)
     data['bestiarium_karten'] = bestiary_cards(sections)
     route_path=ROOT/'karten/reise.json'

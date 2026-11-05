@@ -11,13 +11,6 @@ const sections=book.abschnitte;
 const byId=new Map(sections.map(s=>[s.id,s]));
 const anchors=new Map();
 const sessions=[];
-const itemWashStyles=document.createElement('style');
-itemWashStyles.textContent=book.bilder
-  .filter(image=>image.farbklecks)
-  .map(({datei,farbklecks})=>
-    `img[src=${CSS.escape(datei)}]{background: url(${JSON.stringify(farbklecks)}) center / contain no-repeat}`)
-  .join('\n');
-document.head.append(itemWashStyles);
 const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fold=s=>s.normalize('NFKD').replace(/\p{Diacritic}/gu,'').toLocaleLowerCase('de');
 const plain=s=>s.replace(/<[^>]*>/g,' ').replace(/!\[([^\]]*)\]\([^)]+\)/g,'$1').replace(/\[([^\]]*)\]\([^)]+\)/g,'$1').replace(/[#*_>|]/g,' ').replace(/\s+/g,' ').trim();
