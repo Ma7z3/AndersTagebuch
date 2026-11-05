@@ -76,7 +76,7 @@ Teufel der Gattung Nupperibos.
 
 > ##### Nupperibos
 >
-> ![Nupperibos](bilder/wesen-nupperibo.png)
+> ![Nupperibos](bilder/wesen-nupperibo-aquarell.webp)
 >
 > Nupperibos sind niedere Teufel mit aufgeblähten, unförmigen Körpern.
 > Ihr Dasein wird von unstillbarem Hunger bestimmt. Schwärme beißenden
@@ -193,7 +193,7 @@ und das Viertel der Dame ist das Reichenviertel
 
 > ##### Molydeus
 >
-> ![Molydeus](bilder/wesen-molydeus.jpg)
+> ![Molydeus](bilder/wesen-molydeus-aquarell.webp)
 >
 > Ein Molydeus ist ein mächtiger Dämon mit einem wolfartigen Haupt und
 > einem zusätzlichen Schlangenkopf, der aus seiner Schulter wächst.

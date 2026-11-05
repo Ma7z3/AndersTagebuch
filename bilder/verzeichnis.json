@@ -657,18 +657,22 @@
   },
   {
     "id": 193,
-    "datei": "bilder/pdf-s044-193.png",
-    "breite": 562,
-    "hoehe": 702,
+    "datei": "bilder/wesen-gedankenschinder-aquarell.webp",
+    "breite": 768,
+    "hoehe": 960,
     "pdf_seiten": [
       44
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Gedankenschinder",
     "original_url": "https://i.ibb.co/N1nnjcW/9694-DBC6-FBF5-486-D-8-CC6-883-F984056-B7.png",
     "code_reihenfolge": 24,
-    "kapitel": "kapitel-22"
+    "kapitel": "kapitel-22",
+    "modus": "RGBA",
+    "sha256": "6f58321d2a051f01bd248d190ed8b9a82d10734ff09589e739f3571b0db86705",
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/pdf-s044-193.png"
   },
   {
     "id": 206,
@@ -781,9 +785,9 @@
   },
   {
     "id": 265,
-    "datei": "bilder/pdf-s058-265.png",
-    "breite": 350,
-    "hoehe": 433,
+    "datei": "bilder/wesen-nagpa-aquarell.webp",
+    "breite": 779,
+    "hoehe": 960,
     "pdf_seiten": [
       58
     ],
@@ -792,7 +796,11 @@
     "titel": "Nagpa",
     "original_url": "https://static.tvtropes.org/pmwiki/pub/images/nagpa_5e.png",
     "code_reihenfolge": 32,
-    "kapitel": "kapitel-26"
+    "kapitel": "kapitel-26",
+    "modus": "RGBA",
+    "sha256": "f0519c0b53a58952b92c994f73ade12ef9d9b5d01d4ec557eab6b970c46fdd0b",
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/pdf-s058-265.png"
   },
   {
     "id": 277,
@@ -935,18 +943,22 @@
   },
   {
     "id": 350,
-    "datei": "bilder/pdf-s079-350.png",
-    "breite": 610,
-    "hoehe": 371,
+    "datei": "bilder/wesen-nic-epona-aquarell.webp",
+    "breite": 960,
+    "hoehe": 583,
     "pdf_seiten": [
       79
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Nic'Epona",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/4/45/Nic%27Epona.png",
     "code_reihenfolge": 42,
-    "kapitel": "kapitel-30"
+    "kapitel": "kapitel-30",
+    "modus": "RGBA",
+    "sha256": "7b0d1ca3e91315440ef04c18aae2a3c26f746f05dd48c4320878e140377a84ee",
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/pdf-s079-350.png"
   },
   {
     "id": 356,
@@ -1131,33 +1143,41 @@
   },
   {
     "id": 440,
-    "datei": "bilder/pdf-s102-440.png",
-    "breite": 320,
-    "hoehe": 440,
+    "datei": "bilder/wesen-metallmeister-aquarell.webp",
+    "breite": 699,
+    "hoehe": 960,
     "pdf_seiten": [
       102
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Metallmeister",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/3/39/Metalmaster.jpg",
     "code_reihenfolge": 54,
-    "kapitel": "kapitel-37"
+    "kapitel": "kapitel-37",
+    "modus": "RGBA",
+    "sha256": "8bf6b8b2d062ef717f59d9f77fc15d6c23fb66f31a9f24eadb3b2c73c96b475a",
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/pdf-s102-440.png"
   },
   {
     "id": 453,
-    "datei": "bilder/pdf-s105-453.png",
-    "breite": 434,
-    "hoehe": 651,
+    "datei": "bilder/wesen-hoehlenriese-aquarell.webp",
+    "breite": 640,
+    "hoehe": 960,
     "pdf_seiten": [
       105
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Höhlenriese",
     "original_url": "https://i.ibb.co/YTc1K79F/A28-F2-DEC-4-DF4-41-B1-8110-647-DE4683-B37.png",
     "code_reihenfolge": 55,
-    "kapitel": "kapitel-38"
+    "kapitel": "kapitel-38",
+    "modus": "RGBA",
+    "sha256": "f9c6e437789b9bbf77cbcb77b9fab9155eb1104afc2d3c5dd1460c455c067e03",
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/pdf-s105-453.png"
   },
   {
     "id": 460,
@@ -1193,18 +1213,22 @@
   },
   {
     "id": 480,
-    "datei": "bilder/pdf-s112-480.png",
-    "breite": 434,
-    "hoehe": 434,
+    "datei": "bilder/wesen-jadespinne-aquarell.webp",
+    "breite": 960,
+    "hoehe": 960,
     "pdf_seiten": [
       112
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Jadespinne",
     "original_url": "https://i.ibb.co/RpPyDr3f/0-BD77-E86-9-B51-47-EE-B192-71-A10931-BA4-F.png",
     "code_reihenfolge": 58,
-    "kapitel": "kapitel-41"
+    "kapitel": "kapitel-41",
+    "modus": "RGBA",
+    "sha256": "d7a1e2b350d5bbbf8d73690eef0df3c218cebae6836c6fcb6d9da5f30ccefcd5",
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/pdf-s112-480.png"
   },
   {
     "id": 487,
@@ -1389,19 +1413,20 @@
     "herkunft": "veröffentlichte Illustration"
   },
   {
-    "datei": "bilder/wesen-nupperibo.png",
+    "datei": "bilder/wesen-nupperibo-aquarell.webp",
     "titel": "Nupperibos",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "kapitel-21",
-    "breite": 700,
-    "hoehe": 846,
+    "breite": 793,
+    "hoehe": 960,
     "modus": "RGBA",
     "transparenz": true,
-    "sha256": "30d38217fd2450305290b855cefc4187288476673f8f990bed227f47b59598f7",
+    "sha256": "6cfeefc3d61b6bf650cf8da26ccbc53ad1073548bb551564cdbdf07784bc1cce",
     "quelle_url": "https://ralphhorsley.artstation.com/projects/ngLQe",
     "original_url": "https://5e.tools/img/bestiary/MPMM/Nupperibo.webp",
-    "herkunft": "veröffentlichte Illustration"
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/wesen-nupperibo.png"
   },
   {
     "datei": "bilder/wesen-bariaur-aquarell.webp",
@@ -1482,19 +1507,20 @@
     "vorlage": "bilder/wesen-marilith.jpg"
   },
   {
-    "datei": "bilder/wesen-molydeus.jpg",
+    "datei": "bilder/wesen-molydeus-aquarell.webp",
     "titel": "Molydeus",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "kapitel-21",
-    "breite": 1124,
-    "hoehe": 976,
-    "modus": "RGB",
-    "transparenz": false,
-    "sha256": "8293976d951d9f738091afc52331e7d6d50992f9f5b4fa0c2e1dd9e75a9d70b4",
+    "breite": 960,
+    "hoehe": 823,
+    "modus": "RGBA",
+    "transparenz": true,
+    "sha256": "dd98cd12ff2f0498c28d85d848262c67bd7e6072f32f55c41c648100260a378c",
     "quelle_url": "Vom Nutzer am 01.11.2026 bereitgestellt",
     "original_url": null,
-    "herkunft": "Nutzerbild"
+    "herkunft": "Illustration nach der vorhandenen Vorlage, mit Aquarellumgebung überarbeitet",
+    "vorlage": "bilder/wesen-molydeus.jpg"
   },
   {
     "datei": "bilder/symbol-selune.jpg",

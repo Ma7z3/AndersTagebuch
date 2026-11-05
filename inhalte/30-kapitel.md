@@ -310,7 +310,7 @@ uns, dass dies *Nic'Epona* seien.
 
 > ##### Nic'Epona
 >
-> ![Nic'Epona](bilder/pdf-s079-350.png)
+> ![Nic'Epona](bilder/wesen-nic-epona-aquarell.webp)
 >
 > Die Nic'Epona, auch bekannt als Eponas Töchter, sind eine mystische
 > Pferderasse, die in den Außenlanden beheimatet sind und die Macht haben, die

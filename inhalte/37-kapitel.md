@@ -125,7 +125,7 @@ Metallobjekte kreisten*. Ich hatte schon einmal davon gelesen: Eine
 
 > ##### Metallmeister
 >
-> ![Metallmeister](bilder/pdf-s102-440.png)
+> ![Metallmeister](bilder/wesen-metallmeister-aquarell.webp)
 >
 > Der auch als Schwertschnecke bekannte Metallmeister ist ein Fleischfresser,
 > der Metallgegenstände magnetisch anziehen, abstoßen und grob manipulieren

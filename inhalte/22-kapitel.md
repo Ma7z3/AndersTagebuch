@@ -557,7 +557,7 @@ Gestalt mit Kapuze und vier seltsamen Fangzähnen*.
 
 > ##### Gedankenschinder
 >
-> ![Gedankenschinder](bilder/pdf-s044-193.png)
+> ![Gedankenschinder](bilder/wesen-gedankenschinder-aquarell.webp)
 >
 > Gedankenschinder, auch bekannt als Illithiden und von den Githyanki
 > manchmal als Ghaik bezeichnet, sind sadistische Aberrationen, die aufgrund

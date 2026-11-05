@@ -171,7 +171,7 @@ Ich schoss noch einen Feuerpfeil auf seinen Kopf, nur um sicherzugehen.
 
 > ##### Höhlenriese
 >
-> ![Höhlenriese](bilder/pdf-s105-453.png)
+> ![Höhlenriese](bilder/wesen-hoehlenriese-aquarell.webp)
 >
 > Höhlenriesen sind unterirdisch lebende Riesenwesen, die für ihre rohe Gewalt
 > und ihren dichten, steinartigen Hautpanzer bekannt sind. Diese äußere Schicht

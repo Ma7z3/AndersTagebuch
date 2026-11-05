@@ -132,7 +132,7 @@ Oma Feen-Bann mit dem Kommentar: "Persönlicher wirds nicht."
 
 > ##### Nagpa
 >
-> ![Nagpa](bilder/pdf-s058-265.png)
+> ![Nagpa](bilder/wesen-nagpa-aquarell.webp)
 >
 > Die Nagpa sind eine uralte Rasse von vogelartigen Humanoiden, die an
 > bucklige Geier mit Skeletthänden und lederartiger Haut erinnern. Sie sind dazu

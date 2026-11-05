@@ -5,7 +5,7 @@
 
 > ##### Jadespinne
 >
-> ![Jadespinne](bilder/pdf-s112-480.png)
+> ![Jadespinne](bilder/wesen-jadespinne-aquarell.webp)
 >
 > Jadespinnen sind seltene und gefürchtete Monstrositäten, deren Körper aus
 > einer jadeartigen, glasmetallischen Substanz bestehen. Sie kombinieren die
