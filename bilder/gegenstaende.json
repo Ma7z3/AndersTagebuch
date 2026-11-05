@@ -339,7 +339,8 @@
     "kapitel": "gegenstand-riesentoeter",
     "anker": "gegenstand-riesentoeter",
     "vorheriger_prompt": "Use case: stylized-concept. Asset type: a single inventory illustration for a German fantasy adventurer's illustrated diary. Subject: Riesentöter, a magical GIANT SLAYER LONGSWORD, absolutely a sword, never an axe. A straight double-edged steel blade, long enough to be a longsword, with a crossguard and a hand-and-a-half grip. Subtle ancient giant-related geometric engraving, sturdy practical design with a little worn brass in the guard, modest enchantment, no huge flames. Entire weapon visible diagonally, centered and beautifully balanced. Style: fine ink and softly painted watercolor fantasy book item illustration, detailed material texture, natural restrained colors. Isolated on genuinely transparent background. No character, hands, scenery, frame, letters, labels or watermark. This is an original interpretation for the campaign, not a copy of any published illustration.",
-    "hinweis_arbeitsablage": "Stilisierter hölzerner Speer auf der Langschwertklinge entsprechend der Beschreibung in Kapitel 29 ergänzt."
+    "hinweis_arbeitsablage": "Stilisierter hölzerner Speer auf der Langschwertklinge entsprechend der Beschreibung in Kapitel 29 ergänzt.",
+    "farbklecks": "bilder/gegenstandsfarbe-salbei.png"
   },
   {
     "titel": "Hutbert",
@@ -356,7 +357,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-hutbert",
-    "anker": "gegenstand-hutbert"
+    "anker": "gegenstand-hutbert",
+    "farbklecks": "bilder/gegenstandsfarbe-salbei.png"
   },
   {
     "titel": "Schild der Mutter von Talion",
@@ -373,7 +375,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-schild-talions-mutter",
-    "anker": "gegenstand-schild-talions-mutter"
+    "anker": "gegenstand-schild-talions-mutter",
+    "farbklecks": "bilder/gegenstandsfarbe-schiefer.png"
   },
   {
     "titel": "Zahn eines Nihilithen",
@@ -391,7 +394,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-nihilithenzahn",
-    "anker": "gegenstand-nihilithenzahn"
+    "anker": "gegenstand-nihilithenzahn",
+    "farbklecks": "bilder/gegenstandsfarbe-mauve.png"
   },
   {
     "titel": "Rabenbrosche",
@@ -409,7 +413,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-rabenbrosche",
-    "anker": "gegenstand-rabenbrosche"
+    "anker": "gegenstand-rabenbrosche",
+    "farbklecks": "bilder/gegenstandsfarbe-mauve.png"
   },
   {
     "titel": "Hammer von Marrake",
@@ -427,7 +432,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-marrakes-hammer",
-    "anker": "gegenstand-marrakes-hammer"
+    "anker": "gegenstand-marrakes-hammer",
+    "farbklecks": "bilder/gegenstandsfarbe-ocker.png"
   },
   {
     "titel": "Schnitzmesser von Schnitzi dem Zwerg",
@@ -445,7 +451,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-schnitzis-schnitzmesser",
-    "anker": "gegenstand-schnitzis-schnitzmesser"
+    "anker": "gegenstand-schnitzis-schnitzmesser",
+    "farbklecks": "bilder/gegenstandsfarbe-salbei.png"
   },
   {
     "titel": "Arm der Ehre",
@@ -463,7 +470,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-arm-der-ehre",
-    "anker": "gegenstand-arm-der-ehre"
+    "anker": "gegenstand-arm-der-ehre",
+    "farbklecks": "bilder/gegenstandsfarbe-ocker.png"
   },
   {
     "titel": "Wurfpfeil der Wiederkehr",
@@ -481,7 +489,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-wurfpfeil-wiederkehr",
-    "anker": "gegenstand-wurfpfeil-wiederkehr"
+    "anker": "gegenstand-wurfpfeil-wiederkehr",
+    "farbklecks": "bilder/gegenstandsfarbe-schiefer.png"
   },
   {
     "titel": "Zauberstab der Illusionen",
@@ -501,7 +510,8 @@
     "kapitel": "gegenstand-zauberstab-illusionen",
     "anker": "gegenstand-zauberstab-illusionen",
     "vorheriger_prompt": "Use case: stylized-concept. Asset type: single inventory illustration in a German fantasy adventurer's diary. Style: detailed fine ink with softly painted watercolor, traditional fantasy book item plate, tangible natural materials, restrained elegant palette. Composition: entire item centered, comfortably filling a square canvas, isolated on a genuinely transparent background, no rectangular background, no scene, no person, no labels, text, border or watermark. Original campaign interpretation, not a copy of any specific published art. Subject: A single slender magical wand of ILLUSIONS. Finely carved dark wooden wand with a subtle twist, a little iridescent glass set at the tip, faint small translucent prismatic wisps suggesting illusion magic. No hands, no oversized staff, no readable writing.",
-    "hinweis_arbeitsablage": "Weißes Holz gemäß Kapitel 24; Korrektur der ersten eigenen Illustration."
+    "hinweis_arbeitsablage": "Weißes Holz gemäß Kapitel 24; Korrektur der ersten eigenen Illustration.",
+    "farbklecks": "bilder/gegenstandsfarbe-mauve.png"
   },
   {
     "titel": "Schatzkompass",
@@ -519,7 +529,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-schatzkompass",
-    "anker": "gegenstand-schatzkompass"
+    "anker": "gegenstand-schatzkompass",
+    "farbklecks": "bilder/gegenstandsfarbe-ocker.png"
   },
   {
     "titel": "Ring von Onisha Standfuß",
@@ -537,7 +548,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-ring-onisha",
-    "anker": "gegenstand-ring-onisha"
+    "anker": "gegenstand-ring-onisha",
+    "farbklecks": "bilder/gegenstandsfarbe-rosenholz.png"
   },
   {
     "titel": "Tinktur des Wärmeempfindens",
@@ -555,7 +567,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-tinktur-waermeempfinden",
-    "anker": "gegenstand-tinktur-waermeempfinden"
+    "anker": "gegenstand-tinktur-waermeempfinden",
+    "farbklecks": "bilder/gegenstandsfarbe-terrakotta.png"
   },
   {
     "titel": "Ewiger Hain",
@@ -573,7 +586,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-ewiger-hain",
-    "anker": "gegenstand-ewiger-hain"
+    "anker": "gegenstand-ewiger-hain",
+    "farbklecks": "bilder/gegenstandsfarbe-salbei.png"
   },
   {
     "titel": "Ionenstein des Schutzes",
@@ -591,7 +605,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-ionenstein-schutz",
-    "anker": "gegenstand-ionenstein-schutz"
+    "anker": "gegenstand-ionenstein-schutz",
+    "farbklecks": "bilder/gegenstandsfarbe-rosenholz.png"
   },
   {
     "titel": "Horn der Fülle",
@@ -609,7 +624,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-horn-fuelle",
-    "anker": "gegenstand-horn-fuelle"
+    "anker": "gegenstand-horn-fuelle",
+    "farbklecks": "bilder/gegenstandsfarbe-ocker.png"
   },
   {
     "titel": "Erwiderung",
@@ -626,7 +642,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 235,
     "kapitel": "gegenstand-erwiderung",
-    "anker": "gegenstand-erwiderung"
+    "anker": "gegenstand-erwiderung",
+    "farbklecks": "bilder/gegenstandsfarbe-schiefer.png"
   },
   {
     "titel": "Diebeswerkzeug +1",
@@ -643,7 +660,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-diebeswerkzeug-plus1",
-    "anker": "gegenstand-diebeswerkzeug-plus1"
+    "anker": "gegenstand-diebeswerkzeug-plus1",
+    "farbklecks": "bilder/gegenstandsfarbe-schiefer.png"
   },
   {
     "titel": "Feurit-Rüstung der Taubheit",
@@ -666,7 +684,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 235,
     "kapitel": "gegenstand-feurit-ruestung",
-    "anker": "gegenstand-feurit-ruestung"
+    "anker": "gegenstand-feurit-ruestung",
+    "farbklecks": "bilder/gegenstandsfarbe-terrakotta.png"
   },
   {
     "titel": "Essenz des Zwielichts - Schlüssel des Großen Risses",
@@ -689,6 +708,7 @@
     "gegenstand": true,
     "pdf_maxhoehe": 235,
     "kapitel": "gegenstand-essenz-zwielichts",
-    "anker": "gegenstand-essenz-zwielichts"
+    "anker": "gegenstand-essenz-zwielichts",
+    "farbklecks": "bilder/gegenstandsfarbe-mauve.png"
   }
 ]

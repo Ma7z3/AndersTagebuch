@@ -230,6 +230,11 @@ class BookImage(Image):
     def draw(self):
         self.canv.saveState()
         if getattr(self,'blend_white',False):self.canv.setBlendMode('Multiply')
+        wash = getattr(self, 'farbklecks', None)
+        if wash:
+            side = min(self.drawWidth, self.drawHeight)
+            self.canv.drawImage(wash, (self.drawWidth-side)/2, (self.drawHeight-side)/2,
+                                width=side, height=side, mask='auto')
         viewport=getattr(self,'viewport',None)
         if viewport:
             left,top,right,bottom=viewport;scale=self.drawWidth/(right-left)
@@ -251,6 +256,8 @@ def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,vi
         ow,oh=source.size
         blend=blend or ('A' in source.getbands() and source.getchannel('A').getextrema()!=(255,255))
     im=BookImage(str(pdf_image(path)),mask='auto',lazy=0);im.blend_white=blend;im.source_image=token['href']
+    if config.get('farbklecks'):
+        im.farbklecks = str(ROOT/config['farbklecks'])
     if viewport:
         viewport=[viewport[0]*im.imageWidth/ow,viewport[1]*im.imageHeight/oh,viewport[2]*im.imageWidth/ow,viewport[3]*im.imageHeight/oh]
     maxw=420 if cover else min(width,210)

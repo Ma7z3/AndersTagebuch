@@ -199,6 +199,12 @@ def main():
             data['bilder'].append({'datei':opening['bild'],'titel':section['titel']+' – Kapitelgemälde','typ':'illustration','kapitel_auftakt':key,'kapitel':key,'pdf_seiten':[]})
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
+        if 'farbklecks' in item:
+            wash = item['farbklecks']
+            if item.get('herkunft') != 'ki-gegenstand' or not re.fullmatch(r'bilder/gegenstandsfarbe-[a-z]+\.png', wash):
+                raise ValueError('Ungültiger Farbklecks: '+item['datei'])
+            if not (ROOT/wash).is_file():
+                raise FileNotFoundError(wash)
     validate_chronicle(data)
     data['bestiarium_karten'] = bestiary_cards(sections)
     route_path=ROOT/'karten/reise.json'
