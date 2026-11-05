@@ -29,6 +29,9 @@ seinem Zahn herumspielte, und stand dann wieder auf.
 
 Nach diesem Auftritt meinerseits gingen wir zu Randall Morn, der uns
 zusammen mit Koril in die Waffenkammer führte.
+
+<a id="chronik-tau-kampfstab-erhalt"></a>
+
 Randall gab Talion eine wunderschöne Ritterrüstung, Flint bekam eine sehr
 robust wirkende beschlagene Lederrüstung und einen äußerst fein gearbeiteten
 Bogen und ich bekam einen neuen Kampfstab, der an den Enden mit Eisen

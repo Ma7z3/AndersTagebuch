@@ -5255,95 +5255,6 @@
   ],
   "gegenstaende": [
     {
-      "id": "marrakes-hammer",
-      "name": "Hammer von Marrake",
-      "bild": "bilder/gegenstand-marrakes-hammer.png",
-      "ab_kapitel": 17,
-      "anker": "gegenstand-marrakes-hammer",
-      "ereignisse": [
-        {
-          "kapitel": 17,
-          "text": "Schmetterschrei übergibt Balgrim den Hammer.",
-          "besitzer": "Balgrim"
-        },
-        {
-          "kapitel": 25,
-          "text": "Der Brief regelt die Übergabe; der Wirt überreicht Basari den Hammer.",
-          "besitzer": "Basari"
-        }
-      ],
-      "auftritte": [
-        {
-          "kapitel": 17,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 22,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 25,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 27,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 30,
-          "art": "Erwähnung im Text"
-        }
-      ]
-    },
-    {
-      "id": "riesentoeter",
-      "name": "Riesentöter",
-      "bild": "bilder/gegenstand-riesentoeter-v2.png",
-      "ab_kapitel": 29,
-      "anker": "gegenstand-riesentoeter",
-      "ereignisse": [
-        {
-          "kapitel": 29,
-          "text": "Galena überreicht Ser Ayne den Riesentöter.",
-          "besitzer": "Ser Ayne"
-        }
-      ],
-      "auftritte": [
-        {
-          "kapitel": 29,
-          "art": "Erwähnung im Text"
-        }
-      ]
-    },
-    {
-      "id": "drachentoeter",
-      "name": "Drachentöter",
-      "bild": "bilder/offiziell-drachentoeter.jpg",
-      "ab_kapitel": 29,
-      "anker": "gegenstand-drachentoeter",
-      "ereignisse": [
-        {
-          "kapitel": 29,
-          "text": "Ser Ayne erhält den Drachentöter.",
-          "besitzer": "Ser Ayne"
-        }
-      ],
-      "auftritte": [
-        {
-          "kapitel": 29,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 32,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 38,
-          "art": "Erwähnung im Text"
-        }
-      ]
-    },
-    {
       "id": "hutbert",
       "name": "Hutbert",
       "bild": "bilder/gegenstand-hutbert-v2.png",
@@ -5420,6 +5331,750 @@
       ]
     },
     {
+      "id": "schild-talions-mutter",
+      "name": "Schild der Mutter von Talion",
+      "bild": "bilder/gegenstand-schild-talions-mutter-v2.png",
+      "ab_kapitel": 10,
+      "anker": "gegenstand-schild-talions-mutter",
+      "ereignisse": [
+        {
+          "kapitel": 10,
+          "text": "Elminster verrät Talion, dass er den Namen seiner Mutter Marna aussprechen soll, wenn er in Bedrängnis gerät.",
+          "besitzer": "Talion"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "nihilithenzahn",
+      "name": "Zahn eines Nihilithen",
+      "bild": "bilder/gegenstand-nihilithenzahn.png",
+      "ab_kapitel": 10,
+      "anker": "gegenstand-nihilithenzahn",
+      "ereignisse": [
+        {
+          "kapitel": 10,
+          "text": "Elminster schenkt Flint den schwarzen Zahn und erklärt, wie er ihn aktiviert.",
+          "besitzer": "Flint"
+        },
+        {
+          "kapitel": 15,
+          "text": "Flint nimmt den magischen Zahn im Sumpf in den Mund."
+        },
+        {
+          "kapitel": 28,
+          "text": "Flint erhält seinen Zahn bei Oma Feen-Bann zurück.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "taus-kampfstab",
+      "name": "Bruder Taus Kampfstab +1",
+      "ab_kapitel": 11,
+      "ereignisse": [
+        {
+          "kapitel": 11,
+          "text": "Randall gibt Ander einen Kampfstab mit eisenbeschlagenen Enden. Der mit Runen verzierte Stab hat einen Bonus von +1 und dient Ander als Zauberfokus.",
+          "besitzer": "Ander",
+          "anker": "chronik-tau-kampfstab-erhalt"
+        },
+        {
+          "kapitel": 37,
+          "text": "Ander setzt seinen Stab gegen einen Kobold ein. Der Schlag prallt an dessen Plattenrüstung ab.",
+          "anker": "chronik-tau-kampfstab-kampf"
+        }
+      ],
+      "auftritte": [],
+      "bild": "bilder/gegenstand-taus-kampfstab.png",
+      "anker": "gegenstand-taus-kampfstab"
+    },
+    {
+      "id": "ehlonnas-koecher",
+      "name": "Ehlonnas Köcher",
+      "bild": "bilder/offiziell-ehlonnas-koecher.jpg",
+      "ab_kapitel": 11,
+      "anker": "gegenstand-ehlonnas-koecher",
+      "ereignisse": [
+        {
+          "kapitel": 11,
+          "text": "Pelgri identifiziert den Köcher aus Randalls Waffenkammer. Flint bekommt ihn.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "ionenstein-schutz",
+      "name": "Ionenstein des Schutzes",
+      "bild": "bilder/gegenstand-ionenstein-schutz.png",
+      "ab_kapitel": 11,
+      "anker": "gegenstand-ionenstein-schutz",
+      "ereignisse": [
+        {
+          "kapitel": 11,
+          "text": "Pelgri identifiziert den Ionenstein des Schutzes. Talion bekommt ihn.",
+          "besitzer": "Talion"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "perle-der-macht",
+      "name": "Perle der Macht",
+      "bild": "bilder/offiziell-perle-der-macht.png",
+      "ab_kapitel": 11,
+      "anker": "gegenstand-perle-der-macht",
+      "ereignisse": [
+        {
+          "kapitel": 11,
+          "text": "Die Perle gehört zu den Gegenständen, die Randall der Gruppe überlässt."
+        },
+        {
+          "kapitel": 24,
+          "text": "Ander nutzt die Perle in der Feuerzitadelle.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 28,
+          "text": "Ander übergibt die Perle an Flint, nachdem er sich auf die Armschienen eingestimmt hat.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "ring-des-springens",
+      "name": "Ring des Springens",
+      "bild": "bilder/offiziell-ring-des-springens.png",
+      "ab_kapitel": 11,
+      "anker": "gegenstand-ring-des-springens",
+      "ereignisse": [
+        {
+          "kapitel": 11,
+          "text": "Pelgri identifiziert den gläsernen Ring. Ander nimmt ihn an sich.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 15,
+          "text": "Ander leiht Flint den Ring, um die Felsspalte zu überwinden.",
+          "besitzer": "Flint"
+        },
+        {
+          "kapitel": 17,
+          "text": "Flint will den Ring zurückgeben. Ander überlässt ihn ihm dauerhaft.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "marrakes-hammer",
+      "name": "Hammer von Marrake",
+      "bild": "bilder/gegenstand-marrakes-hammer.png",
+      "ab_kapitel": 17,
+      "anker": "gegenstand-marrakes-hammer",
+      "ereignisse": [
+        {
+          "kapitel": 17,
+          "text": "Schmetterschrei übergibt Balgrim den Hammer.",
+          "besitzer": "Balgrim"
+        },
+        {
+          "kapitel": 25,
+          "text": "Der Brief regelt die Übergabe; der Wirt überreicht Basari den Hammer.",
+          "besitzer": "Basari"
+        },
+        {
+          "kapitel": 30,
+          "text": "Der Großsultan gibt Basari den Hammer von Marrake zurück.",
+          "besitzer": "Basari"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 22,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 27,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    },
+    {
+      "id": "horn-fuelle",
+      "name": "Horn der Fülle",
+      "bild": "bilder/gegenstand-horn-fuelle.png",
+      "ab_kapitel": 17,
+      "anker": "gegenstand-horn-fuelle",
+      "ereignisse": [
+        {
+          "kapitel": 17,
+          "text": "Schmetterschrei schenkt Flint das Horn der Fülle.",
+          "besitzer": "Flint"
+        },
+        {
+          "kapitel": 18,
+          "text": "Flint spricht die Worte „Es ist angerichtet!“ und ruft ein Frühstück für die Gruppe hervor."
+        },
+        {
+          "kapitel": 19,
+          "text": "Aus dem Horn erscheint ein Festmahl für die Gefährten."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "nimmervoller-beutel",
+      "name": "Nimmervoller Beutel",
+      "bild": "bilder/offiziell-nimmervoller-beutel.jpg",
+      "ab_kapitel": 17,
+      "anker": "gegenstand-nimmervoller-beutel",
+      "ereignisse": [
+        {
+          "kapitel": 17,
+          "text": "Schmetterschrei schenkt Ander den Beutel.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 27,
+          "text": "Basari nimmt Imogens Umhängetasche mit. Ander erkennt darin einen zweiten Nimmervollen Beutel."
+        },
+        {
+          "kapitel": 33,
+          "text": "Die Gruppe verstaut ihr Gepäck in beiden Beuteln."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "unbewegliches-zepter",
+      "name": "Unbewegliches Zepter",
+      "bild": "bilder/offiziell-unbewegliches-zepter.jpg",
+      "ab_kapitel": 17,
+      "anker": "gegenstand-unbewegliches-zepter",
+      "ereignisse": [
+        {
+          "kapitel": 17,
+          "text": "Schmetterschrei schenkt Pelgri den Unbeweglichen Stecken.",
+          "besitzer": "Pelgri"
+        },
+        {
+          "kapitel": 20,
+          "text": "Pelgri hält sich beim Sog der Flasche am Stecken fest."
+        },
+        {
+          "kapitel": 27,
+          "text": "Flint sperrt mit dem Zepter einen Golem in einer Nische ein.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "zauberstab-magische-geschosse",
+      "name": "Zauberstab der Magischen Geschosse",
+      "bild": "bilder/offiziell-zauberstab-magische-geschosse.jpg",
+      "ab_kapitel": 18,
+      "anker": "gegenstand-zauberstab-magische-geschosse",
+      "ereignisse": [
+        {
+          "kapitel": 18,
+          "text": "Ander bietet Pelgri an, ihm seinen Zauberstab für die Dauer ihres gemeinsamen Abenteuers zu überlassen.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 36,
+          "text": "Ander feuert neun magische Geschosse aus dem Zauberstab ab.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "arm-der-ehre",
+      "name": "Arm der Ehre",
+      "bild": "bilder/gegenstand-arm-der-ehre.png",
+      "ab_kapitel": 19,
+      "anker": "gegenstand-arm-der-ehre",
+      "ereignisse": [
+        {
+          "kapitel": 19,
+          "text": "Talion erzählt, dass Schmetterschrei ihm die Schulterplatten überlassen hat. Sie gehören zur Rüstung eines früheren Oberhaupts von Myth Drannor.",
+          "besitzer": "Talion"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "rabenbrosche",
+      "name": "Rabenbrosche",
+      "bild": "bilder/gegenstand-rabenbrosche.png",
+      "ab_kapitel": 19,
+      "anker": "gegenstand-rabenbrosche",
+      "ereignisse": [
+        {
+          "kapitel": 19,
+          "text": "Ander spricht Talion unter vier Augen auf seine Rabenbrosche an.",
+          "besitzer": "Talion"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "armschienen-der-verteidigung",
+      "name": "Armschienen der Verteidigung",
+      "bild": "bilder/offiziell-armschienen-der-verteidigung.jpg",
+      "ab_kapitel": 22,
+      "anker": "gegenstand-armschienen-der-verteidigung",
+      "ereignisse": [
+        {
+          "kapitel": 22,
+          "text": "Die Gruppe erbeutet beim Schatten ein Paar geschwärzter Armreife."
+        },
+        {
+          "kapitel": 23,
+          "text": "Ander nimmt die identifizierten Armschienen an sich und gibt sie anschließend Balgrim.",
+          "besitzer": "Balgrim"
+        },
+        {
+          "kapitel": 28,
+          "text": "Ander stimmt sich auf die Armschienen ein.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": [],
+      "namen": [
+        {
+          "kapitel": 22,
+          "name": "Die geschwärzten Armreife"
+        },
+        {
+          "kapitel": 23,
+          "name": "Armschienen der Verteidigung"
+        }
+      ]
+    },
+    {
+      "id": "ewiger-hain",
+      "name": "Ewiger Hain",
+      "bild": "bilder/gegenstand-ewiger-hain.png",
+      "ab_kapitel": 22,
+      "anker": "gegenstand-ewiger-hain",
+      "ereignisse": [
+        {
+          "kapitel": 22,
+          "text": "Flint erhält von A’kin einen grünen Ast zur Leihe.",
+          "besitzer": "Flint"
+        },
+        {
+          "kapitel": 28,
+          "text": "Oma Feen-Bann erklärt Flint, wie er den Ast pflegen soll."
+        },
+        {
+          "kapitel": 31,
+          "text": "Flint gießt den Ast mit Wasser und Asche aus der purpurnen Sphäre."
+        },
+        {
+          "kapitel": 33,
+          "text": "Alustriel hilft Flint bei der Verbindung mit dem Ast. Die Äste umschlingen seine Arme und Schultern."
+        },
+        {
+          "kapitel": 37,
+          "text": "Flint verwandelt seinen Bogen in einen Kampfstab."
+        }
+      ],
+      "auftritte": [],
+      "namen": [
+        {
+          "kapitel": 22,
+          "name": "Flints Ast"
+        },
+        {
+          "kapitel": 33,
+          "name": "Ewiger Hain"
+        }
+      ]
+    },
+    {
+      "id": "umhang-der-verlagerung",
+      "name": "Umhang der Verlagerung",
+      "bild": "bilder/offiziell-umhang-der-verlagerung.jpg",
+      "ab_kapitel": 22,
+      "anker": "gegenstand-umhang-der-verlagerung",
+      "ereignisse": [
+        {
+          "kapitel": 22,
+          "text": "Die Gruppe nimmt dem Schatten einen fein gearbeiteten Umhang ab."
+        },
+        {
+          "kapitel": 23,
+          "text": "Pelgri identifiziert den Umhang der Verlagerung. Der Umhang geht an Flint.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": [],
+      "namen": [
+        {
+          "kapitel": 22,
+          "name": "Der fein gearbeitete Umhang"
+        },
+        {
+          "kapitel": 23,
+          "name": "Umhang der Verlagerung"
+        }
+      ]
+    },
+    {
+      "id": "wurfpfeil-wiederkehr",
+      "name": "Wurfpfeil der Wiederkehr",
+      "bild": "bilder/gegenstand-wurfpfeil-wiederkehr.png",
+      "ab_kapitel": 22,
+      "anker": "gegenstand-wurfpfeil-wiederkehr",
+      "ereignisse": [
+        {
+          "kapitel": 22,
+          "text": "Die Gruppe findet kleine Wurfpfeile beim Schatten."
+        },
+        {
+          "kapitel": 23,
+          "text": "Die Gruppe erkennt die Magie der Pfeile. Pelgri und Ander behalten je einen.",
+          "besitzer": "Pelgri und Ander"
+        }
+      ],
+      "auftritte": [],
+      "namen": [
+        {
+          "kapitel": 22,
+          "name": "Die kleinen Wurfpfeile"
+        },
+        {
+          "kapitel": 23,
+          "name": "Wurfpfeil der Wiederkehr"
+        }
+      ]
+    },
+    {
+      "id": "zauberstab-der-angst",
+      "name": "Zauberstab der Angst",
+      "bild": "bilder/offiziell-zauberstab-der-angst.jpg",
+      "ab_kapitel": 22,
+      "anker": "gegenstand-zauberstab-der-angst",
+      "ereignisse": [
+        {
+          "kapitel": 22,
+          "text": "Die Gruppe findet beim Schatten einen kleinen Stab mit Federn und einem Totenkopf."
+        },
+        {
+          "kapitel": 23,
+          "text": "Die Gruppe identifiziert den Stab. Pelgri reicht ihn an Flint weiter.",
+          "besitzer": "Flint"
+        }
+      ],
+      "auftritte": [],
+      "namen": [
+        {
+          "kapitel": 22,
+          "name": "Der Stab mit dem Totenkopf"
+        },
+        {
+          "kapitel": 23,
+          "name": "Zauberstab der Angst"
+        }
+      ]
+    },
+    {
+      "id": "zauberstab-illusionen",
+      "name": "Zauberstab der Illusionen",
+      "bild": "bilder/gegenstand-zauberstab-illusionen-v2.png",
+      "ab_kapitel": 24,
+      "anker": "gegenstand-zauberstab-illusionen",
+      "ereignisse": [
+        {
+          "kapitel": 24,
+          "text": "Ander findet einen weißen Stab in der Feuerzitadelle. Pelgri identifiziert ihn, und Ander verbirgt die Gruppe mit einer Illusion.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "ring-onisha",
+      "name": "Ring von Onisha Standfuß",
+      "bild": "bilder/gegenstand-ring-onisha.png",
+      "ab_kapitel": 28,
+      "anker": "gegenstand-ring-onisha",
+      "ereignisse": [
+        {
+          "kapitel": 28,
+          "text": "Oma Feen-Bann gibt Ser Ayne den Ring. Als er „Orange“ sagt, erhellt ein Strahl die Hütte.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "schatzkompass",
+      "name": "Schatzkompass",
+      "bild": "bilder/gegenstand-schatzkompass.png",
+      "ab_kapitel": 28,
+      "anker": "gegenstand-schatzkompass",
+      "ereignisse": [
+        {
+          "kapitel": 28,
+          "text": "Oma Feen-Bann schenkt Ander einen silbernen Kompass ohne eingezeichnete Himmelsrichtungen.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "tinktur-waermeempfinden",
+      "name": "Tinktur des Wärmeempfindens",
+      "bild": "bilder/gegenstand-tinktur-waermeempfinden.png",
+      "ab_kapitel": 28,
+      "anker": "gegenstand-tinktur-waermeempfinden",
+      "ereignisse": [
+        {
+          "kapitel": 28,
+          "text": "Oma Feen-Bann schenkt Flint eine pyramidenförmige Flasche mit grünblauer Tinktur.",
+          "besitzer": "Flint"
+        },
+        {
+          "kapitel": 30,
+          "text": "Die Gruppe trägt die Tinktur vor dem Übergang nach Messingstadt auf."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "canaith-mandoline",
+      "name": "Canaith-Mandoline",
+      "bild": "bilder/offiziell-canaith-mandoline.jpg",
+      "ab_kapitel": 29,
+      "anker": "gegenstand-canaith-mandoline",
+      "ereignisse": [
+        {
+          "kapitel": 29,
+          "text": "Galena überreicht Ander eine der berühmten Canaith-Mandolinen.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 42,
+          "text": "Ander spielt auf der Mandoline, damit Ser Ayne zu Erwiderung hinunterfliegen kann."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "drachentoeter",
+      "name": "Drachentöter",
+      "bild": "bilder/offiziell-drachentoeter.jpg",
+      "ab_kapitel": 29,
+      "anker": "gegenstand-drachentoeter",
+      "ereignisse": [
+        {
+          "kapitel": 29,
+          "text": "Ser Ayne erhält den Drachentöter.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": [
+        {
+          "kapitel": 32,
+          "art": "Erwähnung im Text"
+        },
+        {
+          "kapitel": 38,
+          "art": "Erwähnung im Text"
+        }
+      ]
+    },
+    {
+      "id": "flints-rapier",
+      "name": "Flints verzaubertes Rapier",
+      "ab_kapitel": 29,
+      "ereignisse": [
+        {
+          "kapitel": 29,
+          "text": "Galena überreicht Flint ein reich verziertes Rapier und bezeichnet es als verzaubert.",
+          "besitzer": "Flint",
+          "anker": "chronik-flint-rapier-galena"
+        }
+      ],
+      "auftritte": [],
+      "bild": "bilder/gegenstand-flints-rapier.png",
+      "anker": "gegenstand-flints-rapier"
+    },
+    {
+      "id": "riesentoeter",
+      "name": "Riesentöter",
+      "bild": "bilder/gegenstand-riesentoeter-v2.png",
+      "ab_kapitel": 29,
+      "anker": "gegenstand-riesentoeter",
+      "ereignisse": [
+        {
+          "kapitel": 29,
+          "text": "Galena überreicht Ser Ayne den Riesentöter.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "diebeswerkzeug-plus1",
+      "name": "Diebeswerkzeug +1",
+      "bild": "bilder/gegenstand-diebeswerkzeug-plus1.png",
+      "ab_kapitel": 30,
+      "anker": "gegenstand-diebeswerkzeug-plus1",
+      "ereignisse": [
+        {
+          "kapitel": 30,
+          "text": "Ein Händler in Messingstadt schenkt Ander das Werkzeug, nachdem er von seiner Verbindung zum Sultan erfahren hat.",
+          "besitzer": "Ander"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "feurit-ruestung",
+      "name": "Feurit-Rüstung der Taubheit",
+      "bild": "bilder/gegenstand-feurit-ruestung-v2.png",
+      "ab_kapitel": 30,
+      "anker": "gegenstand-feurit-ruestung",
+      "ereignisse": [
+        {
+          "kapitel": 30,
+          "text": "Der Großsultan übergibt Ser Ayne die Rüstung aus Feurit. Sie schützt vor Feuer. Bei geschlossenem Visier ist Ser Ayne laut Sultan immun gegen Schallschaden.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "handbuch-koerperliche-ertuechtigung",
+      "name": "Handbuch der körperlichen Ertüchtigung",
+      "bild": "bilder/offiziell-handbuch-koerperliche-ertuechtigung.png",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-handbuch-koerperliche-ertuechtigung",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "A’kin legt das Handbuch zusammen mit fünf weiteren Büchern für die Gruppe bereit.",
+          "besitzer": "Abenteuerrunde"
+        },
+        {
+          "kapitel": 33,
+          "text": "Ser Ayne beginnt mit diesem Handbuch, als die Gefährten in Silbrigmond ihre Bücher lesen."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "handbuch-koerperliche-gesundheit",
+      "name": "Handbuch der körperlichen Gesundheit",
+      "bild": "bilder/offiziell-handbuch-koerperliche-gesundheit.jpg",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-handbuch-koerperliche-gesundheit",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "A’kin legt das Handbuch zusammen mit fünf weiteren Büchern für die Gruppe bereit.",
+          "besitzer": "Abenteuerrunde"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "handbuch-schnelles-handeln",
+      "name": "Handbuch des schnellen Handelns",
+      "bild": "bilder/offiziell-handbuch-schnelles-handeln.jpg",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-handbuch-schnelles-handeln",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "Flint wählt das Handbuch aus den sechs Büchern von A’kin aus.",
+          "besitzer": "Flint"
+        },
+        {
+          "kapitel": 33,
+          "text": "Flint liest das Handbuch in Silbrigmond."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "leitfaden-fuehrungskraft",
+      "name": "Leitfaden der Führungskraft und der Einflussnahme",
+      "bild": "bilder/offiziell-leitfaden-fuehrungskraft.jpg",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-leitfaden-fuehrungskraft",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "Ander wählt den Leitfaden aus den sechs Büchern von A’kin aus.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 33,
+          "text": "Ander liest den Leitfaden in Silbrigmond."
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "leitfaden-klares-denken",
+      "name": "Leitfaden des klaren Denkens",
+      "bild": "bilder/offiziell-leitfaden-klares-denken.jpg",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-leitfaden-klares-denken",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "A’kin legt den Leitfaden zusammen mit fünf weiteren Büchern für die Gruppe bereit.",
+          "besitzer": "Abenteuerrunde"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "leitfaden-verstaendnis",
+      "name": "Leitfaden des Verständnisses",
+      "bild": "bilder/offiziell-leitfaden-verstaendnis.jpg",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-leitfaden-verstaendnis",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "Ser Ayne wählt den Leitfaden aus den sechs Büchern von A’kin aus.",
+          "besitzer": "Ser Ayne"
+        }
+      ],
+      "auftritte": []
+    },
+    {
+      "id": "schnitzis-schnitzmesser",
+      "name": "Schnitzmesser von Schnitzi dem Zwerg",
+      "bild": "bilder/gegenstand-schnitzis-schnitzmesser.png",
+      "ab_kapitel": 31,
+      "anker": "gegenstand-schnitzis-schnitzmesser",
+      "ereignisse": [
+        {
+          "kapitel": 31,
+          "text": "A’kin überlässt Ser Ayne das Schnitzmesser von Schnitzi.",
+          "besitzer": "Ser Ayne"
+        },
+        {
+          "kapitel": 33,
+          "text": "Ser Ayne zeigt Alustriel das Messer. Sie hält es für ungefährlich."
+        }
+      ],
+      "auftritte": []
+    },
+    {
       "id": "erwiderung",
       "name": "Erwiderung",
       "bild": "bilder/gegenstand-erwiderung-v2.png",
@@ -5428,8 +6083,7 @@
       "ereignisse": [
         {
           "kapitel": 40,
-          "text": "Ander begegnet dem bewussten Rapier auf dem Markt.",
-          "besitzer": "Ander"
+          "text": "Isballa stellt Ander das bewusste Rapier vor. Für die Zeit auf dem Markt darf er es mitnehmen."
         },
         {
           "kapitel": 42,
@@ -5438,14 +6092,6 @@
         }
       ],
       "auftritte": [
-        {
-          "kapitel": 40,
-          "art": "Erwähnung im Text"
-        },
-        {
-          "kapitel": 42,
-          "art": "Erwähnung im Text"
-        },
         {
           "kapitel": 43,
           "art": "Erwähnung im Text"
@@ -5459,6 +6105,25 @@
           "art": "Erwähnung im Text"
         }
       ]
+    },
+    {
+      "id": "essenz-zwielichts",
+      "name": "Essenz des Zwielichts - Schlüssel des Großen Risses",
+      "bild": "bilder/gegenstand-essenz-zwielichts-v2.png",
+      "ab_kapitel": 45,
+      "anker": "gegenstand-essenz-zwielichts",
+      "ereignisse": [
+        {
+          "kapitel": 45,
+          "text": "Ander erfährt, dass die Essenz des Zwielichts der Schlüssel des Großen Risses ist. Selmuria vertraut sie ihm an.",
+          "besitzer": "Ander"
+        },
+        {
+          "kapitel": 46,
+          "text": "Die Gruppe setzt die Essenz beim Übergang durch das Portal ein."
+        }
+      ],
+      "auftritte": []
     }
   ],
   "gemalde": {

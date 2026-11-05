@@ -23,6 +23,8 @@ Danach verkündete Galena uns noch, dass sie noch etwas viel Wertvolleres für
 jeden von uns hätte. Sie hätte es geschafft, dass "die Oberen" etwas zur
 Belohnung beisteuern würden.
 
+<a id="chronik-flint-rapier-galena"></a>
+
 Für Flint holte sie ein sehr verziertes und nach ihrer Aussage verzaubertes
 Rapier hervor.
 Für Ser Ayne hatte sie gleich zwei Schwerter: Auf dem einen war ein stilisierter

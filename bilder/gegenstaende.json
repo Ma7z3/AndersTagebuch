@@ -206,7 +206,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-handbuch-koerperliche-ertuechtigung",
-    "anker": "gegenstand-handbuch-koerperliche-ertuechtigung"
+    "anker": "gegenstand-handbuch-koerperliche-ertuechtigung",
+    "farbklecks": "bilder/gegenstandsfarbe-schieferfaecher.png"
   },
   {
     "name": "Manual of Bodily Health",
@@ -263,7 +264,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-ring-des-springens",
-    "anker": "gegenstand-ring-des-springens"
+    "anker": "gegenstand-ring-des-springens",
+    "farbklecks": "bilder/gegenstandsfarbe-salbeispuren.png"
   },
   {
     "name": "Pearl of Power",
@@ -282,7 +284,8 @@
     "gegenstand": true,
     "pdf_maxhoehe": 150,
     "kapitel": "gegenstand-perle-der-macht",
-    "anker": "gegenstand-perle-der-macht"
+    "anker": "gegenstand-perle-der-macht",
+    "farbklecks": "bilder/gegenstandsfarbe-salbei.png"
   },
   {
     "name": "Quiver of Ehlonna",
@@ -511,7 +514,7 @@
     "anker": "gegenstand-zauberstab-illusionen",
     "vorheriger_prompt": "Use case: stylized-concept. Asset type: single inventory illustration in a German fantasy adventurer's diary. Style: detailed fine ink with softly painted watercolor, traditional fantasy book item plate, tangible natural materials, restrained elegant palette. Composition: entire item centered, comfortably filling a square canvas, isolated on a genuinely transparent background, no rectangular background, no scene, no person, no labels, text, border or watermark. Original campaign interpretation, not a copy of any specific published art. Subject: A single slender magical wand of ILLUSIONS. Finely carved dark wooden wand with a subtle twist, a little iridescent glass set at the tip, faint small translucent prismatic wisps suggesting illusion magic. No hands, no oversized staff, no readable writing.",
     "hinweis_arbeitsablage": "Weißes Holz gemäß Kapitel 24; Korrektur der ersten eigenen Illustration.",
-    "farbklecks": "bilder/gegenstandsfarbe-mauvespuren.png"
+    "farbklecks": "bilder/gegenstandsfarbe-schiefersplitter.png"
   },
   {
     "titel": "Schatzkompass",
@@ -710,5 +713,54 @@
     "kapitel": "gegenstand-essenz-zwielichts",
     "anker": "gegenstand-essenz-zwielichts",
     "farbklecks": "bilder/gegenstandsfarbe-rosenwelle.png"
+  },
+  {
+    "titel": "Bruder Taus Kampfstab +1",
+    "datei": "bilder/gegenstand-taus-kampfstab.png",
+    "herkunft": "ki-gegenstand",
+    "nachweis": "Eigenständige Gegenstandszeichnung nach dem Kapitelgemälde und dem Tagebuchtext",
+    "werkzeug": "Integrierte Bildgenerierung",
+    "prompt": "Use case: stylized-concept. Create one isolated, full-length painted item illustration for the Anders Holimion fantasy diary inventory, Bruder Tau's runic +1 quarterstaff. Images 1 and 2 are DESIGN REFERENCES: reproduce only the long, straight, slender dark reddish-brown hardwood staff held by the ginger-haired half-elf in a violet cap and red scarf. Image 1 shows the profile, metal end cap and silvery repeating carvings well. Image 2 shows the carved warm wood and grip. Image 3 is only the rendering style of the inventory, exclude its knife. Reconstruct one continuous, believable wooden shaft, human-height proportions, nearly cylindrical from end to end. Worn, muted iron caps at both ends with low-profile collars and small reinforcing ferrules, a central dark leather grip where the hand would go and fine restrained geometric runes engraved along the wood, like the references. Keep the ends blunt and compact; the staff is a melee weapon and a spellcasting focus. Show the whole staff across a square canvas on a gentle lower-left to upper-right diagonal so the long shaft can fill the frame. Quiet neutral lighting, rich wood grain and hand-painted fantasy sourcebook detail. Provide a genuine transparent alpha channel around the object, full uncropped silhouette and a little clear margin. No scenery, person, hand, hilt, spear point, gem, text label, watermark, glow, background or shadow.",
+    "referenzen": [
+      "bilder/kapitel-37-auftakt-v8.png",
+      "bilder/kapitel-22-auftakt-v5.png",
+      "bilder/gegenstand-schnitzis-schnitzmesser.png"
+    ],
+    "breite": 1254,
+    "hoehe": 1254,
+    "modus": "RGBA",
+    "transparenz": true,
+    "sha256": "0d37f6112f2a044531903e89a2bec273d05212df5bad41865737010cc86ab9de",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "gegenstand": true,
+    "pdf_maxhoehe": 185,
+    "kapitel": "gegenstand-taus-kampfstab",
+    "anker": "gegenstand-taus-kampfstab",
+    "farbklecks": "bilder/gegenstandsfarbe-salbeistrom.png"
+  },
+  {
+    "titel": "Flints verzaubertes Rapier",
+    "datei": "bilder/gegenstand-flints-rapier.png",
+    "herkunft": "ki-gegenstand",
+    "nachweis": "Eigenständige Gegenstandszeichnung nach dem Kapitelgemälde und dem Tagebuchtext",
+    "werkzeug": "Integrierte Bildgenerierung",
+    "prompt": "Use case: stylized-concept. Create one isolated, full-length hand-painted magic item illustration for the Anders Holimion fantasy diary inventory, Flint's enchanted rapier. Image 1 is the DESIGN REFERENCE: copy the rapier held by the green-cloaked dark-haired archer at the far left. It points down to the right. The visible hilt has a small fluted antique-gold pommel, a textured dark grip, ornate open looping antique-gold swept guard bars with organic curves, and a very slender straight bright steel blade. Keep the open airy cage proportions, fine gold bars, and small circular curve at the hilt base from his weapon, with metal joining to metal plausibly. Extend the hidden portion of the blade along the existing straight axis to one clean point, realistic rapier proportions with about four-fifths of the length in the blade. No blue stone or other gem; this is Flint's rapier, distinct from Erwiderung and both larger swords held by the armored knight on the right. Image 2 is a STYLE REFERENCE ONLY for detailed painterly metal, not for weapon shape. Show the complete rapier on a diagonal from gold hilt upper left to blade tip lower right across a square canvas, with comfortable margins. Refined, gently worn metal, neutral lighting. Genuine transparent alpha behind the object and through all guard openings. No hands, people, other weapons, sheath, scenery, cast shadow, magic glow, labels or watermark.",
+    "referenzen": [
+      "bilder/kapitel-29-auftakt-v7.png",
+      "bilder/gegenstand-schnitzis-schnitzmesser.png"
+    ],
+    "breite": 1254,
+    "hoehe": 1254,
+    "modus": "RGBA",
+    "transparenz": true,
+    "sha256": "1c32b2520ef0982dcc23db3c9ef9c2c3cd94e67e74729196f47e418df6d5e614",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "gegenstand": true,
+    "pdf_maxhoehe": 185,
+    "kapitel": "gegenstand-flints-rapier",
+    "anker": "gegenstand-flints-rapier",
+    "farbklecks": "bilder/gegenstandsfarbe-sandlauf.png"
   }
 ]

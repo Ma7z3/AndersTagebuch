@@ -106,17 +106,23 @@ class ChapterPainting(Flowable):
         c.setStrokeColor(GOLD)
         c.setLineWidth(.65)
         c.line(W / 2 - 48, top - 102 - height, W / 2 + 48, top - 102 - height)
-        c.setFillColor(colors.Color(.025, .045, .065, alpha=.65))
-        c.rect(0, 0, W, 29, fill=1, stroke=0)
-        c.setFillColor(colors.HexColor('#eddbb6'))
-        c.setFont('Scaly', 8)
-        c.drawString(61, 11, 'Das Tagebuch des Ander Holimion')
-        c.setFont('Scaly', 9)
-        c.drawCentredString(W - 24, 20, str(doc.page - 2))
+        c.setFont('Ornate', 8.2)
+        label = 'Das Tagebuch des Ander Holimion'
+        c.setFillColor(colors.Color(.08, .13, .11, alpha=.7))
+        c.roundRect(25, 10.5, c.stringWidth(label, 'Ornate', 8.2) + 18, 17.5, 8.75, fill=1, stroke=0)
+        c.setFillColor(colors.HexColor('#f3e0b4'))
+        c.drawString(34, 16, label)
+        c.setStrokeColor(GOLD)
+        c.setLineWidth(.65)
+        c.setFillColor(colors.Color(.08, .09, .08, alpha=.8))
+        c.circle(W - 25, 22, 15.5, fill=1, stroke=1)
+        c.setFillColor(colors.HexColor('#f3e0b4'))
+        c.setFont('Ornate-Bold', 10)
+        c.drawCentredString(W - 25, 18.6, str(doc.page - 2))
         c.restoreState()
         doc.footer_positions.append({'pdf_seite': doc.page, 'buchseite': doc.page - 2,
-            'seite': 'rechts', 'zahl_x': W - 24, 'zahl_basis_y': 20,
-            'buchtitel_basis_y': 11, 'verzierung_gespiegelt': False})
+            'seite': 'rechts', 'zahl_x': W - 25, 'zahl_basis_y': 18.6,
+            'buchtitel_basis_y': 16, 'verzierung_gespiegelt': False})
         doc.opening_spreads.append({**pair, 'bild': self.opening['bild'],
                                     'bild_pdf_seite': doc.page, 'bild_buchseite': doc.page - 2})
         doc.illustration_blocks.append({'abschnitt': self.section['id'], 'art': 'Kapitelgemälde',

@@ -68,6 +68,8 @@ welcher mit glühender Rüstung zu Boden ging.
 Nachdem Flint den zweiten Kobold erledigt hatte, beleidigte uns einer der
 Kobolde auf Drakonisch, woraufhin Ser Ayne ihn köpfte.
 
+<a id="chronik-tau-kampfstab-kampf"></a>
+
 Den letzten der vier Kobolde wollte ich zum Reden am Leben lassen, weshalb ich
 mit meinem Kampfstab auf ihn losging. Leider prallte dieser an seiner
 Plattenrüstung ab.

@@ -112,22 +112,54 @@ def pdf_image(path):
     if path in IMAGE_CACHE:return IMAGE_CACHE[path]
     with PillowImage.open(path) as im:
         # Only the PDF receives a compact copy; the source paintings stay intact.
-        # White cutout backgrounds are blended into the paper by image_flow.
         limit=int(os.environ.get('TAGEBUCH_PDF_BILDKANTE','900'))
         quality=int(os.environ.get('TAGEBUCH_PDF_JPEG_QUALITAET','58'))
-        if FIGURE_CONFIG.get(str(path.relative_to(ROOT)),{}).get('gegenstand'):limit=600
+        item=FIGURE_CONFIG.get(str(path.relative_to(ROOT)),{}).get('gegenstand')
+        alpha=item and im.convert('RGBA').getchannel('A').getextrema()[0]<255
+        if item:limit=420 if alpha else 600
         digest=hashlib.sha256(path.read_bytes()).hexdigest()[:20]
         directory=ROOT/'export/.bildcache';directory.mkdir(parents=True,exist_ok=True)
-        output=directory/(f'{digest}-{limit}-q{quality}-weiss.jpg')
+        output=directory/(f'{digest}-{limit}-alpha.png' if alpha else f'{digest}-{limit}-q{quality}-weiss.jpg')
         if not output.exists():
             image=im.convert('RGBA');image.thumbnail((limit,limit),PillowImage.Resampling.LANCZOS)
-            white=PillowImage.new('RGB',image.size,'white');white.paste(image,mask=image.getchannel('A'))
-            white.save(output,'JPEG',quality=quality,optimize=True)
+            if alpha:
+                image.save(output,'PNG',optimize=True)
+            else:
+                white=PillowImage.new('RGB',image.size,'white');white.paste(image,mask=image.getchannel('A'))
+                white.save(output,'JPEG',quality=quality,optimize=True)
     IMAGE_CACHE[path]=output
     return output
 
 def book_page(physical):
     return max(0, physical-2)
+
+def draw_footer_rule(c, mirrored):
+    c.saveState()
+    if mirrored:
+        c.translate(W, 0)
+        c.scale(-1, 1)
+    c.setStrokeColor(colors.HexColor('#bfa462'))
+    c.setLineCap(1)
+    c.setLineWidth(.8)
+    upper = c.beginPath()
+    upper.moveTo(0, 44)
+    upper.curveTo(12, 34, 34, 30, 53, 30)
+    upper.lineTo(W - 51, 30)
+    upper.curveTo(W - 42, 30, W - 34, 14, W - 23, 14)
+    upper.curveTo(W - 14, 14, W - 5, 19, W, 24)
+    c.drawPath(upper)
+    c.setLineWidth(.45)
+    lower = c.beginPath()
+    lower.moveTo(0, 44)
+    lower.curveTo(6, 40, 14, 30, 17, 20)
+    lower.curveTo(29, 27, 40, 27, 53, 27)
+    lower.lineTo(W - 51, 27)
+    lower.curveTo(W - 44, 27, W - 33, 12, W - 23, 12)
+    lower.curveTo(W - 14, 12, W - 5, 16, W, 21)
+    lower.moveTo(W - 48, 29)
+    lower.curveTo(W - 42, 29, W - 31, 11, W - 16, 1)
+    c.drawPath(lower)
+    c.restoreState()
 
 class Mark(Flowable):
     _ZEROSIZE=True
@@ -162,14 +194,11 @@ class BookDoc(BaseDocTemplate):
             c.setLineWidth(.25);c.rect(35,35,W-70,H-70,stroke=1,fill=0)
         if doc.page>2:
             number=book_page(doc.page);left=number%2==0
-            c.saveState()
-            if left:c.translate(W,0);c.scale(-1,1)
-            c.drawImage(str(pdf_image(ROOT/'bilder/pdf-s002-770.png')),0,0,width=W,height=46,mask='auto')
-            c.restoreState()
-            c.setFillColor(colors.HexColor('#8a7039'));c.setFont('Scaly',8)
+            draw_footer_rule(c, left)
+            c.setFillColor(colors.HexColor('#745b29'));c.setFont('Ornate',7.3)
             if left:c.drawRightString(W-61,11,'Das Tagebuch des Ander Holimion')
             else:c.drawString(61,11,'Das Tagebuch des Ander Holimion')
-            c.setFont('Scaly',9)
+            c.setFont('Ornate-Bold',11)
             x=24 if left else W-24
             c.drawCentredString(x,20,str(number))
             self.footer_positions.append({'pdf_seite':doc.page,'buchseite':number,'seite':'links' if left else 'rechts','zahl_x':x,'zahl_basis_y':20,'buchtitel_basis_y':11,'verzierung_gespiegelt':left})
@@ -255,7 +284,8 @@ def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,vi
     with PillowImage.open(path) as source:
         ow,oh=source.size
         blend=blend or ('A' in source.getbands() and source.getchannel('A').getextrema()!=(255,255))
-    im=BookImage(str(pdf_image(path)),mask='auto',lazy=0);im.blend_white=blend;im.source_image=token['href']
+    compact=pdf_image(path)
+    im=BookImage(str(compact),mask='auto',lazy=0);im.blend_white=blend and compact.suffix=='.jpg';im.source_image=token['href']
     if config.get('farbklecks'):
         im.farbklecks = str(ROOT/config['farbklecks'])
     if viewport:

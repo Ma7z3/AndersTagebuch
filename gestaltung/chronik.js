@@ -9,7 +9,7 @@ window.TagebuchChronik=(()=>{
   const ch=n=>'kapitel-'+String(n).padStart(2,'0');
   const name=e=>(e.namen||[]).filter(n=>n.kapitel<=limit).at(-1)?.name||e.name;
   const known=e=>e.ab_kapitel<=limit;
-  const link=(n,label)=>`<a href="#${ch(n)}">${esc(label||'Kapitel '+n)}</a>`;
+  const itemSource=({kapitel,anker})=>`<a href="#${esc(anker||ch(kapitel))}">${chapterLabel(kapitel)}</a>`;
   const firstChapter=e=>e.ab_kapitel===0||!e.auftritte.length?e.ab_kapitel:Math.min(...e.auftritte.map(a=>a.kapitel));
   const chapterLabel=n=>n===0?'Prolog':'Kapitel '+n;
   function figureSources(e){
@@ -54,7 +54,17 @@ window.TagebuchChronik=(()=>{
   function openItem(id){
     const e=data().gegenstaende.find(e=>e.id===id);if(!e||!known(e))return;
     const d=modal(),body=d.querySelector('.chronik-dialog-body'),events=e.ereignisse.filter(a=>a.kapitel<=limit),owner=events.filter(e=>e.besitzer).at(-1)?.besitzer;
-    body.innerHTML=`<p class="eyebrow">Gegenstandschronik · bis Kapitel ${limit}</p><h2>${esc(e.name)}</h2><img class="chronik-item-art" src="${esc(e.bild)}" alt="${esc(e.name)}">${owner?`<p>Zuletzt belegter Besitzer: <strong>${esc(owner)}</strong></p>`:''}<ol class="chronik-timeline">${events.map(ev=>`<li>${link(ev.kapitel)}<p>${esc(ev.text)}</p></li>`).join('')}</ol><h3>Weitere Erwähnungen</h3><p class="chronik-links">${e.auftritte.filter(a=>a.kapitel<=limit).map(a=>link(a.kapitel)).join(' ')||'Keine weiteren erfassten Textstellen.'}</p>${limit===46?`<a href="#${esc(e.anker)}">Vollständigen Gegenstandseintrag öffnen →</a>`:''}`;if(!d.open)d.showModal();
+    const label=esc(name(e)),mentions=e.auftritte.filter(a=>a.kapitel<=limit);
+    body.innerHTML=`
+      <p class="eyebrow">Gegenstandschronik · bis Kapitel ${limit}</p>
+      <h2>${label}</h2>
+      ${e.bild?`<img class="chronik-item-art" src="${esc(e.bild)}" alt="${label}">`:''}
+      ${owner?`<p>Zuletzt belegt bei <strong>${esc(owner)}</strong></p>`:''}
+      <ol class="chronik-timeline">${events.map(ev=>`<li>${itemSource(ev)}<p>${esc(ev.text)}</p></li>`).join('')}</ol>
+      ${mentions.length?`<h3>Weitere Erwähnungen</h3><p class="chronik-links">${mentions.map(itemSource).join(' ')}</p>`:''}
+      ${limit===46&&e.anker?`<a href="#${esc(e.anker)}">Vollständigen Gegenstandseintrag öffnen →</a>`:''}
+    `;
+    if(!d.open)d.showModal();
   }
   function show(container,diary){host=container;book=diary;render();window.scrollTo(0,0);}
   function render(){
@@ -71,7 +81,7 @@ window.TagebuchChronik=(()=>{
       const byChapter=figureOrder==='story'?firstChapter(a)-firstChapter(b):0;
       return byChapter||name(a).localeCompare(name(b),'de');
     });
-    root.innerHTML=`<p class="chronik-note">${visible.length} ${mode==='figuren'?'bekannte Figuren':'bekannte Gegenstände'}</p><div class="chronik-grid">${visible.map(e=>mode==='figuren'?`<button type="button" class="chronik-card" data-figur="${esc(e.id)}">${portrait(e)}<strong>${esc(name(e))}</strong><small>${esc(e.rasse||'Im Tagebuch')}</small></button>`:`<button type="button" class="chronik-card" data-gegenstand="${esc(e.id)}"><img class="chronik-item-thumb" src="${esc(e.bild)}" alt=""><strong>${esc(e.name)}</strong><small>Die Geschichte des Gegenstands →</small></button>`).join('')}</div>`;
+    root.innerHTML=`<p class="chronik-note">${visible.length} ${mode==='figuren'?'bekannte Figuren':'bekannte Gegenstände'}</p><div class="chronik-grid">${visible.map(e=>mode==='figuren'?`<button type="button" class="chronik-card" data-figur="${esc(e.id)}">${portrait(e)}<strong>${esc(name(e))}</strong><small>${esc(e.rasse||'Im Tagebuch')}</small></button>`:`<button type="button" class="chronik-card" data-gegenstand="${esc(e.id)}">${e.bild?`<img class="chronik-item-thumb" src="${esc(e.bild)}" alt="" loading="lazy" decoding="async">`:''}<strong>${esc(name(e))}</strong><small>Die Geschichte des Gegenstands →</small></button>`).join('')}</div>`;
     applyPortraits(root);bindCards(root);
   }
   function bindCards(root){root.querySelectorAll('[data-figur]').forEach(b=>b.addEventListener('click',()=>openFigure(b.dataset.figur)));root.querySelectorAll('[data-gegenstand]').forEach(b=>b.addEventListener('click',()=>openItem(b.dataset.gegenstand)));}

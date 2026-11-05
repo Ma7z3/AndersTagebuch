@@ -722,6 +722,8 @@ Rast in den Boden verwurzelt.
 Außerdem bekommt der Träger Resistenz gegenüber Hitzeschaden und
 Kälteschaden.
 
+<a id="gegenstand-erwiderung"></a>
+
 #### Erwiderung
 *Waffe (Rapier +3)*
 
@@ -828,3 +830,24 @@ reduziert**, wird seine Seele vollständig aus seinem Körper gerissen und in di
 Der zurückbleibende Körper erhebt sich nach 24 Stunden als untotes Wesen
 unter Kontrolle des Spielleiters. Nur außergewöhnlich mächtige Magie wie
 Wunsch oder Göttliche Intervention kann die verlorene Seele zurückholen.
+
+<a id="gegenstand-taus-kampfstab"></a>
+
+#### Bruder Taus Kampfstab +1
+*Waffe (Kampfstab) und Zauberfokus*
+
+![Bruder Taus Kampfstab +1](bilder/gegenstand-taus-kampfstab.png)
+
+Randall Morn überließ Ander einen Kampfstab mit eisenbeschlagenen Enden.
+Der Holzschaft trägt feine Runen. Ander nutzt den Stab als Zauberfokus und
+erhält mit ihm einen Bonus von +1.
+
+<a id="gegenstand-flints-rapier"></a>
+
+#### Flints verzaubertes Rapier
+*Waffe (Rapier)*
+
+![Flints verzaubertes Rapier](bilder/gegenstand-flints-rapier.png)
+
+Galena überreichte Flint das reich verzierte Rapier als Belohnung. Die
+schmale Stahlklinge sitzt an einem Griff mit geschwungenem goldenem Korb.

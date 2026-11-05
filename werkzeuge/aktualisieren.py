@@ -38,6 +38,20 @@ def validate_chronicle(data):
     if not chronicle:return
     figures=chronicle['figuren'];items=chronicle['gegenstaende']
     sections={s['id']:s['text'] for s in data['abschnitte']}
+    catalogue={image['anker']:image['datei'] for image in data['bilder'] if image.get('gegenstand')}
+    item_anchors=[item['anker'] for item in items if item.get('anker')]
+    if set(item_anchors)!=catalogue.keys() or len(item_anchors)!=len(catalogue):
+        raise ValueError('Die Chronik muss jeden Gegenstand aus dem Katalog genau einmal enthalten.')
+    catalogue_text=next(s['text'] for s in data['abschnitte'] if s.get('katalog')=='gegenstaende')
+    for item in items:
+        anchor=item.get('anker')
+        if anchor and (catalogue[anchor]!=item.get('bild') or f'<a id="{anchor}"></a>' not in catalogue_text):
+            raise ValueError('Chronik-Eintrag passt nicht zum Gegenstandskatalog: '+anchor)
+        for source in item['ereignisse']+item['auftritte']:
+            section=f'kapitel-{source["kapitel"]:02}'
+            anchor=source.get('anker')
+            if section not in sections or (anchor and f'<a id="{anchor}"></a>' not in sections[section]):
+                raise ValueError(f'Gegenstandsfundstelle fehlt: {item["id"]}, {section}, {anchor or "Kapitelanfang"}')
     for entry in figures:
         for source in entry['auftritte']:
             number=source['kapitel']
@@ -202,7 +216,7 @@ def main():
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
         if 'farbklecks' in item:
             wash = item['farbklecks']
-            if item.get('herkunft') != 'ki-gegenstand' or not re.fullmatch(r'bilder/gegenstandsfarbe-[a-z]+\.png', wash):
+            if not item.get('gegenstand') or not re.fullmatch(r'bilder/gegenstandsfarbe-[a-z]+\.png', wash):
                 raise ValueError('Ungültiger Farbklecks: '+item['datei'])
             if not (ROOT/wash).is_file():
                 raise FileNotFoundError(wash)
