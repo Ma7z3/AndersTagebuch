@@ -1362,16 +1362,16 @@
   },
   {
     "titel": "Die Reisen des Ander Holimion",
-    "datei": "bilder/titelgemaelde-v8.png",
+    "datei": "bilder/titelgemaelde-v9.png",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "titel",
     "breite": 1024,
     "hoehe": 1536,
     "modus": "RGB",
-    "sha256": "3eca4df7d1bdfbfdb7cddd9c47656c71d5c7964bd825791607322542cb40cf4f",
+    "sha256": "38a6e1169c2136ca384a4f63c7d616c647afc3dafa7f05decb53e02211d9b345",
     "herkunft": "Integrierte Bildgenerierung nach Figurenreferenzen und Nutzerangaben",
-    "quelle": "KI-Bildbearbeitung nach Nutzerkorrekturen, 03.11.2026"
+    "quelle": "KI-Bildbearbeitung nach gemeinsamer Titelbild-Durchsicht, 04.11.2026"
   },
   {
     "datei": "bilder/wesen-mystra.jpg",

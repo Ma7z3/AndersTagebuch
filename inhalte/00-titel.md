@@ -2,7 +2,7 @@
 
 # Das Tagebuch des Ander Holimion
 
-![Die Reisen des Ander Holimion](bilder/titelgemaelde-v8.png)
+![Die Reisen des Ander Holimion](bilder/titelgemaelde-v9.png)
 
 ##### Die Reisen des Ander Holimion
 

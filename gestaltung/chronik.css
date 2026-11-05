@@ -4,3 +4,40 @@
 
 /* New character paintings open fully; circle crops remain in the directory. */
 .chronik-ganzkoerper{margin:0 0 28px;text-align:center}.chronik-ganzkoerper a{display:block}.chronik-ganzkoerper img{display:block;width:auto;height:auto;max-width:100%;max-height:72vh;margin:0 auto;border:1px solid #caba9c;border-radius:3px}.chronik-card strong{overflow-wrap:anywhere}.chronik-card{min-width:0}
+
+.chronik-sources {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 8px;
+}
+.chronik-sources a {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 3px 12px;
+  align-items: center;
+  min-height: 48px;
+  padding: 9px 13px;
+  border: 1px solid #d4c7aa;
+  border-radius: 5px;
+  background: #f5efdf;
+  color: var(--forest);
+  text-decoration: none;
+}
+.chronik-sources a:hover {
+  background: #ebe2cd;
+}
+.chronik-sources a > span:first-child {
+  color: var(--muted);
+  font: 12px/1.4 -apple-system, sans-serif;
+}
+.chronik-sources a > strong {
+  grid-column: 1;
+  font: 600 15px/1.35 -apple-system, sans-serif;
+}
+.chronik-source-arrow {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  color: var(--wine);
+}

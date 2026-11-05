@@ -1,6 +1,7 @@
 'use strict';
 window.TagebuchChronik=(()=>{
   let book,host,mode='figuren',query='',limit=0;
+  let figureOrder='story';
   try{const v=Number(localStorage.getItem('ander-lesestand-v1'));if(Number.isInteger(v)&&v>=0&&v<=46)limit=v;}catch{}
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const norm=s=>String(s).normalize('NFKD').replace(/\p{Diacritic}/gu,'').toLowerCase();
@@ -9,6 +10,18 @@ window.TagebuchChronik=(()=>{
   const name=e=>(e.namen||[]).filter(n=>n.kapitel<=limit).at(-1)?.name||e.name;
   const known=e=>e.ab_kapitel<=limit;
   const link=(n,label)=>`<a href="#${ch(n)}">${esc(label||'Kapitel '+n)}</a>`;
+  const firstChapter=e=>e.ab_kapitel===0||!e.auftritte.length?e.ab_kapitel:Math.min(...e.auftritte.map(a=>a.kapitel));
+  const chapterLabel=n=>n===0?'Prolog':'Kapitel '+n;
+  function figureSources(e){
+    const sources=new Map(e.auftritte.filter(a=>a.kapitel<=limit).map(a=>[a.kapitel,a.anker]));
+    if(e.ab_kapitel===0&&!sources.has(0))sources.set(0,'prolog');
+    if(!sources.size)return '';
+    return `<h3>Fundstellen im Tagebuch</h3><ul class="chronik-sources">${[...sources].sort(([a],[b])=>a-b).map(([n,anchor])=>{
+      const id=n===0?'prolog':ch(n);
+      const title=book.abschnitte.find(s=>s.id===id)?.titel.replace(/^Kapitel \d+[: –]+/,'');
+      return `<li><a href="#${esc(anchor||id)}"><span>${chapterLabel(n)}</span>${n&&title?`<strong>${esc(title)}</strong>`:''}<span class="chronik-source-arrow" aria-hidden="true">→</span></a></li>`;
+    }).join('')}</ul>`;
+  }
   function portrait(e,large=false){
     const p=e.portrait&&e.portrait.ab_kapitel<=limit?e.portrait:null;
     if(large&&p?.ganzkoerper)return `<figure class="chronik-ganzkoerper"><a href="${esc(p.bild)}" target="_blank" rel="noopener" aria-label="Ganzkörperporträt von ${esc(name(e))} in voller Größe öffnen"><img src="${esc(p.bild)}" alt="Ganzkörperporträt von ${esc(name(e))}"></a></figure>`;
@@ -33,8 +46,9 @@ window.TagebuchChronik=(()=>{
     const e=data().figuren.find(e=>e.id===id);if(!e)return;
     const d=modal(),body=d.querySelector('.chronik-dialog-body');
     if(!known(e)){body.innerHTML=`<h2>Noch nicht freigegeben</h2><p>Wähle deinen Lesestand, um die bis dahin bekannten Figuren anzusehen.</p>${picker()}`;bindPicker(body,()=>openFigure(id));if(!d.open)d.showModal();return;}
-    const facts=e.fakten.filter(f=>f.kapitel<=limit),relationships=e.beziehungen.filter(f=>f.kapitel<=limit),appearances=e.auftritte.filter(a=>a.kapitel<=limit);
-    body.innerHTML=`${portrait(e,true)}<p class="eyebrow">${e.art==='abenteurer'?'Abenteuerrunde':e.art==='gegenstand'?'Bewusster Gegenstand':'Personen und Geschöpfe'}</p><h2>${esc(name(e))}</h2>${e.rasse?`<p>${esc(e.rasse)}</p>`:''}${facts.map(f=>`<p>${esc(f.text)} ${f.kapitel?link(f.kapitel):''}</p>`).join('')}${relationships.length?'<h3>Beziehungen</h3>'+relationships.map(r=>`<p>${esc(r.text)} ${link(r.kapitel)}</p>`).join(''):''}<h3>Bisherige Textstellen</h3><p class="chronik-links">${appearances.map(a=>link(a.kapitel)).join(' ')||'Im Prolog vorgestellt.'}</p><p class="chronik-note">${e.portrait&&e.portrait.ab_kapitel<=limit?esc(e.portrait.herkunft):'Der Platz für das abgestimmte Porträt ist vorbereitet.'} · Stand: ${limit?'Kapitel '+limit:'Prolog'}.</p>`;
+    const facts=e.fakten.filter(f=>f.kapitel<=limit),relationships=e.beziehungen.filter(r=>r.kapitel<=limit);
+    const description=[...new Set(facts.map(f=>f.text).filter(t=>t!=='?'))];
+    body.innerHTML=`${portrait(e,true)}<p class="eyebrow">${e.art==='abenteurer'?'Abenteuerrunde':e.art==='gegenstand'?'Bewusster Gegenstand':'Personen und Geschöpfe'}</p><h2>${esc(name(e))}</h2>${e.rasse&&e.rasse!=='?'?`<p>${esc(e.rasse)}</p>`:''}${description.map(t=>`<p>${esc(t)}</p>`).join('')}${relationships.length?'<h3>Beziehungen</h3>'+relationships.map(r=>`<p>${esc(r.text)}</p>`).join(''):''}${figureSources(e)}`;
     applyPortraits(body);if(!d.open)d.showModal();
   }
   function openItem(id){
@@ -44,11 +58,19 @@ window.TagebuchChronik=(()=>{
   }
   function show(container,diary){host=container;book=diary;render();window.scrollTo(0,0);}
   function render(){
-    host.innerHTML=`<section class="sheet chronik" id="lesetext" tabindex="-1"><p class="eyebrow">Gesichter · Beziehungen · Spuren</p><h1>Die Chronik der Gefährten</h1><p>Wer ist uns begegnet? Wem gehört ein besonderer Gegenstand? Wähle deinen Lesestand; spätere Ereignisse bleiben verborgen.</p><div class="chronik-controls">${picker()}<div class="chronik-tabs"><button data-tab="figuren" aria-pressed="${mode==='figuren'}">Figuren</button><button data-tab="gegenstaende" aria-pressed="${mode==='gegenstaende'}">Gegenstände</button></div><label>Suchen <input id="chronik-suche" type="search" value="${esc(query)}" placeholder="Name …"></label></div><div id="chronik-cards" aria-live="polite"></div><p class="chronik-note">Der Lesestand ändert sich nur durch deine Auswahl. Namensnennungen im Text sind keine gesicherten persönlichen Begegnungen.</p></section>`;
-    bindPicker(host,render);host.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.tab;render();}));host.querySelector('#chronik-suche').addEventListener('input',ev=>{query=ev.target.value;cards();});cards();
+    const order=mode==='figuren'?'<label>Sortieren <select id="chronik-sort"><option value="story">Erste Fundstelle</option><option value="name">Name (A–Z)</option></select></label>':'';
+    host.innerHTML=`<section class="sheet chronik" id="lesetext" tabindex="-1"><p class="eyebrow">Gesichter · Beziehungen · Spuren</p><h1>Die Chronik der Gefährten</h1><p>Wer ist uns begegnet? Wem gehört ein besonderer Gegenstand? Wähle deinen Lesestand; spätere Ereignisse bleiben verborgen.</p><div class="chronik-controls">${picker()}<div class="chronik-tabs"><button data-tab="figuren" aria-pressed="${mode==='figuren'}">Figuren</button><button data-tab="gegenstaende" aria-pressed="${mode==='gegenstaende'}">Gegenstände</button></div>${order}<label>Suchen <input id="chronik-suche" type="search" value="${esc(query)}" placeholder="Name …"></label></div><div id="chronik-cards" aria-live="polite"></div><p class="chronik-note">Der Lesestand ändert sich nur durch deine Auswahl. Namensnennungen im Text sind keine gesicherten persönlichen Begegnungen.</p></section>`;
+    bindPicker(host,render);host.querySelectorAll('[data-tab]').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.tab;render();}));host.querySelector('#chronik-suche').addEventListener('input',ev=>{query=ev.target.value;cards();});
+    const select=host.querySelector('#chronik-sort');
+    if(select){select.value=figureOrder;select.addEventListener('change',()=>{figureOrder=select.value;cards();});}
+    cards();
   }
   function cards(){
     const root=host.querySelector('#chronik-cards'),all=mode==='figuren'?data().figuren:data().gegenstaende,visible=all.filter(e=>known(e)&&norm(name(e)).includes(norm(query)));
+    if(mode==='figuren')visible.sort((a,b)=>{
+      const byChapter=figureOrder==='story'?firstChapter(a)-firstChapter(b):0;
+      return byChapter||name(a).localeCompare(name(b),'de');
+    });
     root.innerHTML=`<p class="chronik-note">${visible.length} ${mode==='figuren'?'bekannte Figuren':'bekannte Gegenstände'}</p><div class="chronik-grid">${visible.map(e=>mode==='figuren'?`<button type="button" class="chronik-card" data-figur="${esc(e.id)}">${portrait(e)}<strong>${esc(name(e))}</strong><small>${esc(e.rasse||'Im Tagebuch')}</small></button>`:`<button type="button" class="chronik-card" data-gegenstand="${esc(e.id)}"><img class="chronik-item-thumb" src="${esc(e.bild)}" alt=""><strong>${esc(e.name)}</strong><small>Die Geschichte des Gegenstands →</small></button>`).join('')}</div>`;
     applyPortraits(root);bindCards(root);
   }

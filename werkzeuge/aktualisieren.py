@@ -37,6 +37,14 @@ def validate_chronicle(data):
     chronicle=data.get('chronik')
     if not chronicle:return
     figures=chronicle['figuren'];items=chronicle['gegenstaende']
+    sections={s['id']:s['text'] for s in data['abschnitte']}
+    for entry in figures:
+        for source in entry['auftritte']:
+            number=source['kapitel']
+            section='prolog' if number==0 else f'kapitel-{number:02}'
+            anchor=source.get('anker')
+            if section not in sections or (anchor and f'<a id="{anchor}"></a>' not in sections[section]):
+                raise ValueError(f'Figurenfundstelle fehlt: {entry["id"]}, {section}, {anchor or "Kapitelanfang"}')
     for group in [figures,items]:
         ids=[e['id'] for e in group]
         if len(ids)!=len(set(ids)):raise ValueError('Doppelte Kennung in der Chronik')

@@ -518,6 +518,30 @@
           "art": "Textstelle"
         },
         {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 8,
+          "art": "Textstelle"
+        },
+        {
           "kapitel": 10,
           "art": "Textstelle"
         }
@@ -530,8 +554,8 @@
       ],
       "beziehungen": [],
       "portrait": {
-        "bild": "bilder/portrait-gibligrim-zhuck-gobbelbick-tarkelby-ganzkoerper-v1.jpg",
-        "vorschau": "bilder/portrait-gibligrim-zhuck-gobbelbick-tarkelby-gesicht-v1.webp",
+        "bild": "bilder/portrait-gibligrim-zhuck-gobbelbick-tarkelby-ganzkoerper-v2.jpg",
+        "vorschau": "bilder/portrait-gibligrim-zhuck-gobbelbick-tarkelby-gesicht-v2.webp",
         "ausschnitt": [
           0,
           0,
@@ -1001,6 +1025,38 @@
         {
           "kapitel": 1,
           "art": "Textstelle"
+        },
+        {
+          "kapitel": 2,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 3,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 4,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 5,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 6,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 7,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 8,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 12,
+          "art": "Textstelle"
         }
       ],
       "fakten": [
@@ -1041,7 +1097,7 @@
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 2,
           "text": "Anführer einer Hobgoblinbande"
         }
       ],
@@ -1296,12 +1352,12 @@
       "auftritte": [
         {
           "kapitel": 3,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 3,
           "text": "Verwalterin des Ellinar-Hofes"
         }
       ],
@@ -1623,7 +1679,7 @@
     {
       "id": "digbier",
       "name": "Digbier",
-      "ab_kapitel": 5,
+      "ab_kapitel": 6,
       "art": "person",
       "rasse": "Mensch",
       "aliases": [
@@ -1631,17 +1687,13 @@
       ],
       "auftritte": [
         {
-          "kapitel": 5,
-          "art": "Erster Verzeichniseintrag"
-        },
-        {
           "kapitel": 6,
           "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 6,
           "text": "Einwohner Dolchfalls"
         }
       ],
@@ -1655,7 +1707,7 @@
           100,
           100
         ],
-        "ab_kapitel": 5,
+        "ab_kapitel": 6,
         "ganzkoerper": true,
         "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
@@ -1663,7 +1715,7 @@
     {
       "id": "fammek-dolchfall",
       "name": "Fammek (Freiheitsreiter)",
-      "ab_kapitel": 5,
+      "ab_kapitel": 6,
       "art": "person",
       "rasse": "Mensch",
       "aliases": [
@@ -1671,17 +1723,13 @@
       ],
       "auftritte": [
         {
-          "kapitel": 5,
-          "art": "Erster Verzeichniseintrag"
-        },
-        {
           "kapitel": 6,
           "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 6,
           "text": "Mitglied der Freiheitsreiter"
         }
       ],
@@ -1695,7 +1743,7 @@
           100,
           100
         ],
-        "ab_kapitel": 5,
+        "ab_kapitel": 6,
         "ganzkoerper": true,
         "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
@@ -1703,7 +1751,7 @@
     {
       "id": "lhaeo",
       "name": "Lhaeo",
-      "ab_kapitel": 8,
+      "ab_kapitel": 9,
       "art": "person",
       "rasse": "Mensch",
       "aliases": [
@@ -1711,17 +1759,13 @@
       ],
       "auftritte": [
         {
-          "kapitel": 8,
-          "art": "Erster Verzeichniseintrag"
-        },
-        {
           "kapitel": 9,
           "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 9,
           "text": "Schreiber von Schattental"
         }
       ],
@@ -1735,7 +1779,7 @@
           100,
           100
         ],
-        "ab_kapitel": 8,
+        "ab_kapitel": 9,
         "ganzkoerper": true,
         "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
@@ -1808,7 +1852,7 @@
       "auftritte": [
         {
           "kapitel": 10,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
         },
         {
           "kapitel": 13,
@@ -2243,19 +2287,7 @@
       "auftritte": [
         {
           "kapitel": 20,
-          "art": "Erster Verzeichniseintrag"
-        },
-        {
-          "kapitel": 21,
-          "art": "Textstelle"
-        },
-        {
-          "kapitel": 22,
-          "art": "Textstelle"
-        },
-        {
-          "kapitel": 28,
-          "art": "Textstelle"
+          "art": "Erwähnung"
         },
         {
           "kapitel": 30,
@@ -2264,7 +2296,7 @@
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 30,
           "text": "Großsultan von Messingstadt"
         }
       ],
@@ -2507,7 +2539,7 @@
       "auftritte": [
         {
           "kapitel": 22,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
         }
       ],
       "fakten": [
@@ -2639,7 +2671,7 @@
       "auftritte": [
         {
           "kapitel": 22,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
         }
       ],
       "fakten": [
@@ -2746,7 +2778,7 @@
     {
       "id": "fammek-sigil",
       "name": "Fammek (Harmonium)",
-      "ab_kapitel": 22,
+      "ab_kapitel": 23,
       "art": "person",
       "rasse": "Mensch",
       "aliases": [
@@ -2760,7 +2792,7 @@
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 23,
           "text": "Hauptmann der Harmonium Wachen"
         }
       ],
@@ -2774,7 +2806,7 @@
           100,
           100
         ],
-        "ab_kapitel": 22,
+        "ab_kapitel": 23,
         "ganzkoerper": true,
         "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
@@ -3523,7 +3555,15 @@
       "auftritte": [
         {
           "kapitel": 29,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 31,
+          "art": "Textstelle"
+        },
+        {
+          "kapitel": 32,
+          "art": "Textstelle"
         },
         {
           "kapitel": 33,
@@ -3532,7 +3572,7 @@
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 29,
           "text": "Ehemals Gefangener in der Zitadelle des Feuers (apathischer Mann)"
         }
       ],
@@ -3608,12 +3648,12 @@
       "auftritte": [
         {
           "kapitel": 30,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 30,
           "text": "Fährmann in Messingstadt"
         }
       ],
@@ -3743,7 +3783,7 @@
     {
       "id": "danton",
       "name": "Danton",
-      "ab_kapitel": 32,
+      "ab_kapitel": 33,
       "art": "person",
       "rasse": "Mensch",
       "aliases": [
@@ -3751,17 +3791,13 @@
       ],
       "auftritte": [
         {
-          "kapitel": 32,
-          "art": "Erster Verzeichniseintrag"
-        },
-        {
           "kapitel": 33,
           "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 33,
           "text": "Hauptmann der Stadtwache von Silbrigmond"
         }
       ],
@@ -3775,7 +3811,7 @@
           100,
           100
         ],
-        "ab_kapitel": 32,
+        "ab_kapitel": 33,
         "ganzkoerper": true,
         "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
@@ -3783,7 +3819,7 @@
     {
       "id": "gosran-immerstern",
       "name": "Gosran Immerstern",
-      "ab_kapitel": 32,
+      "ab_kapitel": 33,
       "art": "person",
       "rasse": "Mensch",
       "aliases": [
@@ -3791,17 +3827,13 @@
       ],
       "auftritte": [
         {
-          "kapitel": 32,
-          "art": "Erster Verzeichniseintrag"
-        },
-        {
           "kapitel": 33,
           "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 33,
           "text": "Adliger von Silbrigmond"
         }
       ],
@@ -3815,7 +3847,7 @@
           100,
           100
         ],
-        "ab_kapitel": 32,
+        "ab_kapitel": 33,
         "ganzkoerper": true,
         "herkunft": "Eigenes Ganzkörperporträt nach den Darstellungen und Beschreibungen des Tagebuchs"
       }
@@ -3904,12 +3936,12 @@
       "auftritte": [
         {
           "kapitel": 33,
-          "art": "Erster Verzeichniseintrag"
+          "art": "Textstelle"
         }
       ],
       "fakten": [
         {
-          "kapitel": 46,
+          "kapitel": 33,
           "text": "Sohn des Wirtes der Tanzenden Ziege"
         }
       ],
@@ -4180,23 +4212,28 @@
       "auftritte": [
         {
           "kapitel": 40,
-          "art": "Textstelle"
+          "art": "Textstelle",
+          "anker": "p110"
         },
         {
           "kapitel": 42,
-          "art": "Textstelle"
+          "art": "Textstelle",
+          "anker": "p114"
         },
         {
           "kapitel": 43,
-          "art": "Textstelle"
+          "art": "Textstelle",
+          "anker": "p116"
         },
         {
           "kapitel": 44,
-          "art": "Textstelle"
+          "art": "Textstelle",
+          "anker": "p118"
         },
         {
           "kapitel": 45,
-          "art": "Textstelle"
+          "art": "Textstelle",
+          "anker": "p120"
         }
       ],
       "fakten": [
@@ -4933,8 +4970,8 @@
         }
       ],
       "portrait": {
-        "bild": "bilder/portrait-annica-von-velden-ganzkoerper-v1.jpg",
-        "vorschau": "bilder/portrait-annica-von-velden-gesicht-v1.webp",
+        "bild": "bilder/portrait-annica-von-velden-ganzkoerper-v2.jpg",
+        "vorschau": "bilder/portrait-annica-von-velden-gesicht-v2.webp",
         "ausschnitt": [
           0,
           0,
@@ -4949,7 +4986,7 @@
     {
       "id": "selune",
       "name": "Selûne",
-      "ab_kapitel": 27,
+      "ab_kapitel": 0,
       "art": "person",
       "rasse": "Gottheit",
       "aliases": [
@@ -4967,6 +5004,11 @@
       ],
       "beziehungen": [],
       "auftritte": [
+        {
+          "kapitel": 0,
+          "art": "Erwähnung",
+          "anker": "info-selune"
+        },
         {
           "kapitel": 46,
           "art": "Erwähnung"
