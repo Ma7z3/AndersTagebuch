@@ -130,7 +130,9 @@
   max-width: 100%;
   max-height: min(330px, 44vh);
   margin: 0 auto;
+  mix-blend-mode: multiply;
 }
+.bestiary-thumbnail img { mix-blend-mode: multiply; }
 #bilddialog.with-details figcaption {
   color: var(--wine);
   font-size: 22px;

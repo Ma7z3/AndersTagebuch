@@ -26,7 +26,7 @@ beiden konnte ich sehen, waren ebenso geschickt wie ich.
 
 > ##### Roter Drache
 >
-> ![Roter Drache](bilder/wesen-roter-drache.webp)
+> ![Roter Drache](bilder/wesen-roter-drache-aquarell.webp)
 >
 > Rote Drachen gehören zu den chromatischen Drachen. Man erkennt sie an
 > ihren scharlachroten Schuppen und den nach hinten gebogenen Hörnern.

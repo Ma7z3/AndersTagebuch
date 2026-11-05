@@ -32,7 +32,7 @@ der Portale, begrüßt hatte.
 
 > ##### Bariauren
 >
-> ![Bariauren](bilder/wesen-bariaur.png)
+> ![Bariauren](bilder/wesen-bariaur-aquarell.webp)
 >
 > Bariauren sind zentaurenähnliche Ebenenwanderer mit dem vierbeinigen
 > Unterkörper einer großen Ziege oder eines Widders und einem kräftigen,
@@ -139,7 +139,7 @@ verschwand dann aus der Tür.
 
 > ##### Marilith
 >
-> ![Marilith](bilder/wesen-marilith.jpg)
+> ![Marilith](bilder/wesen-marilith-aquarell.webp)
 >
 > Eine Marilith verbindet den Oberkörper einer Frau mit einem mächtigen
 > Schlangenleib und sechs Armen. Diese Dämoninnen führen mehrere Waffen

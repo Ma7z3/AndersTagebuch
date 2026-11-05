@@ -367,7 +367,7 @@ ist.
 
 > ##### Eisengolem
 >
-> ![Eisengolem](bilder/pdf-s062-277.png)
+> ![Eisengolem](bilder/wesen-eisengolem-aquarell.webp)
 >
 > Eisengolems sind Konstrukte, die vollständig aus Eisen gefertigt sind.
 > Diese Konstrukte haben in der Regel eine zweibeinige, humanoide Form, sind

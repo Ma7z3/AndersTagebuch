@@ -102,7 +102,7 @@ ich... ich nahm Erwiderung in die Hand und spürte ein machtvolles Kribbeln.
 
 > ##### Todeskuss
 >
-> ![Todeskuss](bilder/pdf-s115-496.png)
+> ![Todeskuss](bilder/wesen-todeskuss-aquarell.webp)
 >
 > Todesküsse, auch als Bluter oder Augen des Schreckens bekannt, sind niedere
 > Betrachterwesen mit Tentakeln, die in Mündern statt in Augenstielen enden.

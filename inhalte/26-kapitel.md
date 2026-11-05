@@ -26,7 +26,7 @@ und Tiefengnom* zu werden.
 
 > ##### Drinne
 >
-> ![Drinne](bilder/pdf-s057-256.png)
+> ![Drinne](bilder/wesen-drinne-aquarell.webp)
 >
 > Drinnen oder auch Drider waren Drow (oder möglicherweise auch andere
 > Humanoide), die von der Taille abwärts verwandelt worden waren, so dass sie
@@ -59,7 +59,7 @@ Wir bedankten uns bei dem Minotaur, welcher sich als **Trakfajar** vorstellte.
 
 > ##### Minotauren
 >
-> ![Minotauren](bilder/wesen-minotaur.png)
+> ![Minotauren](bilder/wesen-minotaur-aquarell.webp)
 >
 > Minotauren sind kräftige Humanoide mit einem Stierkopf, Hörnern und
 > Hufen. Ihre Körperkraft und ihre Hörner machen sie zu gefährlichen

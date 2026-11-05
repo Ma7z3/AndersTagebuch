@@ -78,7 +78,7 @@ Kobold.
 
 > ##### Drachengeborener
 >
-> ![Drachengeborener](bilder/pdf-s106-460.png)
+> ![Drachengeborener](bilder/wesen-drachengeborener-aquarell.webp)
 >
 > Drachengeborene sind ein Volk drakonischer Kreaturen, die in Abeir
 > beheimatet sind. Während der Zauberpest wurden Drachengeborene von Abeir

@@ -7,10 +7,10 @@
 | Astrale Molochs | Molochus Astralis | Riesige Kreaturen aus der Astralebene, bringen Chaos in jede Ordnung. | [80](#p80) |
 | Azer | Ignis Fornax Azeris | Feurige Schmiedewesen aus der Elementarebene des Feuers, aus lebendigem Erz. | [47](#p47) |
 | Barghest | Lupus Tenebris Barghestis | Wolfsdämon, frisst Seelen und wächst an Macht. | [71](#p71) |
-| Bariauren | - | Zentaurenähnliche Ebenenwanderer mit Ziegenkörper und Hörnern. | [38](#p38) |
+| Bariauren | Capricentaurus Planivagus | Zentaurenähnliche Ebenenwanderer mit Ziegenkörper und Hörnern. | [38](#p38) |
 | Beobachter | Oculus Destructor | Schwebendes, einäugiges Wesen mit zerstörerischen Blickstrahlen. | [17](#p17) |
 | Canoloth | Canis Planaris Canolothis | Höllischer Wächterhund, teleportiert sich mit Beute in andere Ebenen. | [67](#p67) |
-| Dabus | - | Schwebende Instandhalter Sigils, die in Bilderrätseln sprechen. | [41](#p41) |
+| Dabus | Dabus Sigilensis Rebusloquens | Schwebende Instandhalter Sigils, die in Bilderrätseln sprechen. | [41](#p41) |
 | Drachengeborene | Homo Draconis Sanguinis | Humanoide mit drakonischem Erbe, oft kriegerisch und ehrvoll, elementare Widerstände. | [106](#p106) |
 | Drinne | Arachnodrowus Cursis | Halb-Drow, halb Spinne - tödlich im Netz und im Nahkampf. | [57](#p57) |
 | Eisengolem | Golemum Ferratus | Unaufhaltsamer Konstruktkrieger aus massivem Eisen. | [62](#p62) |
@@ -28,13 +28,13 @@
 | Jadespinne | Arachnida Jadea | Große, jadegrün schimmernde Spinne mit glasartigen Gliedmaßen. Verschießt harpunenartige Glasprojektile, um Beute heranzuziehen. | [111](#p111) |
 | Kobold | Draconis Minimus Koboldis | Kleine, listige Drachenanbeter mit Hang zu Fallen und Gemeinheiten. | [99](#p99) |
 | Landhai (Bulette) | Terrasharkus Bulettei | Rasender Raubgräber, der aus dem Boden springt, um zu töten. | [33](#p33) |
-| Marilith | - | Sechsarmige Schlangendämonin und gefährliche Waffenkämpferin. | [39](#p39) |
+| Marilith | Daemonissa Sexbrachiata | Sechsarmige Schlangendämonin und gefährliche Waffenkämpferin. | [39](#p39) |
 | Metallmeister (Schwertschnecke) | Limacina Magnetica Metallumtrahens | Schleimige Kreatur mit magnetischer Anziehungskraft für Metall. | [102](#p102) |
-| Minotauren | - | Kräftige stierköpfige Humanoide mit ausgeprägtem Orientierungssinn. | [57](#p57) |
-| Molydeus | - | Mächtiger Dämon mit Wolfs- und Schlangenkopf; verfolgt Abtrünnige. | [39](#p39) |
+| Minotauren | Minotaurus Labyrinthicus | Kräftige stierköpfige Humanoide mit ausgeprägtem Orientierungssinn. | [57](#p57) |
+| Molydeus | Daemon Biceps Molydeus | Mächtiger Dämon mit Wolfs- und Schlangenkopf; verfolgt Abtrünnige. | [39](#p39) |
 | Nagpa | Corvus Maledictus Nagpatis | Verfluchtes Geierwesen mit finsterer Magie und uraltem Wissen. | [58](#p58) |
 | Nic'Epona | Equus Divinus Nicaeponei | Märchenhaftes, göttliches Ross mit leuchtender Aura. | [79](#p79) |
-| Nupperibos | - | Unförmige niedere Teufel, von ständigem Hunger und Ungeziefer begleitet. | [38](#p38) |
+| Nupperibos | Diabolus Vorax Nupperibus | Unförmige niedere Teufel, von ständigem Hunger und Ungeziefer begleitet. | [38](#p38) |
 | Orks | Orcus Brutalis | Wilde, barbarische Humanoide, getrieben von Wut und Stärke | [13](#p13) |
 | Osyluth | Ossus Diabolus Osyluthi | Peitschen tragender Knochen-Teufel mit grausiger Präsenz. | [9](#p9) |
 | Phaerimm | Conus Malevolus Arcanis | Uralte, schwebende Magierwesen aus der Tiefe, die psionisch und magisch zugleich wirken. | [108](#p108) |
@@ -42,7 +42,7 @@
 | Roter Drache | Draco Tyrannus Rubris | Feuerspeiender Tyrann, Symbol des Zorns und der Zerstörung. | [100](#p100) |
 | Ruinenspinnen | Arachnida Ruina | Aus der Magie des Kartenspiels der vielen Dinge geboren, verwandeln sich Riesenspinnen in diese säuregiftigen Jäger, deren Panzer das Muster der Karten trägt. | [113](#p113) |
 | Schwarzer Drache | Draco Veneficus Atratus | Heimtückischer Säuredrache, herrscht über Sümpfe und Furcht. | [90](#p90) |
-| Schädelratten | - | Ratten mit freiliegenden Gehirnen und einem psionischen Schwarmverstand. | [45](#p45) |
+| Schädelratten | Rattus Psionicus Craniapertus | Ratten mit freiliegenden Gehirnen und einem psionischen Schwarmverstand. | [45](#p45) |
 | Silberdrache | Draco Glacialis Argenteus | Majestätischer, gütiger Drache mit Eisodem und edlem Geist. | [27](#p27) |
 | Steingolem | Golemum Saxum | Wächterkonstrukt aus Fels unbeirrbar, unermüdlich, unbelebbar. | [50](#p50) |
 | Todeskuss | Oculothorax Vampyrus | Tentakelbewehrter Blutbeobachter, eine zischende, blitzende Abart der Betrachter. | [115](#p115) |

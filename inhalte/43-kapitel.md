@@ -65,7 +65,7 @@ Ich weiß nur: Ich konnte mich wieder bewegen.
 
 > ##### Höllenspinne
 >
-> ![Höllenspinne](bilder/pdf-s116-502.png)
+> ![Höllenspinne](bilder/wesen-hoellenspinne-aquarell.webp)
 >
 > Höllenspinnen, auch Dämonenspinnen oder Flammenkrabbler genannt,
 > stammen aus den tiefsten Höllenebenen. Ihr Körper ist gepanzert und von

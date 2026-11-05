@@ -279,7 +279,7 @@ Sie wurde uns als **Peppi** vorgestellt und gehörte der Rasse der *Giff* an.
 
 > ##### Giff
 >
-> ![Giff](bilder/wesen-peppi-giff-v2.png)
+> ![Giff](bilder/wesen-giff-aquarell.webp)
 >
 > Die meisten Menschen beschreiben Giff als humanoide Nilpferde. Giff haben
 > kräftige Muskeln auf einem stämmigen und breiten Körperbau. Sie sind kleiner

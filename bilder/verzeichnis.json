@@ -400,18 +400,20 @@
   },
   {
     "id": 44,
-    "datei": "bilder/pdf-s009-44.png",
-    "breite": 438,
-    "hoehe": 530,
+    "datei": "bilder/wesen-osyluth-aquarell.webp",
+    "breite": 794,
+    "hoehe": 960,
     "pdf_seiten": [
       9
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Osyluth",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/c/ca/Bone-devil-5e.png",
     "code_reihenfolge": 7,
-    "kapitel": "kapitel-05"
+    "kapitel": "kapitel-05",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s009-44.png"
   },
   {
     "id": 56,
@@ -685,9 +687,9 @@
   },
   {
     "id": 213,
-    "datei": "bilder/wesen-peppi-giff-v2.png",
-    "breite": 1126,
-    "hoehe": 1397,
+    "datei": "bilder/wesen-giff-aquarell.webp",
+    "breite": 774,
+    "hoehe": 960,
     "pdf_seiten": [
       48
     ],
@@ -696,7 +698,9 @@
     "titel": "Giff",
     "code_reihenfolge": 26,
     "kapitel": "kapitel-23",
-    "quelle": "KI-Bildbearbeitung nach Nutzerkorrekturen, 03.11.2026"
+    "quelle": "KI-Bildbearbeitung nach Nutzerkorrekturen, 03.11.2026",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/wesen-peppi-giff-v2.png"
   },
   {
     "id": 219,
@@ -760,18 +764,20 @@
   },
   {
     "id": 256,
-    "datei": "bilder/pdf-s057-256.png",
-    "breite": 438,
-    "hoehe": 418,
+    "datei": "bilder/wesen-drinne-aquarell.webp",
+    "breite": 960,
+    "hoehe": 916,
     "pdf_seiten": [
       57
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Drinne",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/5/5d/Monster_Manual_5e_-_Drider_-_p120.jpg",
     "code_reihenfolge": 31,
-    "kapitel": "kapitel-26"
+    "kapitel": "kapitel-26",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s057-256.png"
   },
   {
     "id": 265,
@@ -790,18 +796,20 @@
   },
   {
     "id": 277,
-    "datei": "bilder/pdf-s062-277.png",
-    "breite": 438,
-    "hoehe": 619,
+    "datei": "bilder/wesen-eisengolem-aquarell.webp",
+    "breite": 680,
+    "hoehe": 960,
     "pdf_seiten": [
       62
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Eisengolem",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6d/Iron_golem-5e.jpg",
     "code_reihenfolge": 33,
-    "kapitel": "kapitel-27"
+    "kapitel": "kapitel-27",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s062-277.png"
   },
   {
     "id": 283,
@@ -835,9 +843,9 @@
   },
   {
     "id": 304,
-    "datei": "bilder/pdf-s067-304.png",
-    "breite": 438,
-    "hoehe": 446,
+    "datei": "bilder/wesen-canoloth-aquarell.webp",
+    "breite": 960,
+    "hoehe": 929,
     "pdf_seiten": [
       67
     ],
@@ -846,7 +854,9 @@
     "titel": "Canoloth",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/9/90/Canoloth-5e.png",
     "code_reihenfolge": 36,
-    "kapitel": "kapitel-28"
+    "kapitel": "kapitel-28",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s067-304.png"
   },
   {
     "id": 312,
@@ -1045,18 +1055,20 @@
   },
   {
     "id": 402,
-    "datei": "bilder/pdf-s090-402.png",
-    "breite": 435,
-    "hoehe": 335,
+    "datei": "bilder/wesen-schwarzer-drache-aquarell.webp",
+    "breite": 960,
+    "hoehe": 739,
     "pdf_seiten": [
       90
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Schwarzer Drache",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/9/9e/Monster_Manual_5e_-_Dragon%2C_Black_-_p87.jpg/",
     "code_reihenfolge": 50,
-    "kapitel": "kapitel-32"
+    "kapitel": "kapitel-32",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s090-402.png"
   },
   {
     "id": 411,
@@ -1090,29 +1102,32 @@
   },
   {
     "id": 430,
-    "datei": "bilder/pdf-s099-430.png",
-    "breite": 435,
-    "hoehe": 554,
+    "datei": "bilder/wesen-kobold-aquarell.webp",
+    "breite": 754,
+    "hoehe": 960,
     "pdf_seiten": [
       99
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Kobold",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/f/f3/Monster_Manual_5e_-_Kobold_-_p195.jpg",
     "code_reihenfolge": 53,
-    "kapitel": "kapitel-35"
+    "kapitel": "kapitel-35",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s099-430.png"
   },
   {
-    "datei": "bilder/wesen-roter-drache.webp",
+    "datei": "bilder/wesen-roter-drache-aquarell.webp",
     "titel": "Roter Drache",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "kapitel-36",
-    "breite": 1200,
-    "hoehe": 1097,
-    "transparenz": false,
-    "herkunft": "Mit ChatGPT nach dem Kapitelgemälde erstellt"
+    "breite": 960,
+    "hoehe": 878,
+    "transparenz": true,
+    "herkunft": "Mit ChatGPT nach dem Kapitelgemälde erstellt, mit Aquarellumgebung ergänzt",
+    "vorlage": "bilder/wesen-roter-drache.webp"
   },
   {
     "id": 440,
@@ -1146,9 +1161,9 @@
   },
   {
     "id": 460,
-    "datei": "bilder/pdf-s106-460.png",
-    "breite": 420,
-    "hoehe": 602,
+    "datei": "bilder/wesen-drachengeborener-aquarell.webp",
+    "breite": 670,
+    "hoehe": 960,
     "pdf_seiten": [
       106
     ],
@@ -1157,7 +1172,9 @@
     "titel": "Drachengeborener",
     "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/3/3b/Dragonborn-5e.png",
     "code_reihenfolge": 56,
-    "kapitel": "kapitel-39"
+    "kapitel": "kapitel-39",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s106-460.png"
   },
   {
     "id": 468,
@@ -1206,33 +1223,40 @@
   },
   {
     "id": 496,
-    "datei": "bilder/pdf-s115-496.png",
-    "breite": 370,
-    "hoehe": 600,
+    "datei": "bilder/wesen-todeskuss-aquarell.webp",
+    "breite": 769,
+    "hoehe": 960,
     "pdf_seiten": [
       115
     ],
     "typ": "illustration",
     "transparenz": true,
     "titel": "Todeskuss",
-    "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png",
     "code_reihenfolge": 60,
-    "kapitel": "kapitel-42"
+    "kapitel": "kapitel-42",
+    "herkunft": "Eigenständige Illustration mit ChatGPT",
+    "vorherige_abbildung": {
+      "datei": "bilder/pdf-s115-496.png",
+      "original_url": "https://static.wikia.nocookie.net/forgottenrealms/images/0/01/Deathkiss-5e.png",
+      "bildvermerk": "©2016 Wizards"
+    }
   },
   {
     "id": 502,
-    "datei": "bilder/pdf-s116-502.png",
-    "breite": 435,
-    "hoehe": 435,
+    "datei": "bilder/wesen-hoellenspinne-aquarell.webp",
+    "breite": 960,
+    "hoehe": 960,
     "pdf_seiten": [
       116
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Höllenspinne",
     "original_url": "https://i.pinimg.com/736x/53/b6/6d/53b66d17c24a7c7b7ebf275ec6f2c92d.jpg",
     "code_reihenfolge": 61,
-    "kapitel": "kapitel-43"
+    "kapitel": "kapitel-43",
+    "herkunft": "Bestehende Illustration mit ChatGPT um eine Aquarellumgebung ergänzt",
+    "vorlage": "bilder/pdf-s116-502.png"
   },
   {
     "id": 528,
@@ -1380,34 +1404,36 @@
     "herkunft": "veröffentlichte Illustration"
   },
   {
-    "datei": "bilder/wesen-bariaur.png",
+    "datei": "bilder/wesen-bariaur-aquarell.webp",
     "titel": "Bariauren",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "kapitel-21",
-    "breite": 879,
-    "hoehe": 1000,
+    "breite": 844,
+    "hoehe": 960,
     "modus": "RGBA",
     "transparenz": true,
     "sha256": "a705ee4047cfbc1584dbadfa178eea7a85c82c498fb3ba8e6f769e88c26e0bdd",
     "quelle_url": "https://www.dndbeyond.com/monsters/3883521-bariaur-wanderer",
     "original_url": "https://5e.tools/img/bestiary/MPP/Bariaur%20Wanderer.webp",
-    "herkunft": "veröffentlichte Illustration"
+    "herkunft": "veröffentlichte Illustration, mit Aquarellumgebung ergänzt",
+    "vorlage": "bilder/wesen-bariaur.png"
   },
   {
-    "datei": "bilder/wesen-minotaur.png",
+    "datei": "bilder/wesen-minotaur-aquarell.webp",
     "titel": "Minotauren",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "kapitel-26",
-    "breite": 602,
-    "hoehe": 1000,
+    "breite": 578,
+    "hoehe": 960,
     "modus": "RGBA",
     "transparenz": true,
     "sha256": "a41afbe7f94f6e1911757651e90f9c28da23bd6bcfe637e09e992558ee4a0269",
     "quelle_url": "https://www.dndbeyond.com/monsters/16958-minotaur",
     "original_url": "https://www.dndbeyond.com/avatars/thumbnails/30833/457/1000/1000/638063864308085049.png",
-    "herkunft": "veröffentlichte Illustration"
+    "herkunft": "veröffentlichte Illustration, mit Aquarellumgebung ergänzt",
+    "vorlage": "bilder/wesen-minotaur.png"
   },
   {
     "datei": "bilder/wesen-dabus.jpg",
@@ -1440,19 +1466,20 @@
     "herkunft": "Nutzerbild"
   },
   {
-    "datei": "bilder/wesen-marilith.jpg",
+    "datei": "bilder/wesen-marilith-aquarell.webp",
     "titel": "Marilith",
     "typ": "illustration",
     "pdf_seiten": [],
     "kapitel": "kapitel-21",
-    "breite": 336,
-    "hoehe": 440,
+    "breite": 734,
+    "hoehe": 960,
     "modus": "RGB",
-    "transparenz": false,
+    "transparenz": true,
     "sha256": "6382c62928259d8927a6da2d7531bf94241f0ad1b569a473905b89b3a0385a93",
     "quelle_url": "Vom Nutzer am 01.11.2026 bereitgestellt",
     "original_url": null,
-    "herkunft": "Nutzerbild"
+    "herkunft": "Nutzerbild, mit Aquarellumgebung ergänzt",
+    "vorlage": "bilder/wesen-marilith.jpg"
   },
   {
     "datei": "bilder/wesen-molydeus.jpg",

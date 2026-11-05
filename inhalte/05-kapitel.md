@@ -77,7 +77,7 @@ sah es richtig sauer aus.
 
 > ##### Osyluth
 >
-> ![Osyluth](bilder/pdf-s009-44.png)
+> ![Osyluth](bilder/wesen-osyluth-aquarell.webp)
 >
 > Die Osyluth, welche auch ab und zu Knochenteufel genannt werden, sind die
 > Aufseher und Vernehmer der Baatezu Teufel. Sie agieren als Gesetzeshüter in

@@ -188,7 +188,7 @@ Auf der Balustrade sah ich *reptilienartige Wesen* hin und her huschen.
 
 > ##### Kobold
 >
-> ![Kobold](bilder/pdf-s099-430.png)
+> ![Kobold](bilder/wesen-kobold-aquarell.webp)
 >
 > Kobolde sind aggressive, isolierte und dennoch fleißige kleine humanoide
 > Kreaturen. Sie sind bekannt für ihre Fähigkeiten im Fallenbau, beim Vorbereiten

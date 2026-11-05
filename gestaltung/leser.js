@@ -248,6 +248,7 @@ function enhanceIllustratedDirectory(section){
       const card=book.bestiarium_karten?.[name];
       if(!card)continue;
       const button=imageThumbnail('Bestiarium öffnen: '+name,card.vorschau||card.bild,()=>openBestiaryCard(name,card));
+      button.classList.add('bestiary-thumbnail');
       cell.prepend(button);
     }
     return;

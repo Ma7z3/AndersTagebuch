@@ -28,7 +28,7 @@ Ein *Canoloth*.
 
 > ##### Canoloth
 >
-> ![Canoloth](bilder/pdf-s067-304.png)
+> ![Canoloth](bilder/wesen-canoloth-aquarell.webp)
 >
 > Canolothen waren die treuen Hunde der Yugoloths und dienten ihren Herren
 > sowohl als Wächter als auch als Fährtenleser. Obwohl weniger

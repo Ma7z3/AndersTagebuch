@@ -129,7 +129,7 @@ zeigen, dass der Name seines einen Schwertes Programm ist: "Drachentöter".
 
 > ##### Schwarzer Drache
 >
-> ![Schwarzer Drache](bilder/pdf-s090-402.png)
+> ![Schwarzer Drache](bilder/wesen-schwarzer-drache-aquarell.webp)
 >
 > Schwarze Drachen, auch Schädeldrachen genannt, sind mit Abstand die
 > abscheulichsten und grausamsten aller chromatischen Drachen. Sie sind
