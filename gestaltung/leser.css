@@ -184,6 +184,6 @@
 }
 .article :is(.riddle-box,.quotation-box) p:last-child { margin-bottom: 0; }
 .article img.drawn-edge {
-  -webkit-mask: url('../bilder/zeichnungsrand.svg') center / 100% 100% no-repeat;
-  mask: url('../bilder/zeichnungsrand.svg') center / 100% 100% no-repeat;
+  -webkit-mask: var(--zeichnungsrand) center / 100% 100% no-repeat;
+  mask: var(--zeichnungsrand) center / 100% 100% no-repeat;
 }

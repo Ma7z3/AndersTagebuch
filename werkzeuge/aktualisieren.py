@@ -2,6 +2,7 @@
 """Rebuild the offline reader using only Python's standard library."""
 from pathlib import Path
 from datetime import datetime
+from urllib.parse import quote
 import hashlib, json, re, zipfile, sys
 import xml.etree.ElementTree as ET
 from tabellen_pruefen import validate_tables
@@ -211,7 +212,8 @@ def main():
             picture=(ROOT/opening['bild']).resolve()
             if not picture.is_relative_to(ROOT) or not picture.is_file():raise FileNotFoundError(opening['bild'])
             data['bilder'].append({'datei':opening['bild'],'titel':section['titel']+' – Kapitelgemälde','typ':'illustration','kapitel_auftakt':key,'kapitel':key,'pdf_seiten':[]})
-    wash_rules = []
+    drawing_edge = quote((ROOT/'bilder/zeichnungsrand.svg').read_text().strip(), safe='')
+    wash_rules = [f':root {{ --zeichnungsrand: url("data:image/svg+xml,{drawing_edge}"); }}']
     for item in data['bilder']:
         if not (ROOT/item['datei']).exists():raise FileNotFoundError(item['datei'])
         if 'farbklecks' in item:
