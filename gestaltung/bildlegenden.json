@@ -1,15 +1,17 @@
 [
   {
-    "bild": "bilder/pdf-s001-14616.png",
+    "bild": "bilder/ander-holimion-schreibt.png",
     "titel": "Ander Holimion beim Schreiben dieses Tagebuches.",
     "nachweis": "",
-    "pdf_satz": "seite"
+    "pdf_satz": "seite",
+    "weicher_rand": true
   },
   {
-    "bild": "bilder/pdf-s007-32.png",
+    "bild": "bilder/karte-dolchfall-pergament.png",
     "titel": "Karte der Stadt Dolchfall",
     "nachweis": "gezeichnet von Ander Holimion",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "pdf_transparenz": true
   },
   {
     "bild": "bilder/pdf-s023-121.png",
@@ -27,20 +29,23 @@
     "bild": "bilder/pdf-s029-141.png",
     "titel": "Zeichnung des \"Drachenfriedhofs\" in der Wüste Anauroch",
     "nachweis": "gezeichnet von Ander Holimion",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s039-179.png",
     "titel": "Farbzeichnung der wunderschönen Bardame des Gasthauses zur schwelenden Leiche",
     "nachweis": "gezeichnet von Ander Holimion",
     "pdf_satz": "spalte",
-    "pdf_maxhoehe": 410
+    "pdf_maxhoehe": 410,
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s043-188.png",
     "titel": "Farbzeichnung von A'kin dem Besitzer des freundlichen Scheusals",
     "nachweis": "gezeichnet von Ander Holimion",
-    "pdf_satz": "spalte"
+    "pdf_satz": "spalte",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s075-331.png",
@@ -58,7 +63,8 @@
       95,
       833,
       884
-    ]
+    ],
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s085-384.png",
@@ -70,31 +76,36 @@
     "bild": "bilder/pdf-s094-417.png",
     "titel": "Alustriel von Silbrigmond beim Weben von Magie",
     "nachweis": "Farbzeichnung von Ander Holimion",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s125-528.png",
     "titel": "Selûne",
     "nachweis": "Farbzeichnung von Ander Holimion",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s127-536.png",
     "titel": "Unser Weg durch die Ätherebene – Farbzeichnung von Ander Holimion",
     "nachweis": "",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s129-546.png",
     "titel": "Der Kern von Tethyamar – Farbzeichnung von Ander Holimion",
     "nachweis": "",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/pdf-s130-549.png",
     "titel": "Hedistrin über dem Kern – Farbzeichnung von Ander Holimion",
     "nachweis": "",
-    "pdf_satz": "breit"
+    "pdf_satz": "breit",
+    "weicher_rand": true
   },
   {
     "bild": "bilder/titelgemaelde-v9.png",

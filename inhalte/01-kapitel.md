@@ -29,8 +29,10 @@ Die drei neu Angekommenen kamen gerade von einer Quest wieder. Sie sollten
 befreien.
 
 
-![Die Zhentarim](bilder/pdf-s004-18.png)
-
+> ##### Zhentarim
+>
+> ![Die Zhentarim](bilder/pdf-s004-18.png)
+>
 > Die Zhentarim, auch "Das schwarze Netz" genannt, sind eine brutale
 Geheimorganisation, welche sich aus Mitgliedern von Manshoon und anderen in
 seinem innersten Zirkel rekrutiert. Ihr Hauptziel ist es,

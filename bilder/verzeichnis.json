@@ -156,9 +156,9 @@
   },
   {
     "id": 14616,
-    "datei": "bilder/pdf-s001-14616.png",
-    "breite": 640,
-    "hoehe": 595,
+    "datei": "bilder/ander-holimion-schreibt.png",
+    "breite": 1300,
+    "hoehe": 1209,
     "pdf_seiten": [
       1
     ],
@@ -370,14 +370,14 @@
   },
   {
     "id": 32,
-    "datei": "bilder/pdf-s007-32.png",
-    "breite": 1017,
-    "hoehe": 763,
+    "datei": "bilder/karte-dolchfall-pergament.png",
+    "breite": 1080,
+    "hoehe": 825,
     "pdf_seiten": [
       7
     ],
     "typ": "illustration",
-    "transparenz": false,
+    "transparenz": true,
     "titel": "Karte von Dolchfall",
     "original_url": "https://i.ibb.co/NtTybHF/4-A0111-CF-1-FAE-4670-8-CCD-BE9-A1-B6-EEF1-F.jpg",
     "code_reihenfolge": 5,

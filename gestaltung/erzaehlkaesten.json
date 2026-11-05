@@ -5,6 +5,8 @@
   {"kapitel":"kapitel-25","anfang":"##### Der Brief","ende":"Nach dem Lesen des Briefes überreichte der Wirt Basari den Hammer."},
   {"kapitel":"kapitel-26","anfang":"##### Die Minotaurenkrankheit","ende":"auskuriert zu werden."},
   {"kapitel":"kapitel-27","anfang":"##### Zwielichtige Heimkehr","ende":"Selûnes Lehren, ein Geschenk, das mir gehört."},
-  {"kapitel":"kapitel-38","anfang":"*Auf Ser Ayne ist Verlass","ende":"Wüstenkönigs."},
-  {"kapitel":"kapitel-45","anfang":">##### Der Schlüssel zur Waffenkammer","ende":"er macht ihn unsterblich und fordert dein Blut.","zitatblock":true}
+  {"kapitel":"kapitel-38","anfang":"„Auf Ser Ayne ist Verlass","ende":"Wüstenkönigs.","typ":"quotation"},
+  {"kapitel":"kapitel-45","anfang":"##### Der Schlüssel zur Waffenkammer","ende":"er macht ihn unsterblich und fordert dein Blut.","typ":"riddle"},
+  {"kapitel":"kapitel-45","anfang":"##### Das Rätsel der Ketten","ende":"bevor sie sanken in die Gruft?","typ":"riddle"},
+  {"kapitel":"kapitel-46","anfang":"### Das Rätsel vor dem Kern","ende":"beginnt beim Leben und endet beim Tod.","typ":"riddle"}
 ]

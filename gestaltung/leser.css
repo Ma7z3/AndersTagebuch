@@ -157,3 +157,33 @@
 @media print {
   .illustrated-thumbnail { display: none; }
 }
+
+.article .riddle-box,.article .quotation-box {
+  display: flow-root;
+  margin: 1.5rem 0;
+  padding: 1rem 1.3rem;
+}
+.article .riddle-box {
+  background: #f5eddb;
+  border: 1px solid #b89b64;
+  border-radius: 3px 9px 4px 7px;
+}
+.article .riddle-box :is(h3,h5) { margin: 0 0 .65em; font-size: 1.05em; }
+.article .riddle-box p,.article .quotation-box p {
+  margin: 0 0 .65em;
+  line-height: 1.48;
+}
+.article .quotation-box {
+  border-left: 3px solid #8b693b;
+  background: #faf7ea;
+  font-style: italic;
+}
+.article .quotation-box p:last-child {
+  font-size: .87em;
+  color: #614f39;
+}
+.article :is(.riddle-box,.quotation-box) p:last-child { margin-bottom: 0; }
+.article img.drawn-edge {
+  -webkit-mask: url('../bilder/zeichnungsrand.svg') center / 100% 100% no-repeat;
+  mask: url('../bilder/zeichnungsrand.svg') center / 100% 100% no-repeat;
+}

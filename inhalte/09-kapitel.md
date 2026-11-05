@@ -46,8 +46,10 @@ Der Mann trat durch eine von ihm selbst mittels Pfeife produzierte Rauchwolke
 hindurch und stellte sich als ***Elminster von Schattental*** vor.
 
 
-![Elminster](bilder/pdf-s014-80.png)
-
+> ##### Elminster Aumar
+>
+> ![Elminster](bilder/pdf-s014-80.png)
+>
 > Elminster Aumar, Elminster von Schattental, Der Weise von Schattental oder
 einfach nur der Alte Magier ist der berühmteste und mächtigste Magier von
 ganz Faerûn.

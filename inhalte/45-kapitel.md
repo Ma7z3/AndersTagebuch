@@ -100,40 +100,36 @@ Wir erreichten schließlich das Seil und kletterten zurück nach oben.
 
 Nachdem wir kurz verschnauft hatten, las Flint uns den Inhalt des Briefes vor:
 
->##### Der Schlüssel zur Waffenkammer
->Beginne mit dem, was der Bauer gut kennt,
-das tief in der Erde als Fundament pennt.
-Es gibt uns die Schwere, es gibt uns das Sein,
+##### Der Schlüssel zur Waffenkammer
+
+Beginne mit dem, was der Bauer gut kennt,\
+das tief in der Erde als Fundament pennt.\
+Es gibt uns die Schwere, es gibt uns das Sein,\
 wirf das Gewöhnliche hinein.
->
->---
->Wenn es dann schmilzt, brauchst du rötliche Glut,
-in grün entfacht des Feuers Wut.
-Es leitet die Hitze, es bindet die Macht,
+
+Wenn es dann schmilzt, brauchst du rötliche Glut,\
+in grün entfacht des Feuers Wut.\
+Es leitet die Hitze, es bindet die Macht,\
 bevor man das nächste Geheimnis vollbracht.
->
->---
->Nun härtet der Meister, was weich noch und schwach,
-mit Härtung, geboren im lodernden Fach.
-Er formt nun den Schaft, der niemals verbiegt,
+
+Nun härtet der Meister, was weich noch und schwach,\
+mit Härtung, geboren im lodernden Fach.\
+Er formt nun den Schaft, der niemals verbiegt,\
 und selbst über rostende Zeitalter siegt.
->
->---
->Doch rohe Gewalt bricht noch lange kein Schloss,
-kühl nun die Schmelze im silbrigen Moos.
-Das Licht des Mondes webt Zauber ins Blatt,
+
+Doch rohe Gewalt bricht noch lange kein Schloss,\
+kühl nun die Schmelze im silbrigen Moos.\
+Das Licht des Mondes webt Zauber ins Blatt,\
 auf dass es die magischen Pforten aufhat.
->
->---
->Der Kopf dieses Werkes, für Könige nur,
-verlangt nach dem Edlem und dem Sonnenschwur.
-Es krönt das Gefüge mit gleißendem Licht,
+
+Der Kopf dieses Werkes, für Könige nur,\
+verlangt nach dem Edlem und dem Sonnenschwur.\
+Es krönt das Gefüge mit gleißendem Licht,\
 doch fertig, mein Freund, ist der Schlüssel noch nicht.
->
->---
->Wenn das Feuer erlischt und der Schatten sich neigt,
-ein einzelner Splitter das Wunder erzeugt.
-Wirf den Himmel der Erde in die sterbende Glut,
+
+Wenn das Feuer erlischt und der Schatten sich neigt,\
+ein einzelner Splitter das Wunder erzeugt.\
+Wirf den Himmel der Erde in die sterbende Glut,\
 er macht ihn unsterblich und fordert dein Blut.
 
 <a id="p121"></a>
@@ -688,9 +684,11 @@ gewaltigen Ketten gerüttelt.
 
 Diese trugen ein Rätsel:
 
->"Wir schmiedeten den Bund aus Stein, kein Magier-Stolz zog bei uns ein.
-Die Krone fliegt, der Abgrund gähnt, wer nach der falschen Höhe sehnt.
-Sag uns das Wort, das uns band, um zu beschützen dieses Land.
+##### Das Rätsel der Ketten
+
+"Wir schmiedeten den Bund aus Stein, kein Magier-Stolz zog bei uns ein.\
+Die Krone fliegt, der Abgrund gähnt, wer nach der falschen Höhe sehnt.\
+Sag uns das Wort, das uns band, um zu beschützen dieses Land.\
 Was gaben wir den Herren der Luft, bevor sie sanken in die Gruft?"
 
 Flint löste das Rätsel zunächst nicht, aber er tat etwas viel Besseres: Er

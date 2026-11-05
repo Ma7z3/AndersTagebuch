@@ -57,6 +57,6 @@ Porträts können aus bestehenden Gemälden stammen. `portrait.ausschnitt` ist `
 
 Fünf Gemälde besitzen erste, optional einschaltbare Erkundungspunkte. Weitere Punkte werden nach Bildprüfung als Prozentkoordinaten in `gemalde` ergänzt. Ein Gegenstandskatalogeintrag ist erst mit vollem Lesestand verlinkt; die datierten Besitzwechsel werden schon vorher gefiltert angezeigt.
 
-Die acht ergänzenden Erzählpassagen erhalten über `gestaltung/erzaehlkaesten.json` und den gemeinsamen Browser/PDF-Parser ihre cremefarbene, braun gerahmte Gestaltung. Wortlaut und alte Sprungmarken bleiben erhalten.
+In `gestaltung/erzaehlkaesten.json` ordnet der gemeinsame Browser/PDF-Parser ergänzende Erzählpassagen, Zitate und Rätsel ihren jeweiligen Kastenstilen zu. Die markierten Bildlegenden und Bilder in Infokästen verwenden den Vektorrand aus `bilder/zeichnungsrand.svg`.
 
 Die PDF verwendet verkleinerte JPEG-Kopien im Exportcache; die Quelldateien bleiben vollständig erhalten. Für größere Druckbilder können `TAGEBUCH_PDF_BILDKANTE` und `TAGEBUCH_PDF_JPEG_QUALITAET` erhöht werden. Die normale Versandfassung nutzt 900 Pixel an der langen Kante und JPEG-Qualität 58; Text bleibt scharf als Text gesetzt.

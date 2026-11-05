@@ -5,9 +5,11 @@
 ### Kapitel 21: *Die Stadt der Portale*
 
 
-![Sigil – die Stadt der Portale](bilder/pdf-s038-174.png)
-
->Sigil, auch bekannt als der Käfig, die Stadt der Türen oder, seltener, die Stadt
+> ##### Sigil
+>
+> ![Sigil – die Stadt der Portale](bilder/pdf-s038-174.png)
+>
+> Sigil, auch bekannt als der Käfig, die Stadt der Türen oder, seltener, die Stadt
 der Geheimnisse, war eine schwimmende Stadt im Zentrum der Outlands und
 das selbsternannte Zentrum des Multiversums in der Kosmologie des Großen
 Rads. Die Stadt war ein wichtiger Knotenpunkt für Reisen zwischen den Ebenen

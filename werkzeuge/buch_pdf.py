@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Create the complete, local diary PDF from the same finished Markdown as the reader."""
 from pathlib import Path
+from functools import lru_cache
+from xml.etree import ElementTree
 from datetime import datetime
 from collections import defaultdict
 from io import BytesIO
@@ -10,6 +12,7 @@ from html.parser import HTMLParser
 from PIL import Image as PillowImage
 from reportlab import rl_config
 rl_config.useA85 = False
+from reportlab.graphics.svgpath import SvgPath
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib import colors
@@ -87,6 +90,9 @@ ST={}
 def make_styles():
     ST['body']=ParagraphStyle('body',fontName='Book',fontSize=10,leading=12.1,textColor=INK,alignment=TA_JUSTIFY,spaceAfter=4.5,allowWidows=0,allowOrphans=0)
     ST['quote']=ParagraphStyle('quote',parent=ST['body'],fontName='Scaly',fontSize=10,leading=11.5,spaceBefore=2,spaceAfter=5,alignment=TA_LEFT)
+    ST['riddle']=ParagraphStyle('riddle',parent=ST['body'],alignment=TA_LEFT,leading=12.4,spaceAfter=7)
+    ST['quotation']=ParagraphStyle('quotation',parent=ST['riddle'],fontName='Book-Italic',spaceAfter=4)
+    ST['quotation-credit']=ParagraphStyle('quotation-credit',parent=ST['body'],alignment=TA_LEFT,fontSize=8.7,leading=10.6,spaceAfter=0,textColor=colors.HexColor('#614f39'))
     for level,size in [(1,20),(2,16),(3,14),(4,11.8),(5,10),(6,9.5)]:
         ST['h'+str(level)]=ParagraphStyle('h'+str(level),fontName='Display' if level<=3 else 'Caps',fontSize=size,leading=size*1.2,textColor=BURGUNDY,spaceBefore=12 if level>1 else 0,spaceAfter=7,keepWithNext=True)
     ST['session']=ParagraphStyle('session',fontName='Book-Bold',fontSize=9.3,leading=11.3,spaceBefore=8,spaceAfter=6,keepWithNext=True)
@@ -114,8 +120,9 @@ def pdf_image(path):
         # Only the PDF receives a compact copy; the source paintings stay intact.
         limit=int(os.environ.get('TAGEBUCH_PDF_BILDKANTE','900'))
         quality=int(os.environ.get('TAGEBUCH_PDF_JPEG_QUALITAET','58'))
-        item=FIGURE_CONFIG.get(str(path.relative_to(ROOT)),{}).get('gegenstand')
-        alpha=item and im.convert('RGBA').getchannel('A').getextrema()[0]<255
+        config=FIGURE_CONFIG.get(str(path.relative_to(ROOT)),{})
+        item=config.get('gegenstand')
+        alpha=(item or config.get('pdf_transparenz')) and im.convert('RGBA').getchannel('A').getextrema()[0]<255
         if item:limit=420 if alpha else 600
         digest=hashlib.sha256(path.read_bytes()).hexdigest()[:20]
         directory=ROOT/'export/.bildcache';directory.mkdir(parents=True,exist_ok=True)
@@ -255,9 +262,29 @@ def table_flow(token,refmap):
     flow.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,0),GREEN),('ROWBACKGROUNDS',(0,1),(-1,-1),[colors.Color(1,1,1,alpha=0),colors.HexColor('#edf0d8')]),('LINEBELOW',(0,0),(-1,0),.7,GOLD),('LINEBELOW',(0,1),(-1,-1),.25,colors.HexColor('#c8cba6')),('VALIGN',(0,0),(-1,-1),'TOP'),('LEFTPADDING',(0,0),(-1,-1),5),('RIGHTPADDING',(0,0),(-1,-1),5),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5)]))
     return flow
 
+@lru_cache(maxsize=1)
+def illustration_edge():
+    svg=ElementTree.parse(ROOT/'bilder/zeichnungsrand.svg').getroot()
+    return SvgPath(svg[0].attrib['d'])
+
 class BookImage(Image):
+    def clip_edge(self):
+        outline=illustration_edge()
+        points=iter(outline.points)
+        path=self.canv.beginPath()
+
+        def point():
+            return (next(points)*self.drawWidth/100,(100-next(points))*self.drawHeight/100)
+
+        for operator in outline.operators:
+            if operator==0:path.moveTo(*point())
+            elif operator==1:path.lineTo(*point())
+            elif operator==2:path.curveTo(*point(),*point(),*point())
+            else:path.close()
+        self.canv.clipPath(path,stroke=0,fill=0)
     def draw(self):
         self.canv.saveState()
+        if self.soft_edge:self.clip_edge()
         if getattr(self,'blend_white',False):self.canv.setBlendMode('Multiply')
         wash = getattr(self, 'farbklecks', None)
         if wash:
@@ -273,7 +300,7 @@ class BookImage(Image):
         else:super().draw()
         self.canv.restoreState()
 
-def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,viewport=None):
+def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,viewport=None,soft_edge=False):
     path=(ROOT/token['href']).resolve()
     if not path.is_relative_to(ROOT) or not path.is_file():raise FileNotFoundError(token['href'])
     config=FIGURE_CONFIG.get(token['href'],{})
@@ -286,6 +313,7 @@ def image_flow(token,width,cover=False,blend=False,layout=None,maxheight=None,vi
         blend=blend or ('A' in source.getbands() and source.getchannel('A').getextrema()!=(255,255))
     compact=pdf_image(path)
     im=BookImage(str(compact),mask='auto',lazy=0);im.blend_white=blend and compact.suffix=='.jpg';im.source_image=token['href']
+    im.soft_edge=soft_edge or config.get('weicher_rand',False)
     if config.get('farbklecks'):
         im.farbklecks = str(ROOT/config['farbklecks'])
     if viewport:
@@ -429,16 +457,22 @@ def section_flow(section,refmap,session_names,opening=False):
     cover=section['art']=='titel';wide=section['art']=='addenda' and section.get('pdf_spalten',1)==1;result=[];pending=[];session_no=0
     def flush():
         result.extend(pending);pending.clear()
-    def convert(tokens,quote=False,prefix=None,regroup=True):
+    def convert(tokens,quote=False,prefix=None,regroup=True,box_style=None):
         nonlocal wide,session_no
         for t in (group_illustrations(tokens) if regroup else tokens):
             typ=t['type']
             if typ in ['space','def']:continue
-            if typ=='narrative':
-                flush();start=len(result);convert(t['tokens'],True);flush()
+            if typ in ['narrative','quotation','riddle']:
+                flush();start=len(result);convert(t['tokens'],True,box_style=typ);flush()
                 items=result[start:];del result[start:]
-                box=LongTable([[items]],colWidths=[WIDTH if wide else COL],splitByRow=0,splitInRow=1,spaceBefore=8,spaceAfter=10)
-                box.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),colors.HexColor('#faf7ea')),('LINEBEFORE',(0,0),(0,-1),.8,colors.HexColor('#654525')),('LINEAFTER',(-1,0),(-1,-1),.8,colors.HexColor('#654525')),('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7)]))
+                box=LongTable([[items]],colWidths=[WIDTH if wide else COL],splitByRow=0,splitInRow=typ!='riddle',spaceBefore=8,spaceAfter=10)
+                background=colors.HexColor('#f5eddb' if typ=='riddle' else '#faf7ea')
+                accents={
+                    'narrative':[('LINEBEFORE',(0,0),(0,-1),.8,colors.HexColor('#654525')),('LINEAFTER',(-1,0),(-1,-1),.8,colors.HexColor('#654525'))],
+                    'quotation':[('LINEBEFORE',(0,0),(0,-1),1.4,colors.HexColor('#8b693b'))],
+                    'riddle':[('BOX',(0,0),(-1,-1),.65,GOLD)],
+                }
+                box.setStyle(TableStyle([('BACKGROUND',(0,0),(-1,-1),background),*accents[typ],('LEFTPADDING',(0,0),(-1,-1),8),('RIGHTPADDING',(0,0),(-1,-1),8),('TOPPADDING',(0,0),(-1,-1),7),('BOTTOMPADDING',(0,0),(-1,-1),7)]))
                 result.append(box);continue
             if typ=='html':
                 ids=re.findall(r'<a\s+id=["\']([^"\']+)["\']\s*></a>',t.get('raw',''))
@@ -478,6 +512,7 @@ def section_flow(section,refmap,session_names,opening=False):
                     key='abend-'+section['id']+'-'+str(session_no);session_no+=1
                     result.append(Mark(key));session_names[session[1]]=key
                 style=ST.get('coverh'+str(t['depth']),ST['coverbody']) if cover else (ST['session'] if session else ST['h'+str(t['depth'])])
+                if box_style=='riddle':style=ST['h5'].clone('riddle-heading',spaceBefore=0)
                 result.append(Paragraph(inline(t.get('tokens'),refmap),style));continue
             if typ in ['paragraph','text']:
                 its=t.get('tokens') or [{'type':'text','text':t.get('text','')}]
@@ -488,9 +523,11 @@ def section_flow(section,refmap,session_names,opening=False):
                 rendered=inline(text,refmap)
                 if rendered.strip():
                     style=ST['coverbody'] if cover else ST['quote'] if quote else ST['body']
+                    if box_style=='riddle':style=ST['riddle']
+                    elif box_style=='quotation':style=ST['quotation-credit' if t.get('text','').startswith('—') else 'quotation']
                     result.append(Paragraph((esc(prefix)+' ' if prefix else '')+rendered,style))
                 for im in images:
-                    result.extend([Spacer(1,7),image_flow(im,(WIDTH if wide else COL)-(18 if quote else 0),cover,blend=quote),Spacer(1,8)])
+                    result.extend([Spacer(1,7),image_flow(im,(WIDTH if wide else COL)-(18 if quote else 0),cover,blend=quote,soft_edge=quote and box_style is None),Spacer(1,8)])
             elif typ=='blockquote':
                 flush();start=len(result);convert(t['tokens'],True);flush()
                 items=result[start:];del result[start:]
@@ -498,7 +535,7 @@ def section_flow(section,refmap,session_names,opening=False):
             elif typ=='list':
                 for idx,item in enumerate(t['items']):
                     marker=str(t.get('start',1)+idx)+'.' if t['ordered'] else '•'
-                    convert(item['tokens'],quote,marker)
+                    convert(item['tokens'],quote,marker,box_style=box_style)
             elif typ=='table':
                 if not wide:raise ValueError('Breite Tabelle außerhalb der Anhangvorlage')
                 result.extend([Spacer(1,4),table_flow(t,refmap),Spacer(1,10)])

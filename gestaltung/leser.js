@@ -51,7 +51,7 @@ function safeMarkdown(text,sectionId){
   for(const el of [...parsed.body.querySelectorAll('*')]){
     if(!allowed.has(el.tagName)){el.replaceWith(...el.childNodes);continue;}
     for(const attr of [...el.attributes]){
-      if(attr.name==='class'&&el.tagName==='ASIDE'&&attr.value==='narrative-box')continue;
+      if(attr.name==='class'&&el.tagName==='ASIDE'&&/^(narrative|quotation|riddle)-box$/.test(attr.value))continue;
       if(!['href','src','alt','id','title','start'].includes(attr.name))el.removeAttribute(attr.name);
     }
     for(const attr of ['href','src']){
@@ -91,6 +91,7 @@ function safeMarkdown(text,sectionId){
   for(const img of parsed.body.querySelectorAll('img')){
     const metadata=book.bilder.find(im=>im.datei===img.getAttribute('src'));
     if(metadata?.gegenstand)img.classList.add('item-image');
+    else if(img.closest('blockquote')||book.bildlegenden.some(c=>c.bild===img.getAttribute('src')&&c.weicher_rand))img.classList.add('drawn-edge');
   }
   if(book.kapitelauftakte?.[sectionId]){
     for(const heading of parsed.body.querySelectorAll('h1,h2,h3')){

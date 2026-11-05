@@ -50,7 +50,7 @@ Gespräch mit Dulwar verabredet.
 Ich machte mich dann zum Abschluss des Abends noch daran, eine Karte der
 Stadt zu zeichnen.
 
-![Karte von Dolchfall](bilder/pdf-s007-32.png)
+![Karte von Dolchfall](bilder/karte-dolchfall-pergament.png)
 
 ##### Karte der Stadt Dolchfall
 gezeichnet von Ander Holimion

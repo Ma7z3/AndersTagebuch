@@ -64,13 +64,9 @@ zerstochen, wodurch Ser Ayne alle Zeit der Welt hatte, auch dieses Tor zu
 
 ##### (Spielabend vom 07.04.2025)
 
-*Auf Ser Ayne ist Verlass - selbst wenn die Sonne fällt.*
-~ Annica von Velden, Tochter des Grafen von Lysandra,
+„Auf Ser Ayne ist Verlass - selbst wenn die Sonne fällt.“
 
-einst
-Begleiterin auf dem Weg zur Krönung des
-
-Wüstenkönigs.
+— Annica von Velden, Tochter des Grafen von Lysandra, einst Begleiterin auf dem Weg zur Krönung des Wüstenkönigs.
 
 Während Ser Ayne nun gerade das Tor öffnete, bewegte ich mich mittels
 Nebelschritt noch einmal zurück, um Ser Aynes Drachentöter
