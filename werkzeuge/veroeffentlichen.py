@@ -8,9 +8,28 @@ from pypdf import PdfReader
 
 ROOT=Path(__file__).resolve().parents[1]
 TOOLS=['aktualisieren.py','buch_pdf.py','markdown_tokens.cjs','tabellen_pruefen.py','veroeffentlichen.py','github_paket.py','kapitelauftakte.py']
+PAINTING_FILENAME = re.compile(
+    r'(?:kapitel-\d+-auftakt|titelgemaelde)(?:-v\d+)?\.(?:png|jpe?g|webp)'
+)
 
 def copy_file(source,target):
     target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
+
+def copy_public_images(stage, target):
+    """Keep previous paintings in the source tree and ship only referenced ones."""
+    references = [stage / 'START.html']
+    for directory in ('gestaltung', 'karten'):
+        references.extend(
+            path for path in (stage / directory).glob('*')
+            if path.suffix in {'.json', '.js', '.css'}
+        )
+    used = {name for path in references for name in PAINTING_FILENAME.findall(path.read_text())}
+    source = stage / 'bilder'
+    obsolete = {
+        path.name for path in source.iterdir()
+        if PAINTING_FILENAME.fullmatch(path.name) and path.name not in used
+    }
+    shutil.copytree(source, target, ignore=lambda _directory, names: obsolete.intersection(names))
 
 def copy_sources(target):
     """Positive allow-list: neither private drafts nor generated local data."""
@@ -72,8 +91,9 @@ def main():
         subprocess.run([sys.executable,str(stage/'werkzeuge/buch_pdf.py')],check=True)
         pdf=next((stage/'export').glob('*.pdf'));report=validate_pdf(pdf,data)
         site=Path(tmp)/'website';site.mkdir()
-        for name in ['gestaltung','bilder','karten']:
+        for name in ['gestaltung','karten']:
             if (stage/name).exists():shutil.copytree(stage/name,site/name)
+        copy_public_images(stage, site/'bilder')
         # The download and HTML data are deployed as one artifact and one version.
         (site/'export').mkdir();copy_file(pdf,site/'export/Ander-Holimion-Tagebuch.pdf')
         pdf_hash=hashlib.sha256(pdf.read_bytes()).hexdigest()
