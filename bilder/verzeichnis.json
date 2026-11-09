@@ -1340,6 +1340,20 @@
     "kapitel": "kapitel-46"
   },
   {
+    "datei": "bilder/farbzeichnung-baumhirte-hedistrin.png",
+    "titel": "Der Baumhirte trifft Hedistrin",
+    "typ": "illustration",
+    "pdf_seiten": [],
+    "kapitel": "kapitel-46",
+    "breite": 1672,
+    "hoehe": 941,
+    "modus": "RGB",
+    "transparenz": false,
+    "sha256": "e9bffe5b7c92a8cb9f8f21304520e006c45cfa15da3a270942c5f573ab2660d1",
+    "original_url": null,
+    "herkunft": "Neue Illustration nach den Spielnotizen vom 09.11.2026 und den vorhandenen Zeichnungen von Hedistrin und dem Kern"
+  },
+  {
     "id": 627,
     "datei": "bilder/pdf-s140-627.png",
     "breite": 399,

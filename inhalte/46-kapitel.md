@@ -358,3 +358,49 @@ Ich rief Ser Ayne noch zu, dass die orangefarbenen Säulen leuchteten, und versu
 Dabei erwischten mich Hedistrins Krallen.
 
 Ich erstarrte.
+
+##### (Spielabend vom 09.11.2026)
+
+Ser Ayne steckte noch in seinen Ketten. Er trank seinen Trank der Tierfreundschaft und versuchte, auf eine der Eulen zuzugehen. Im Geiste jedenfalls. Die Ketten hielten ihn fest, und für den Zauber waren Flints Eulen offenbar zu klug.
+
+Ich hätte ihm gern gesagt, wie das von außen aussah.
+
+Stattdessen wurde ich nach oben gerissen.
+
+Ich konnte noch immer nichts dagegen tun. Ser Ayne blieb wie angewurzelt in seinen Ketten stehen. Irgendwo rief Flint etwas, aber vom Brummen des Kerns verstand ich kein Wort. Dann schleuderte Hedistrin einen Feuerball auf Ser Ayne und mich. Auch da konnte ich nur zusehen.
+
+Sobald ich mich wieder rühren konnte, machte ich einen Donnerschritt zur Erdsäule. Von dort sah ich Flint an der Lebenssäule. Die Eule mit dem Wasserstab war ebenfalls dort. Ser Ayne hatte sie dorthin geschickt, weil wir die Säule vor Flints Begegnung mit dem Blitz noch für die Wassersäule gehalten hatten. Flint schickte die Eule eine Säule weiter nach unten.
+
+„Den nächsten Zauber überlässt du mir“, sagte Erwiderung.
+
+Ser Aynes Ketten zersprangen. Er lief zur Feuersäule und hob den Feuerstab auf. Flint steckte unterdessen den Lebensstab in seine Säule. Diesmal passte es. Um ihn herum leuchtete alles auf, und er sah auf einmal erstaunlich munter aus. Zwischen der Säule und dem Kern stand nun eine Verbindung aus Blitzen.
+
+Dann brach Flint sich einen Ast vom Arm und warf ihn vor sich auf den Boden.
+
+Aus dem Ast wuchs ein Baum.
+
+Ein gewaltiger Baum. Und dann bewegte er sich.
+
+Eine Welle ging vom Kern aus. Irgendetwas daran musste mit der Zeit zu tun haben, denn von einem Augenblick auf den anderen konnte ich mich wieder nicht bewegen. Hedistrin hingegen wurde so deutlich sichtbar, dass sie nun wirkte, als hätte sie einen Körper aus Fleisch und Blut.
+
+Und Ser Ayne steckte den Feuerstab in die Säule.
+
+Wasser und Licht fehlten noch. Ich fragte mich, ob er denselben Teil des Rätsels gelesen hatte wie ich. Der Kern schickte ihm jedenfalls umgehend einen Blitz.
+
+Flint erreichte die Wassersäule, doch ehe er dort etwas ausrichten konnte, zog uns der Kern zu sich heran. Selbst Hedistrin und der Baumhirte wurden mitgerissen. Ich blieb gerade weit genug weg, um mit ansehen zu können, wie die anderen von den Blitzen erwischt wurden. Mit einer Wirbelverkrümmung brachte ich Flint zurück zur Wassersäule.
+
+Die Eulen schwärmten aus. Ser Ayne schlug auf Hedistrin ein, doch das schien ihr wenig auszumachen. Flint setzte den Wasserstab ein. Auch von dieser Säule zog sich nun ein Blitz zum Kern.
+
+Dann holte der Baumhirte aus und traf Hedistrin mit seinem Ast direkt am Kopf.
+
+![Der Baumhirte trifft Hedistrin](bilder/farbzeichnung-baumhirte-hedistrin.png)
+
+*Der Baumhirte trifft Hedistrin – Farbzeichnung von Ander Holimion*
+
+Schon zog der Kern uns wieder an sich. Diesmal blieben Flint und Ser Ayne, wo sie waren. Ich wich einigen der Blitze aus, hatte danach aber Hedistrin direkt vor mir.
+
+Sie griff nach mir. Mein Schildzauber hielt. Auch ihr zweiter Angriff prallte daran ab. Dann verschwand ich mit einem Nebelschritt und kam unterhalb der Erdsäule wieder zum Vorschein.
+
+Ich rief Ser Ayne zu, er solle sich an der Feuersäule bereithalten. Sein Visier schien unten zu sein. Ob er mich durch den Lärm überhaupt hörte, weiß ich nicht.
+
+Er stellte sich trotzdem bereit.
