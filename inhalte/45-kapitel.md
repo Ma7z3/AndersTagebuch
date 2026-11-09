@@ -813,7 +813,6 @@ Während Ser Ayne die Zwergin anhob, fiel ihr ein Schlüssel aus der Tasche.
 Den Klopfzauber hätte ich mir wohl wirklich sparen können.
 
 Immerhin weiß ich jetzt, dass manche Türen einfach nur Geduld verlangen.
----
 
 Auf dem Rückweg fiel mir etwas Merkwürdiges auf.
 
@@ -823,12 +822,8 @@ Ser Ayne und Flint verspürten weiterhin die eisige Kälte.
 
 Mich ließ sie inzwischen völlig unbehelligt.
 
----
-
 Ob es mein heiliges Symbol, Selûne selbst oder die Essenz des Zwielichts war,
 wusste ich jedoch nicht.
-
----
 
 Zurück in der Gruft erkannte Bekel die Tote sofort.
 
@@ -843,22 +838,16 @@ materialisierte sich Selmuria.
 
 Ser Ayne erschrak dabei fast mehr als bei den Golems.
 
----
-
 Sie bat mich zunächst, das Zepter zu verdecken.
 
 Ich warf eine Decke darüber.
 
 Erst dann setzte sie sich.
 
----
-
 Ihre geisterhaften Waffen legte sie neben sich.
 Sie fragte nach unseren Namen.
 
 Und begann zu erzählen.
-
----
 
 Die Magier Netherils nannten das Artefakt Essenz des Zwielichts.
 
@@ -877,8 +866,6 @@ Es erlaubt seinem Träger, in die Ätherebene zu sehen.
 Wer sich daran festhält, kann mit anderen gemeinsam in die Ätherebene
 wechseln und dort selbst feste Materie durchschreiten.
 
----
-
 <a id="p126"></a>
 
 Doch jede Nutzung kostet Lebensenergie.
@@ -888,14 +875,11 @@ Und wer seine Macht zu oft nutzt, verliert Stück für Stück sich selbst.
 Viele der großen Magier Netherils seien auf diese Weise zu untoten Schrecken
 geworden.
 
----
-
 Nicht aus Bosheit.
 
 Sondern weil sie glaubten, noch einmal ein wenig mehr Macht zu benötigen.
 
 Das Zepter besitzt keine wirkliche Persönlichkeit.
----
 
 Und doch...
 
@@ -905,8 +889,6 @@ Da verstand ich endlich.
 
 Die Stimme meiner Mutter.
 
----
-
 Sie war niemals dort gewesen.
 
 Das Zepter hatte lediglich nach der Stimme gesucht, der ich am ehesten
@@ -914,18 +896,12 @@ vertrauen würde.
 
 Ein Gedanke, der mir deutlich mehr Angst machte als sämtliche Golems zuvor.
 
----
-
 Selmuria erklärte weiter, dass die Zwerge einst ihren gesamten Berg an Netheril
 gebunden hätten, um dieses Artefakt sicher zu verwahren.
-
----
 
 Warum Tethyamar schließlich abstürzte...
 
 wisse sie bis heute nicht.
-
----
 
 Ich erzählte ihr von Karsus und seinem Avatar.
 
@@ -933,16 +909,12 @@ Zum ersten Mal schien ein kleines Stück des Puzzles zusammenzupassen.
 
 Bevor wir gingen, gab sie uns noch einen letzten Hinweis.
 
----
-
 Der Weg zum Kern führt durch eine magische Barriere.
 
 Dahinter befinden sich acht Stäbe, die wir benötigen werden.
 
 Bekel trat noch einmal vor.
 „Der Kern“, sagte er leise, „ist vielleicht unsere Erlösung.“
-
----
 
 Er ernährt sich von Energie.
 
@@ -952,19 +924,14 @@ Vielleicht...
 
 dürfen wir endlich sterben.
 
----
-
 Jolgrun schnaubte.
 
 „Ich noch nicht.“
 
 „Ich will Tethyamar noch einmal fliegen sehen.“
 
----
 Um weiterzukommen, musste ich mich ein wenig mit dem Stab beschäftigen,
 weshalb ich mich in eine Ecke setzte und genau dies tat.
-
----
 
 Währenddessen beschrifteten Ser Ayne und Flint auch die anderen Gräber mit
 den Namen der Zwerge, dies war nämlich ausnahmsweise eine gute und
@@ -973,16 +940,21 @@ pietätvolle Idee (oder auch Eingebung?) von Ser Ayne gewesen.
 ##### Der Mondberührte
 Der Name Bruder Tau begleitet mich schon so lange, dass ich kaum noch
 darüber nachgedacht habe.
+
 Doch „Bruder“ stammt aus einem anderen Teil meines Lebens. Aus meiner Zeit
 im Kloster, aus einer Zeit, in der ich noch glaubte, mein Weg würde allein darin
 bestehen, die Magie in mir beherrschen zu lernen.
+
 Heute kniete ich vor Selûne selbst.
 Sie vertraute mir die Essenz des Zwielichts an, warnte mich vor ihrer Macht und
 mein heiliges Symbol wurde warm, als ich das Zepter ergriff.
+
 Ich bin noch immer Tau. So kennen mich meine Freunde, und Holimion bedeutet
 schließlich nicht ohne Grund Diamanttau.
 Aber „Bruder“ bin ich schon lange nicht mehr.
+
 Wenn ich einen Beinamen tragen soll, dann einen, der besser zu dem Weg
 passt, auf den Selûne mich geführt hat.
-Von heute an bin ich:
+
+Von heute an bin ich:\
 **Ander „Tau“ Holimion, der Mondberührte**.
